@@ -4562,7 +4562,7 @@ const questions = [
 		hint:"",
 	},
 	{
-		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA 265",
+		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
 		question: "Az alábbiak közül mely frekvenciatartomány felel meg a COM-tartománynak?",
 		answers: [
 			{ text: "118,000-136,975 MHz.", correct: true},
@@ -4572,6 +4572,379 @@ const questions = [
 		],
 		hint:"",
 	},
+	{
+		subject: "MOTORTAN",
+		question: "Melyik állítás igaz?",
+		answers: [
+			{ text: "A gyújtás a fordulatszámtól függetlenül a FHP előtt történik.", correct: false},
+			{ text: "A gyújtás a fordulatszám függvényében a FHP előtt történik.", correct: true},
+			{ text: "A gyújtás a fordulatszám függvényében a FHP után történik.", correct: false},
+			{ text: "A gyújtás mindig a FHP-ban történik.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+		question: "A repülés során mekkora feszültséget jelez a feszültségmérő töltött akkumulátor esetén egy 14 V-os rendszerben, ha az alternátor meghibásodik?",
+		answers: [
+			{ text: "Kb. 12 V-ot, mely folyamatosan csökkenni fog.", correct: true},
+			{ text: "Kb. 14 V-ot, mely folyamatosan csökkenni fog.", correct: false},
+			{ text: "Kb. 7 V-ot, mely folyamatosan csökkenni fog.", correct: false},
+			{ text: "Kb. 10,5 V-ot, mely folyamatosan csökkenni fog.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+		question: "A légiforgalmi irányító egységek főként …",
+		answers: [
+			{ text: "másodlagos radarjelek alapján dolgoznak.", correct: true},
+			{ text: "elsődleges radarjelek alapján dolgoznak.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Milyen szárnyszerkezetre utalnak a következő szerkezeti megoldások: hiányzó főtartók, hosszmerevítőkkel erősített teherviselő borítás, integrál szerkezet?",
+		answers: [
+			{ text: "Héjszerkezetű.", correct: true},
+			{ text: "Félhéjszerkezetű.", correct: false},
+			{ text: "Tartószerkezetes.", correct: false},
+			{ text: "Szabadonhordó.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A befecskendezéses tüzelőanyag-rendszer működéséről a … segítségével kapunk információt.",
+		answers: [
+			{ text: "tüzelőanyagnyomás-mérő vagy a tüzelőanyagátfolyás-mérő", correct: true},
+			{ text: "tüzelőanyagszint-jelző és a kipufogógáz-hőmérő", correct: false},
+			{ text: "tüzelőanyaghőmérséklet-mérő és a hengerfejhőmérő", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Szívótérnyomás-mérővel …",
+		answers: [
+			{ text: "a befecskendezéses motorral felszerelt repülőgépek motorteljesítményét ellenőrizzük.", correct: false},
+			{ text: "az alsószárnyas és a befecskendezéses motorral felszerelt repülőgépek motorteljesítményét ellenőrizzük.", correct: false},
+			{ text: "az alsószárnyas repülőgépek motorteljesítményét ellenőrizzük.", correct: false},
+			{ text: "az állandó fordulatszámú légcsavarral felszerelt repülőgépek motorteljesítményét ellenőrizzük.", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A szívócsőbe jutó keverék mennyiségét …",
+		answers: [
+			{ text: "porlasztó súlyszelepe szabályozza.", correct: false},
+			{ text: "a porlasztó fúvókája szabályozza.", correct: false},
+			{ text: "a porlasztó tűszelepe szabályozza.", correct: false},
+			{ text: "a porlasztó fojtószelepe szabályozza.", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+		question: "Mi az elektromos ellenállás mértékegysége?",
+		answers: [
+			{ text: "Ohm", correct: true},
+			{ text: "Volt", correct: false},
+			{ text: "Amper", correct: false},
+			{ text: "Watt", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A bütyköstengely …",
+		answers: [
+			{ text: "a forgattyústengely két fordulatával egyet fordul.", correct: true},
+			{ text: "a forgattyústengely egy fordulatával kettőt fordul.", correct: false},
+			{ text: "a forgattyústengely négy fordulatával egyet fordul", correct: false},
+			{ text: "a forgattyústengely egy fordulatával egyet fordul.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Mikor a leghajlamosabb a motor a túlmelegedésre?",
+		answers: [
+			{ text: "kis fordulatszám és kis sebesség esetén.", correct: false},
+			{ text: "kis fordulatszám és nagy sebesség esetén.", correct: false},
+			{ text: "nagy fordulatszám és nagy sebesség esetén.", correct: false},
+			{ text: "nagy fordulatszám és kis sebesség esetén.", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Négyhengeres Otto-motor esetén a forgattyústengely kétszeri körbefordulása esetén …",
+		answers: [
+			{ text: "minden hengerben négy ütem játszódik le.", correct: true},
+			{ text: "minden hengerben nyolc ütem játszódik le.", correct: false},
+			{ text: "minden hengerben nem fog le játszódni négy ütem.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A vegyeshűtés esetén …",
+		answers: [
+			{ text: "a hengerpalástot folyadék hűti, míg a hengerfejen léghűtés kerül alkalmazásra.", correct: false},
+			{ text: "a forgattyúházat folyadék hűti, míg a hengerfejen léghűtés kerül alkalmazásra.", correct: false},
+			{ text: "a hengerfejet folyadék hűti, míg a hengerpaláston léghűtés kerül alkalmazásra.", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Milyen anyagból készül a kisrepülőgépek belsőégésű motorjának főtengelye?",
+		answers: [
+			{ text: "Szálerősítésű műanyag.", correct: false},
+			{ text: "Ötvözött acél.", correct: true},
+			{ text: "Ötvözött alumínium.", correct: false},
+			{ text: "Titán.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Ha a repülőgép nem rendelkezik alternatív statikus légfelvevővel, akkor a statikus port eldugulásakor …",
+		answers: [
+			{ text: "a sebességmérő reagál a sebességváltozásra, de hibásan; a magasságmérő mutatója mozdulatlan marad és az eldugulás pillanatában mért magasságot fogja mutatni; a variométer nulla állásba kerül és ott is marad.", correct: true},
+			{ text: "a sebességmérő helyesen mutat tovább; a magasságmérő mutatója mozdulatlan marad és az eldugulás pillanatában mért magasságot fogja mutatni; a variométer működni fog, de hibás értékeket fog mutatni.", correct: false},
+			{ text: "a sebességmérő mutatója mozdulatlan marad és az eldugulás pillanatában mért sebességet fogja mutatni; a magasságmérő és a variométer működni fog, de hibás értékeket fog jelezni.", correct: false},
+			{ text: "a sebességmérő nulla sebességet fog mutatni; a magasságmérő reagál a magasságváltozásra, de hibásan; a variométer az eldugulás pillanatában mért értéket fogja mutatni mozdulatlanul.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A statikus port eldugulásakor a sebességmérő …",
+		answers: [
+			{ text: "barométerként fog működni.", correct: false},
+			{ text: "nem reagál a sebességváltozásra.", correct: false},
+			{ text: "a légnyomás változásának megfelelően fals értéket mutat.", correct: true},
+			{ text: "a helyes IAS értéknél többet fog mutatni.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Ha járó motornál az egyik gyújtáskört lekapcsoljuk, akkor …",
+		answers: [
+			{ text: "a fordulatszám változatlan marad, mert a rendszer lényege, hogy a két kör helyettesíti egymást.", correct: false},
+			{ text: "a fordulatszám nőni fog, mert a két gyertya hátránya, hogy az égési folyamat időtartamát növeli.", correct: false},
+			{ text: "a fordulatszám esni fog, mert a két gyertya az égési folyamat időtartamát kedvezően csökkenti.", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Szelepösszenyitás …",
+		answers: [
+			{ text: "csak a második és a harmadik ütem között történik.", correct: false},
+			{ text: "csak a harmadik és a negyedik ütem között történik.", correct: false},
+			{ text: "csak a negyedik és az első ütem között történik.", correct: true},
+			{ text: "mind a négy ütemben történik.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Bal fordulóban a csúszásjelző enyhén jobbra tér ki. Milyen beavatkozással állíthatjuk vissza a forduló helyes menetét?",
+		answers: [
+			{ text: "Jobbra csűréssel vagy bal pedállal.", correct: false},
+			{ text: "Balra csűréssel vagy jobb pedállal.", correct: true},
+			{ text: "Jobbra csűréssel vagy jobb pedállal.", correct: false},
+			{ text: "Balra csűréssel vagy bal pedállal.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A kompresszióviszony …",
+		answers: [
+			{ text: "a hőközlés végén uralkodó gáznyomás és a sűrítés végén előálló nyomás viszonya.", correct: false},
+			{ text: "a beáramló és a kiáramló gázok térfogatának hányadosa.", correct: false},
+			{ text: "hengertérfogat és a sűrítési térfogat aránya.", correct: true},
+			{ text: "a tüzelőanyag és a levegő aránya a hengerben.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Melyik állítás igaz?",
+		answers: [
+			{ text: "A nedveskarteres motorok esetében külön olajtartály kerül kiépítésre.", correct: false},
+			{ text: "A szárazkarteres motorok esetében külön olajtartály kerül kiépítésre.", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Azt a két főtartós szárnyat, melynek belépőéle és a két főtartó közötti része réteges- vagy durállemez borítású, és így a borítás részben teherviselő, … szárnynak nevezzük.",
+		answers: [
+			{ text: "szabadonhordó", correct: false},
+			{ text: "tartószerkezetes", correct: false},
+			{ text: "félhéjszerkezetű", correct: true},
+			{ text: "héjszerkezetű", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Növekvő magassággal a keveréket …",
+		answers: [
+			{ text: "szegényíteni kell, azaz a keverék tüzelőanyag-mennyiségét csökkentjük, különben a keverék eldúsúl.", correct: true},
+			{ text: "szegényíteni kell, azaz a keverék levegőmennyiségét csökkentjük, különben a keverék eldúsúl.", correct: false},
+			{ text: "dúsítani kell, azaz a keverék tüzelőanyag-mennyiségét növeljük, különben a keverék elszegényedik.", correct: false},
+			{ text: "dúsítani kell, azaz a keverék levegőmennyiségét növeljük, különben a keverék elszegényedik.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A Va sebesség …",
+		answers: [
+			{ text: "az a sebesség, ahol még a magassági kormány teljes kitérítése megengedett.", correct: true},
+			{ text: "az emelkedéshez tartozó biztonságos sebesség.", correct: false},
+			{ text: "a sebességmérő fehér sávjának felső határa.", correct: false},
+			{ text: "az sebesség, melyet csak nyugodt időben szabad átlépni.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+		question: "Beindul-e a repülőgép motorja mágneses gyújtás esetén, ha az osztott főkapcsolón csak az akkumulátor kapcsolója van felkapcsolva?",
+		answers: [
+			{ text: "Igen", correct: true},
+			{ text: "Nem", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "NEL körülmények között, tengerszinten, szélcsendben (és amennyiben összenyomhatósági hiba nem keletkezik) …",
+		answers: [
+			{ text: "az IAS, a CAS, a TAS és a GS értéke megegyezik.", correct: false},
+			{ text: "az IAS, a TAS és a GS értéke megegyezik.", correct: false},
+			{ text: "a CAS, a TAS és a GS értéke megegyezik.", correct: true},
+			{ text: "az IAS, a CAS és a TAS értéke megegyezik.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A henger indikált középnyomása alatt azt kell érteni, mellyel mint …",
+		answers: [
+			{ text: "változó nyomással a motor négy hengere ugyanakkora munkát végez, mint változó nyomás mellett egy ciklus alatt.", correct: false},
+			{ text: "állandó nyomással a motor négy hengere ugyanakkora munkát végez, mint változó nyomás mellett egy ciklus alatt.", correct: false},
+			{ text: "állandó nyomással a motor egy hengere ugyanakkora munkát végez, mint változó nyomás mellett egy ciklus alatt.", correct: true},
+			{ text: "változó nyomással a motor egy hengere ugyanakkora munkát végez, mint állandó nyomás mellett egy ciklus alatt.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Melyik állítás igaz?",
+		answers: [
+			{ text: "A repülőgépek tüzelőanyagai tiszta, adalékoktól mentes szénhidrogén-párlatok.", correct: false},
+			{ text: "A kompresszióviszonyhoz képest túl alacsony oktánszámú benzin használatakor vagy a keverék túlszegényedése esetén berobbanás jöhet létre.", correct: true},
+			{ text: "A lobbanáspont az a hőmérséklet, amelyen a tüzelőanyag levegővel érintkezve minden külső gyújtás nélkül meggyullad.", correct: false},
+			{ text: "A benzin normál heptán és izo-oktán elegye.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "… szárny esetében a főtartók szerepét a merevített borítólemez veszi át, mely mint fő teherviselő elem vesz részt az igénybevételek felvételében.",
+		answers: [
+			{ text: "A héjszerkezetű", correct: true},
+			{ text: "A félhéjszerkezetű", correct: false},
+			{ text: "A tartószerkezetes", correct: false},
+			{ text: "A szabadonhordó", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "A magassági motor teljesítménye növekvő magassággal …",
+		answers: [
+			{ text: "a teljes nyomásmagasságig nő, majd efelett csökkenni kezd.", correct: true},
+			{ text: "a teljes nyomásmagasságig változatlan, majd efelett csökkenni kezd.", correct: false},
+			{ text: "a teljes nyomásmagasságig csökken, majd efelett változatlan marad.", correct: false},
+			{ text: "a teljes nyomásmagasságig nő, majd efelett változatlan marad.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Két (teljesen azonos) repülőgép (NEL körülmények között) különböző magasságon azonos IAS sebességgel repül vízszintesen. Milyen reláció van a két repülőgép állásszöge és teljesítménybeállítása között?",
+		answers: [
+			{ text: "A magasabban közlekedő nagyobb állásszögön repül és nagyobb teljesítménybeállítást alkalmaz.", correct: false},
+			{ text: "Teljesítménybeállításuk azonos, de a magasabban közlekedő állásszöge nagyobb.", correct: false},
+			{ text: "Állásszögük azonos, de a magasabban közlekedő nagyobb teljesítménybeállítást alkalmaz.", correct: true},
+			{ text: "Állásszögük és teljesítménybeállításuk is azonos.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A korszerű repülőgépek orr- vagy farokfutóműve …",
+		answers: [
+			{ text: "ha kormányozható az lábkormánnyal történik, de vannak olyan típusok, ahol nincs lehetőség kormányzásra.", correct: true},
+			{ text: "minden repülőgépnél kormányozható a lábkormánnyal.", correct: false},
+			{ text: "nem kormányozató.", correct: false},
+			{ text: "kormánykerékkel kormányozható.", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Alsószárnyas repülőgépeknél a fő tüzelőanyag-szivattyú elektromos hajtású, melyet meghibásodás esetén a motor által hajtott tartalék szivattyú egészít ki.",
+		answers: [
+			{ text: "Hamis", correct: true},
+			{ text: "Igaz", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "MOTORTAN",
+		question: "Milyen vezérlésre utalnak a következő alkatrészek: egyenesbe vezető, himba, tolórúd?",
+		answers: [
+			{ text: "Az oldaltszelepelt és alulvezérelt vezérlésre.", correct: false},
+			{ text: "A felülszelepelt és felülvezérelt vezérlésre.", correct: false},
+			{ text: "A felülszelepelt és alulvezérelt vezérlésre", correct: true},
+		],
+		hint:"",
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Melyik sebesség választja el a sebességmérő zöld és sárga tartományát?",
+		answers: [
+			{ text: "Vfe", correct: false},
+			{ text: "Va", correct: false},
+			{ text: "Vno", correct: true},
+			{ text: "Vne", correct: false},
+		],
+		hint:"",
+	},
+	{
+		subject: "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+		question: "Az alábbiak közül mely frekvenciatartomány felel meg az AIR-tartománynak?",
+		answers: [
+			{ text: "108,000-118,000 MHz.", correct: false},
+			{ text: "118,000-136,975 MHz.", correct: false},
+			{ text: "108,000-136,975 MHz.", correct: true},
+			{ text: "104,000-121,500 MHz.", correct: false},
+		],
+		hint:"",
+	},
+
 ];
 
 const selectedAnswers = []; 
