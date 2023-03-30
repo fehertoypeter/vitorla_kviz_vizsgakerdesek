@@ -494,7 +494,9 @@ const questions = [
 			{ text: "az AIP kiegészítések.", correct: false},
 			{ text: "a NOTAM-ok", correct: true},
 			{ text: "az AIRAC AIP módosítások.", correct: false},
-		]
+		],
+		hint:"Az AIRAC, AIC, NOTAM és AIP a légiközlekedésben használt fontos dokumentumok rövidítései:<br><br><br><br>AIRAC: Az 'Aeronautical Information Regulation And Control' rövidítése, amely egy olyan rendszer, amely az éves légiközlekedési ütemtervet és az ahhoz kapcsolódó információkat határozza meg. Az AIRAC rendszer lényege, hogy az információk meghatározott időszakokban (általában 28 naponta) frissülnek, így a pilóták és a légiforgalmi irányítók mindig az aktuális információkra támaszkodhatnak a repülés tervezése során.<br><br>AIC: Az 'Aeronautical Information Circular' rövidítése, amely egy olyan dokumentum, amelyben az illetékes hatóságok fontos információkat és ajánlásokat közölnek a légiközlekedéssel kapcsolatosan. Az AIC-ek széles körű témákat fedhetnek le, például a légi navigációs segédletek karbantartását, a repülőtéri biztonsági eljárásokat, a repülőgép-karbantartást és egyéb szabályozásokat.<br><br>AIP: Az 'Aeronautical Information Publication' rövidítése, amely egy hivatalos dokumentum, amely tartalmazza az ország légiforgalmi szolgálatának összes légi térképét, légi navigációs segédleteit, légiközlekedési szabályozásait, légiközlekedési eljárásait, repülőterek adatait és más fontos információkat. Az AIP egy adott ország vagy régió hivatalos légiközlekedési dokumentuma, amelyet a pilóták és a légiforgalmi irányítók használnak a repülési tevékenységek tervezése és végrehajtása során. Az AIP frissítése a AIRAC rendszer része.<br><br>A NOTAM-ok (Notice to Airmen) különböző típusú értesítéseket tartalmazhatnak, amelyek között a legfontosabbak a következők:<br><br><br><br>FDC NOTAM: Az Amerikai Szövetségi Légügyi Hatóság (FAA) által kiadott értesítések, amelyek az ország egész területén érvényesek. Ezek általában olyan információkat tartalmaznak, mint a légi tér zárlatai, a katonai gyakorlatok és az átmeneti légi navigációs segédletek működési zavarai.<br><br>NOTAM-D: Az USA-beli katonai légi erők által kiadott értesítések, amelyek a repülőterek és a katonai légtér működésével kapcsolatos információkat tartalmaznak.<br><br>NOTAMN: Nemzeti fontosságú értesítések, amelyek a nemzetbiztonságra és a repülésbiztonságra vonatkozó fontos információkat tartalmazzák.<br><br>NOTAMR: Az átmeneti változásokkal, zárlatokkal vagy korlátozásokkal kapcsolatos értesítések, amelyek csak egy bizonyos időszakban érvényesek.<br><br>NOTAMC: A hosszú távú vagy állandó változásokkal kapcsolatos értesítések, amelyek hosszabb ideig érvényesek és általában az állandó repülőterek és légi navigációs segédletek működésével kapcsolatos információkat tartalmazzák.<br><br>SNOWTAM: A hóeltakarítással és síkosságmentesítéssel kapcsolatos értesítések, amelyek a téli időszakban fontosak lehetnek a repülőgépek biztonságos működése szempontjából.<br><br>ASHTAM: A vulkáni hamu elterjedésével kapcsolatos értesítések, amelyek akkor jelentek meg, amikor a vulkánkitörések vagy más geológiai események hatással lehetnek a repülés biztonságára.<br><br>Ezenkívül vannak egyéb speciális NOTAM-ok, amelyek egy adott ország vagy régió légiközlekedési hatóságai által adhatók ki a repülési biztonság és hatékonyság érdekében.",
+
 	},
 	{
 		subject: "LÉGIKÖZLEKEDÉSI JOGI ALAPISMERETEK",
@@ -1078,7 +1080,8 @@ const questions = [
 			{ text: "az AIC.", correct: false},
 			{ text: "az AIRAC.", correct: false},
 			{ text: "a NOTAM.", correct: false},
-		]
+		],
+		hint:"Az AIRAC, AIC, NOTAM és AIP a légiközlekedésben használt fontos dokumentumok rövidítései:<br><br><br><br>AIRAC: Az 'Aeronautical Information Regulation And Control' rövidítése, amely egy olyan rendszer, amely az éves légiközlekedési ütemtervet és az ahhoz kapcsolódó információkat határozza meg. Az AIRAC rendszer lényege, hogy az információk meghatározott időszakokban (általában 28 naponta) frissülnek, így a pilóták és a légiforgalmi irányítók mindig az aktuális információkra támaszkodhatnak a repülés tervezése során.<br><br>AIC: Az 'Aeronautical Information Circular' rövidítése, amely egy olyan dokumentum, amelyben az illetékes hatóságok fontos információkat és ajánlásokat közölnek a légiközlekedéssel kapcsolatosan. Az AIC-ek széles körű témákat fedhetnek le, például a légi navigációs segédletek karbantartását, a repülőtéri biztonsági eljárásokat, a repülőgép-karbantartást és egyéb szabályozásokat.<br><br>AIP: Az 'Aeronautical Information Publication' rövidítése, amely egy hivatalos dokumentum, amely tartalmazza az ország légiforgalmi szolgálatának összes légi térképét, légi navigációs segédleteit, légiközlekedési szabályozásait, légiközlekedési eljárásait, repülőterek adatait és más fontos információkat. Az AIP egy adott ország vagy régió hivatalos légiközlekedési dokumentuma, amelyet a pilóták és a légiforgalmi irányítók használnak a repülési tevékenységek tervezése és végrehajtása során. Az AIP frissítése a AIRAC rendszer része.<br><br>A NOTAM-ok (Notice to Airmen) különböző típusú értesítéseket tartalmazhatnak, amelyek között a legfontosabbak a következők:<br><br><br><br>FDC NOTAM: Az Amerikai Szövetségi Légügyi Hatóság (FAA) által kiadott értesítések, amelyek az ország egész területén érvényesek. Ezek általában olyan információkat tartalmaznak, mint a légi tér zárlatai, a katonai gyakorlatok és az átmeneti légi navigációs segédletek működési zavarai.<br><br>NOTAM-D: Az USA-beli katonai légi erők által kiadott értesítések, amelyek a repülőterek és a katonai légtér működésével kapcsolatos információkat tartalmaznak.<br><br>NOTAMN: Nemzeti fontosságú értesítések, amelyek a nemzetbiztonságra és a repülésbiztonságra vonatkozó fontos információkat tartalmazzák.<br><br>NOTAMR: Az átmeneti változásokkal, zárlatokkal vagy korlátozásokkal kapcsolatos értesítések, amelyek csak egy bizonyos időszakban érvényesek.<br><br>NOTAMC: A hosszú távú vagy állandó változásokkal kapcsolatos értesítések, amelyek hosszabb ideig érvényesek és általában az állandó repülőterek és légi navigációs segédletek működésével kapcsolatos információkat tartalmazzák.<br><br>SNOWTAM: A hóeltakarítással és síkosságmentesítéssel kapcsolatos értesítések, amelyek a téli időszakban fontosak lehetnek a repülőgépek biztonságos működése szempontjából.<br><br>ASHTAM: A vulkáni hamu elterjedésével kapcsolatos értesítések, amelyek akkor jelentek meg, amikor a vulkánkitörések vagy más geológiai események hatással lehetnek a repülés biztonságára.<br><br>Ezenkívül vannak egyéb speciális NOTAM-ok, amelyek egy adott ország vagy régió légiközlekedési hatóságai által adhatók ki a repülési biztonság és hatékonyság érdekében.",
 	},
 	{
 		subject: "REPÜLÉSI SZABÁLYOK",
@@ -1255,7 +1258,8 @@ const questions = [
 			{ text: "az AIC.", correct: true},
 			{ text: "az AIP.", correct: false},
 			{ text: "a NOTAM.", correct: false},
-		]
+		],
+		hint:"Az AIRAC, AIC, NOTAM és AIP a légiközlekedésben használt fontos dokumentumok rövidítései:<br><br><br><br>AIRAC: Az 'Aeronautical Information Regulation And Control' rövidítése, amely egy olyan rendszer, amely az éves légiközlekedési ütemtervet és az ahhoz kapcsolódó információkat határozza meg. Az AIRAC rendszer lényege, hogy az információk meghatározott időszakokban (általában 28 naponta) frissülnek, így a pilóták és a légiforgalmi irányítók mindig az aktuális információkra támaszkodhatnak a repülés tervezése során.<br><br>AIC: Az 'Aeronautical Information Circular' rövidítése, amely egy olyan dokumentum, amelyben az illetékes hatóságok fontos információkat és ajánlásokat közölnek a légiközlekedéssel kapcsolatosan. Az AIC-ek széles körű témákat fedhetnek le, például a légi navigációs segédletek karbantartását, a repülőtéri biztonsági eljárásokat, a repülőgép-karbantartást és egyéb szabályozásokat.<br><br>AIP: Az 'Aeronautical Information Publication' rövidítése, amely egy hivatalos dokumentum, amely tartalmazza az ország légiforgalmi szolgálatának összes légi térképét, légi navigációs segédleteit, légiközlekedési szabályozásait, légiközlekedési eljárásait, repülőterek adatait és más fontos információkat. Az AIP egy adott ország vagy régió hivatalos légiközlekedési dokumentuma, amelyet a pilóták és a légiforgalmi irányítók használnak a repülési tevékenységek tervezése és végrehajtása során. Az AIP frissítése a AIRAC rendszer része.<br><br>A NOTAM-ok (Notice to Airmen) különböző típusú értesítéseket tartalmazhatnak, amelyek között a legfontosabbak a következők:<br><br><br><br>FDC NOTAM: Az Amerikai Szövetségi Légügyi Hatóság (FAA) által kiadott értesítések, amelyek az ország egész területén érvényesek. Ezek általában olyan információkat tartalmaznak, mint a légi tér zárlatai, a katonai gyakorlatok és az átmeneti légi navigációs segédletek működési zavarai.<br><br>NOTAM-D: Az USA-beli katonai légi erők által kiadott értesítések, amelyek a repülőterek és a katonai légtér működésével kapcsolatos információkat tartalmaznak.<br><br>NOTAMN: Nemzeti fontosságú értesítések, amelyek a nemzetbiztonságra és a repülésbiztonságra vonatkozó fontos információkat tartalmazzák.<br><br>NOTAMR: Az átmeneti változásokkal, zárlatokkal vagy korlátozásokkal kapcsolatos értesítések, amelyek csak egy bizonyos időszakban érvényesek.<br><br>NOTAMC: A hosszú távú vagy állandó változásokkal kapcsolatos értesítések, amelyek hosszabb ideig érvényesek és általában az állandó repülőterek és légi navigációs segédletek működésével kapcsolatos információkat tartalmazzák.<br><br>SNOWTAM: A hóeltakarítással és síkosságmentesítéssel kapcsolatos értesítések, amelyek a téli időszakban fontosak lehetnek a repülőgépek biztonságos működése szempontjából.<br><br>ASHTAM: A vulkáni hamu elterjedésével kapcsolatos értesítések, amelyek akkor jelentek meg, amikor a vulkánkitörések vagy más geológiai események hatással lehetnek a repülés biztonságára.<br><br>Ezenkívül vannak egyéb speciális NOTAM-ok, amelyek egy adott ország vagy régió légiközlekedési hatóságai által adhatók ki a repülési biztonság és hatékonyság érdekében.",
 	},
 	{
 		subject: "REPÜLÉSI SZABÁLYOK",
@@ -4944,7 +4948,15085 @@ const questions = [
 		],
 		hint:"",
 	},
-
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A sebességmérés során a sűrűségváltozás következtében kialakuló pontatlanságot …",
+        "answers": [
+            {
+                "text": "a CAS és a TAS nem tartalmazza.",
+                "correct": false
+            },
+            {
+                "text": "az IAS és a CAS nem tartalmazza.",
+                "correct": false
+            },
+            {
+                "text": "a TAS és a GS nem tartalmazza.",
+                "correct": true
+            },
+            {
+                "text": "a CAS, a TAS és a GS nem tartalmazza.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Hogyan nevezzük azt a tüzelőanyag-mérőt, melynek kijelzőjét a szárnyon elhelyezve, vagy a kabinban a repülőgép-vezető melletti ablakok felett, a szárnytő és a törzs csatlakozásánál találhatjuk meg?",
+        "answers": [
+            {
+                "text": "Úszós-örvényáramú mérő.",
+                "correct": false
+            },
+            {
+                "text": "Úszós-potenciométeres mérő.",
+                "correct": false
+            },
+            {
+                "text": "Úszós-kúpfogaskerekes mérő.",
+                "correct": true
+            },
+            {
+                "text": "Úszós-centrifugális mérő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Mire következtethetünk, ha a repülés során az olajhőmérséklet növekedni kezd, majd egy idő után az olajnyomásban hirtelen esés következik be?",
+        "answers": [
+            {
+                "text": "Túl nagy az olajmennyiség, a motor kinyomja magából.",
+                "correct": false
+            },
+            {
+                "text": "Nem elegendő az olajmennyiség.",
+                "correct": false
+            },
+            {
+                "text": "Jelentős olajszivárgásra.",
+                "correct": true
+            },
+            {
+                "text": "A motor túlmelegedésére.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "A tartószerkezetes és a félhéjszerkezetű szárny aerodinamikailag megkívánt alakhűségét …",
+        "answers": [
+            {
+                "text": "dobozos szerkezetek biztosítják.",
+                "correct": false
+            },
+            {
+                "text": "a főtartók biztosítják.",
+                "correct": false
+            },
+            {
+                "text": "a bordák biztosítják.",
+                "correct": true
+            },
+            {
+                "text": "a vászon és a lemezborítás biztosítja.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A magassági motorral felszerelt repülőgép … mint egy azonos kategóriájú feltöltő nélküli motorral felszerelt repülőgép esetében.",
+        "answers": [
+            {
+                "text": "elméleti és gyakorlati csúcsmagassága ugyanakkora",
+                "correct": false
+            },
+            {
+                "text": "elméleti és gyakorlati csúcsmagassága nagyobb",
+                "correct": true
+            },
+            {
+                "text": "elméleti csúcsmagassága nagyobb, de gyakorlati csúcsmagassága ugyanakkora",
+                "correct": false
+            },
+            {
+                "text": "elméleti csúcsmagassága nagyobb, de gyakorlati csúcsmagassága kisebb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A tüzelőanyag-rendszer működésére veszélyes jegesedés …",
+        "answers": [
+            {
+                "text": "fagypont alatti léghőmérséklet esetén jelentkezik.",
+                "correct": false
+            },
+            {
+                "text": "akkor jön létre, amikor a repülőgép felülete fagypont alá hűlt és melegebb, nedvesebb légtömegbe repül bele.",
+                "correct": false
+            },
+            {
+                "text": "széles hőmérséklet tartományban, fagypont alatti léghőmérséklet, de akár 20°C-nál magasabb léghőmérséklet esetén is ki alakulhat.",
+                "correct": true
+            },
+            {
+                "text": "20°C-nál magasabb léghőmérséklet esetén már nem alakulhat ki.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "Milyen anyagból készül a kompozit technológiával épült repülőgéptörzs?",
+        "answers": [
+            {
+                "text": "Ötvözött alumínium.",
+                "correct": false
+            },
+            {
+                "text": "Titán.",
+                "correct": false
+            },
+            {
+                "text": "Szálerősítésű műanyag.",
+                "correct": true
+            },
+            {
+                "text": "Ötvözött acél.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A torlólapátos variométer …",
+        "answers": [
+            {
+                "text": "szelencés műszer.",
+                "correct": false
+            },
+            {
+                "text": "működése a hőellenállás-változáson alapul.",
+                "correct": false
+            },
+            {
+                "text": "a késleltetett nyomáskiegyenlítődés elvén működik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A léghűtéses motor hűtéséről …",
+        "answers": [
+            {
+                "text": "a hengerfej-hőmérő tájékoztat.",
+                "correct": true
+            },
+            {
+                "text": "a kipufugógáz-hőmérő tájékoztat.",
+                "correct": false
+            },
+            {
+                "text": "a szívótérnyomás-mérő tájékoztat.",
+                "correct": false
+            },
+            {
+                "text": "a tüzelőanyagátfolyás-mérő tájékoztat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Mire következtethetünk, ha a repülőgép magasságváltozásától függetlenül a variométer 0 függőleges sebességet mutat?",
+        "answers": [
+            {
+                "text": "A Pitot-cső eldugult",
+                "correct": false
+            },
+            {
+                "text": "A statikus port eldugult.",
+                "correct": true
+            },
+            {
+                "text": "A statikus vezeték ereszt.",
+                "correct": false
+            },
+            {
+                "text": "A Pitot-vezeték ereszt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A szelepet a szeleprugó nyitja és a bütyök zárja.",
+                "correct": false
+            },
+            {
+                "text": "A szelepet a bütyök nyitja és a szeleprugó zárja.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A sebességmérő sárga tartományának …",
+        "answers": [
+            {
+                "text": "alsó határa a Vs átesési sebesség, felső határa Vno normál üzemi sebesség.",
+                "correct": false
+            },
+            {
+                "text": "alsó határa a Vno normál üzemi sebesség, felső határa a Vne át nem léphető sebesség.",
+                "correct": true
+            },
+            {
+                "text": "alsó határa a Va manőverezési sebesség, felső határa Vno normál üzemi sebesség.",
+                "correct": false
+            },
+            {
+                "text": "alsó határa a Va manőverezési sebesség, felső határa a Vne át nem léphető sebesség.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A szívószelep a FHP után nyit és az AHP előtt zár.",
+                "correct": false
+            },
+            {
+                "text": "A szívószelep a FHP előtt nyit és az AHP után zár.",
+                "correct": true
+            },
+            {
+                "text": "A szívószelep a FHP után nyit és az AHP után zár.",
+                "correct": false
+            },
+            {
+                "text": "A szívószelep a FHP előtt nyit és az AHP előtt zár.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Az IAS sebesség …",
+        "answers": [
+            {
+                "text": "meghatározása a légkör sűrűségváltozása miatt, navigációs számítások elvégzése érdekében szükséges.",
+                "correct": false
+            },
+            {
+                "text": "a sebességmérőről leolvasott érték.",
+                "correct": true
+            },
+            {
+                "text": "meghatározása a Pitot-statikus rendszer beépítési hibái miatt szükséges.",
+                "correct": false
+            },
+            {
+                "text": "meghatározása a levegő összenyomhatóságából származó mérési hiba miatt szükséges.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Ha a főfúvóka méretét úgy választják meg, hogy alacsony fordulatszámon megfelelő arányú keveréket biztosítson, akkor …",
+        "answers": [
+            {
+                "text": "a kiegyenlítő fúvóka akadályozza meg a keverék elszegényedését.",
+                "correct": false
+            },
+            {
+                "text": "a féklevegő fúvóka akadályozza meg a keverék elszegényedését.",
+                "correct": false
+            },
+            {
+                "text": "a féklevegő fúvóka akadályozza meg a keverék eldúsulását.",
+                "correct": true
+            },
+            {
+                "text": "a kiegyenlítő fúvóka akadályozza meg a keverék eldúsulását.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "A kisrepülőgépek törzsének burkolata …",
+        "answers": [
+            {
+                "text": "fából készül.",
+                "correct": false
+            },
+            {
+                "text": "alumíniumból készül.",
+                "correct": false
+            },
+            {
+                "text": "fából, alumíniumból és szálerősítésű műanyagból is készülhet.",
+                "correct": true
+            },
+            {
+                "text": "szálerősítésű műanyagból készül.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Milyen hengerelrendezésre utal a bütyköstárcsa?",
+        "answers": [
+            {
+                "text": "Állóhengeres sorosmotor.",
+                "correct": false
+            },
+            {
+                "text": "Boxermotor.",
+                "correct": false
+            },
+            {
+                "text": "Lógóhengeres sorosmotor.",
+                "correct": false
+            },
+            {
+                "text": "Csillagmotor.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A befecskendezéses motorral felszerelt repülőgép előnye, hogy mentes a tüzelőanyag-rendszer működésére veszélyes jegesedéstől.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A bütyköstengelyt …",
+        "answers": [
+            {
+                "text": "a forgattyústengely fogaskerék-áttétellel vagy lánccal hajtja.",
+                "correct": false
+            },
+            {
+                "text": "a forgattyústengely fogasszíjjal vagy lánccal hajtja.",
+                "correct": false
+            },
+            {
+                "text": "a vezérműtengely hajtja.",
+                "correct": false
+            },
+            {
+                "text": "a forgattyústengely fogaskerék-áttétellel, fogasszíjjal vagy lánccal hajtja.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A … szerint a magasságmérő a repülőgép közepes tengerszint feletti magasságát mutatja.",
+        "answers": [
+            {
+                "text": "QNE",
+                "correct": false
+            },
+            {
+                "text": "QNH",
+                "correct": true
+            },
+            {
+                "text": "QFE",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Melyik vezérlésre igaz, hogy a vezérlőbütyök a szelepszárral közvetlenül érintkezik?",
+        "answers": [
+            {
+                "text": "A felülszelepelt és alulvezérelt vezérlésre.",
+                "correct": false
+            },
+            {
+                "text": "A felülszelepelt és felülvezérelt vezérlésre.",
+                "correct": true
+            },
+            {
+                "text": "Az oldaltszelepelt és alulvezérelt vezérlésre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A motorzsalu nyitott állapotában …",
+        "answers": [
+            {
+                "text": "a léghűtés hatékonyságát csökkentjük, ezért a hűtés csökken.",
+                "correct": false
+            },
+            {
+                "text": "a léghűtés hatékonyságát növeljük, ezért a hűtés nő.",
+                "correct": true
+            },
+            {
+                "text": "a léghűtés hatékonyságát csökkentjük, ezért a hűtés nő.",
+                "correct": false
+            },
+            {
+                "text": "a léghűtés hatékonyságát növeljük, ezért a hűtés csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "Milyen anyagból készül a kisrepülőgépek belsőégésű motorjának forgattyúsháza?",
+        "answers": [
+            {
+                "text": "Ötvözött acél.",
+                "correct": false
+            },
+            {
+                "text": "Titán.",
+                "correct": false
+            },
+            {
+                "text": "Ötvözött alumínium.",
+                "correct": true
+            },
+            {
+                "text": "Szálerősítésű műanyag.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Magas léghőmérséklet esetén egy adott magasságnak a NEL-hez képest … sűrűségmagasság felel meg.",
+        "answers": [
+            {
+                "text": "kisebb.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb.",
+                "correct": true
+            },
+            {
+                "text": "A léghőmérséklet nem befolyásolja a sűrűségmagasságot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A … kód adott repülőtér meghatározott pontjára vonatkoztatott légnyomás jelölésére szolgál.",
+        "answers": [
+            {
+                "text": "QNE",
+                "correct": false
+            },
+            {
+                "text": "QNH",
+                "correct": false
+            },
+            {
+                "text": "QFE",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "Azt a szárnyat, melynél a borítás egyáltalán nem vesz részt a teherviselésben … szárnynak nevezzük.",
+        "answers": [
+            {
+                "text": "tartószerkezetes",
+                "correct": true
+            },
+            {
+                "text": "szabadonhordó",
+                "correct": false
+            },
+            {
+                "text": "félhéjszerkezetű",
+                "correct": false
+            },
+            {
+                "text": "héjszerkezetű",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A … szerinti magasságmérés a 1013,25 hPa-nak megfelelő nyomás alapján történik.",
+        "answers": [
+            {
+                "text": "QNE",
+                "correct": true
+            },
+            {
+                "text": "QNH",
+                "correct": false
+            },
+            {
+                "text": "QFE",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Ha a repülőgép-vezető a helyes QNH nyomáshoz képest magasabb nyomást állít be a magasságmérőn, akkor a műszer …",
+        "answers": [
+            {
+                "text": "helyes értéknél kevesebbet fog mutatni.",
+                "correct": false
+            },
+            {
+                "text": "attól függően, hogy a nyomás magasabb vagy alacsonyabb 1013,25 hPa-nál, többet vagy kevesebbet fog mutatni.",
+                "correct": false
+            },
+            {
+                "text": "a helyes értéknél többet fog mutatni.",
+                "correct": true
+            },
+            {
+                "text": "NEL körülmények között helyesen fog mutatni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A külső léghőmérséklet-mérő jellemzően …",
+        "answers": [
+            {
+                "text": "bimetálos hőmérő.",
+                "correct": true
+            },
+            {
+                "text": "ellenálláshőmérő.",
+                "correct": false
+            },
+            {
+                "text": "hőelemes hőmérő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A térképen azonos mágneses elhajlással rendelkező pontokat összekötő vonalat … vonalaknak nevezzük. A nulla mágneses elhajlású pontokat összekötő vonalakat … vonalaknak nevezzük. Az azonos mágneses lehajlású pontokat összekötő vonalakat … vonalaknak nevezzük.",
+        "answers": [
+            {
+                "text": "agon – izoklin – izogon",
+                "correct": false
+            },
+            {
+                "text": "agon – izogon – izoklin",
+                "correct": false
+            },
+            {
+                "text": "izogon – agon – izoklin",
+                "correct": true
+            },
+            {
+                "text": "izoklin – izogon – agon",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "Ha egy ampermérő skálájának bal oldalán található a nulla töltés jelzése, akkor ez az ampermérő …",
+        "answers": [
+            {
+                "text": "az akkumulátorba és az akkumulátorból folyó áram erősségét mutatja.",
+                "correct": false
+            },
+            {
+                "text": "a generátor felől folyó áram erősségét méri.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Melyik alábbi felsorolás mindegyik elemére igaz, hogy a forgattyús mechanizmus egy alkatrésze?",
+        "answers": [
+            {
+                "text": "Főtengely, dugattyúcsapszeg, hajtókar.",
+                "correct": true
+            },
+            {
+                "text": "Dugattyú, hengerfejtömítés, kompressziógyűrű.",
+                "correct": false
+            },
+            {
+                "text": "Hajtórúd, dugattyúgyűrűk, szelepszár.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Mit mutat az elfordulásjelző és a libella jobb dugóhúzóban?",
+        "answers": [
+            {
+                "text": "A lapát teljesen kitér balra, a golyó teljesen kitér jobbra.",
+                "correct": false
+            },
+            {
+                "text": "A lapát és a golyó teljesen kitér jobbra.",
+                "correct": false
+            },
+            {
+                "text": "A lapát teljesen kitér jobbra, a golyó teljesen kitér balra.",
+                "correct": true
+            },
+            {
+                "text": "A lapát és a golyó teljesen kitér balra.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "Az URH tartományban dolgozó rádióállomások … , a föld-föld közötti összeköttetés távolságát a Föld görbülete …",
+        "answers": [
+            {
+                "text": "működését az időjárás befolyásolja – nem korlátozza.",
+                "correct": false
+            },
+            {
+                "text": "működése az időjárásra közömbös – nem korlátozza.",
+                "correct": false
+            },
+            {
+                "text": "működését az időjárás befolyásolja – korlátozza.",
+                "correct": false
+            },
+            {
+                "text": "működése az időjárásra közömbös – korlátozza.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "A repülőgépek fedélzeti parancsnoki rádió-adóvevő készülékei … frekvenciatartományban … működnek?",
+        "answers": [
+            {
+                "text": "az ultrarövid-hullámú – AM-modulációval",
+                "correct": true
+            },
+            {
+                "text": "a rövidhullámú – FM-modulációval",
+                "correct": false
+            },
+            {
+                "text": "a középhullámú – FM-modulációval",
+                "correct": false
+            },
+            {
+                "text": "az ultra magas – AM-modulációval",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A statikus légfelvevő eldugulásakor a magasságmérő …",
+        "answers": [
+            {
+                "text": "a helyes értékhez képest kevesebbet fog mutatni.",
+                "correct": false
+            },
+            {
+                "text": "nem reagál a magasságváltozásra.",
+                "correct": true
+            },
+            {
+                "text": "a helyes értékhez képest többet fog mutatni.",
+                "correct": false
+            },
+            {
+                "text": "a légnyomás változásának megfelelően fog fals értéket mutatni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "Repülés közben a repülőgép-vezető füstöt érzékel a műszerfalból és arra kényszerül, hogy lekapcsolja az elektromos rendszer főkapcsolóját. Az alábbiak közül melyik műszer válhat működésképtelenné?",
+        "answers": [
+            {
+                "text": "Sebességmérő.",
+                "correct": false
+            },
+            {
+                "text": "Magasságmérő.",
+                "correct": false
+            },
+            {
+                "text": "Elfordulásjelző.",
+                "correct": true
+            },
+            {
+                "text": "Folyadékos mágneses iránytű.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Az elfordulásjelzők és a tüzelőanyagmennyiség-mérők működéséhez feltétlenül szükséges elektromos áram.",
+                "correct": false
+            },
+            {
+                "text": "A fékszárny-működtetéshez és a motorindításhoz feltétlenül szükséges elektromos áram.",
+                "correct": false
+            },
+            {
+                "text": "Az elfordulásjelzők és a tüzelőanyagmennyiség-mérők működéséhez, valamint a fékszárny-működtetéshez és a motorindításhoz feltétlenül szükséges elektromos áram.",
+                "correct": false
+            },
+            {
+                "text": "Az elfordulásjelzők és a tüzelőanyagmennyiség-mérők működéséhez, valamint a fékszárnyműködtetéshez és a motorindításhoz sem feltétlenül szükséges elektromos áram.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "A mágneses iránytűnek azt a hibáját, melyet a repülőgép fém alkatrészei és villamos berendezései által keltett mágneses tér okoz … nevezzük.",
+        "answers": [
+            {
+                "text": "mágneses elhajlásnak",
+                "correct": false
+            },
+            {
+                "text": "deklinációnak",
+                "correct": false
+            },
+            {
+                "text": "inklinációnak",
+                "correct": false
+            },
+            {
+                "text": "deviációnak",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "Mi a célja a magassági kormánylapokon alkalmazott trimmechanizmusnak?",
+        "answers": [
+            {
+                "text": "A repülőgép-vezető tehermentesítésére és egy adott repülési helyzetben a kormányerő csökkentésére szolgál.",
+                "correct": true
+            },
+            {
+                "text": "A kormányérzékenység növelésére vagy csökkentésére alkalmazzuk.",
+                "correct": false
+            },
+            {
+                "text": "A kormánylap súlykiegyenlítése által a repülőgép-vezető tehermentesítésére szolgál.",
+                "correct": false
+            },
+            {
+                "text": "A kormánylap aerodinamikai kiegyenlítése által a repülőgép-vezető tehermentesítésére szolgál.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A kényszercirkulációs kenés esetén …",
+        "answers": [
+            {
+                "text": "egy membrános szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.",
+                "correct": false
+            },
+            {
+                "text": "egy forgólapátos szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.",
+                "correct": false
+            },
+            {
+                "text": "egy fogaskerék-szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.",
+                "correct": true
+            },
+            {
+                "text": "a forgó alkatrészek belecsapnak az olajgyűjtőben lévő olajba és a kenés a szétfröccsenő olajjal történik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A benzin oktánszáma nincs kapcsolatban a kompresszítótűréssel.",
+                "correct": false
+            },
+            {
+                "text": "Minél kisebb egy motor kompresszióviszonya, annál nagyobb oktánszámú benzinnel üzemel.",
+                "correct": false
+            },
+            {
+                "text": "Minél kisebb a benzin oktánszáma, annál nagyobb a kompressziótűrése.",
+                "correct": false
+            },
+            {
+                "text": "Minél nagyobb a benzin oktánszáma, annál nagyobb a kompressziótűrése.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "… az áramvezető keresztmetszetén időegység alatt áthaladó elektromos töltés nagyságát értjük.",
+        "answers": [
+            {
+                "text": "A kapacitáson",
+                "correct": false
+            },
+            {
+                "text": "Az ellenálláson",
+                "correct": false
+            },
+            {
+                "text": "Az áramerősségen",
+                "correct": true
+            },
+            {
+                "text": "A feszültségen",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "Milyen anyagból készül a kisrepülőgépek fémborítása?",
+        "answers": [
+            {
+                "text": "Ötvözött acél.",
+                "correct": false
+            },
+            {
+                "text": "Titán.",
+                "correct": false
+            },
+            {
+                "text": "Ötvözött alumínium.",
+                "correct": true
+            },
+            {
+                "text": "Szálerősítésű műanyag.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Ha a főfúvóka méretét úgy választják meg, hogy magas fordulatszámon megfelelő arányú keveréket biztosítson, akkor …",
+        "answers": [
+            {
+                "text": "a féklevegő fúvóka akadályozza meg a keverék eldúsulását.",
+                "correct": false
+            },
+            {
+                "text": "a kiegyenlítő fúvóka akadályozza meg a keverék elszegényedését.",
+                "correct": true
+            },
+            {
+                "text": "a kiegyenlítő fúvóka akadályozza meg a keverék eldúsulását.",
+                "correct": false
+            },
+            {
+                "text": "a féklevegő fúvóka akadályozza meg a keverék elszegényedését.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "A C-módú transzponder A-módra kapcsolva …",
+        "answers": [
+            {
+                "text": "csak a fedélzeti számot sugározza.",
+                "correct": true
+            },
+            {
+                "text": "alapvetően a fedélzeti számot és a magasságot sugározza, de egyéb információk és adatok közlésére is alkalmas.",
+                "correct": false
+            },
+            {
+                "text": "csak a magasságot sugározza.",
+                "correct": false
+            },
+            {
+                "text": "a fedélzeti számot és a magasságot sugározza.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Emelkedés során a variométer szelencéje a műszerházban fennálló … nyomásérték miatt … , a mutató pedig emelkedést fog jelezni.",
+        "answers": [
+            {
+                "text": "magasabb – kitágul",
+                "correct": false
+            },
+            {
+                "text": "alacsonyabb – kitágul",
+                "correct": false
+            },
+            {
+                "text": "alacsonyabb – összenyomódik",
+                "correct": false
+            },
+            {
+                "text": "magasabb – összenyomódik",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Mikor a leghajlamosabb a motor a túlhűlésre?",
+        "answers": [
+            {
+                "text": "nagy fordulatszám és kis sebesség esetén.",
+                "correct": false
+            },
+            {
+                "text": "nagy fordulatszám és nagy sebesség esetén.",
+                "correct": false
+            },
+            {
+                "text": "kis fordulatszám és kis sebesség esetén.",
+                "correct": false
+            },
+            {
+                "text": "kis fordulatszám és nagy sebesség esetén.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MŰSZERTAN",
+        "question": "Az északi féltekén az északi irányú fordulónál a fordulót a kívánt iránytűirányszög eléréséhez képest … kell befejezni, mert az iránytű …",
+        "answers": [
+            {
+                "text": "később – késik.",
+                "correct": false
+            },
+            {
+                "text": "hamarabb – késik.",
+                "correct": true
+            },
+            {
+                "text": "később – siet.",
+                "correct": false
+            },
+            {
+                "text": "hamarabb – siet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A csillagmotor …",
+        "answers": [
+            {
+                "text": "oldaltszelepelt és alulvezérelt.",
+                "correct": false
+            },
+            {
+                "text": "felülszelepelt és felülvezérelt.",
+                "correct": false
+            },
+            {
+                "text": "felülszelepelt és alulvezérelt.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "Ha egy motorban hengerenkénti befecskendezés történik, akkor …",
+        "answers": [
+            {
+                "text": "szabályozott befecskendezésről beszélünk.",
+                "correct": false
+            },
+            {
+                "text": "közvetlen befecskendezésről beszélünk.",
+                "correct": true
+            },
+            {
+                "text": "közvetett befecskendezésről beszélünk.",
+                "correct": false
+            },
+            {
+                "text": "központi befecskendezésről beszélünk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A mágneses gyújtás hátránya, hogy indításkor nem ad elég erős gyújtást.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A fojtószelep lejegesedése …",
+        "answers": [
+            {
+                "text": "kis sebesség és nagy fordulatszám esetén jellemző.",
+                "correct": false
+            },
+            {
+                "text": "kis fordulatszám esetén jellemző.",
+                "correct": true
+            },
+            {
+                "text": "nagy sebesség és kis fordulatszám esetén jellemző.",
+                "correct": false
+            },
+            {
+                "text": "nagy fordulatszám esetén jellemző.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A kompresszióviszony növelésének …",
+        "answers": [
+            {
+                "text": "a tüzelőanyag lobbanáspontja szab határt.",
+                "correct": false
+            },
+            {
+                "text": "a motor legnagyobb fordulatszáma szab határt.",
+                "correct": false
+            },
+            {
+                "text": "a motor szerkezeti elemeinek teherviselő képessége szab határt.",
+                "correct": false
+            },
+            {
+                "text": "a kopogás szab határt.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA",
+        "question": "Repülés közben a repülőgép-vezető füstöt érzékel a műszerfalból és arra kényszerül, hogy lekapcsolja az elektromos rendszer főkapcsolóját. Az alábbiak közül melyik műszer válik működésképtelenné?",
+        "answers": [
+            {
+                "text": "Úszós-kúpfogaskerekes tüzelőanyagszint-mérő.",
+                "correct": false
+            },
+            {
+                "text": "Szívótérnyomásmérő.",
+                "correct": false
+            },
+            {
+                "text": "Távnyomásméréssel működő olajnyomásmérő.",
+                "correct": true
+            },
+            {
+                "text": "Vákuumrendszerről működtetett elfordulásjelző.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "SZERKEZETTAN",
+        "question": "A szálerősített anyagok alkalmazásával jelentős súlycsökkenés tapasztalható, és szilárdságuk felveszi a versenyt a többi építési eljárással.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A felülszelepelt és alulvezérelt kialakításnál a vezérlés történhet bütyköstengelyről és bütyköstárácsól is.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MOTORTAN",
+        "question": "A motor túlmelegedése esetén kopogás is bekövetkezhet.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Egyszerű, rutinszerű tevékenységek végrehajtásánál …",
+        "answers": [
+            {
+                "text": "a serkentettség fokozódása csak egy bizonyos pontig társul a teljesítmény növekedésével, ezen túl pedig hanyatlani kezd.",
+                "correct": false
+            },
+            {
+                "text": "a teljesítmény színvonala a serkentettség szintjének növekedésével egyidejűleg nő.",
+                "correct": true
+            },
+            {
+                "text": "a teljesítmény színvonala a serkentettség szintjének növekedésével folyamatosan csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Egy inger csak akkor hoz létre érzetet, ha erőssége meghaladja az abszolút felső érzetküszöböt.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A kimerültség és az állandó koncentráció …",
+        "answers": [
+            {
+                "text": "nem hat a hypoxiás tűrőképességre.",
+                "correct": false
+            },
+            {
+                "text": "15000 ft altt repülve növeli a hypoxiás tűrőképességet.",
+                "correct": false
+            },
+            {
+                "text": "növeli a hypoxiás tűrőképességet.",
+                "correct": false
+            },
+            {
+                "text": "csökkenti a hypoxiás tűrőképességet.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A testbe hatolt áram legsúlyosabb következménye …",
+        "answers": [
+            {
+                "text": "a behatolás helyén létrejött égés okozta áramjegyek.",
+                "correct": false
+            },
+            {
+                "text": "a sokkos állapot.",
+                "correct": false
+            },
+            {
+                "text": "szívmegállás és légzésbénulás is lehet.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "A kismennyiségű szénmonoxid ártalmatlan.",
+                "correct": false
+            },
+            {
+                "text": "A szénmonoxid szagtalan és szaglással nem is észlelhető.",
+                "correct": true
+            },
+            {
+                "text": "A magasság növekedésével a szénmonoxid mérgezés negatív hatása kompenzálódik.",
+                "correct": false
+            },
+            {
+                "text": "A szénmonoxid növeli a vér oxigéntelítettségét.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A testérzeteknek fontos szerepe van a mozgási koordináció szempontjából. Ezek az ingerek …",
+        "answers": [
+            {
+                "text": "azonban csak a G-gyorsulások esetén lépnek fel.",
+                "correct": false
+            },
+            {
+                "text": "repülés közben lehetővé teszik a repülőgép-vezető számára az abszolút magasság meghatározását.",
+                "correct": false
+            },
+            {
+                "text": "IMC esetén fontos érzékelések.",
+                "correct": false
+            },
+            {
+                "text": "IMC esetén teljesen alkalmatlanok a térbeli tájékozódásra.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Az Eustach-kürt biztosítja a nyomás kiegyenlítődését …",
+        "answers": [
+            {
+                "text": "a homloküreg, az orr és az arcüreg között.",
+                "correct": false
+            },
+            {
+                "text": "az orrmelléküregek és a külvilág között.",
+                "correct": false
+            },
+            {
+                "text": "az orr, a garatüreg és a külvilág között.",
+                "correct": false
+            },
+            {
+                "text": "a középfül és a külvilág között.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Dohányzás esetén a repülőgép-vezetőnél …",
+        "answers": [
+            {
+                "text": "enyhe szénmonoxid mérgezés léphet fel, mely növeli a hypoxiás tűrőképességet.",
+                "correct": false
+            },
+            {
+                "text": "enyhe széndioxid mérgezés léphet fel, mely csökkenti a hypoxiás tűrőképességet.",
+                "correct": false
+            },
+            {
+                "text": "enyhe szénmonoxid mérgezés léphet fel, mely csökkenti a hypoxiás tűrőképességet.",
+                "correct": true
+            },
+            {
+                "text": "enyhe széndioxid mérgezés léphet fel, mely növeli a hypoxiás tűrőképességet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Gerincsérülés gyanúja esetén …",
+        "answers": [
+            {
+                "text": "a sérültet úgy kell fektetni, hogy a homorú ívben feszített hát egymáshoz szorítsa a csigolyákat.",
+                "correct": false
+            },
+            {
+                "text": "a sérültet stabil oldalfekvésbe kell fektetni.",
+                "correct": false
+            },
+            {
+                "text": "a sérültet mozgatni tilos.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Ha egy bizonyos gyengébb erősségű inger hosszabb időn keresztül hat, akkor az illető inger iránt … az érzékenységünk. Erős ingerek hatására az érzékszerveink érzékenysége … .",
+        "answers": [
+            {
+                "text": "nő – nő",
+                "correct": false
+            },
+            {
+                "text": "csökken – csökken",
+                "correct": false
+            },
+            {
+                "text": "csökken – nő",
+                "correct": false
+            },
+            {
+                "text": "nő – csökken",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "II. fokú égés esetén az égett testrész hűtését követően a sérülésre laza, száraz fedőkötést kell felhelyezni.",
+                "correct": true
+            },
+            {
+                "text": "I. fokú égés esetén az égett testrész hűtését követően az égett testrészt be kell kenni olajjal vagy tejföllel.",
+                "correct": false
+            },
+            {
+                "text": "III. fokú égés esetén tilos az égett testrész hűtése és fedőkötés felhelyezése.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A szöggyorsulást … érzékelik.",
+        "answers": [
+            {
+                "text": "a csapok és a pálcikák",
+                "correct": false
+            },
+            {
+                "text": "az üllő, a kengyel és a kalapács",
+                "correct": false
+            },
+            {
+                "text": "a tömlőcskék és a zsákocskák",
+                "correct": false
+            },
+            {
+                "text": "a félkörös ívjáratok",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "A rövid távú memória megközelítőleg … elemet képes tárolni.",
+        "answers": [
+            {
+                "text": "9 ± 2",
+                "correct": false
+            },
+            {
+                "text": "7 ± 2",
+                "correct": true
+            },
+            {
+                "text": "10 ± 2",
+                "correct": false
+            },
+            {
+                "text": "4 ± 2",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "… vérzés esetén a sebből ütemesen pulzálva, fecskendezve tör elő a vér, színe világos piros.",
+        "answers": [
+            {
+                "text": "Hajszáleres",
+                "correct": false
+            },
+            {
+                "text": "Artériás",
+                "correct": true
+            },
+            {
+                "text": "Vénás",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A térbeli dezorientáció veszélye nő, ha …",
+        "answers": [
+            {
+                "text": "a repülőgép-vezető a műszereket ellenőrzi és figyelmen kívül hagyja az illúziókat.",
+                "correct": false
+            },
+            {
+                "text": "a műszerek és az egyensúlyszervtől érkező információk között ellentmondás van.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép-vezető figyelmen kívül hagyja az egyensúlyszervtől érkező információkat.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép-vezető túl szorosra csatolja a biztonsági övet és ezért testérzetekkel nem tudja érzékelni a magasságváltozást.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "… égésről beszélünk, ha a bőr és esetleg az alatt fekvő szövetek elhalnak, a terület sárgás-fehér vagy barnás fekete, megkarcolva nem vérzik.",
+        "answers": [
+            {
+                "text": "IV. fokú",
+                "correct": false
+            },
+            {
+                "text": "II. fokú",
+                "correct": false
+            },
+            {
+                "text": "I. fokú",
+                "correct": false
+            },
+            {
+                "text": "III. fokú",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Optimális mértékű stressz segíthet abban, hogy éberek maradjunk, és ezáltal megfelelően helyt tudjunk állni a helyzet támasztotta követelményekkel szemben.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Egy felnőtt normális pulzusszáma …",
+        "answers": [
+            {
+                "text": "40-60 pulzálás/perc.",
+                "correct": false
+            },
+            {
+                "text": "60-80 pulzálás/perc.",
+                "correct": true
+            },
+            {
+                "text": "100-120 pulzálás/perc.",
+                "correct": false
+            },
+            {
+                "text": "80-100 pulzálás/perc.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Hypoxia szempontjából külső levegőt lélegezve a kompenzált zóna …",
+        "answers": [
+            {
+                "text": "0-20000 ft.",
+                "correct": false
+            },
+            {
+                "text": "0-10000 ft.",
+                "correct": true
+            },
+            {
+                "text": "0-4000 ft.",
+                "correct": false
+            },
+            {
+                "text": "0-15000 ft.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A légibetegség előfordulásának valószínűsége nagyobb, ha …",
+        "answers": [
+            {
+                "text": "az utas vagy a növendék fél a repüléstől.",
+                "correct": true
+            },
+            {
+                "text": "az utas mozgásbetegség elleni szert vett be repülés előtt.",
+                "correct": false
+            },
+            {
+                "text": "a növendék motivált és adaptálódott a repülés speciális hatásaihoz.",
+                "correct": false
+            },
+            {
+                "text": "jó külső vizuális referenciák állnak a növendék rendelkezésére.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Vénás vérzés esetén …",
+        "answers": [
+            {
+                "text": "steril fedőkötést kell alkalmazni.",
+                "correct": false
+            },
+            {
+                "text": "nyomókötést kell alkalmazni.",
+                "correct": true
+            },
+            {
+                "text": "választott helyeken ujjainkkal a vérző ütőeret leszorítva kell csillapítani a vérzést.",
+                "correct": false
+            },
+            {
+                "text": "szorítókötést kell alkalmazni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Ha a repülőgép-vezető a megszokottnál szélesebb futópályára hajt végre leszállást, akkor …",
+        "answers": [
+            {
+                "text": "a pálya hosszabbnak tűnik, mint amilyen valójában.",
+                "correct": false
+            },
+            {
+                "text": "a pálya rövidebbnek tűnik, mint amilyen valójában.",
+                "correct": false
+            },
+            {
+                "text": "földközelben azt érzékelheti, hogy túl alacsonyan van.",
+                "correct": true
+            },
+            {
+                "text": "földközelben azt érzékelheti, hogy túl magasan van.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "A szenzoros tárban rövid ideig, 1-2 mp-ig tárolódnak az ingerek.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Egy felnőtt normális légzésszáma …",
+        "answers": [
+            {
+                "text": "18-20/perc.",
+                "correct": false
+            },
+            {
+                "text": "22-24/perc.",
+                "correct": false
+            },
+            {
+                "text": "14-16/perc.",
+                "correct": true
+            },
+            {
+                "text": "10-12/perc.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Mi a pozitív gyorsulás fő hatása?",
+        "answers": [
+            {
+                "text": "A vér az alsó testfélbe torlódik, ezért kevesebb vér vesz részt a keringésben.",
+                "correct": true
+            },
+            {
+                "text": "A perifériás látás javulása.",
+                "correct": false
+            },
+            {
+                "text": "A vérnyomás növekedése a felső testfélben (szív feletti részben).",
+                "correct": false
+            },
+            {
+                "text": "A vér hyperoxigenizációja, mely érzékelési zavarhoz vezet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A szem és a szemhéj vágott sérülése esetén …",
+        "answers": [
+            {
+                "text": "a sérült szemre nyomókötést kell felhelyezni, míg a másik szemet le kell takarni, hogy a szemgolyók mozgását megelőzzük.",
+                "correct": false
+            },
+            {
+                "text": "a sérült szemre hideg borogatást kell helyezni, míg a másik szemet le kell takarni, hogy a szemgolyók mozgását megelőzzük.",
+                "correct": false
+            },
+            {
+                "text": "A sérült szemet be kell fedni tiszta kötéssel, lazán rögzítve. A másik szemet le kell takarni, hogy a szemgolyók mozgását megelőzzük.",
+                "correct": true
+            },
+            {
+                "text": "A sérült szemet hideg folyó vízzel ki kell mosni, majd mindkét szemet le kell takarni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Komplex élesztési eljárás során a befúvás és a mellkaskompresszió ritmusa …",
+        "answers": [
+            {
+                "text": "1:15",
+                "correct": false
+            },
+            {
+                "text": "1:30",
+                "correct": false
+            },
+            {
+                "text": "2:30",
+                "correct": true
+            },
+            {
+                "text": "2:15",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "A légzés vizsgálatánál elsősorban a mellkas emelkedéséről kell meggyőződnünk.",
+                "correct": false
+            },
+            {
+                "text": "A légzés vizsgálatánál elsősorban a sérült orrához, illetve szájához közel hajolva meg kell hallgatni, hogy hallatszik-e a levegő áramlása.",
+                "correct": false
+            },
+            {
+                "text": "Csak akkor beszélhetünk kielégítő légzésről, ha a légzést látjuk és halljuk is egyszerre.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A klinikai halál általában … alatt megy át biológiai halálba",
+        "answers": [
+            {
+                "text": "2-3 perc",
+                "correct": false
+            },
+            {
+                "text": "4 perc",
+                "correct": true
+            },
+            {
+                "text": "7 perc",
+                "correct": false
+            },
+            {
+                "text": "1 perc",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A keringés vizsgálatakor …",
+        "answers": [
+            {
+                "text": "a nyaki ütőér megtapintásával történik a pulzus vizsgálata.",
+                "correct": true
+            },
+            {
+                "text": "a csukló belső oldalának megtapintásával történik a pulzus vizsgálata.",
+                "correct": false
+            },
+            {
+                "text": "a sérült mellkasához hajolva szívdobogását kell meghallgatni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "… törvénye szerint két, ellentétes tulajdonságokkal rendelkező inger egymás kölcsönös erősítésében áll.",
+        "answers": [
+            {
+                "text": "A mozgásparallaxis",
+                "correct": false
+            },
+            {
+                "text": "Az alkalmazkodás",
+                "correct": false
+            },
+            {
+                "text": "Az érzékelési kontraszt",
+                "correct": true
+            },
+            {
+                "text": "Az érzékszervek együttműködésének",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A perifériás látás elvesztése már … kötötti gyorsulás esetén megfigyelhető.",
+        "answers": [
+            {
+                "text": "1-2,5 +Gz",
+                "correct": true
+            },
+            {
+                "text": "2,5-4 +Gz",
+                "correct": false
+            },
+            {
+                "text": "4,5-5 +Gz",
+                "correct": false
+            },
+            {
+                "text": "4-4,5 +Gz",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Ha csak egyik szemünket használjuk a távolságérzékelésben …",
+        "answers": [
+            {
+                "text": "a monokuláris távolsági jelzőmozzanatok és a mozgásparallaxis van segítségünkre.",
+                "correct": true
+            },
+            {
+                "text": "a mozgásparallaxis van segítségünkre.",
+                "correct": false
+            },
+            {
+                "text": "a monokuláris távolsági jelzőmozzanatok vannak segítségünkre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Ha például egy forduló során a repülőgép-vezető hirtelen a fejét is megdöntve fel- vagy lenéz valamiért a kabinba, akkor könnyen kialakulhat …",
+        "answers": [
+            {
+                "text": "a temető-spirál (Graveyard Spiral).",
+                "correct": false
+            },
+            {
+                "text": "a fals pörgés (Graveyard Spin) illúziója.",
+                "correct": false
+            },
+            {
+                "text": "Coriolis-illúzió.",
+                "correct": true
+            },
+            {
+                "text": "a dőlés illúziója.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A légzési folyamat a következő lépésekből áll:",
+        "answers": [
+            {
+                "text": "oxigénszállítás a sejtekhez; a nitrogén eltávolítása.",
+                "correct": false
+            },
+            {
+                "text": "széndioxid szállítása a sejtekhez; az oxigén eltávolítása.",
+                "correct": false
+            },
+            {
+                "text": "oxigéndiffúzió a vérbe a légzőhámon át; oxigén szállítása és diffúziója a sejtekbe; a széndioxid eltávolítása a szervezetből.",
+                "correct": true
+            },
+            {
+                "text": "oxigénszállítás a sejtekhez; a szénmonoxid eltávolítása.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Hyperventiláció során a vér …",
+        "answers": [
+            {
+                "text": "szénmonoxid szintje csökken.",
+                "correct": false
+            },
+            {
+                "text": "széndioxid szintje nő.",
+                "correct": false
+            },
+            {
+                "text": "szénmonoxid szintje csökken.",
+                "correct": false
+            },
+            {
+                "text": "széndioxid szintje csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Hogyan előzhető meg a középfül barotraumája?.",
+        "answers": [
+            {
+                "text": "Növelni kell a süllyedés sebességét.",
+                "correct": false
+            },
+            {
+                "text": "Meg kell szakítani az emelkedést és süllyedésbe kell kezdeni.",
+                "correct": false
+            },
+            {
+                "text": "Valsalva-manőverrel.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép-vezető minden repülés előtt szedjen be megfázás elleni szert.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Zúzódásról beszélünk, ha …",
+        "answers": [
+            {
+                "text": "az ízület kóros helyzetben rögzül.",
+                "correct": false
+            },
+            {
+                "text": "mélyebben fekvő szövet is roncsolódik.",
+                "correct": false
+            },
+            {
+                "text": "a bőrfelületet érinti a sérülés.",
+                "correct": false
+            },
+            {
+                "text": "a bőr folytonossága nem szakad meg, de a bőr alatt vérömleny jön létre",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A belsőfül melyik része felelős a zaj érzékeléséért?",
+        "answers": [
+            {
+                "text": "Az Eustach-kürt..",
+                "correct": false
+            },
+            {
+                "text": "A zsákocska és tömlőcske.",
+                "correct": false
+            },
+            {
+                "text": "A félkörös ívjáratok.",
+                "correct": false
+            },
+            {
+                "text": "A csigaszerv.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Mikor kell számítani éberségi minimumra (álmossági csúcsr?",
+        "answers": [
+            {
+                "text": "Délután 13 és 15 óra között, valamint éjfél és hajnali 2 óra között.",
+                "correct": false
+            },
+            {
+                "text": "Délután 13 és 15 óra között.",
+                "correct": false
+            },
+            {
+                "text": "Hajnali 5 és 7 óra között.",
+                "correct": false
+            },
+            {
+                "text": "Hajnali 3 és 5 óra, valamint délután 15 és 17 óra között.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Mire következtetünk, ha a sérült kóros helyzetben rögzült végtagjának ízületén nagyfokú alakváltozás látható, és a sérült nyugalmi helyzetben is nagy fájdalomra panaszkodik?",
+        "answers": [
+            {
+                "text": "Rándulásra.",
+                "correct": false
+            },
+            {
+                "text": "Zúzódásra.",
+                "correct": false
+            },
+            {
+                "text": "Nyílt törésre.",
+                "correct": false
+            },
+            {
+                "text": "Ficamra.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A hypoxia és a hyperventiláció jól megkülönböztethető, mert tüneteik nagyban különböznek egymástól.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Hypoxia szempontjából külső levegőt lélegezve a zavar zóna …",
+        "answers": [
+            {
+                "text": "20000 ft és felette",
+                "correct": false
+            },
+            {
+                "text": "4000-10000 ft",
+                "correct": false
+            },
+            {
+                "text": "15000-20000 ft",
+                "correct": true
+            },
+            {
+                "text": "10000-15000 ft",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A befúvásos lélegeztetéshez a sérültet …",
+        "answers": [
+            {
+                "text": "félülő helyzetbe kell hozni.",
+                "correct": false
+            },
+            {
+                "text": "hanyatt kell fektetni.",
+                "correct": true
+            },
+            {
+                "text": "oldalra kell fektetni.",
+                "correct": false
+            },
+            {
+                "text": "stabil oldalfekvésbe kell fektetni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A befúvásos lélegeztetésnél a levegőbefújást … ismételjük percenként.",
+        "answers": [
+            {
+                "text": "28-30-szor",
+                "correct": false
+            },
+            {
+                "text": "22-26-szor",
+                "correct": false
+            },
+            {
+                "text": "10-14-szer",
+                "correct": false
+            },
+            {
+                "text": "16-20-szor",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Melyik illúzió alakul ki akkor, ha a repülőgép a repülőgép-vezető tudomása nélkül fordulóba kezd, mely mozgás nem kelt elegendő ingert az ívjáratokban?",
+        "answers": [
+            {
+                "text": "A dőlés illúziója.",
+                "correct": true
+            },
+            {
+                "text": "A fals pörgés (Graveyard Spin) illúziója.",
+                "correct": false
+            },
+            {
+                "text": "A Coriolis-illúzió.",
+                "correct": false
+            },
+            {
+                "text": "A temető-spirál (Graveyard Spiral).",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Amikor dugóhúzóba kerül a repülőgép, a domináló gyorsulási típus …",
+        "answers": [
+            {
+                "text": "lineáris gyorsulás.",
+                "correct": false
+            },
+            {
+                "text": "függőleges gyorsulás.",
+                "correct": false
+            },
+            {
+                "text": "szöggyorsulás.",
+                "correct": true
+            },
+            {
+                "text": "radiális gyorsulás.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Egy átlagos repülőgép-vezető rövid távú memóriájából kb. mennyi ideig képes hibátlanul előhívni pl. egy frissen hallott, számára ismeretlen rádiófrekvenciát.",
+        "answers": [
+            {
+                "text": "kb. 1-2 percig.",
+                "correct": false
+            },
+            {
+                "text": "kb. 15-30 mp-ig",
+                "correct": true
+            },
+            {
+                "text": "kb. 7 mp-ig",
+                "correct": false
+            },
+            {
+                "text": "kb. 2-3 percig",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Ha egy megtanult, automatizált cselekvést nem gyakorlunk és elfelejtünk, akkor a cselekvés ismét a … ellenőrzése alá kerül.",
+        "answers": [
+            {
+                "text": "központi döntési csatorna",
+                "correct": true
+            },
+            {
+                "text": "szenzoros tár",
+                "correct": false
+            },
+            {
+                "text": "hosszú távú memória",
+                "correct": false
+            },
+            {
+                "text": "rövid távú memória",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Az egyensúlyérzékelésért … felelősek, melyek … találhatók.",
+        "answers": [
+            {
+                "text": "az üllő, a kengyel és a kalapács – a középfülben",
+                "correct": false
+            },
+            {
+                "text": "a félkörös ívjáratok, a tömlőcskék és a zsákocskák – a középfülben",
+                "correct": false
+            },
+            {
+                "text": "a félkörös ívjáratok, a tömlőcskék és a zsákocskák – a belső fülben",
+                "correct": true
+            },
+            {
+                "text": "az üllő, a kengyel és a kalapács – a külső fülben",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "A túl magas vagy alacsony hőmérséklet, a zaj, a turbulencia, a rezgések, a kényelmetlenség, mind stresszforrások lehetnek.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Mi az önmentési idő?",
+        "answers": [
+            {
+                "text": "Az az idő, ami a hypoxia kezdetétől addig telik el, amíg azt a repülőgép-vezető észleli.",
+                "correct": false
+            },
+            {
+                "text": "Hypoxia esetén a pilóta reakcióideje.",
+                "correct": false
+            },
+            {
+                "text": "Az oxigénellátás megszűnésétől számított azon időtartam, ameddig az egyén hatékonyan és éberen képes cselekedni.",
+                "correct": true
+            },
+            {
+                "text": "Fokozatos dekompresszió után a hypoxia fellépéséig eltelt idő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Mi az első teendő, ha a sérült eszméletlen?",
+        "answers": [
+            {
+                "text": "Félülő helyzetbe kell hozni a sérültet.",
+                "correct": false
+            },
+            {
+                "text": "Meg kell vizsgálni légzését és keringését.",
+                "correct": true
+            },
+            {
+                "text": "Stabil oldalfekvésbe kell fektetni a sérültet.",
+                "correct": false
+            },
+            {
+                "text": "Hátára kell fektetni a sérültet, lábát felpolcolva.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Barotrauma … alakulhat ki.",
+        "answers": [
+            {
+                "text": "a középfüben, az orrmelléküregekben és a gyomor-bél rendszerben.",
+                "correct": true
+            },
+            {
+                "text": "a középfüben",
+                "correct": false
+            },
+            {
+                "text": "az orrmelléküregekben",
+                "correct": false
+            },
+            {
+                "text": "a gyomor-bél rendszerben.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Ha a repülőgép-vezető a megszokottnál rövidebb futópályára hajt végre leszállást, akkor …",
+        "answers": [
+            {
+                "text": "a pálya távolibbnak tűnik a valóságosnál.",
+                "correct": true
+            },
+            {
+                "text": "földközelben azt érzékelheti, hogy túl magasan van.",
+                "correct": false
+            },
+            {
+                "text": "földközelben azt érzékelheti, hogy túl alacsonyan van.",
+                "correct": false
+            },
+            {
+                "text": "a pálya közelebbinek tűnik a valóságosnál.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "… vérzés esetén lassan gyöngyözik a vér a sebből.",
+        "answers": [
+            {
+                "text": "Artériás",
+                "correct": false
+            },
+            {
+                "text": "Vénás",
+                "correct": false
+            },
+            {
+                "text": "Hajszáleres",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Az összetett tevékenységek végrehajtásánál …",
+        "answers": [
+            {
+                "text": "a serkentettség fokozódása csak egy bizonyos pontig társul a teljesítmény növekedésével, ezen túl pedig hanyatlani kezd.",
+                "correct": true
+            },
+            {
+                "text": "a teljesítmény színvonala a serkentettség szintjének növekedésével folyamatosan csökken.",
+                "correct": false
+            },
+            {
+                "text": "a teljesítmény színvonala a serkentettség szintjének növekedésével egyidejűleg nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Felhőbe repülés esetén a térbeli tájékozódási zavart a repülőgép-vezető úgy kerülheti el, ha …",
+        "answers": [
+            {
+                "text": "nem hisz a műszereknek.",
+                "correct": false
+            },
+            {
+                "text": "hisz a műszereknek.",
+                "correct": true
+            },
+            {
+                "text": "folyamatosan vizuális támpontot keres.",
+                "correct": false
+            },
+            {
+                "text": "folyamatosan figyeli a magasságmérőt és variométert.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Az alkohol kis mennyiségben …",
+        "answers": [
+            {
+                "text": "serkenti az agyat, ezáltal a hypoxiával szemben jobb lesz a tűrőképesség.",
+                "correct": false
+            },
+            {
+                "text": "is fokozhatja az agysejtek hypoxia iránti érzékenységét.",
+                "correct": true
+            },
+            {
+                "text": "javítja a szellemi funkciókat, így a hypoxia tünetei sokkal jobban érezhetők.",
+                "correct": false
+            },
+            {
+                "text": "nem jelent veszélyt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Mire következtetünk, ha a sérült szédülésről, hányingerről és fejfájásról panaszkodik, a balesetre nem emlékszik?",
+        "answers": [
+            {
+                "text": "Agyrázkódásra.",
+                "correct": true
+            },
+            {
+                "text": "Eszméletvesztésre.",
+                "correct": false
+            },
+            {
+                "text": "Agyvérzésre.",
+                "correct": false
+            },
+            {
+                "text": "Szénmonoxid mérgezésre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A szövetek oxigénhiányos állapotát …",
+        "answers": [
+            {
+                "text": "hyperventilációnak nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "eufóriának.",
+                "correct": false
+            },
+            {
+                "text": "Keszon-betegségnek nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "hypoxiának nevezzük.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Szürkefátyol már … kötötti gyorsulás esetén felléphet.",
+        "answers": [
+            {
+                "text": "4,5-5 +Gz",
+                "correct": false
+            },
+            {
+                "text": "2,5-4 +Gz",
+                "correct": true
+            },
+            {
+                "text": "1-2,5 +Gz",
+                "correct": false
+            },
+            {
+                "text": "4-4,5 +Gz",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A futópálya lejt a küszöbtől. A lehetséges veszély?",
+        "answers": [
+            {
+                "text": "A repülőgép-vezető a szokásosnál magasabbra helyezkedik, ezért a leszállási úthossz megnövekedhet.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép-vezető magasabbnak érzi helyzetét a valósnál, ilyenkor elpattanás vagy kilebegtetés nélküli földet érés következhet be.",
+                "correct": false
+            },
+            {
+                "text": "A futópálya hosszának téves becslése.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető túlságosan a siklópálya alá süllyed.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "… vérzés esetén a vér lassan folyik a sebből, színe sötét vörös.",
+        "answers": [
+            {
+                "text": "Hajszáleres",
+                "correct": false
+            },
+            {
+                "text": "Vénás",
+                "correct": true
+            },
+            {
+                "text": "Artériás",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Hyperventiláció esetén 10000 ft alatti magasságon célszerű …",
+        "answers": [
+            {
+                "text": "L-1-manővert végezni.",
+                "correct": false
+            },
+            {
+                "text": "100% oxigént lélegezni.",
+                "correct": false
+            },
+            {
+                "text": "Valsalva-manővert végezni.",
+                "correct": false
+            },
+            {
+                "text": "a higiéniai zacskóból lélegezni.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Amikor a központi döntési csatorna is érintett egy válasz kivitelezésében, a reakcióidő …, mint az automatikusan zajló tevékenységek esetében.",
+        "answers": [
+            {
+                "text": "rövidebb",
+                "correct": false
+            },
+            {
+                "text": "hosszabb",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "A figyelmünk körébe jutó ingerek a szenzoros tárból a hosszú távú memóriába kerülnek.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Bármely magasság túlélhető, ha biztosított …",
+        "answers": [
+            {
+                "text": "a túlnyomásos légzés az adott magasságban.",
+                "correct": false
+            },
+            {
+                "text": "a kabin hőmérséklete nem csökken 10°C alá.",
+                "correct": false
+            },
+            {
+                "text": "a megfelelő oxigén, nyomás és hőmérséklet.",
+                "correct": true
+            },
+            {
+                "text": "a belégzett levegő oxigéntartalma 21%.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Mit értünk kinetózis alatt?",
+        "answers": [
+            {
+                "text": "Érzékelési zavar az egyensúlyszervben, amit hányinger, hányás és szorongás kísér.",
+                "correct": true
+            },
+            {
+                "text": "A középfül fertőzése okozta betegség.",
+                "correct": false
+            },
+            {
+                "text": "Olyan betegség, melyet a vérben felszabaduló gázok okoznak.",
+                "correct": false
+            },
+            {
+                "text": "Alacsony légnyomás okozta betegség.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A sebből durva anyagot eltávolítani …",
+        "answers": [
+            {
+                "text": "tilos.",
+                "correct": false
+            },
+            {
+                "text": "csak akkor szabad, ha úgy ítéljük meg, hogy a sérült életét veszélyezteti.",
+                "correct": false
+            },
+            {
+                "text": "csak akkor szabad, ha nem rögzült a sebbe, és eltávolítás közben nem kell belenyúlni a sebbe.",
+                "correct": true
+            },
+            {
+                "text": "csak akkor szabad, ha nem rögzült a sebbe, és a sebbe nyúlva könnyen elérhető.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "A verbális kommunikációba tartozik a beszéd, a non-verbális kommunikáció összetevői az írás, a vokális jelek, az arc és a gesztus stb.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Hogyan előzhető meg a sokkos állapot?",
+        "answers": [
+            {
+                "text": "A sérültet hanyatt kell fektetni, lábait megemelve. A vérzést csillapítani kell, a sérült végtagokat nyugalomba kell helyezni és rögzíteni kell. A sérültet vízzel vagy teával lassan itathatjuk.",
+                "correct": true
+            },
+            {
+                "text": "Sokkos állapot nem előzhető meg, csak a kialakult sokkot kezelhetjük.",
+                "correct": false
+            },
+            {
+                "text": "A sérültet stabil oldalfekvésbe helyezve meg kell nyugtatni. Kortyokban folyadékot (vizet vagy teát) kell adni neki.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "PSZICHOLÓGIAI ALAPISMERETEK",
+        "question": "Egy váratlan esemény megoldásakor melyik tudatállapotban nyújtjuk a legjobb teljesítményt?",
+        "answers": [
+            {
+                "text": "Teljesen relaxált állapotban.",
+                "correct": false
+            },
+            {
+                "text": "Közepes szintű izgalmi állapotban.",
+                "correct": true
+            },
+            {
+                "text": "Minél intenzívebb egy stresszhelyzet, annál jobb teljesítmény nyújtunk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A … alvás a mélyebb alvásstádium.",
+        "answers": [
+            {
+                "text": "REM",
+                "correct": false
+            },
+            {
+                "text": "a non-REM",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A szem ideghártyáján … vesznek részt a fény érzékelésében.",
+        "answers": [
+            {
+                "text": "a csapok és a zsákocskák",
+                "correct": false
+            },
+            {
+                "text": "a csapok és a pálcikák",
+                "correct": true
+            },
+            {
+                "text": "a tömlőcskék és a zsákocskák",
+                "correct": false
+            },
+            {
+                "text": "a pálcikák és a tömlőcskék",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Végtagtörés gyanúja esetén …",
+        "answers": [
+            {
+                "text": "a sérült végtagot meg kell mozgatni, ezzel meggyőződve a törésről.",
+                "correct": false
+            },
+            {
+                "text": "a sérült végtagot a talált helyzetben rögzíteni kell.",
+                "correct": true
+            },
+            {
+                "text": "a sérült végtagot helyre kell igazítani és rögzíteni kell.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Külső levegőt lélegezve … felett a hypoxia tünetei: eszméletvesztés, görcsök, halál.",
+        "answers": [
+            {
+                "text": "15000 ft",
+                "correct": false
+            },
+            {
+                "text": "10000 ft",
+                "correct": false
+            },
+            {
+                "text": "30000 ft",
+                "correct": false
+            },
+            {
+                "text": "20000 ft",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A következő felsorolásokban a hypoxia és a szénmonoxid mérgezés néhány tünete szerepel. Melyik pont vonatkozik a szénmonoxid mérgezésre?",
+        "answers": [
+            {
+                "text": "Fejfájás, fokozódó hányinger, szédülés.",
+                "correct": true
+            },
+            {
+                "text": "Izomgörcsök, tudatzavar, halláscsökkenés.",
+                "correct": false
+            },
+            {
+                "text": "Eufória, alkalmazkodási zavar, homályos látás.",
+                "correct": false
+            },
+            {
+                "text": "Fokozott élénkség, a hibák számának növekedése, pontatlanság.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A légzés és a keringés között olyan szoros az összefüggés, hogy egyik a másik megszűnését követően legfeljebb … tud tovább működni.",
+        "answers": [
+            {
+                "text": "1 percig",
+                "correct": false
+            },
+            {
+                "text": "7 percig",
+                "correct": false
+            },
+            {
+                "text": "2-3 percig",
+                "correct": true
+            },
+            {
+                "text": "4 percig",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Hogyan látunk el zúzódást?",
+        "answers": [
+            {
+                "text": "a bőr alatti vérömlenyeket szét kell masszírozni, majd nyomókötést kell alkalmazni.",
+                "correct": false
+            },
+            {
+                "text": "Rugalmas pólyával kössük be a sérült területet, majd sűrűn váltott hideg vizes borogatást alkalmazzunk.",
+                "correct": true
+            },
+            {
+                "text": "A sebet alaposan ki kell mosni, majd be kell jódozni vagy hintőporozni. Ezután steril fedőkötést kell felhelyezni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Ütőeres vérzés esetén …",
+        "answers": [
+            {
+                "text": "a vérző végtagot pl. egy szíjjal el kell szorítani és nyomókötést kell felhelyezni.",
+                "correct": false
+            },
+            {
+                "text": "a vérző végtagot pl. egy szíjjal el kell szorítani és fedőkötést kell felhelyezni.",
+                "correct": false
+            },
+            {
+                "text": "választott helyeken ujjainkkal a vérző ütőeret leszorítva csillapítani kell a vérzést és nyomókötést kell felhelyezni.",
+                "correct": true
+            },
+            {
+                "text": "a vérző végtagot pl. egy szíjjal el kell szorítani és választott helyeken ujjainkkal a vérző ütőeret leszorítva csillapítani kell a vérzést.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "Ha életünkben alvásmegvonásos időszak elé nézünk, akkor azt megelőzően célszerű sokat aludnunk, mert így a szervezet képes az alvást “felhalmozni” a nehéz időszakra.",
+                "correct": false
+            },
+            {
+                "text": "Az alvás alatt a REM alvásstádiumban töltött időt értjük.",
+                "correct": false
+            },
+            {
+                "text": "Ha a circadiam ritmus zavara nem áll fenn, akkor a legsúlyosabb alváshiányban szenvedő szervezet is képes regenerálódni két 9-10 órás teljes alvási periódus után.",
+                "correct": true
+            },
+            {
+                "text": "A pihenés csökkenti az alváshiányt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A repülőgép-vezetőre melyik típusú gyorsulás hat a leginkább?",
+        "answers": [
+            {
+                "text": "A radiális gyorsulás (+Gz).",
+                "correct": true
+            },
+            {
+                "text": "A lineáris gyorsulás (+Gx).",
+                "correct": false
+            },
+            {
+                "text": "Kombinált lineáris és haránt irányú gyorsulás.",
+                "correct": false
+            },
+            {
+                "text": "A haránt irányú gyorsulás (+Gy).",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "Magassági repülés során túlnyomás nélküli kabin esetén a bélgázok miatt a repülőgép-vezető kellemetlen hasi puffadástól szenved. A helyes teednő:",
+        "answers": [
+            {
+                "text": "Oxigént kell lélegezni.",
+                "correct": false
+            },
+            {
+                "text": "Valsalva-manővert kell végezni.",
+                "correct": false
+            },
+            {
+                "text": "Alacsonyabb magasságra kell süllyedni.",
+                "correct": true
+            },
+            {
+                "text": "Nagyobb magasságra kell süllyedni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSÉLETTAN",
+        "question": "A dekompressziós betegséget …",
+        "answers": [
+            {
+                "text": "a hirtelen nyomáscsökkenés váltja ki, mely során a hasüregi gázok kitágulása miatt a felnyomott rekesz akadályozza a légzést.",
+                "correct": false
+            },
+            {
+                "text": "a hirtelen nyomáscsökkenés váltja ki, mely során a vérben nitrogén buborékok szabadulnak fel és nyomást gyakorolnak a környező szövetekre, valamint elzárják a véráram útját.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "A mellkaskompressziót … ütemben kell végezni.",
+        "answers": [
+            {
+                "text": "100-120 kompresszió/perc",
+                "correct": true
+            },
+            {
+                "text": "120-140 kompresszió/perc",
+                "correct": false
+            },
+            {
+                "text": "80-100 kompresszió/perc",
+                "correct": false
+            },
+            {
+                "text": "60-80 kompresszió/perc",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "ELSŐSEGÉLYNYÚJTÁS",
+        "question": "Steril fedőkötés felhelyezése előtt …",
+        "answers": [
+            {
+                "text": "tilos a sebbe bármilyen anyagot beleszórni, beleöntetni.",
+                "correct": true
+            },
+            {
+                "text": "a sebet alaposan ki kell mosni, majd be kell jódozni vagy hintőporozni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A Nap sugárzása …",
+        "answers": [
+            {
+                "text": "melegíti a Föld felszínét, amely azután melegíti a troposzférában a levegőt.",
+                "correct": true
+            },
+            {
+                "text": "közvetlenül melegíti a troposzféra levegőjét.",
+                "correct": false
+            },
+            {
+                "text": "a troposzféra levegőjében a vízgőzt melegíti.",
+                "correct": false
+            },
+            {
+                "text": "ha felhők nincsenek jelen, a troposzféra levegőjét csak közvetlenül (közvetetten nem) melegíti.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Nyáron jegesedés semmilyen körülmények között nem következhet be.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Hogy hívják a troposzféra és a sztratoszféra közötti elválasztó réteget?",
+        "answers": [
+            {
+                "text": "Ionoszféra.",
+                "correct": false
+            },
+            {
+                "text": "Sztratopauza.",
+                "correct": false
+            },
+            {
+                "text": "Tropopauza.",
+                "correct": true
+            },
+            {
+                "text": "Sztratoszféra.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mi a különbség a radiációs és az advektív köd között?",
+        "answers": [
+            {
+                "text": "A radiációs köd a talajfelszín lehűlése miatt keletkezik szélcsendben. Az advektív köd párolgás következtében keletkezik a tenger fölött.",
+                "correct": false
+            },
+            {
+                "text": "A radiációs köd a talajfelszín lehűlése miatt keletkezik éjszaka gyenge szélben, vagy szélcsendben. Az advekciós köd akkor keletkezik, ha meleg nedves levegő áramlik hideg felszín fölé.",
+                "correct": true
+            },
+            {
+                "text": "A radiációs köd az éjszakai lehűlés folytán, az advektív köd pedig a nappali lehűlés folytán jön létre.",
+                "correct": false
+            },
+            {
+                "text": "Radiációs köd csak talajon, advekciós köd pedig csak tengeren képződik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Hogyan mozognak a légtömegek egy hideg okklúziós frontban?",
+        "answers": [
+            {
+                "text": "A hidegfront meleg levegőéke a kevésbé meleg hidegfronti meleg levegőék alá nyomul..",
+                "correct": false
+            },
+            {
+                "text": "A hidegfront meleg levegőéke elválik a földfelszíntől és felfelé halad a melegfront kevésbé meleg felületén.",
+                "correct": false
+            },
+            {
+                "text": "A hidegfront hideg levegőéke a kevésbé hideg melegfronti hideg levegőék alá nyomul.",
+                "correct": true
+            },
+            {
+                "text": "A hidegfront hideg levegőéke kevésbé hideg, mint a melegfront hideg levegőéke, ezért a hidegfront felülete elválik a földfelszíntől és felfelé halad a melegfront felületén.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Milyen repülési feltételek jellemzik a Cirrus felhőket?",
+        "answers": [
+            {
+                "text": "Az átlagos vízszintes látás több mint 1000 m, és nincs jegesedés.",
+                "correct": true
+            },
+            {
+                "text": "Az átlagos vízszintes látás kevesebb, mint 500 m, és gyengétől közepesig intenzitású jegesedés várható.",
+                "correct": false
+            },
+            {
+                "text": "Az átlagos vízszintes látás kevesebb, mint 500 m, és nincs jegesedés.",
+                "correct": false
+            },
+            {
+                "text": "Az átlagos vízszintes látás több mint 1000 m, és gyengétől közepesig intenzitású jegesedés várható.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Melyik rétegbe koncentrálódik a légköri vízgőztartalom legnagyobb része?",
+        "answers": [
+            {
+                "text": "Sztratoszféra.",
+                "correct": false
+            },
+            {
+                "text": "Sztratopauza.",
+                "correct": false
+            },
+            {
+                "text": "Troposzféra",
+                "correct": true
+            },
+            {
+                "text": "Tropopauza.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Minden esetben képződik felhő, köd vagy harmat, ha …",
+        "answers": [
+            {
+                "text": "a relatív nedvesség eléri a 98%-ot.",
+                "correct": false
+            },
+            {
+                "text": "vízgőz van jelen.",
+                "correct": false
+            },
+            {
+                "text": "a hőmérséklet és a harmatpont értéke közel azonos.",
+                "correct": false
+            },
+            {
+                "text": "a vízgőz kicsapódik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az északi félteke közepes szélességein a szél …",
+        "answers": [
+            {
+                "text": "az óramutató járásával megegyezően fúj a ciklonokban és az óramutató járásával ellentétesen az anticiklonokban.",
+                "correct": false
+            },
+            {
+                "text": "az anticiklonokban és a ciklonokban az óramutató járásával megegyezően fúj.",
+                "correct": false
+            },
+            {
+                "text": "az óramutató járásával ellentétesen fúj a ciklonokban és az óramutató járásával megegyezően az anticiklonokban.",
+                "correct": true
+            },
+            {
+                "text": "a magas nyomás felől az alacsony nyomás felé fúj.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A … két-két szemközti alacsony- és magasnyomású képződmény közötti terület.",
+        "answers": [
+            {
+                "text": "nyereg",
+                "correct": true
+            },
+            {
+                "text": "gerinc",
+                "correct": false
+            },
+            {
+                "text": "ciklon",
+                "correct": false
+            },
+            {
+                "text": "anticiklon",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A szelet előidézi …",
+        "answers": [
+            {
+                "text": "a Föld forgása.",
+                "correct": false
+            },
+            {
+                "text": "a vízszintesben jelentkező nyomáskülönbség.",
+                "correct": true
+            },
+            {
+                "text": "a frontok mozgása.",
+                "correct": false
+            },
+            {
+                "text": "a talaj és a levegő közötti súrlódás.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Ha a látástávolság … között van, akkor párásságról, ha … alatt van, akkor ködről beszélünk.",
+        "answers": [
+            {
+                "text": "1-5 km – 1 km",
+                "correct": true
+            },
+            {
+                "text": "0,5-5 km – 500 m",
+                "correct": false
+            },
+            {
+                "text": "5-10 km – 5 km",
+                "correct": false
+            },
+            {
+                "text": "1-10 km – 1 km",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az advekció …",
+        "answers": [
+            {
+                "text": "a levegő horizontális mozgása.",
+                "correct": true
+            },
+            {
+                "text": "a levegő vertikális mozgása.",
+                "correct": false
+            },
+            {
+                "text": "azonos a konvekcióval.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Ha … , akkor nedves légrészecskére nézve a légoszlop instabil.",
+        "answers": [
+            {
+                "text": "γn < γ",
+                "correct": true
+            },
+            {
+                "text": "γn > γ",
+                "correct": false
+            },
+            {
+                "text": "γn = γ",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mely pontokat kötik össze az izobárok az időjárási talajtérképen?",
+        "answers": [
+            {
+                "text": "Azokat a pontokat, amelyekben egy adott szintre vonatkozó léghőmérséklet-értékek azonosak.",
+                "correct": false
+            },
+            {
+                "text": "Azokat a pontokat, amelyekben egy adott szintre vonatkozó légnyomás-értékek azonosak.",
+                "correct": true
+            },
+            {
+                "text": "Az azonos QNH pontjait.",
+                "correct": false
+            },
+            {
+                "text": "Azokat a pontokat, amelyekben egy adott szintre vonatkozó szélsebesség-értékek azonosak.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mi a magasszintű felhők legfőbb alkotórésze?",
+        "answers": [
+            {
+                "text": "Túlhűlt vízcseppek.",
+                "correct": false
+            },
+            {
+                "text": "Vízgőz.",
+                "correct": false
+            },
+            {
+                "text": "Jégkristályok.",
+                "correct": true
+            },
+            {
+                "text": "Vízcseppek.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Dérszerű lerakódás keletkezik a repülőgépen, ha …",
+        "answers": [
+            {
+                "text": "a repülőgép olyan felhőbe repül, amelynek hőmérséklete melegebb, mint a környező levegőé.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép 0 fok alatti felhőmentes levegőből melegebb, nedves levegőbe repül.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép 0 fok alatti felhőmentes levegőből hidegebb levegőbe repül.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép hirtelen 0 fok alatti felhőbe repül.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az alább felsoroltak közül nem tekintjük alapgáznak …",
+        "answers": [
+            {
+                "text": "a vízgőzt.",
+                "correct": true
+            },
+            {
+                "text": "a nitrogént.",
+                "correct": false
+            },
+            {
+                "text": "az oxigént.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Hogyan mozognak a légtömegek egy melegfrontban?",
+        "answers": [
+            {
+                "text": "A hideg légtömeg a meleg légtömeg alá csúszik.",
+                "correct": false
+            },
+            {
+                "text": "A meleg légtömeg felsiklik a hideg légtömegre.",
+                "correct": true
+            },
+            {
+                "text": "A meleg légtömeg a hideg légtömeg alá csúszik.",
+                "correct": false
+            },
+            {
+                "text": "A hideg légtömeg felsiklik a meleg légtömegen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A következő meghatározások közül melyik írja le a microburst jelenséget?",
+        "answers": [
+            {
+                "text": "Nagy sebességű levegő leáramlás, melynek a hőmérséklete alacsonyabb a környező levegőénél.",
+                "correct": true
+            },
+            {
+                "text": "Nagy sebességű levegő leáramlás, melynek a hőmérséklete magasabb a környező levegőénél.",
+                "correct": false
+            },
+            {
+                "text": "Kis kiterjedésű alacsony nyomású terület, ahol igen erős a szél sebessége.",
+                "correct": false
+            },
+            {
+                "text": "Extrém erős széllökés, mely trópusi forgóviharral kapcsolatos.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A QNH mindig nagyobb a QFE-nél",
+                "correct": false
+            },
+            {
+                "text": "A QNH lehet egyenlő a QFE-vel.",
+                "correct": true
+            },
+            {
+                "text": "A QNH mindig egyenlő a QFE-vel.",
+                "correct": false
+            },
+            {
+                "text": "A QNH mindig kisebb a QFE-nél.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mely erők tartanak egyensúlyt a geosztrofikus szélben?",
+        "answers": [
+            {
+                "text": "Nyomásgradiens erő, centrifugális erő, súrlódási erő.",
+                "correct": false
+            },
+            {
+                "text": "Nyomásgradiens erő, Coriolis erő, centrifugális erő.",
+                "correct": false
+            },
+            {
+                "text": "Nyomásgradiens erő, Coriolis erő, súrlódási erő.",
+                "correct": false
+            },
+            {
+                "text": "Nyomásgradiens erő, Coriolis erő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az izotermia olyan légréteg, amelyben a hőmérséklet …",
+        "answers": [
+            {
+                "text": "csökken a magassággal, állandó arány szerint.",
+                "correct": false
+            },
+            {
+                "text": "állandó marad a magasság változásával.",
+                "correct": true
+            },
+            {
+                "text": "nő a magassággal.",
+                "correct": false
+            },
+            {
+                "text": "nő a magassággal, állandó arány szerint.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az alábbiak közül melyik felhő terjed ki több magassági szintre?",
+        "answers": [
+            {
+                "text": "Stratus.",
+                "correct": false
+            },
+            {
+                "text": "Cirrus.",
+                "correct": false
+            },
+            {
+                "text": "Altocumulus.",
+                "correct": false
+            },
+            {
+                "text": "Nimbostratus.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Melyik állítás igaz a dérszerű lerakódásra?",
+        "answers": [
+            {
+                "text": "A jégtelenítő berendezéssel nehezen választható le.",
+                "correct": false
+            },
+            {
+                "text": "Durva, matt, kristályos szerkezetű jegesedés.",
+                "correct": false
+            },
+            {
+                "text": "A fellépő veszély jelentős és hosszan tartó.",
+                "correct": false
+            },
+            {
+                "text": "Keletkezéséhez felhőzet, illetve csapadék jelenléte nem szükséges.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Száraz légköri homálynak nevezzük azt a jelenséget, amikor a látástávolság… lecsökken.",
+        "answers": [
+            {
+                "text": "porszerű részecskék jelenléte következtében",
+                "correct": true
+            },
+            {
+                "text": "gyenge szitálás következtében",
+                "correct": false
+            },
+            {
+                "text": "apró vízcseppek jelenléte következtében",
+                "correct": false
+            },
+            {
+                "text": "hidegfront következtében",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A zivatarral kapcsolatos szélnyírás a zivatarfelhő melyik részén a legveszélyesebb?",
+        "answers": [
+            {
+                "text": "A zivatarcella délnyugati oldalán.",
+                "correct": false
+            },
+            {
+                "text": "A zivatarcella előtt, a gust front közelében.",
+                "correct": true
+            },
+            {
+                "text": "Közvetlenül a zivatar cella alatt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az 500 hPa-s szint átlagosan melyik FL-nek felel meg?",
+        "answers": [
+            {
+                "text": "FL180.",
+                "correct": true
+            },
+            {
+                "text": "FL050.",
+                "correct": false
+            },
+            {
+                "text": "FL100.",
+                "correct": false
+            },
+            {
+                "text": "FL240.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Melyik állítás nem igaz a tiszta jegesedésre?",
+        "answers": [
+            {
+                "text": "A jégtelenítő berendezéssel könnyen leválasztható.",
+                "correct": true
+            },
+            {
+                "text": "Nagyobb méretű felhőelemek, illetve csapadékelemek okozzák.",
+                "correct": false
+            },
+            {
+                "text": "Sima, átlátszó, jégpáncélszerű jegesedés.",
+                "correct": false
+            },
+            {
+                "text": "Az aerodinamikai tulajdonságokban jelentős romlás áll be.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Milyen a levegő áramlásának iránya a downburst-ben a talajon?",
+        "answers": [
+            {
+                "text": "Felfelé irányuló szívóhatás.",
+                "correct": false
+            },
+            {
+                "text": "Szétáramlás.",
+                "correct": true
+            },
+            {
+                "text": "Összeáramlás.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A … egy vagy több zárt izobár, melynek a középpontjában a nyomás alacsony.",
+        "answers": [
+            {
+                "text": "gerinc",
+                "correct": false
+            },
+            {
+                "text": "nyereg",
+                "correct": false
+            },
+            {
+                "text": "anticiklon",
+                "correct": false
+            },
+            {
+                "text": "ciklon",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Késő délután a hőmérséklet 12°C, a harmatpont 5°C. Hogyan kell változnia a hőmérsékletnek, hogy az éjszaka folyamán meginduljon a kicsapódás?",
+        "answers": [
+            {
+                "text": "5°C-kal kell növekednie.",
+                "correct": false
+            },
+            {
+                "text": "7°C-kal kell csökkennie.",
+                "correct": true
+            },
+            {
+                "text": "5°C-kal kell csökkennie.",
+                "correct": false
+            },
+            {
+                "text": "7°C-ra kell csökkennie.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Ha … , akkor száraz légrészecskére nézve a légoszlop stabilis.",
+        "answers": [
+            {
+                "text": "γsz > γ",
+                "correct": true
+            },
+            {
+                "text": "γsz < γ",
+                "correct": false
+            },
+            {
+                "text": "γsz = γ",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mit jelent a beágyazott zivatar kifejezés?",
+        "answers": [
+            {
+                "text": "Zivatar felhő más típusú felhőkkel együtt figyelhető meg.",
+                "correct": true
+            },
+            {
+                "text": "Erős zivatar ágyazódott egy squalle line-ba.",
+                "correct": false
+            },
+            {
+                "text": "Zivatart figyeltek meg erősen stabilis légtömegben.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az inverzió olyan légréteg, amelyben a hőmérséklet …",
+        "answers": [
+            {
+                "text": "állandó marad a magasság változásával.",
+                "correct": false
+            },
+            {
+                "text": "nő a magassággal.",
+                "correct": true
+            },
+            {
+                "text": "1°C/100m-nél nagyobb mértékben nő a magassággal.",
+                "correct": false
+            },
+            {
+                "text": "1°C/100m-nél nagyobb mértékben csökken a magassággal.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az erősen fejlett Cumulus felhők jelzik …",
+        "answers": [
+            {
+                "text": "a gyenge látást a talajon.",
+                "correct": false
+            },
+            {
+                "text": "az atmoszféra instabilitását.",
+                "correct": true
+            },
+            {
+                "text": "a meleg levegő jelenlétét a magasban.",
+                "correct": false
+            },
+            {
+                "text": "az alacsony szintű inverzió jelenlétét.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Közelítőleg milyen magas a tropopauza az Egyenlítő környékén?",
+        "answers": [
+            {
+                "text": "8 km.",
+                "correct": false
+            },
+            {
+                "text": "16 km.",
+                "correct": true
+            },
+            {
+                "text": "11 km.",
+                "correct": false
+            },
+            {
+                "text": "40 km.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A talajfelszín felmelegedése … következménye.",
+        "answers": [
+            {
+                "text": "kondenzáció",
+                "correct": false
+            },
+            {
+                "text": "besugárzás",
+                "correct": true
+            },
+            {
+                "text": "advekció",
+                "correct": false
+            },
+            {
+                "text": "konvekció",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az alábbiak közül mely felhőtípushoz kapcsolódnak nagy valószínűséggel záporok?",
+        "answers": [
+            {
+                "text": "Stratocumulus.",
+                "correct": false
+            },
+            {
+                "text": "Stratus.",
+                "correct": false
+            },
+            {
+                "text": "Cumulonimbus.",
+                "correct": true
+            },
+            {
+                "text": "Nimbostratus.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A zivatar fejlődési stádiumai közül melyikre jellemző a kizárólagos leáramlás?",
+        "answers": [
+            {
+                "text": "Cu állapot.",
+                "correct": false
+            },
+            {
+                "text": "Feloszlási szakasz.",
+                "correct": true
+            },
+            {
+                "text": "Kifejlett állapot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Melyek a zúzmarás jéglerakódás jellemzői?",
+        "answers": [
+            {
+                "text": "Átlátszó, jégpáncélszerű.",
+                "correct": false
+            },
+            {
+                "text": "Kristályos szerkezetű, fehér színű.",
+                "correct": true
+            },
+            {
+                "text": "Vékony, átlátszó réteg.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A … hőmérsékleti gradiens kb. 1°C/100 m.",
+        "answers": [
+            {
+                "text": "nedves adiabatikus",
+                "correct": false
+            },
+            {
+                "text": "száraz és a nedves adiabatikus",
+                "correct": false
+            },
+            {
+                "text": "lokális.",
+                "correct": false
+            },
+            {
+                "text": "száraz adiabatikus",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Milyen időjárási körülményeket várhatunk egy instabilitási vonalon?",
+        "answers": [
+            {
+                "text": "Zivatarokat.",
+                "correct": true
+            },
+            {
+                "text": "Ködöt.",
+                "correct": false
+            },
+            {
+                "text": "Intenzív, folyamatos esőt.",
+                "correct": false
+            },
+            {
+                "text": "Erős forgószeleket, melyek felnyúlnak a magasabb szintekig.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Hogyan mozognak a légtömegek egy hidegfrontban?",
+        "answers": [
+            {
+                "text": "A meleg légtömeg a hideg légtömeg alá hatol.",
+                "correct": false
+            },
+            {
+                "text": "A hideg légtömeg a meleg légtömeg alá hatol.",
+                "correct": true
+            },
+            {
+                "text": "A hideg légtömeg a meleg légtömeg fölé siklik.",
+                "correct": false
+            },
+            {
+                "text": "A meleg légtömeg felsiklik a hideg légtömegen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Melyik kijelentés igaz a légtömeg harmatpontjára vonatkoztatva?",
+        "answers": [
+            {
+                "text": "A légtömeg relatív nedvességének meghatározására alkalmas, ha a léghőmérsékletet nem ismerjük.",
+                "correct": false
+            },
+            {
+                "text": "A hőmérsékletnél alacsonyabb vagy vele egyenlő lehet.",
+                "correct": true
+            },
+            {
+                "text": "A légtömeg relatív nedvességének meghatározására alkalmas, ha ismerjük a légnyomást.",
+                "correct": false
+            },
+            {
+                "text": "A hőmérsékletnél lehet magasabb.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Az alábbiak közül melyik folyamat vezethet Cu és Cb felhők kialakulásához?",
+        "answers": [
+            {
+                "text": "Konvekció.",
+                "correct": true
+            },
+            {
+                "text": "Frontális emelés stabilis légrétegben.",
+                "correct": false
+            },
+            {
+                "text": "Radiáció.",
+                "correct": false
+            },
+            {
+                "text": "Advekció.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A konvekció során kialakuló turbulenciát …",
+        "answers": [
+            {
+                "text": "termikus turbulenciának nevezzük.",
+                "correct": true
+            },
+            {
+                "text": "dinamikus turbulenciának nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "súrlódási turbulenciának nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "hegyvidéki turbulenciának nevezzük.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mennyi az átlagos hőmérsékleti gradiens a troposzférában az ICAO standard légkör (NEL) szerint számolva?",
+        "answers": [
+            {
+                "text": "3°C/100m",
+                "correct": false
+            },
+            {
+                "text": "0,56°C/100m",
+                "correct": false
+            },
+            {
+                "text": "0,65°C/100m",
+                "correct": true
+            },
+            {
+                "text": "1°C/100m.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A NEL-re vonatkozóan melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A közepes tengerszinten 15°C a hőmérséklet és 1013,25 hPa a légnyomás.",
+                "correct": true
+            },
+            {
+                "text": "A közepes tengerszinten 15°C a hőmérséklet és a hőmérséklet-csökkenés a magassággal 0,56°C/100 m.",
+                "correct": false
+            },
+            {
+                "text": "A közepes tengerszinten 1013,25 hPa a légnyomás és a hőmérséklet-emelkedés a magassággal 0,65°C/100 m.",
+                "correct": false
+            },
+            {
+                "text": "A közepes tengerszinten 10°C a hőmérséklet és a hőmérséklet-csökkenés a magassággal 1°C/100 m",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Milyen kiváltó okai vannak a zivatarok kialakulásának?",
+        "answers": [
+            {
+                "text": "Elegendő nedvességtartalom + feláramlás + labilitás.",
+                "correct": true
+            },
+            {
+                "text": "Cu felhőzet + feláramlás.",
+                "correct": false
+            },
+            {
+                "text": "Elegendő nedvességtartalom + feláramlás.",
+                "correct": false
+            },
+            {
+                "text": "Cu felhőzet + nedvességtartalom + inverzió.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mik a kisugárzási ködök keletkezési feltételei?",
+        "answers": [
+            {
+                "text": "Erős talajszél, erős stabilitás, felhőtlen ég, hófelszín.",
+                "correct": false
+            },
+            {
+                "text": "Erős stabilitás, nagy relatív nedvesség, gyenge talajszél, felhőtlen ég.",
+                "correct": true
+            },
+            {
+                "text": "Nagy relatív nedvesség, erős talajszél, erős labilitás, hófelszín.",
+                "correct": false
+            },
+            {
+                "text": "Gyenge talajszél, nagy relatív nedvesség, zárt felhőzet, negatív léghőmérséklet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A zivatarok Cu állapotára melyik jelenség a jellemző?",
+        "answers": [
+            {
+                "text": "Elérheti a sztratoszféra alsó részét.",
+                "correct": false
+            },
+            {
+                "text": "A felhőben csak feláramlás tapasztalható.",
+                "correct": true
+            },
+            {
+                "text": "Gyakori felhőn belüli villámlás.",
+                "correct": false
+            },
+            {
+                "text": "A talajon csapadékhullás kezdődik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "A túlhűlt vízcsepp …",
+        "answers": [
+            {
+                "text": "fagypont alatti hőmérséklete ellenére folyékony halmazállapotú.",
+                "correct": true
+            },
+            {
+                "text": "olyan vízcsepp, amelynek túlnyomórésze fagyott.",
+                "correct": false
+            },
+            {
+                "text": "olyan vízcsepp, amely esése során megfagyott.",
+                "correct": false
+            },
+            {
+                "text": "apró vízrészecske, melynek hőmérséklete -50°C alatt van.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mi a szélnyírás kialakulásának feltétele a légkörben?",
+        "answers": [
+            {
+                "text": "Bárhol a légkörben kialakulhat, ha a szélvektor gradiense nagy.",
+                "correct": true
+            },
+            {
+                "text": "Zivatarok környezetében alakul ki.",
+                "correct": false
+            },
+            {
+                "text": "Csak alacsony szinteken alakul ki, ha nagy a hőmérséklet horizontális gradiense.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Mikor indul meg a csapadékhullás a felhőkből?",
+        "answers": [
+            {
+                "text": "Ha a súlya elég nagy ahhoz, hogy a felhőt létrehozó felszálló légmozgást legyőzze.",
+                "correct": true
+            },
+            {
+                "text": "Ha a felhő elérte a 2000 m-es magasságot.",
+                "correct": false
+            },
+            {
+                "text": "Ha a levegő túltelítetté válik a felhőben.",
+                "correct": false
+            },
+            {
+                "text": "Ha egy átlagos méretű felhőelem a százezerszeresére növekedett.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "METEROLÓGIA",
+        "question": "Minél nagyobb a nyomásgradiens …",
+        "answers": [
+            {
+                "text": "az izobárok annál közelebb vannak egymáshoz és annál erősebb a szél.",
+                "correct": true
+            },
+            {
+                "text": "az izobárok annál távolabb vannak egymástól és annál gyengébb a szél.",
+                "correct": false
+            },
+            {
+                "text": "az izobárok annál közelebb vannak egymáshoz és annál alacsonyabb a hőmérséklet.",
+                "correct": false
+            },
+            {
+                "text": "az izobárok annál távolabb vannak egymástól és annál magasabb a hőmérséklet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A mágneses géptengely-irányszög és a tényleges géptengely-irányszög közötti eltérést … okozza.",
+        "answers": [
+            {
+                "text": "a deviáció",
+                "correct": false
+            },
+            {
+                "text": "az inklináció",
+                "correct": false
+            },
+            {
+                "text": "a deklináció",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Ökölszabályt alkalmazva QNH 1020 esetén QNH 3000 láb mekkora nyomásmagasságnak felel meg?",
+        "answers": [
+            {
+                "text": "3290 láb",
+                "correct": false
+            },
+            {
+                "text": "3210 láb",
+                "correct": false
+            },
+            {
+                "text": "2790 láb",
+                "correct": true
+            },
+            {
+                "text": "3430 láb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Elméletileg melyik esetben teszi meg a legnagyobb utat a repülőgép?",
+        "answers": [
+            {
+                "text": "Ha uticéljának eléréséhez egy adóállomásra vezető rádió-irányszöget követ.",
+                "correct": false
+            },
+            {
+                "text": "A megtett út mindhárom esetben azonos.",
+                "correct": false
+            },
+            {
+                "text": "Ha uticélját látással megirányozza.",
+                "correct": false
+            },
+            {
+                "text": "Ha uticélját a mágneses iránytű segítségével éri el.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A gyakorlati navigáció szempontjából a Föld alakja …",
+        "answers": [
+            {
+                "text": "gömb.",
+                "correct": true
+            },
+            {
+                "text": "forgási ellipszoid.",
+                "correct": false
+            },
+            {
+                "text": "geoid.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy NOTAM B) adateleme: 1001040700, C) adateleme pedig: 1001221500. Érvényes-e a NOTAM 2010. február 1-én?",
+        "answers": [
+            {
+                "text": "Nem.",
+                "correct": true
+            },
+            {
+                "text": "Igen.",
+                "correct": false
+            }
+        ],
+        "hint": "A NOTAM-ok (Notice to Airmen) különböző típusú értesítéseket tartalmazhatnak, amelyek között a legfontosabbak a következők:<br><br><br><br>FDC NOTAM: Az Amerikai Szövetségi Légügyi Hatóság (FAA) által kiadott értesítések, amelyek az ország egész területén érvényesek. Ezek általában olyan információkat tartalmaznak, mint a légi tér zárlatai, a katonai gyakorlatok és az átmeneti légi navigációs segédletek működési zavarai.<br><br>NOTAM-D: Az USA-beli katonai légi erők által kiadott értesítések, amelyek a repülőterek és a katonai légtér működésével kapcsolatos információkat tartalmaznak.<br><br>NOTAMN: Nemzeti fontosságú értesítések, amelyek a nemzetbiztonságra és a repülésbiztonságra vonatkozó fontos információkat tartalmazzák.<br><br>NOTAMR: Az átmeneti változásokkal, zárlatokkal vagy korlátozásokkal kapcsolatos értesítések, amelyek csak egy bizonyos időszakban érvényesek.<br><br>NOTAMC: A hosszú távú vagy állandó változásokkal kapcsolatos értesítések, amelyek hosszabb ideig érvényesek és általában az állandó repülőterek és légi navigációs segédletek működésével kapcsolatos információkat tartalmazzák.<br><br>SNOWTAM: A hóeltakarítással és síkosságmentesítéssel kapcsolatos értesítések, amelyek a téli időszakban fontosak lehetnek a repülőgépek biztonságos működése szempontjából.<br><br>ASHTAM: A vulkáni hamu elterjedésével kapcsolatos értesítések, amelyek akkor jelentek meg, amikor a vulkánkitörések vagy más geológiai események hatással lehetnek a repülés biztonságára.<br><br>Ezenkívül vannak egyéb speciális NOTAM-ok, amelyek egy adott ország vagy régió légiközlekedési hatóságai által adhatók ki a repülési biztonság és hatékonyság érdekében."
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Az útvonal-ellenőrzésen 20 NM megtétele után 3 NM oldaleltérést tapasztalunk. Mennyi az oldaleltérés szöge az 1:60-as szabályt alkalmazva?",
+        "answers": [
+            {
+                "text": "2°",
+                "correct": false
+            },
+            {
+                "text": "3°",
+                "correct": false
+            },
+            {
+                "text": "6°",
+                "correct": false
+            },
+            {
+                "text": "9°",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A repülőgép haladási iránya és a mágneses észak között adódó szög …",
+        "answers": [
+            {
+                "text": "a mágneses útirányszög.",
+                "correct": true
+            },
+            {
+                "text": "a tényleges géptengely-irányszög.",
+                "correct": false
+            },
+            {
+                "text": "a tényleges útirányszög.",
+                "correct": false
+            },
+            {
+                "text": "a mágneses géptengely-irányszög.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A … rendszer működése a fáziskülönbség mérésén alapszik.",
+        "answers": [
+            {
+                "text": "A VDF",
+                "correct": false
+            },
+            {
+                "text": "A DME",
+                "correct": false
+            },
+            {
+                "text": "Az NDB",
+                "correct": false
+            },
+            {
+                "text": "A VOR",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A léginavigáció szempontjából elsődleges követelmény, hogy a térkép … legyen.",
+        "answers": [
+            {
+                "text": "szögtartó és hossztartó",
+                "correct": false
+            },
+            {
+                "text": "hossztartó",
+                "correct": false
+            },
+            {
+                "text": "szögtartó, hossztartó és területtartó",
+                "correct": false
+            },
+            {
+                "text": "szögtartó",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Hogyan jelölik az érvénytelenítő NOTAM-ot?",
+        "answers": [
+            {
+                "text": "NOTAMC",
+                "correct": true
+            },
+            {
+                "text": "NOTAMR",
+                "correct": false
+            },
+            {
+                "text": "NOMAMN",
+                "correct": false
+            }
+        ],
+        "hint": "A NOTAM-ok (Notice to Airmen) különböző típusú értesítéseket tartalmazhatnak, amelyek között a legfontosabbak a következők:<br><br><br><br>FDC NOTAM: Az Amerikai Szövetségi Légügyi Hatóság (FAA) által kiadott értesítések, amelyek az ország egész területén érvényesek. Ezek általában olyan információkat tartalmaznak, mint a légi tér zárlatai, a katonai gyakorlatok és az átmeneti légi navigációs segédletek működési zavarai.<br><br>NOTAM-D: Az USA-beli katonai légi erők által kiadott értesítések, amelyek a repülőterek és a katonai légtér működésével kapcsolatos információkat tartalmaznak.<br><br>NOTAMN: Nemzeti fontosságú értesítések, amelyek a nemzetbiztonságra és a repülésbiztonságra vonatkozó fontos információkat tartalmazzák.<br><br>NOTAMR: Az átmeneti változásokkal, zárlatokkal vagy korlátozásokkal kapcsolatos értesítések, amelyek csak egy bizonyos időszakban érvényesek.<br><br>NOTAMC: A hosszú távú vagy állandó változásokkal kapcsolatos értesítések, amelyek hosszabb ideig érvényesek és általában az állandó repülőterek és légi navigációs segédletek működésével kapcsolatos információkat tartalmazzák.<br><br>SNOWTAM: A hóeltakarítással és síkosságmentesítéssel kapcsolatos értesítések, amelyek a téli időszakban fontosak lehetnek a repülőgépek biztonságos működése szempontjából.<br><br>ASHTAM: A vulkáni hamu elterjedésével kapcsolatos értesítések, amelyek akkor jelentek meg, amikor a vulkánkitörések vagy más geológiai események hatással lehetnek a repülés biztonságára.<br><br>Ezenkívül vannak egyéb speciális NOTAM-ok, amelyek egy adott ország vagy régió légiközlekedési hatóságai által adhatók ki a repülési biztonság és hatékonyság érdekében."
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A földgömb felületén a Föld középpontját magukba foglaló síkokkal kimetszett köröket … nevezzük.",
+        "answers": [
+            {
+                "text": "nagyköröknek",
+                "correct": true
+            },
+            {
+                "text": "hosszúsági köröknek",
+                "correct": false
+            },
+            {
+                "text": "kisköröknek",
+                "correct": false
+            },
+            {
+                "text": "szélességi köröknek",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Nyári időszámításkor Magyarországon a helyi idő …, téli időszámítás esetén …",
+        "answers": [
+            {
+                "text": "CET + 2 – CET + 1",
+                "correct": false
+            },
+            {
+                "text": "UTC + 2 – UTC + 1",
+                "correct": true
+            },
+            {
+                "text": "CET + 1 – CET + 2",
+                "correct": false
+            },
+            {
+                "text": "UTC + 1 – UTC + 2",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A VFR repülések során milyen esetben használhatunk elsődleges navigációs forrásként GPS készüléket?",
+        "answers": [
+            {
+                "text": "Minden körülmények között.",
+                "correct": false
+            },
+            {
+                "text": "Ha a GPS készülék IFR-engedélyezett.",
+                "correct": false
+            },
+            {
+                "text": "Semmilyen körülmények között.",
+                "correct": true
+            },
+            {
+                "text": "Ha a GPS készülék és a repülőgép IFR-engedélyezett.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy útvonalszakasz tényleges útirányszöge 170°. A deklináció értéke 2° nyugati. A szél iránya 240° és a számítások alapján 7°-kal téríti el a repülőgépet. A deviáció 1° keleti. Hány fok lesz az iránytűirányszög?",
+        "answers": [
+            {
+                "text": "162°",
+                "correct": false
+            },
+            {
+                "text": "176°",
+                "correct": false
+            },
+            {
+                "text": "178°",
+                "correct": true
+            },
+            {
+                "text": "180°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy útvonalszakasz tényleges útirányszöge 310°. A deklináció értéke 3° és keleti. A deviáció 2° nyugati. Hány fok lesz az iránytűirányszög?",
+        "answers": [
+            {
+                "text": "305 °",
+                "correct": false
+            },
+            {
+                "text": "315°",
+                "correct": false
+            },
+            {
+                "text": "309°",
+                "correct": true
+            },
+            {
+                "text": "311°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Minimálisan hány műholdra való rálátás szükséges a három dimenziós műholdas helymeghatározáshoz működéséhez?",
+        "answers": [
+            {
+                "text": "6",
+                "correct": false
+            },
+            {
+                "text": "4",
+                "correct": true
+            },
+            {
+                "text": "3",
+                "correct": false
+            },
+            {
+                "text": "7",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy repülőgép a VOR adó 124-es radiálján van és 300° mágneses irányszögön halad. Az OBS beállítása 300°. Mit mutat a CDI?",
+        "answers": [
+            {
+                "text": "A TO/FROM zászló jelzése: TO, a pálcika egy ponttal jobbra tér ki.",
+                "correct": false
+            },
+            {
+                "text": "A TO/FROM zászló jelzése: FROM, a pálcika egy ponttal balra tér ki.",
+                "correct": false
+            },
+            {
+                "text": "A TO/FROM zászló jelzése: FROM, a pálcika két ponttal balra tér ki.",
+                "correct": false
+            },
+            {
+                "text": "A TO/FROM zászló jelzése: TO, a pálcika két ponttal jobbra tér ki.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A rádióállomáshoz vezető mágneses irányszög a …",
+        "answers": [
+            {
+                "text": "QDM",
+                "correct": true
+            },
+            {
+                "text": "QDR",
+                "correct": false
+            },
+            {
+                "text": "QUJ",
+                "correct": false
+            },
+            {
+                "text": "QTE",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Ha látással megirányozunk egy tereptárgyat, akkor … repülünk.",
+        "answers": [
+            {
+                "text": "orthodromán",
+                "correct": true
+            },
+            {
+                "text": "loxodromán",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A … rendszerben a földi állomás méri az állomás és a repülőgép közötti rádióirányszöget.",
+        "answers": [
+            {
+                "text": "A DME",
+                "correct": false
+            },
+            {
+                "text": "A VOR",
+                "correct": false
+            },
+            {
+                "text": "Az NDB",
+                "correct": false
+            },
+            {
+                "text": "A VDF",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy útvonalszakasz hossza 80 NM. Az útvonalszakasz 1/4-nél 2 NM oldaleltérést tapasztalunk és a kurzushoz az útvonalszakasz végpontján szeretnénk csatlakozni. Az 1:60-as szabályt alkalmazva mennyi az irányhelyesbítés szöge?",
+        "answers": [
+            {
+                "text": "8°",
+                "correct": true
+            },
+            {
+                "text": "4°",
+                "correct": false
+            },
+            {
+                "text": "2°",
+                "correct": false
+            },
+            {
+                "text": "6°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A magyarországi VFR útvonalrepülésekhez … használjuk.",
+        "answers": [
+            {
+                "text": "az ICAO 1:1 000 000-s légiforgalmi térképet",
+                "correct": false
+            },
+            {
+                "text": "az ICAO útvonaltérképet",
+                "correct": false
+            },
+            {
+                "text": "az ICAO 1:500 000-es légiforgalmi térképet",
+                "correct": true
+            },
+            {
+                "text": "az ICAO kis méretarányú légiforgalmi navigációs térképet",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A CDI (OBI) és a HSI az alábbiak közül a … rendszerhez tartozó kijelző.",
+        "answers": [
+            {
+                "text": "VDF",
+                "correct": false
+            },
+            {
+                "text": "NDB",
+                "correct": false
+            },
+            {
+                "text": "VOR",
+                "correct": true
+            },
+            {
+                "text": "DME",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy útvonal lerepülésének teljes számított ideje 1 óra 27′. Navigációs tartaléknak 45 perc tüzelőanyagot kell vételeznünk. A repülőgép fogyasztása 5 US gallon/óra. Hány gallon a teljes tüzelőanyag-szükséglet?",
+        "answers": [
+            {
+                "text": "11 US gallon",
+                "correct": true
+            },
+            {
+                "text": "10,6 US gallon",
+                "correct": false
+            },
+            {
+                "text": "3,5 US gallon",
+                "correct": false
+            },
+            {
+                "text": "12,6 US gallon",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A … rendszerben a keret- és a szálantenna által vett összegzett jelek erőssége szerint történik az iránymeghatározás.",
+        "answers": [
+            {
+                "text": "Az NDB",
+                "correct": true
+            },
+            {
+                "text": "A VDF",
+                "correct": false
+            },
+            {
+                "text": "A VOR",
+                "correct": false
+            },
+            {
+                "text": "A DME",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Az RBI 040° mágneses irányszöget mutat A mágneses géptengelyirányszög 330°. Mennyi a QDM?",
+        "answers": [
+            {
+                "text": "290°",
+                "correct": false
+            },
+            {
+                "text": "220°",
+                "correct": false
+            },
+            {
+                "text": "040°",
+                "correct": false
+            },
+            {
+                "text": "010°",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Ökölszabályt alkalmazva NEL körülmények között 5000 láb magasságon 100 kt CAS sebesség mekkora TAS sebességnek felel meg?",
+        "answers": [
+            {
+                "text": "110 kt",
+                "correct": true
+            },
+            {
+                "text": "105 kt",
+                "correct": false
+            },
+            {
+                "text": "115 kt",
+                "correct": false
+            },
+            {
+                "text": "102 kt",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A QUJ és QDM, valamint a QTE és a QDR között … teremt kapcsolatot..",
+        "answers": [
+            {
+                "text": "a rádiódeviáció",
+                "correct": false
+            },
+            {
+                "text": "a deviáció",
+                "correct": false
+            },
+            {
+                "text": "az inklináció",
+                "correct": false
+            },
+            {
+                "text": "a deklináció",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A … metszősíkja párhuzamos az egyenlítővel, azaz merőleges a Föld tengelyére.",
+        "answers": [
+            {
+                "text": "kiskörök",
+                "correct": false
+            },
+            {
+                "text": "hosszúsági körök",
+                "correct": false
+            },
+            {
+                "text": "szélességi körök",
+                "correct": true
+            },
+            {
+                "text": "nagykörök",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A pörgettyűs iránytartóval állandó irányt tartva … repülünk.",
+        "answers": [
+            {
+                "text": "orthodromán",
+                "correct": true
+            },
+            {
+                "text": "loxodromán",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A földrajzi észak és a légijármű haladási iránya közötti szög …",
+        "answers": [
+            {
+                "text": "a mágneses útirányszög.",
+                "correct": false
+            },
+            {
+                "text": "a tényleges útirányszög.",
+                "correct": true
+            },
+            {
+                "text": "a tényleges géptengely-irányszög.",
+                "correct": false
+            },
+            {
+                "text": "a mágneses géptengely-irányszög.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A mágneses géptengely-irányszög és az iránytű géptengely-irányszög közötti eltérést … okozza.",
+        "answers": [
+            {
+                "text": "a deklináció",
+                "correct": false
+            },
+            {
+                "text": "a deviáció",
+                "correct": true
+            },
+            {
+                "text": "az inklináció",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Az RMI …",
+        "answers": [
+            {
+                "text": "az NDB- és a VOR-rendszer közös kijelzője is lehet.",
+                "correct": true
+            },
+            {
+                "text": "kizárólag a VOR-rendszerben üzemel.",
+                "correct": false
+            },
+            {
+                "text": "kizárólag az NDB-rendszerben üzemel.",
+                "correct": false
+            },
+            {
+                "text": "kizárólag a DME-rendszer kijelzője.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A rádióállomástól mért mágneses irányszög …",
+        "answers": [
+            {
+                "text": "QDM",
+                "correct": false
+            },
+            {
+                "text": "QDR",
+                "correct": true
+            },
+            {
+                "text": "QUJ",
+                "correct": false
+            },
+            {
+                "text": "QTE",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Azt a pontot, ahonnan nézve a Föld forgása az óramutató járásával ellentétes irányú, földrajzi … nevezzük.",
+        "answers": [
+            {
+                "text": "Déli-sarknak",
+                "correct": false
+            },
+            {
+                "text": "mágneses északnak",
+                "correct": false
+            },
+            {
+                "text": "Északi-sarknak",
+                "correct": true
+            },
+            {
+                "text": "mágneses délnek",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "ICAO kis méretarányú légiforgalmi navigációs térkép …",
+        "answers": [
+            {
+                "text": "megközelítésekhez használatos.",
+                "correct": false
+            },
+            {
+                "text": "nagytávolságú repülésekhez használatos.",
+                "correct": true
+            },
+            {
+                "text": "óceánok, illetve a kis település-sűrűségű területek feletti repülésekhez használatos.",
+                "correct": false
+            },
+            {
+                "text": "rövid útvonalrepülésekhez használatos.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy útvonalszakasz tényleges útirányszöge 250°. A deklináció értéke 3° keleti. A szél iránya 190° és a számítások alapján 4°-kal téríti el a repülőgépet. A deviáció 2° nyugati. Hány fok lesz az iránytűirányszög?",
+        "answers": [
+            {
+                "text": "259°",
+                "correct": false
+            },
+            {
+                "text": "255°",
+                "correct": false
+            },
+            {
+                "text": "247°",
+                "correct": false
+            },
+            {
+                "text": "245°",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "… rendszer fedélzeti berendezése az induló és érkező impulzusjelek közötti időkülönbség alapján határozza meg a távolságot.",
+        "answers": [
+            {
+                "text": "A VDF",
+                "correct": false
+            },
+            {
+                "text": "A DME",
+                "correct": true
+            },
+            {
+                "text": "Az NDB",
+                "correct": false
+            },
+            {
+                "text": "A VOR",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy repülőgép 320° mágneses irányt tart és 40 NM lerepülése után 4 NM-el tér el a kurzustól, jobb oldaleltéréssel. Az 1:60-as szabályt alkalmazva milyen mágneses irányszöget kell felvennie ahhoz, hogy 20 NM megtétele után csatlakozzon a kurzushoz?",
+        "answers": [
+            {
+                "text": "308°",
+                "correct": false
+            },
+            {
+                "text": "332°",
+                "correct": false
+            },
+            {
+                "text": "338°",
+                "correct": false
+            },
+            {
+                "text": "302°",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A repülőgép hossztengelye és a mágneses észak iránya közötti szög …",
+        "answers": [
+            {
+                "text": "a tényleges géptengely-irányszög.",
+                "correct": false
+            },
+            {
+                "text": "a mágneses géptengely-irányszög.",
+                "correct": true
+            },
+            {
+                "text": "az iránytű géptengely-irányszög.",
+                "correct": false
+            },
+            {
+                "text": "a mágneses útirányszög.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy korábbi NOTAM-ot módosító NOTAM jelölése …",
+        "answers": [
+            {
+                "text": "NOMAMN",
+                "correct": false
+            },
+            {
+                "text": "NOTAMR",
+                "correct": true
+            },
+            {
+                "text": "NOTAMC",
+                "correct": false
+            }
+        ],
+        "hint": "A NOTAM-ok (Notice to Airmen) különböző típusú értesítéseket tartalmazhatnak, amelyek között a legfontosabbak a következők:<br><br><br><br>FDC NOTAM: Az Amerikai Szövetségi Légügyi Hatóság (FAA) által kiadott értesítések, amelyek az ország egész területén érvényesek. Ezek általában olyan információkat tartalmaznak, mint a légi tér zárlatai, a katonai gyakorlatok és az átmeneti légi navigációs segédletek működési zavarai.<br><br>NOTAM-D: Az USA-beli katonai légi erők által kiadott értesítések, amelyek a repülőterek és a katonai légtér működésével kapcsolatos információkat tartalmaznak.<br><br>NOTAMN: Nemzeti fontosságú értesítések, amelyek a nemzetbiztonságra és a repülésbiztonságra vonatkozó fontos információkat tartalmazzák.<br><br>NOTAMR: Az átmeneti változásokkal, zárlatokkal vagy korlátozásokkal kapcsolatos értesítések, amelyek csak egy bizonyos időszakban érvényesek.<br><br>NOTAMC: A hosszú távú vagy állandó változásokkal kapcsolatos értesítések, amelyek hosszabb ideig érvényesek és általában az állandó repülőterek és légi navigációs segédletek működésével kapcsolatos információkat tartalmazzák.<br><br>SNOWTAM: A hóeltakarítással és síkosságmentesítéssel kapcsolatos értesítések, amelyek a téli időszakban fontosak lehetnek a repülőgépek biztonságos működése szempontjából.<br><br>ASHTAM: A vulkáni hamu elterjedésével kapcsolatos értesítések, amelyek akkor jelentek meg, amikor a vulkánkitörések vagy más geológiai események hatással lehetnek a repülés biztonságára.<br><br>Ezenkívül vannak egyéb speciális NOTAM-ok, amelyek egy adott ország vagy régió légiközlekedési hatóságai által adhatók ki a repülési biztonság és hatékonyság érdekében."
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Ha az útvonal-helyesbítést 2-szer akkora távolságra szeretnénk elvégezni, mint amekkora távolság alatt az oldaleltérés létrejött, akkor … vesszük a helyesbítés szögének.",
+        "answers": [
+            {
+                "text": "az oldaleltérés szögének 2-szeresét",
+                "correct": false
+            },
+            {
+                "text": "az oldaleltérés szögét",
+                "correct": false
+            },
+            {
+                "text": "az oldaleltérés szögének 1/2-ét",
+                "correct": true
+            },
+            {
+                "text": "az oldaleltérés szögének 1/4-ét",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Az 1:500 000-es légiforgalmi térképen 8 cm hány tengeri mérföldnek felel meg?",
+        "answers": [
+            {
+                "text": "14,8 NM",
+                "correct": false
+            },
+            {
+                "text": "22,6 NM",
+                "correct": true
+            },
+            {
+                "text": "40 NM",
+                "correct": false
+            },
+            {
+                "text": "74 NM",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Egy útvonalszakasz tényleges útirányszöge 050°. A deklináció értéke 4° és nyugati. A deviáció 1° keleti. Hány fok lesz az iránytűirányszög?",
+        "answers": [
+            {
+                "text": "47°",
+                "correct": false
+            },
+            {
+                "text": "45 °",
+                "correct": false
+            },
+            {
+                "text": "55°",
+                "correct": false
+            },
+            {
+                "text": "53°",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A Merkátor vetület …",
+        "answers": [
+            {
+                "text": "szögtartó hengervetület.",
+                "correct": true
+            },
+            {
+                "text": "szögtartó és távolságtartó hengervetület.",
+                "correct": false
+            },
+            {
+                "text": "szögtartó és távolságtartó kúpvetület.",
+                "correct": false
+            },
+            {
+                "text": "szögtartó kúpvetület.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A … köröket a kezdő meridiántól kiindulva … számozzuk keleti és nyugati irányban.",
+        "answers": [
+            {
+                "text": "hosszúsági – 90°-ig",
+                "correct": false
+            },
+            {
+                "text": "szélességi – 180°-ig",
+                "correct": false
+            },
+            {
+                "text": "szélességi – 90°-ig",
+                "correct": false
+            },
+            {
+                "text": "hosszúsági – 180°-ig",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A Lambert-féle vetület …",
+        "answers": [
+            {
+                "text": "szögtartó hengervetület.",
+                "correct": false
+            },
+            {
+                "text": "szögtartó és távolságtartó hengervetület.",
+                "correct": false
+            },
+            {
+                "text": "szögtartó kúpvetület.",
+                "correct": true
+            },
+            {
+                "text": "szögtartó és távolságtartó kúpvetület.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "A VOR-rendszer pontosságát befolyásolja a rádiódeviáció, a parti, a hegy- és az éjjeli hatás, valamint az időjárás.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Az RMI ADF mutatója 110° mágneses irányszöget mutat. A mágneses géptengelyirányszög 060°. Mennyi a QDR?",
+        "answers": [
+            {
+                "text": "290°",
+                "correct": true
+            },
+            {
+                "text": "230°",
+                "correct": false
+            },
+            {
+                "text": "110°",
+                "correct": false
+            },
+            {
+                "text": "050°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "NAVIGÁCIÓ",
+        "question": "Ökölszabályt alkalmazva NEL körülmények között 7500 láb magasságon 120 kt TAS sebesség mekkora CAS sebességnek felel meg?",
+        "answers": [
+            {
+                "text": "104 kt",
+                "correct": true
+            },
+            {
+                "text": "138 kt",
+                "correct": false
+            },
+            {
+                "text": "98 kt",
+                "correct": false
+            },
+            {
+                "text": "116 kt",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Budapest FIR-ben ellenőrzött légtérben …",
+        "answers": [
+            {
+                "text": "angol nyelven kell rádiókapcsolatot tartani.",
+                "correct": false
+            },
+            {
+                "text": "magyar nyelven kell rádiókapcsolatot tartani.",
+                "correct": false
+            },
+            {
+                "text": "elsősorban magyarul kell rádiókapcsolatot tartani, de az angol nyelv használata megengedett.",
+                "correct": false
+            },
+            {
+                "text": "elsősorban angol nyelven kell rádiókapcsolatot tartani, de a magyar nyelv használata megengedett.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "A földi és légi rádióállomások közti rádióforgalmazás …",
+        "answers": [
+            {
+                "text": "kétoldalú rendszerben, duplex üzemben működik.",
+                "correct": false
+            },
+            {
+                "text": "egyoldalú rendszerben, duplex üzemben működik.",
+                "correct": false
+            },
+            {
+                "text": "kétoldalú rendszerben, szimplex üzemben működik.",
+                "correct": true
+            },
+            {
+                "text": "egyoldalú rendszerben, szimplex üzemben működik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Hogyan adjuk le a 5608 számot?",
+        "answers": [
+            {
+                "text": "ÖTEZER-HATSZÁZNYOLC.",
+                "correct": true
+            },
+            {
+                "text": "ÖTÖSEZER-HATOSSZÁZNYOLCAS.",
+                "correct": false
+            },
+            {
+                "text": "ÖTEZER-HATOSSZÁZNYOLC.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Hogyan jelölik a nappal szolgálatot biztosító földi állomásokat?",
+        "answers": [
+            {
+                "text": "HJ.",
+                "correct": true
+            },
+            {
+                "text": "HN.",
+                "correct": false
+            },
+            {
+                "text": "HX.",
+                "correct": false
+            },
+            {
+                "text": "HS.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Ellenőrzött légtérben útvonalon közlekedő repülőgépek számára milyen esetben nem kell helyzetjelentést adni?",
+        "answers": [
+            {
+                "text": "Minden esetben kötelező helyzetjelentést adni.",
+                "correct": false
+            },
+            {
+                "text": "Soha nem kötelező helyzetjelentést adni.",
+                "correct": false
+            },
+            {
+                "text": "Ha az adott légtérben van radarszolgáltatás.",
+                "correct": false
+            },
+            {
+                "text": "Ha az irányító jelzi, hogy a radarazonosítás megtörtént.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mi a rövidítése az automatikus közelkörzeti tájékoztató szolgálatnak?",
+        "answers": [
+            {
+                "text": "AFIS.",
+                "correct": false
+            },
+            {
+                "text": "ATIS.",
+                "correct": true
+            },
+            {
+                "text": "AFTN.",
+                "correct": false
+            },
+            {
+                "text": "AFIL.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Hogyan adjuk le a 4702 számot?",
+        "answers": [
+            {
+                "text": "NÉGYEZER-HÉTSZÁZKETTES.",
+                "correct": false
+            },
+            {
+                "text": "NÉGYESEZER-HETESSZÁZKETTES.",
+                "correct": false
+            },
+            {
+                "text": "NÉGYESEZER-HETESSZÁZKETTŐ.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "A légiforgalmi rádióforgalmazásban magánjellegű beszélgetéseket …",
+        "answers": [
+            {
+                "text": "tilos lefolytatni.",
+                "correct": true
+            },
+            {
+                "text": "nem ellenőrzött légtérben lefolytathatunk.",
+                "correct": false
+            },
+            {
+                "text": "ha vezetőállomás erre engedélyt ad, lefolytathatunk.",
+                "correct": false
+            },
+            {
+                "text": "ha a helyzet úgy kívánja röviden lefolytathatunk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mi a teendő, ha megszakad a rádiókapcsolat a CTR-ben a felszállás után?",
+        "answers": [
+            {
+                "text": "A repülőgép-vezető hagyja el a CTR-t a lehető leggyorsabb módon.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető hagyja el a CTR-t a TWR által adott útvonalengedély szerint.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép-vezető a kijelölt várakozási légtérben várja meg a földi fényjeleket.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető a kijelölt várakozási légtérben várakozzon 5 percet, majd fényjelzések hiányában hagyja el a CTR-t a TWR által adott útvonalengedély szerint.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Milyen körülmények között rövidítheti hívójelét a repülőgép-vezető?",
+        "answers": [
+            {
+                "text": "Csak nem ellenőrzött légtérben rövidíthet.",
+                "correct": false
+            },
+            {
+                "text": "Bármikor, mert így tömörebb a kommunikáció.",
+                "correct": false
+            },
+            {
+                "text": "Ha a vezetőállomás már rövidítette a hívójelet.",
+                "correct": true
+            },
+            {
+                "text": "Ha a rádiókapcsolatban lévő felek azonosítása már kétségtelenül megtörtént.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Az alábbiak közül mit nem kell visszaismételni?",
+        "answers": [
+            {
+                "text": "A rádiófrekvenciákat.",
+                "correct": false
+            },
+            {
+                "text": "A magasságértékeket.",
+                "correct": false
+            },
+            {
+                "text": "A szélsebességet.",
+                "correct": true
+            },
+            {
+                "text": "A transzponderkódot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Egy adott rádiófrekvencián a tagállomások közötti közleményváltás …",
+        "answers": [
+            {
+                "text": "nem ellenőrzött légtérben minden további nélkül lehetséges.",
+                "correct": false
+            },
+            {
+                "text": "minden további nélkül lehetséges.",
+                "correct": false
+            },
+            {
+                "text": "csak a vezetőállomás engedélyével lehetséges.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Rádiópróba esetén mit jelent az ÉRTHETŐSÉG 4-ES válaszközlemény?",
+        "answers": [
+            {
+                "text": "Az adás szakadozottan érthető.",
+                "correct": false
+            },
+            {
+                "text": "Az adás érthető.",
+                "correct": true
+            },
+            {
+                "text": "Az adás nehezen érthető.",
+                "correct": false
+            },
+            {
+                "text": "Az adás tökéletesen érthető.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mit jelent a SQUAWK IDENT kifejezés?",
+        "answers": [
+            {
+                "text": "A repülőgép-vezető állítsa át transzponderkódját.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető adja meg a lajstromjelét.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető nyomja meg az azonosító gombot a transzponderen.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép-vezető adja meg a transzponderkódját.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Ha a repülőgép valamely utasánál pl. szívroham gyanúja lép fel, akkor …",
+        "answers": [
+            {
+                "text": "sürgősségi közleményt kell leadni a PAN PAN kifejezés háromszori ismétlésével kezdve, és a transzpondert nem kell átállítani, mert a sürgősségi helyzetnek nincs védett kódja.",
+                "correct": true
+            },
+            {
+                "text": "kényszerhelyzeti közleményt kell leadni a MAYDAY kifejezés háromszori ismétlésével kezdve, és a transzponderen a 7700-as kódot kell beállítani.",
+                "correct": false
+            },
+            {
+                "text": "kényszerhelyzeti közleményt kell leadni a PAN PAN kifejezés háromszori ismétlésével kezdve, és a transzponderen a 7500-as kódot kell beállítani",
+                "correct": false
+            },
+            {
+                "text": "sürgősségi közleményt kell leadni a MAYDAY kifejezés háromszori ismétlésével kezdve, és a transzponderen a 7700-as kódot kell beállítani.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mi a teendő, ha megszakad a rádiókapcsolat a CTR-ben a megközelítés során?",
+        "answers": [
+            {
+                "text": "A repülőgép-vezető közeledjen az engedély szerint, és ha nem kapott leszállási engedélyt, a kijelölt várakozási légtérben várakozzon 5 percet és hajtsa végre a leszállást a használatos futópályára. Eközben figyelje az esetleges földi fény-jeleket.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép-vezető figyelje a földi fényjeleket, és aszerint járjon el.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető hagyja el a CTR-t a lehető leggyorsabb módon.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép-vezető közeledjen az engedély szerint, és ha nem kapott leszállási engedélyt, a kijelölt várakozási légtérben várakozzon és figyelje a földi fényjeleket.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Hogyan kell rövidítetni a HA-TUO hívójelet?",
+        "answers": [
+            {
+                "text": "HOTEL-ALFA-TANGO-UNIFORM",
+                "correct": false
+            },
+            {
+                "text": "UNIFORM-OSCAR",
+                "correct": false
+            },
+            {
+                "text": "HOTEL-TANGO-UNIFORM",
+                "correct": false
+            },
+            {
+                "text": "HOTEL-UNIFORM-OSCAR",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Milyen kifejezés háromszori ismétlése előzi meg a kényszerhelyzeti közleményt?",
+        "answers": [
+            {
+                "text": "BREAK BREAK.",
+                "correct": false
+            },
+            {
+                "text": "PAN PAN.",
+                "correct": false
+            },
+            {
+                "text": "MAYDAY.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Helyes beszédtechnikát alkalmazva …",
+        "answers": [
+            {
+                "text": "beszédünk legyen erőteljes és gyors, hogy minél rövidebb ideig foglaljuk a csatornát.",
+                "correct": false
+            },
+            {
+                "text": "határozott és lassú a minél jobb érthetőség céljából.",
+                "correct": false
+            },
+            {
+                "text": "beszédünk hangerejét tartsuk állandó szinten, üteme egyenletes legyen, és legyen jól tagolt.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Hogyan kell betűzni a HA-EJF lajstromjelet?",
+        "answers": [
+            {
+                "text": "HOTEL-APPLE-EASY-JOHNNY-FOX.",
+                "correct": false
+            },
+            {
+                "text": "HOTEL-ALPHA-ECHO-JULIETT-FOXTROT.",
+                "correct": true
+            },
+            {
+                "text": "HOTEL-ACE-ECHO-JOHNNY-FREDDIE.",
+                "correct": false
+            },
+            {
+                "text": "HOTEL-ALPHA-EASY-JULIETT-FOX.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mik a nemzetközi kényszerhelyzeti frekvenciák?",
+        "answers": [
+            {
+                "text": "121,5 MHz és 243 MHz.",
+                "correct": true
+            },
+            {
+                "text": "136,00 MHz és 272 MHz.",
+                "correct": false
+            },
+            {
+                "text": "118,00 MHz és 236 MHz.",
+                "correct": false
+            },
+            {
+                "text": "125,1 MHz és 250,2 MHz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mit jelez a BREAK BREAK kifejezés?",
+        "answers": [
+            {
+                "text": "Sürgősségi közlemény kezdetét.",
+                "correct": false
+            },
+            {
+                "text": "Két különböző állomás számára küldött üzenet közötti gyors elkülönítést.",
+                "correct": true
+            },
+            {
+                "text": "Nyugtázást.",
+                "correct": false
+            },
+            {
+                "text": "Kényszerhelyzeti közlemény kezdetét.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Mi az első teendő, ha megszakad a rádiókapcsolat?",
+        "answers": [
+            {
+                "text": "Ki kell választani a legalkalmasabb repülőteret a leszállásra.",
+                "correct": false
+            },
+            {
+                "text": "Vak adással közölni kell a rádióhibát.",
+                "correct": false
+            },
+            {
+                "text": "Ellenőrizni kell a rádiót és meggyőződni arról, hogy valóban meghibásodott-e.",
+                "correct": true
+            },
+            {
+                "text": "Azonnal be kell állítani a 7600-as kódot a transzponderen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "RÁDIÓKOMMUNIKÁCIÓ",
+        "question": "Hogyan kell végrehajtani a vak adást?",
+        "answers": [
+            {
+                "text": "Az ÁLTALÁNOS HÍVÁS kifejezés használatával.",
+                "correct": false
+            },
+            {
+                "text": "A MINDEN ÁLLOMÁSNAK kifejezés használatával.",
+                "correct": false
+            },
+            {
+                "text": "A VAK ADÁS kifejezés használatával kétszer egymás után.",
+                "correct": true
+            },
+            {
+                "text": "PAN PAN közlemény háromszori ismétlésével kezdve.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+/*Repüléselmélet.docx.*/
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik egyenlőség igaz?",
+        "answers": [
+            {
+                "text": "t ∙ s = v",
+                "correct": false
+            },
+            {
+                "text": "t = s / v",
+                "correct": true
+            },
+            {
+                "text": "s ∙ v = t",
+                "correct": false
+            },
+            {
+                "text": "s = v / t",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik képlet helyes (X légellenállás)?",
+        "answers": [
+            {
+                "text": "X = Cx · ρ · v2 · A / 2",
+                "correct": true
+            },
+            {
+                "text": "X = Cx + ρv2 + A / 2",
+                "correct": false
+            },
+            {
+                "text": "X = Cx + ρv2 + A · 2",
+                "correct": false
+            },
+            {
+                "text": "X = Cx · ρ · v2 · A · 2",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A magasság növekedésével (állandó állásszögön) a repülőgép Y/X hányadosa …",
+        "answers": [
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": true
+            },
+            {
+                "text": "nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép képes lehet azonos emelkedési szöggel emelkedni két különböző sebességen is.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az össznyomás …",
+        "answers": [
+            {
+                "text": "a statikus nyomás és a dinamikus nyomás összege.",
+                "correct": true
+            },
+            {
+                "text": "a statikus nyomás és a dinamikus nyomás különbsége.",
+                "correct": false
+            },
+            {
+                "text": "a statikus nyomás és a dinamikus nyomás szorzata.",
+                "correct": false
+            },
+            {
+                "text": "a statikus nyomás és a dinamikus nyomás hányadosa.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik képlet helyes (Y felhajtóerő)?",
+        "answers": [
+            {
+                "text": "Y = Cy + ρv2 + A · 2",
+                "correct": false
+            },
+            {
+                "text": "Y = Cy · ½ · ρ · v2 · A",
+                "correct": true
+            },
+            {
+                "text": "Y = Cy + ρv2 + A / 2",
+                "correct": false
+            },
+            {
+                "text": "Y = Cy · ½ · ρ · v2 · 2A",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy megfelelő stabilitással rendelkező repülőgép súlypontja …",
+        "answers": [
+            {
+                "text": "a semleges pont és a hátsó határhelyzet között van.",
+                "correct": false
+            },
+            {
+                "text": "a semleges pontban van.",
+                "correct": false
+            },
+            {
+                "text": "a semleges pont és a mellső határhelyzet között van.",
+                "correct": true
+            },
+            {
+                "text": "a mellső határhelyzet előtt van.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárnyvég felhajtásának célja …",
+        "answers": [
+            {
+                "text": "a szárnykarcsúság növelése.",
+                "correct": false
+            },
+            {
+                "text": "az elliptikus felhajtóerő-eloszlás biztosítása.",
+                "correct": false
+            },
+            {
+                "text": "a keresztstabilitás növelése.",
+                "correct": false
+            },
+            {
+                "text": "az indukált ellenállás csökkentése.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A merev légcsavar profiljának állásszöge nő, ha …",
+        "answers": [
+            {
+                "text": "a sebesség nő és a fordulatszám változatlan.",
+                "correct": false
+            },
+            {
+                "text": "a sebesség csökken és a fordulatszám változatlan.",
+                "correct": true
+            },
+            {
+                "text": "a sebesség változatlan és a fordulatszám csökken.",
+                "correct": false
+            },
+            {
+                "text": "A merev légcsavar profiljának állásszöge független a sebességtől és a fordulatszámtól.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A határréteg …",
+        "answers": [
+            {
+                "text": "keletkezése a szárny alsó és felső oldala között fellépő nyomáskülönbség és -kiegyenlítődés eredménye.",
+                "correct": false
+            },
+            {
+                "text": "kialakulása turbulens áramlás következménye.",
+                "correct": false
+            },
+            {
+                "text": "a szárny mögötti leterelés miatt jön létre.",
+                "correct": false
+            },
+            {
+                "text": "olyan közegréteg, hol az egyes rétegek sebessége a közeg súrlódása következtében eltér a szabad áramlás sebességétől.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Faroknehéz nyomaték kitrimelése során …",
+        "answers": [
+            {
+                "text": "a trimlap lefelé, a magassági kormánylap felfelé tér ki.",
+                "correct": false
+            },
+            {
+                "text": "a trimlap felfelé, a magassági kormánylap lefelé tér ki.",
+                "correct": true
+            },
+            {
+                "text": "a trimlap és a magassági kormánylap lefelé tér ki.",
+                "correct": false
+            },
+            {
+                "text": "a trimlap és a magassági kormánylap felfelé tér ki.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az átesés pillanatában …",
+        "answers": [
+            {
+                "text": "a felhajtóerő és az ellenállás nő.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő csökken és az ellenállás nő.",
+                "correct": true
+            },
+            {
+                "text": "a felhajtóerő és az ellenállás csökken.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő nő és az ellenállás csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Merev légcsavar esetén a lapelemek állásszöge meghaladhatja a kritikus állászöget …",
+        "answers": [
+            {
+                "text": "alacsony sebesség és nagy fordulatszám esetén.",
+                "correct": true
+            },
+            {
+                "text": "nagy sebesség és alacsony fordulatszám esetén.",
+                "correct": false
+            },
+            {
+                "text": "A lapelemek soha nem léphetik át a kritikus állásszöget.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A kabinból nézve jobbra forgó légcsavar esetén az állásszög csökkentésekor a precesszió hatására a repülőgép függőleges tengelye körül is elfordul …",
+        "answers": [
+            {
+                "text": "jobbra.",
+                "correct": false
+            },
+            {
+                "text": "balra.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A felhajtóerő merőleges, a légellenállás pedig párhuzamos ….",
+        "answers": [
+            {
+                "text": "a null felhajtóerő-tényező irányhoz képest.",
+                "correct": false
+            },
+            {
+                "text": "a profil húrjához képest.",
+                "correct": false
+            },
+            {
+                "text": "az áramló levegő irányához képest.",
+                "correct": true
+            },
+            {
+                "text": "a vízszinteshez képest.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Normál repülési helyzetekben az állásszög növekedésével a profilon keletkező nyomásközéppont ….",
+        "answers": [
+            {
+                "text": "előre vándorol.",
+                "correct": true
+            },
+            {
+                "text": "hátra vándorol.",
+                "correct": false
+            },
+            {
+                "text": "nem mozdul el.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A légnyomás a levegő súlyából származik és a térben minden tetszőleges irányú felületre merőlegesen hat.",
+                "correct": true
+            },
+            {
+                "text": "A légnyomás a levegő súlyából származik és függőlegesen lefelé hat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A fékszárny kitérítésekor növekszik a maximális felhajtóerő-tényező, mert a szárny (profil) …",
+        "answers": [
+            {
+                "text": "légellenállása nő.",
+                "correct": false
+            },
+            {
+                "text": "íveltsége nő.",
+                "correct": true
+            },
+            {
+                "text": "íveltsége csökken.",
+                "correct": false
+            },
+            {
+                "text": "állásszöge csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A folytonosság törvénye szerint az össznyomás a statikus és a dinamikus nyomás összegével egyenlő.",
+                "correct": false
+            },
+            {
+                "text": "A folytonosság törvénye azt mondja ki, hogy az áramcsőben állandósult áramlás van.",
+                "correct": false
+            },
+            {
+                "text": "A folytonosság törvénye szerint a statikus és a dinamikus nyomás összege az áramlás bármely pontjában állandó.",
+                "correct": false
+            },
+            {
+                "text": "A folytonosság törvénye szerint az áramlás sebessége fordítottan arányos az áramcső keresztmetszetének felületével.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Az m · v2 / 2 nem más, mint a test…",
+        "answers": [
+            {
+                "text": "helyzeti energiája.",
+                "correct": false
+            },
+            {
+                "text": "mozgási energiája.",
+                "correct": true
+            },
+            {
+                "text": "helyzeti és mozgási energiájának összege.",
+                "correct": false
+            },
+            {
+                "text": "gyorsulása.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Az alaki ellenállás a profilellenállás és a súrlódási ellenállás összege.",
+                "correct": false
+            },
+            {
+                "text": "Egy test súrlódási ellenállását alaki ellenállásnak nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "Egy test profilellenállását más néven nyomásellenállásnak nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "A profilellenállás a nyomásellenállás és a súrlódási ellenállás összege.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Fékszárny használatakor …",
+        "answers": [
+            {
+                "text": "a kritikus állásszög és a felhajtóerő-tényező nő.",
+                "correct": false
+            },
+            {
+                "text": "a kritikus állásszög és a felhajtóerő-tényező csökken.",
+                "correct": false
+            },
+            {
+                "text": "a kritikus állásszög nő és a felhajtóerő-tényező csökken.",
+                "correct": false
+            },
+            {
+                "text": "a kritikus állásszög csökken és a felhajtóerő-tényező nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A felhajtóerő-tényező …",
+        "answers": [
+            {
+                "text": "a sebességgel négyzetes arányban nő.",
+                "correct": false
+            },
+            {
+                "text": "a kritikus állásszögön éri el minimumát.",
+                "correct": false
+            },
+            {
+                "text": "az állásszög növekedésével folyamatosan nő.",
+                "correct": false
+            },
+            {
+                "text": "szimmetrikus szelvényeknél 0° állásszögön zérus.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egyenes vonalú vízszintes repülésben a repülőgép összellenálása akkor (azon a sebességen) a legalacsonyabb, amikor …",
+        "answers": [
+            {
+                "text": "az indukált ellenállás kétszer nagyobb a káros ellenállásnál.",
+                "correct": false
+            },
+            {
+                "text": "a káros ellenállás és az indukált ellenállás egyenlő.",
+                "correct": true
+            },
+            {
+                "text": "az indukált ellenállás minimális.",
+                "correct": false
+            },
+            {
+                "text": "a káros ellenállás minimális.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A centrifugális erő iránya a centripetális erővel megegyező.",
+                "correct": false
+            },
+            {
+                "text": "A centrifugális erő a forgási középpont felé mutat.",
+                "correct": false
+            },
+            {
+                "text": "A centrifugális erő iránya a centripetális erővel ellentétes.",
+                "correct": true
+            },
+            {
+                "text": "A centrifugális erő iránya a centripetális ellenerővel ellentétes.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "1 m/s = 3,6 km/h",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A legnagyobb motor fordulatszám esetén mikor legnagyobb a légcsavar vonóerő?",
+        "answers": [
+            {
+                "text": "A repülőgép álló helyzetében.",
+                "correct": true
+            },
+            {
+                "text": "A legnagyobb elérhető vízszintes sebességen.",
+                "correct": false
+            },
+            {
+                "text": "Azon a sebességen, ahol a légcsavar hatásfoka a legjobb.",
+                "correct": false
+            },
+            {
+                "text": "Vopt sebesség esetén.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Newton III. törvényét …",
+        "answers": [
+            {
+                "text": "a dinamika alaptételének nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "a kölcsönhatás törvényének nevezzük.",
+                "correct": true
+            },
+            {
+                "text": "a tehetetlenség törvényének nevezzük.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha túl nagy a iránystabilitás az keresztstabilitáshoz viszonyítva, …",
+        "answers": [
+            {
+                "text": "a repülőgép valamely kis zavarás hatására megdőlve süllyedni kezd, miközben a dőlési szög és a sebesség egyre nő, valamint a repülőgép hossztengelye egyre inkább a föld felé hajlik. Az ilyen mozgást holland orsónak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép egyik irányú dőlése, majd megcsúszása után a másik irányba való dőlés és megcsúszás következik be egyre növekvő amplitúdóval. Az ilyen mozgást zuhanóspirálnak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép valamely kis zavarás hatására megdőlve süllyedni kezd, miközben a dőlési szög és a sebesség egyre nő, valamint a repülőgép hossztengelye egyre inkább a föld felé hajlik. Az ilyen mozgást zuhanóspirálnak nevezik.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép egyik irányú dőlése, majd megcsúszása után a másik irányba való dőlés és megcsúszás következik be egyre növekvő amplitúdóval. Az ilyen mozgást holland orsónak nevezik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A hosszstabilitás a repülőgép kereszttengelye körüli stabilitása, melyet a vízszintes farokfelület hoz létre.",
+                "correct": true
+            },
+            {
+                "text": "Az iránystabilitás a repülőgép függőleges tengelye körüli stabilitása, melyet a szárny beállítási szöge hoz létre.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép hossztengelye körüli keresztstabilitását a szárny nyilazása hozza létre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A merev légcsavar profiljának állásszöge csökken, ha …",
+        "answers": [
+            {
+                "text": "a sebesség nő és a fordulatszám változatlan.",
+                "correct": true
+            },
+            {
+                "text": "a sebesség változatlan és a fordulatszám nő.",
+                "correct": false
+            },
+            {
+                "text": "a sebesség csökken és a fordulatszám változatlan.",
+                "correct": false
+            },
+            {
+                "text": "A merev légcsavar profiljának állásszöge független a sebességtől és a fordulatszámtól.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A folytonossági törvény alapján, ha egy áramcső keresztmetszete nő, akkor az áramló közeg sebessége …",
+        "answers": [
+            {
+                "text": "nő.",
+                "correct": false
+            },
+            {
+                "text": "csökken.",
+                "correct": true
+            },
+            {
+                "text": "Az áramcső keresztmetszete és az áramló közeg sebessége között nem a folytonossági törvény, hanem Bernoulli törvénye teremt kapcsolatot.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha az emelkedés w függőleges sebességét szeretnénk maximalizálni, akkor …",
+        "answers": [
+            {
+                "text": "Vx sebességet választjuk.",
+                "correct": false
+            },
+            {
+                "text": "Vy sebességet választjuk.",
+                "correct": true
+            },
+            {
+                "text": "Vgazd sebességet választjuk.",
+                "correct": false
+            },
+            {
+                "text": "Vopt sebességet választjuk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "Az alábbiak közül a homoszférában melyik gáz van jelen a legkisebb térfogatszázalékban?",
+        "answers": [
+            {
+                "text": "Oxigén.",
+                "correct": false
+            },
+            {
+                "text": "Argon.",
+                "correct": false
+            },
+            {
+                "text": "Neon.",
+                "correct": true
+            },
+            {
+                "text": "Nitrogén.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A káros ellenállás …",
+        "answers": [
+            {
+                "text": "négyzetesen nő a sebességgel.",
+                "correct": true
+            },
+            {
+                "text": "lineárisan nő a sebességgel.",
+                "correct": false
+            },
+            {
+                "text": "lineárisan csökken a sebességgel.",
+                "correct": false
+            },
+            {
+                "text": "négyzetesen csökken a sebességgel.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az indukált állásszög … nyer értelmet, és … következménye.",
+        "answers": [
+            {
+                "text": "kétdimenziós áramlásban – a határréteg visszaáramlásának",
+                "correct": false
+            },
+            {
+                "text": "véges terjedtségű szárny esetén – a szárny mögötti leterelés",
+                "correct": true
+            },
+            {
+                "text": "kétdimenziós áramlásban – nagy állásszögű megfúvás",
+                "correct": false
+            },
+            {
+                "text": "véges terjedtségű szárny esetén – az áramlás leválásának",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A légcsavarszárny profiljának állásszöge a profil húrja és a légcsavar forgássíkja közötti szög.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavar fordulatszámát, és ezzel a légcsavarszárnyvég maximális sebességét azért kell korlátozni, hogy a légcsavarszárnyprofil átesését elkerüljük.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavar beállítási szöge a légcsavarszárny profiljának húrja és a légcsavar tengelye közötti szög.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavar mértani emelkedése az az elméleti távolság, melyet a levegőben a légcsavar egy fordulat alatt a haladási irányban megtenne (ha a levegőben mint szilárd testben mozogna).",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik mértékegység alkalmas a felületi terhelés kifejezésére?",
+        "answers": [
+            {
+                "text": "N · m3",
+                "correct": false
+            },
+            {
+                "text": "kg · m/s2",
+                "correct": false
+            },
+            {
+                "text": "N · m2",
+                "correct": true
+            },
+            {
+                "text": "N · m",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Az energiamegmaradás törvénye kimondja, hogy …",
+        "answers": [
+            {
+                "text": "a mozgás folyamán a helyzeti és mozgási energia összege állandó.",
+                "correct": true
+            },
+            {
+                "text": "a mozgás folyamán a helyzeti és mozgási energia szorzata állandó.",
+                "correct": false
+            },
+            {
+                "text": "minden test megtartja nyugalmi állapotát vagy egyenes vonalú, egyenletes mozgását, amíg egy külső erő mozgási állapotának megváltoztatására nem kényszeríti.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Minél nagyobb fékszárny-kitérítést használunk felszállásnál, annál rövidebb lesz a felszállási úthossz.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgép egy állásszögnövelő széllökés után a repülőgép-vezető beavatkozása nélkül egyensúlyi helyzete körül csökkenő amplitúdóval egyre kisebb lengéseket folytat, akkor a repülőgép stabilitása …",
+        "answers": [
+            {
+                "text": "statikusan közömbös és dinamikusan stabil.",
+                "correct": false
+            },
+            {
+                "text": "statikusan és dinamikusan stabil.",
+                "correct": true
+            },
+            {
+                "text": "statikusan stabil és dinamikusan instabil.",
+                "correct": false
+            },
+            {
+                "text": "statikusan instabil és dinamikusan stabil.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A homoszférában a levegő összetétele a következő: …",
+        "answers": [
+            {
+                "text": "nitrogén 78 térfogat %, oxigén 21 térfogat %, argon 0,1 térfogat %, egyéb gázok 0,9 térfogat%.",
+                "correct": false
+            },
+            {
+                "text": "nitrogén 0,9 térfogat %, oxigén 78 térfogat %, argon 21 térfogat %, egyéb gázok 0,1 térfogat%.",
+                "correct": false
+            },
+            {
+                "text": "oxigén 78 térfogat %, nitrogén 21 térfogat %, argon 0,9 térfogat %, egyéb gázok 0,1 térfogat%.",
+                "correct": false
+            },
+            {
+                "text": "nitrogén 78 térfogat %, oxigén 21 térfogat %, argon 0,9 térfogat %, egyéb gázok 0,1 térfogat%.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Azt a mozgást, amikor a repülőgép egyik irányú dőlése, majd megcsúszása után a másik irányba való dőlés és megcsúszás következik be, mindez periodikusan ismétlődve akár egyre növekvő amplitúdóval …",
+        "answers": [
+            {
+                "text": "holland orsónak nevezik.",
+                "correct": true
+            },
+            {
+                "text": "zuhanóspirálnak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "dugóhúzónak nevezik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha azt tapasztaljuk, hogy egy repülőgép kormányérzékenysége megnőtt, kormányereje csökkent és kisebb kormánymozdulatokkal is ve-zethető, akkor …",
+        "answers": [
+            {
+                "text": "mellső súlyponthelyzetre következtethetünk.",
+                "correct": false
+            },
+            {
+                "text": "instabilitásra következtethetünk.",
+                "correct": false
+            },
+            {
+                "text": "semleges stabilitásra következtethetünk.",
+                "correct": false
+            },
+            {
+                "text": "hátsó súlyponthelyzetre következtethetünk.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Bernoulli törvénye szerint ahol az áramló közeg sebessége nő, ott a dinamikus nyomás csökken; valamint, ahol az áramlás sebes-sége csökken, ott a dinamikus nyomás nő.",
+                "correct": false
+            },
+            {
+                "text": "Bernoulli törvénye szerint az össznyomás a statikus és a dinamikus nyomás szorzata.",
+                "correct": false
+            },
+            {
+                "text": "Bernoulli törvénye szerint a statikus és a dinamikus nyomás összege az áramlás bármely pontjában állandó.",
+                "correct": true
+            },
+            {
+                "text": "Bernoulli törvénye szerint szűkebb keresztmetszetű áramcsőben az áramlás sebessége felgyorsul, tágabb keresztmetszeten lelas-sul.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárny v-állása …",
+        "answers": [
+            {
+                "text": "az interferencia ellenállást csökkenti.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép hosszstabilitását hozza létre.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép iránystabilitását hozza létre.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép keresztstabilitását hozza létre.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgépet vízszintes repülésben egy adott állásszögre kitrimeltük és ehhez a trimhelyzethez képest nagyobb sebességgel szeretnénk repülni, akkor …",
+        "answers": [
+            {
+                "text": "a magassági kormány nyomása szükséges a hossznyomatéki egyensúly létrehozásához.",
+                "correct": true
+            },
+            {
+                "text": "a magassági kormány húzása szükséges a hossznyomatéki egyensúly létrehozásához.",
+                "correct": false
+            },
+            {
+                "text": "nem szükséges kormány kitérítés a hossznyomatéki egyensúly létrehozásához.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Bernoulli törvénye alapján melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "Az össznyomás nő, ha a dinamikus nyomás nő.",
+                "correct": false
+            },
+            {
+                "text": "Az össznyomás csökken, ha a statikus nyomás csökken.",
+                "correct": false
+            },
+            {
+                "text": "Ha a statikus nyomás csökken, akkor a dinamikus nyomás is csökken.",
+                "correct": false
+            },
+            {
+                "text": "Ha a statikus nyomás csökken, akkor a dinamikus nyomás nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha az emelkedés szögét szeretnénk maximalizálni, akkor …",
+        "answers": [
+            {
+                "text": "Vy sebességet választjuk.",
+                "correct": false
+            },
+            {
+                "text": "Vx sebességet választjuk.",
+                "correct": true
+            },
+            {
+                "text": "Vopt sebességet választjuk.",
+                "correct": false
+            },
+            {
+                "text": "Vgazd sebességet választjuk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Hogyan nevezzük az összellenállásnak azt az összetevőjét, mely a repülőgép különböző részeinek kedvezőtlen egymásra hatásakor ke-letkezik?",
+        "answers": [
+            {
+                "text": "Káros ellenállás.",
+                "correct": false
+            },
+            {
+                "text": "Indukált ellenállás.",
+                "correct": false
+            },
+            {
+                "text": "Interferencia ellenállás.",
+                "correct": true
+            },
+            {
+                "text": "Súrlódási ellenállás.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép átesési sebességétől a maximális vízszintes sebességéig nézve egyre növekvő sebességgel (egyenes vonalú vízszintes repülésben) a repülőgép összellenállása …",
+        "answers": [
+            {
+                "text": "kezdetben csökken, majd a Vopt opitmális sebesség elérése után folyamatosan nő.",
+                "correct": true
+            },
+            {
+                "text": "kezdetben nő, majd a Vopt optimális sebesség elérése után folyamatosan csökken.",
+                "correct": false
+            },
+            {
+                "text": "folyamatosan csökken.",
+                "correct": false
+            },
+            {
+                "text": "folyamatosan nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A felhajtóerő keletkezéskor …",
+        "answers": [
+            {
+                "text": "a szárny felett az össznyomás nő, míg a szárny alatt a össznyomás csökken.",
+                "correct": false
+            },
+            {
+                "text": "a szárny felett az össznyomás csökken, míg a szárny alatt a össznyomás nő.",
+                "correct": false
+            },
+            {
+                "text": "a szárny felett a statikus nyomás nő, míg a szárny alatt a statikus nyomás csökken.",
+                "correct": false
+            },
+            {
+                "text": "a szárny felett a statikus nyomás csökken, míg a szárny alatt a statikus nyomás nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Az alábbiak közül melyik mértékegység használatos munka kifejezésére?",
+        "answers": [
+            {
+                "text": "J · s",
+                "correct": false
+            },
+            {
+                "text": "W/s",
+                "correct": false
+            },
+            {
+                "text": "W · s",
+                "correct": true
+            },
+            {
+                "text": "W",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A sűrűség egységnyi térfogatú közeg súlya.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A homoszférában melyik gáz van jelen a legnagyobb térfogatszázalékban?",
+        "answers": [
+            {
+                "text": "Nitrogén.",
+                "correct": true
+            },
+            {
+                "text": "Szén-dioxid.",
+                "correct": false
+            },
+            {
+                "text": "Oxigén.",
+                "correct": false
+            },
+            {
+                "text": "Hélium.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egyenes vonalú, egyenletes sebességű, vízszintes repülésben …",
+        "answers": [
+            {
+                "text": "az eredő légerővel a súlyerő tart egyensúlyt.",
+                "correct": false
+            },
+            {
+                "text": "nagy állásszög esetén a vonóerő is támogatja a felhajtóerőt.",
+                "correct": true
+            },
+            {
+                "text": "a vonóerő nagyobb mint a felhajtóerő.",
+                "correct": false
+            },
+            {
+                "text": "y-irányú erőknek tekintjük a levegő relatív áramlásának irányával párhuzamosan keletkező erőket.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Orrsegédszárny használatakor …",
+        "answers": [
+            {
+                "text": "kisebb állásszögön esik át a repülőgép és az átesési sebesség alacsonyabb lesz.",
+                "correct": false
+            },
+            {
+                "text": "kisebb állásszögön esik át a repülőgép és az átesési sebesség magasabb lesz.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb állásszögön esik át a repülőgép és az átesési sebesség alacsonyabb lesz.",
+                "correct": true
+            },
+            {
+                "text": "nagyobb állásszögön esik át a repülőgép és az átesési sebesség magasabb lesz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a súlypont a semleges pont mögött van, és a repülőgépet egy zavaró hatás hossznyomatéki egyensúlyából kimozdítja, akkor …",
+        "answers": [
+            {
+                "text": "egyensúlyi helyzete körül csökkenő amplitúdóval és lengésidővel lengő mozgásba kezd.",
+                "correct": false
+            },
+            {
+                "text": "repülőgép stabilizáló nyomatéka nagyobb lesz, mint az instabilizáló nyomatéka.",
+                "correct": false
+            },
+            {
+                "text": "repülőgép stabilizáló nyomatéka kisebb lesz, mint az instabilizáló nyomatéka.",
+                "correct": true
+            },
+            {
+                "text": "egyensúlyi helyzete körül közel állandó amplitúdóval és lengésidővel lengő mozgásba kezd.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az indukált ellenállás-tényező …",
+        "answers": [
+            {
+                "text": "a felhajtóerő-tényezővel egyenesen arányos.",
+                "correct": false
+            },
+            {
+                "text": "független a felhajtóerő-tényező alakulásától.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő-tényezővel négyzetesen arányos.",
+                "correct": true
+            },
+            {
+                "text": "a felhajtóerő-tényező négyzetgyökével egyenesen arányos.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Azt a pörgettyűt, amely a fő tengelyén kívül még két kisegítő tengely körül képes elfordulásra, két szabadságfokú pörgettyűnek nevezzük.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A nagy íveltségű szárnyszelvény …",
+        "answers": [
+            {
+                "text": "szimmetrikus profilú.",
+                "correct": false
+            },
+            {
+                "text": "főleg farokfelületeknél kerül felhasználásra.",
+                "correct": false
+            },
+            {
+                "text": "nagy légellenállást termel.",
+                "correct": true
+            },
+            {
+                "text": "nagy felhajtóerő-termelő képességű, ezért főleg nagy sebességű repülőgépeken kerül felhasználásra.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy repülőgép Y/X hányadosa 12, mekkora föld feletti távolságot képes megtenni álló motorral történő siklásban 3000 láb magasságról (szélcsendben és a NEL szerinti körülmények között)?",
+        "answers": [
+            {
+                "text": "Kb. 11km-t.",
+                "correct": true
+            },
+            {
+                "text": "Kb. 10km-t.",
+                "correct": false
+            },
+            {
+                "text": "Kb. 9km-t.",
+                "correct": false
+            },
+            {
+                "text": "Kb. 6km-t.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az a szárnyprofil, melyen 0 állásszögön nem keletkezik felhajtóerő …",
+        "answers": [
+            {
+                "text": "kis íveltségű.",
+                "correct": false
+            },
+            {
+                "text": "aszimmetrikus.",
+                "correct": false
+            },
+            {
+                "text": "nagy íveltségű.",
+                "correct": false
+            },
+            {
+                "text": "szimmetrikus.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Egy test munkavégző képessége …",
+        "answers": [
+            {
+                "text": "egyenesen arányos a test sebességével.",
+                "correct": false
+            },
+            {
+                "text": "fordítottan arányos a test sebességével.",
+                "correct": false
+            },
+            {
+                "text": "négyzetesen arányos a test sebességével.",
+                "correct": true
+            },
+            {
+                "text": "fordítottan arányos a test tömegével.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárnyszelvény viszonylagos vastagságát …",
+        "answers": [
+            {
+                "text": "más néven íveltségnek nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "méterben adják meg.",
+                "correct": false
+            },
+            {
+                "text": "a húrhossz %-ában adják meg.",
+                "correct": true
+            },
+            {
+                "text": "a profil vastagságához viszonyítva adják meg.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Mi a leghatékonyabb állásszöghöz tartozó sebesség?",
+        "answers": [
+            {
+                "text": "Vutazó",
+                "correct": false
+            },
+            {
+                "text": "Vmax",
+                "correct": false
+            },
+            {
+                "text": "Vopt",
+                "correct": true
+            },
+            {
+                "text": "Vgazd",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha túl nagy a keresztstabilitás az iránystabilitáshoz viszonyítva, …",
+        "answers": [
+            {
+                "text": "a repülőgép egyik irányú dőlése, majd megcsúszása után a másik irányba való dőlés és megcsúszás következik be egyre növekvő amplitúdóval. Az ilyen mozgást holland orsónak nevezik.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép egyik irányú dőlése, majd megcsúszása után a másik irányba való dőlés és megcsúszás következik be egyre növekvő amplitúdóval. Az ilyen mozgást zuhanóspirálnak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép valamely kis zavarás hatására megdőlve süllyedni kezd, miközben a dőlési szög és a sebesség egyre nő, valamint a repülőgép hossztengelye egyre inkább a föld felé hajlik. Az ilyen mozgást holland orsónak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép valamely kis zavarás hatására megdőlve süllyedni kezd, miközben a dőlési szög és a sebesség egyre nő, valamint a repülőgép hossztengelye egyre inkább a föld felé hajlik. Az ilyen mozgást zuhanóspirálnak nevezik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "Jó közelítéssel a sűrűség 1%-os változását …",
+        "answers": [
+            {
+                "text": "10°C hőmérséklet- vagy 2 hPa légnyomásváltozás okozza.",
+                "correct": false
+            },
+            {
+                "text": "2°C hőmérséklet- vagy 10 hPa légnyomásváltozás okozza.",
+                "correct": true
+            },
+            {
+                "text": "5°C hőmérséklet- vagy 1 hPa légnyomásváltozás okozza.",
+                "correct": false
+            },
+            {
+                "text": "1°C hőmérséklet- vagy 5 hPa légnyomásváltozás okozza.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az indukált ellenállás …",
+        "answers": [
+            {
+                "text": "lineárisan csökken a sebességgel.",
+                "correct": false
+            },
+            {
+                "text": "négyzetesen nő a sebességgel.",
+                "correct": false
+            },
+            {
+                "text": "lineárisan nő a sebességgel.",
+                "correct": false
+            },
+            {
+                "text": "négyzetesen csökken a sebességgel.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Jó közelítéssel feltételezhetjük, hogy a repülőgép ellenállása egyenlőnek vehető a szárnyon keletkező ellenállással.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Minden mást változatlanul hagyva egy repülőgép felületi terhelésének növeléskor az átesési sebesség …",
+        "answers": [
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A polárdiagram … között teremt kapcsolatot.",
+        "answers": [
+            {
+                "text": "a felhajtóerő-tényező és az állásszög",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő-tényező és az ellenállás-tényező",
+                "correct": true
+            },
+            {
+                "text": "az ellenállás-tényező és az állásszög",
+                "correct": false
+            },
+            {
+                "text": "az átesési sebesség és az állásszög",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Növekvő sebességgel az indukált ellenállás …, és a káros ellenállás …",
+        "answers": [
+            {
+                "text": "csökken – nő.",
+                "correct": true
+            },
+            {
+                "text": "csökken – szintén csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő – szintén nő.",
+                "correct": false
+            },
+            {
+                "text": "nő – csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Hogyan változik egy repülőgép jósági száma (Y/X hányados), a repülőgép súlyának növekedésekor?",
+        "answers": [
+            {
+                "text": "A súly növekedésével az Y/X hányados romlik.",
+                "correct": false
+            },
+            {
+                "text": "A súly növekedésével az Y/X hányados változatlan marad.",
+                "correct": true
+            },
+            {
+                "text": "A súly növekedésével az Y/X hányados nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A kritikus állásszög …",
+        "answers": [
+            {
+                "text": "nem változik a repülőgép súlyával.",
+                "correct": true
+            },
+            {
+                "text": "nő a súlypont hátra vándorlásával.",
+                "correct": false
+            },
+            {
+                "text": "nő a repülőgép súlyának növekedésével.",
+                "correct": false
+            },
+            {
+                "text": "csökken a súlypont előre vándorlásával.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A statikus nyomás …",
+        "answers": [
+            {
+                "text": "az össznyomás irányában mérhető.",
+                "correct": false
+            },
+            {
+                "text": "az áramlás irányával párhuzamosan mérhető.",
+                "correct": false
+            },
+            {
+                "text": "az áramlás irányára merőlegesen mérhető.",
+                "correct": true
+            },
+            {
+                "text": "minden irányban mérhető.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Az alábbiak közül melyik mértékegység használatos teljesítmény kifejezésére?",
+        "answers": [
+            {
+                "text": "W/s",
+                "correct": false
+            },
+            {
+                "text": "W · s",
+                "correct": false
+            },
+            {
+                "text": "J · s",
+                "correct": false
+            },
+            {
+                "text": "W",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az indukált ellenállás egyenes vonalú vízszintes repülésben …",
+        "answers": [
+            {
+                "text": "a sebesség négyzetével egyenesen arányos.",
+                "correct": false
+            },
+            {
+                "text": "a sebességgel egyenesen arányos.",
+                "correct": false
+            },
+            {
+                "text": "a sebesség négyzetével fordítottan arányos.",
+                "correct": true
+            },
+            {
+                "text": "a sebességgel fordítottan arányos.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik egyenlőség igaz?",
+        "answers": [
+            {
+                "text": "a = m/F",
+                "correct": false
+            },
+            {
+                "text": "a = F · m",
+                "correct": false
+            },
+            {
+                "text": "m = F / a",
+                "correct": true
+            },
+            {
+                "text": "m = F · a",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Amikor a szárny zavaró hatás során kialakuló instabilizáló nyomatéka nagyobbá válik a vízszintes farokfelület stabilizáló nyomatékánál, akkor a repülőgép egyensúlyi állapota …",
+        "answers": [
+            {
+                "text": "közömbös.",
+                "correct": false
+            },
+            {
+                "text": "túlzottan stabil.",
+                "correct": false
+            },
+            {
+                "text": "stabil.",
+                "correct": false
+            },
+            {
+                "text": "instabil.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az alapjárattól eltérő teljesítménybeállítás esetén végrehajtott áteséskor az átesési sebesség …",
+        "answers": [
+            {
+                "text": "alacsonyabb.",
+                "correct": true
+            },
+            {
+                "text": "ugyanakkora, mint ha a motor alapjáraton üzemelne.",
+                "correct": false
+            },
+            {
+                "text": "magasabb.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárnyszelvény állásszöge …",
+        "answers": [
+            {
+                "text": "a profil alsó felülete és húrja által bezárt szög.",
+                "correct": false
+            },
+            {
+                "text": "a profil alsó felülete és a levegő áramlásának iránya által bezárt szög.",
+                "correct": false
+            },
+            {
+                "text": "a profil húrja és a vízszintes által bezárt szög.",
+                "correct": false
+            },
+            {
+                "text": "a profil húrja és a levegő áramlásának iránya által bezárt szög.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Hárompontos nekifutási helyzetben a légcsavar mely nyomatékainak hatását kell az oldalkormány lépésével kompenzálnunk?",
+        "answers": [
+            {
+                "text": "A légcsavarszél hatását, a precessziót és a reakciónyomatékot.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavarszél hatását és a precessziót.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavarszél hatását és a reakciónyomatékot.",
+                "correct": true
+            },
+            {
+                "text": "A precessziót és a reakciónyomatékot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás hamis?",
+        "answers": [
+            {
+                "text": "A trimlap kitérítésekor a kormánytartalék csökken.",
+                "correct": false
+            },
+            {
+                "text": "A trimlap kitérítésekor a kormányhatásosság nő.",
+                "correct": true
+            },
+            {
+                "text": "A trimlap kitérítésekor a repülőgép ellenállása nő.",
+                "correct": false
+            },
+            {
+                "text": "A trimlap kitérítésekor a magassági kormánylap is kitér.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Egy repülőgép dinamikus hosszstabilitásához feltétlenül szükséges, hogy a repülőgép statikusan hosszstabil legyen.",
+                "correct": true
+            },
+            {
+                "text": "Egy statikusan hosszstabil repülőgép dinamikusan is stabil tulajdonságokat mutat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy szimmetrikus profil felhajtóerő-tényezőjének változását (y-tengely) az állásszögváltozás (x-tengely) függvényében vizsgáljuk, akkor az így kapott görbe az y-tengelyt …",
+        "answers": [
+            {
+                "text": "a negatív tartományban metszi.",
+                "correct": false
+            },
+            {
+                "text": "az origóban metszi.",
+                "correct": true
+            },
+            {
+                "text": "pozitív tartományban metszi.",
+                "correct": false
+            },
+            {
+                "text": "nem metszi.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy áramlásba helyezett test légellenállása függ …",
+        "answers": [
+            {
+                "text": "az áramlás sebességétől.",
+                "correct": true
+            },
+            {
+                "text": "a test súlyától.",
+                "correct": false
+            },
+            {
+                "text": "a test tömegétől.",
+                "correct": false
+            },
+            {
+                "text": "a test súlypontjának helyzetétől.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A légellenállás párhuzamosan, a felhajtóerő merőlegesen keletkezik ….",
+        "answers": [
+            {
+                "text": "az áramló levegő irányához képest.",
+                "correct": true
+            },
+            {
+                "text": "a profil húrjához képest.",
+                "correct": false
+            },
+            {
+                "text": "a null felhajtóerő-tényező irányhoz képest.",
+                "correct": false
+            },
+            {
+                "text": "a vízszinteshez képest.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgép hossznyomatékainak összege nulla, akkor …",
+        "answers": [
+            {
+                "text": "a repülőgép-vezető nem alkalmazott kormánykitérítést.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép a tervezett utazósebességen repül.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép stabilitása semleges.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép trimhelyzetben van.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Vgazd-nál alacsonyabb sebességen történő vízszintes repülés esetén, ha az állásszöget növeljük és a beállított teljesítményt változatlanul hagyjuk, akkor …",
+        "answers": [
+            {
+                "text": "a repülőgép emelkedésbe kezd.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép süllyedni kezd.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép gyorsulni fog.",
+                "correct": false
+            },
+            {
+                "text": "a repülési helyzet nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép súlyának növekedésével az átesési sebesség …",
+        "answers": [
+            {
+                "text": "nem változik.",
+                "correct": false
+            },
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A bővülő jellegű áramlásban a statikus nyomás csökken és az áramlás sebessége növekszik.",
+                "correct": false
+            },
+            {
+                "text": "Egy áramlásba helyezett szilárd test és az áramló közeg között indukált ellenállás lép fel.",
+                "correct": false
+            },
+            {
+                "text": "Átváltási pontnak nevezzük azt a pontot, ahol az áramló közeg számára rendelkezésre álló tér diffúzorossá változik.",
+                "correct": false
+            },
+            {
+                "text": "Egy áramlásba helyezett szárnyszelvény orrpontjánál a statikus nyomás nagyobb, mint a végpontjánál.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Egy test súlya …",
+        "answers": [
+            {
+                "text": "fordítottan arányos tömegével és egyenesen arányos a nehézségi gyorsulással.",
+                "correct": false
+            },
+            {
+                "text": "tömegével és a nehézségi gyorsulással arányos.",
+                "correct": true
+            },
+            {
+                "text": "egyenesen arányos tömegével és fordítottan arányos a nehézségi gyorsulással.",
+                "correct": false
+            },
+            {
+                "text": "fordítottan arányos tömegével és fordítottan arányos a nehézségi gyorsulással.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép polárgörbéjéről leolvashatjuk …",
+        "answers": [
+            {
+                "text": "a légellenállás minimumát és a felhajtóerő maximumát.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő- és ellenállás-tényező arányának minimumát és a légellenállás minimumát.",
+                "correct": false
+            },
+            {
+                "text": "az ellenállás-tényező minimumát és a felhajtóerő maximumát.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő- és ellenállás-tényező arányának maximumát és a maximális felhajtóerő-tényezőt.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgép egy állásszögnövelő széllökés után a repülőgép-vezető beavatkozása nélkül egyensúlyi helyzete körül növekvő amplitúdóval, egyre nagyobb sebesség- és magasságingadozással lengéseket folytat, akkor a repülőgép stabilitása …",
+        "answers": [
+            {
+                "text": "statikusan stabil és dinamikusan instabil.",
+                "correct": true
+            },
+            {
+                "text": "statikusan instabil és dinamikusan közömbös.",
+                "correct": false
+            },
+            {
+                "text": "statikusan instabil és dinamikusan stabil.",
+                "correct": false
+            },
+            {
+                "text": "statikusan stabil és dinamikusan közömbös.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Mi a következménye annak, ha a súlypont a hátsó határérték mögé kerül?",
+        "answers": [
+            {
+                "text": "A kormánymozdulatok során a repülőgép szerkezeti túlterhelésének lehetősége nő, a kormányzás elfogadhatatlanul nagy kormányérzékenységgel jár.",
+                "correct": true
+            },
+            {
+                "text": "Némileg csökken a hosszstabilitás.",
+                "correct": false
+            },
+            {
+                "text": "Kedvezőbb dugóhúzó tulajdonságok.",
+                "correct": false
+            },
+            {
+                "text": "Túl nagy kormányerő szükséges a repülőgép kilebegtetéséhez.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy szárny karcsúsága λ=14,4. A fesztávolságot 0,9 méterrel növeljük, míg az A szárnyfelület változatlanul 10 m2 marad. Mekkora lesz így a szárny karcsúsága?",
+        "answers": [
+            {
+                "text": "λ=16,64",
+                "correct": true
+            },
+            {
+                "text": "λ=15,3",
+                "correct": false
+            },
+            {
+                "text": "λ=17,1",
+                "correct": false
+            },
+            {
+                "text": "λ=16,87",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A vízgőz mennyisége a légkörben …",
+        "answers": [
+            {
+                "text": "0,1 és 0,4 térfogat % között változik.",
+                "correct": false
+            },
+            {
+                "text": "0 és 4 térfogat % között változik.",
+                "correct": true
+            },
+            {
+                "text": "0,4 térfogat %-ban jelen.",
+                "correct": false
+            },
+            {
+                "text": "4 térfogat %-ban jelen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Míg minden más tényező változatlanul marad, a légnyomás növekedése esetén a repülőgép légellenállása …",
+        "answers": [
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A NEL szerint a sűrűség a magassággal …",
+        "answers": [
+            {
+                "text": "egyenesen arányos.",
+                "correct": false
+            },
+            {
+                "text": "az alsó rétegekben valamivel lassabban csökken, mint a nagyobb magasságokban.",
+                "correct": false
+            },
+            {
+                "text": "közel exponenciálisan csökken.",
+                "correct": true
+            },
+            {
+                "text": "Pontosan nem lehet megmondani, függ a hőmérséklettől is.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik fizikai mennyiségnek a mértékegysége a m/s2?",
+        "answers": [
+            {
+                "text": "Sebesség",
+                "correct": false
+            },
+            {
+                "text": "Gyorsulás",
+                "correct": true
+            },
+            {
+                "text": "Erő",
+                "correct": false
+            },
+            {
+                "text": "Nyomás",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Állandósult siklásban …",
+        "answers": [
+            {
+                "text": "a felhajtóerő egyenlő a súlyerővel.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő a súlyerő x-irányú komponensével tart egyensúlyt.",
+                "correct": false
+            },
+            {
+                "text": "a légellenállás a súlyerő x-irányú komponensével tart egyensúlyt.",
+                "correct": true
+            },
+            {
+                "text": "a tömegvonzás nehezíti a mozgást.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "1 mph = 1 tengeri mérföld/óra = 1, 609 km/h",
+                "correct": false
+            },
+            {
+                "text": "1 mph = 1 szárazföldi mérföld/óra = 1,852 km/h",
+                "correct": false
+            },
+            {
+                "text": "1 csomó = 1 tengeri mérföld/óra = 1,852 km/h",
+                "correct": true
+            },
+            {
+                "text": "1 csomó = 1 szárazföldi mérföld/óra = 1, 609 km/h",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A dinamikus nyomás képlete: …",
+        "answers": [
+            {
+                "text": "2 + ρ + v2",
+                "correct": false
+            },
+            {
+                "text": "½ · ρ · v2",
+                "correct": true
+            },
+            {
+                "text": "ρ + 2v",
+                "correct": false
+            },
+            {
+                "text": "2 · ρ · v2",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "Mekkora a hőmérséklet 9000 méter magasságban a NEL adatai szerint.",
+        "answers": [
+            {
+                "text": "-43,5°C.",
+                "correct": true
+            },
+            {
+                "text": "-37°C.",
+                "correct": false
+            },
+            {
+                "text": "-11°C.",
+                "correct": false
+            },
+            {
+                "text": "-4,5°C.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy alsószárnyas repülőgép szárnyelrendezéséből adódóan eleve kisebb keresztstabilitással rendelkezik, mint egy felsőszárnyas.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Vgazd-nál magasabb adott V1 sebességen történő vízszintes repülés esetén, ha a repülőgép valamilyen zavaró hatásra lelassul, akkor a repülőgép-vezető beavatkozása nélkül …",
+        "answers": [
+            {
+                "text": "az így létrejövő teljesítményfelesleg visszagyorsítja a repülőgépet a V1 sebességre.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép tovább lassul és átesik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép gyorsulni fog.",
+                "correct": false
+            },
+            {
+                "text": "a repülési helyzet nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Mely esetekben nő az átesési sebesség?",
+        "answers": [
+            {
+                "text": "A repülősúly növekedése és a minimális teljesítménynél nagyobb teljesítmény-beállítással végrehajtott átesés esetén egyaránt nő az átesési sebesség.",
+                "correct": false
+            },
+            {
+                "text": "A szárnyprofil íveltségének növekedésével és a súlypont előrevándorlásával egyaránt nő az átesési sebesség.",
+                "correct": false
+            },
+            {
+                "text": "A súlypont hátravándorlásával és a repülősúly csökkenésével egyaránt nő az átesési sebesség.",
+                "correct": false
+            },
+            {
+                "text": "A szárnyprofil íveltségének csökkenésével és a repülősúly növekedésével egyaránt nő az átesési sebesség.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy repülőgép stabilitásának mértékét bármeddig növelhetjük, mert minél stabilabb egy repülőgép, vezetése annál biztonságosabb.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A pályahajlási szöget θ-val jelölve állandósult emelkedésben …",
+        "answers": [
+            {
+                "text": "Y/G = cosθ",
+                "correct": true
+            },
+            {
+                "text": "Y = G sinθ",
+                "correct": false
+            },
+            {
+                "text": "Y = G + cosθ",
+                "correct": false
+            },
+            {
+                "text": "Fp = X + G cosθ",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárnyprofilon keletkező felhajtóerő kialakulása nagyobb részt a szárny …",
+        "answers": [
+            {
+                "text": "alatt kialakuló nyomáscsökkenés eredménye.",
+                "correct": false
+            },
+            {
+                "text": "felett kialakuló nyomásnövekedés eredménye.",
+                "correct": false
+            },
+            {
+                "text": "alatt kialakuló nyomásnövekedés eredménye.",
+                "correct": false
+            },
+            {
+                "text": "felett kialakuló nyomáscsökkenés eredménye.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy repülőgép, melynek átesési sebessége 50 csomó, egyenes vonalú egyenletes sebességű vízszintes repülésben halad 115 csomós sebességgel. A maximális felhajtóerő-tényezőnek hány %-a ekkor a felhajtóerő-tényező?",
+        "answers": [
+            {
+                "text": "19%",
+                "correct": true
+            },
+            {
+                "text": "230%",
+                "correct": false
+            },
+            {
+                "text": "43%",
+                "correct": false
+            },
+            {
+                "text": "65%",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Az ellenállás-tényező az állásszög növekedésével nő.",
+                "correct": true
+            },
+            {
+                "text": "A légellenállás a dinamikus nyomás négyzetével arányos.",
+                "correct": false
+            },
+            {
+                "text": "Az ellenállás-tényező a sebesség négyzetével arányos.",
+                "correct": false
+            },
+            {
+                "text": "A légellenállás az ellenállás-tényező, a dinamikus nyomás, a sebesség és a test jellemző felületének szorzata.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A Fowler-lap kitérítésekor a résen keresztül … jutó levegő … Venturi-hatás következtében megnöveli a levegő áramlási sebességét ezáltal késleltetve a határréteg leválását.",
+        "answers": [
+            {
+                "text": "az ívelőlap felső felületére – diffúzoros",
+                "correct": false
+            },
+            {
+                "text": "a szárny teljes felső felületére – diffúzoros",
+                "correct": false
+            },
+            {
+                "text": "az ívelőlap felső felületére – konfúzoros",
+                "correct": true
+            },
+            {
+                "text": "a szárny teljes felső felületére – konfúzoros",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgép súlypontja a semleges pont előtt van, akkor …",
+        "answers": [
+            {
+                "text": "hossznyomatékainak összege nulla.",
+                "correct": false
+            },
+            {
+                "text": "hossznyomatékainak összege lehet negatív, pozitív vagy nulla.",
+                "correct": true
+            },
+            {
+                "text": "hossznyomatékainak összege pozitív.",
+                "correct": false
+            },
+            {
+                "text": "hossznyomatékainak összege negatív.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárny karcsúsága …",
+        "answers": [
+            {
+                "text": "változatlan fesztávolság esetén a szárnyfelület növelésével négyzetesen nő.",
+                "correct": false
+            },
+            {
+                "text": "változatlan fesztávolság esetén a szárnyfelülettel fordítottan arányos.",
+                "correct": true
+            },
+            {
+                "text": "annál nagyobb, minél nagyobb a fesztávolság.",
+                "correct": false
+            },
+            {
+                "text": "változatlan szárnyfelület mellett a fesztávolság növelésével egyenes arányban nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az orrsegédszárny kimozdulásakor a résen keresztül jutó levegő … Venturi-hatás következtében megnöveli a levegő áramlási sebességét … ezáltal késleltetve a határréteg leválását.",
+        "answers": [
+            {
+                "text": "diffúzoros – a szárny felső felületén",
+                "correct": false
+            },
+            {
+                "text": "diffúzoros – az ívelőlap felső felületén",
+                "correct": false
+            },
+            {
+                "text": "konfúzoros – a szárny felső felületén",
+                "correct": true
+            },
+            {
+                "text": "konfúzoros – az ívelőlap felső felületén",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A kabinból nézve az óramutató irányával megegyező irányba forgó légcsavar esetén nagy állásszögű vízszintes repülés során milyen következménye van a légcsavar asszimmetrikus terhelésének?",
+        "answers": [
+            {
+                "text": "Orsózónyomaték jobbra.",
+                "correct": false
+            },
+            {
+                "text": "Legyezőnyomaték jobbra.",
+                "correct": false
+            },
+            {
+                "text": "Orsózónyomaték balra.",
+                "correct": false
+            },
+            {
+                "text": "Legyezőnyomaték balra.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Utazósebességen történő vízszintes repülés esetén, ha a teljesítménybeállítást növeljük és az állásszöget változatlanul hagyjuk, akkor …",
+        "answers": [
+            {
+                "text": "a repülési helyzet nem változik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép gyorsulni fog.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép süllyedni kezd.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép emelkedésbe kezd.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A mozgásra késztetett test súlypontjában a gyorsulással megegyező irányú tehetetlenségi erő ébred, amely a tömeg és a gyorsulás szorzatával arányos.",
+                "correct": false
+            },
+            {
+                "text": "A mozgásra késztetett test súlypontjában a gyorsulással megegyező irányú tehetetlenségi erő ébred, amely a tömeg és a gyorsulás hányadosával arányos.",
+                "correct": false
+            },
+            {
+                "text": "A mozgásra késztetett test súlypontjában a gyorsulással ellentétes irányú tehetetlenségi erő ébred, amely a tömeg és a gyorsulás hányadosával arányos.",
+                "correct": false
+            },
+            {
+                "text": "A mozgásra késztetett test súlypontjában a gyorsulással ellentétes irányú tehetetlenségi erő ébred, amely a tömeg és a gyorsulás szorzatával arányos.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Nagy állásszögű repülés esetén …",
+        "answers": [
+            {
+                "text": "a vonóerő hatásvonala (a kabinból nézve) jobbra forgó légcsavar esetén a légcsavar tengelyétől felfelé tolódik el.",
+                "correct": false
+            },
+            {
+                "text": "a vonóerő hatásvonala (a kabinból nézve) balra forgó légcsavar esetén a légcsavar tengelyétől jobbra tolódik el.",
+                "correct": false
+            },
+            {
+                "text": "a vonóerő hatásvonala (a kabinból nézve) jobbra forgó légcsavar esetén a légcsavar tengelyétől jobbra tolódik el.",
+                "correct": true
+            },
+            {
+                "text": "a vonóerő hatásvonala a légcsavar tengelyével egybeesik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Állandósult emelkedésben …",
+        "answers": [
+            {
+                "text": "a légellenállás a súlyerő x-irányú komponensével tart egyensúlyt.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő a súlyerő x-irányú komponensével tart egyensúlyt.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő mindig nagyobb a súlyerőnél.",
+                "correct": false
+            },
+            {
+                "text": "a vonóerő a légellenállással és a súlyerő x-irányú komponensével tart egyensúlyt.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A kabinból nézve az óramutató irányával megegyező irányba forgó légcsavar esetén a nekifutás során milyen következménye van a légcsavar reakciónyomatékának egy orrkeres repülőgépen?",
+        "answers": [
+            {
+                "text": "Orsózónyomaték balra, mely a bal kerék terhelését növeli.",
+                "correct": true
+            },
+            {
+                "text": "Orsózónyomaték jobbra, mely a jobb kerék terhelését növeli.",
+                "correct": false
+            },
+            {
+                "text": "Állásszögnövelő bólintónyomaték, mely tehermentesíti az orrkereket.",
+                "correct": false
+            },
+            {
+                "text": "Állásszögcsökkentő bólintónyomaték, mely az orrkerék terhelését növeli.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egyenes vonalú, egyenletes sebességű, vízszintes repülésben (konstans légsűrűség és súly esetén) …",
+        "answers": [
+            {
+                "text": "az állásszög csökkenésekor a felhajtóerő változatlan marad, ha a felhajtóerő-tényező nem változik.",
+                "correct": false
+            },
+            {
+                "text": "a sebesség növekedésekor a felhajtóerő változatlan marad, ha a felhajtóerő-tényező növekszik.",
+                "correct": false
+            },
+            {
+                "text": "az állásszög növekedésekor a felhajtóerő változatlan marad, ha a sebességet növeljük.",
+                "correct": false
+            },
+            {
+                "text": "a sebesség csökkenésekor a felhajtóerő változatlan marad, ha az állásszöget növeljük.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A légcsavar precesszió-hatása során … érezhető.",
+        "answers": [
+            {
+                "text": "bólintó és legyező mozgás",
+                "correct": true
+            },
+            {
+                "text": "motorrázás",
+                "correct": false
+            },
+            {
+                "text": "orsózó és legyező mozgás",
+                "correct": false
+            },
+            {
+                "text": "bólintó és orsózó mozgás",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Állandó fordulatszámú légcsavar esetén, helyes beállítást alkalmazva nagy sebességen a lapátok beállítási szöge nagy.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Nagy karcsúságú szárny esetén …",
+        "answers": [
+            {
+                "text": "kisebb az indukált ellenállás és nagyobb a felhajtóerő-tényező.",
+                "correct": true
+            },
+            {
+                "text": "nagyobb az átesési sebesség és a kritikus állásszög.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb az indukált ellenállás és kisebb a felhajtóerő-tényező.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb a felhajtóerő és az ellenállás.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Ha a torlónyomásból kivonjuk az össznyomást, megkapjuk a statikus nyomást.",
+                "correct": false
+            },
+            {
+                "text": "Az össznyomás a statikus és a dinamikus nyomás különbsége.",
+                "correct": false
+            },
+            {
+                "text": "Az össznyomás és a torlónyomás különbsége a statikus nyomás.",
+                "correct": true
+            },
+            {
+                "text": "Az össznyomás a torlónyomás és a dinamikus nyomás összege.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy repülőgépen teljes kormánylap-kitérítéssel nem tudjuk létrehozni a maximális felhajtóerő-tényezőt.",
+        "answers": [
+            {
+                "text": "Ekkor a repülőgép stabilitása túlságosan nagy.",
+                "correct": true
+            },
+            {
+                "text": "Ekkor a repülőgép instabil.",
+                "correct": false
+            },
+            {
+                "text": "Ekkor van a repülőgép súlypontja a tervezett súlyponthelyzetben.",
+                "correct": false
+            },
+            {
+                "text": "Ekkor a súlypont a semleges pontban van.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A súlypont hátravándorlásával az átesési sebesség … és a repülőgép … kormánymozdulatokkal vezethető.",
+        "answers": [
+            {
+                "text": "csökken – kisebb",
+                "correct": true
+            },
+            {
+                "text": "nő – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "csökken – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "nő – kisebb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A kabinból nézve az óramutató irányával megegyező irányba forgó légcsavar esetén a magassági kormány húzásakor, azaz állásszög növelő manőver során milyen következménye van a légcsavar precesszió-hatásának?",
+        "answers": [
+            {
+                "text": "Orsózónyomaték jobbra.",
+                "correct": false
+            },
+            {
+                "text": "Orsózónyomaték balra.",
+                "correct": false
+            },
+            {
+                "text": "Legyezőnyomaték jobbra.",
+                "correct": true
+            },
+            {
+                "text": "Legyezőnyomaték balra.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép statikus stabilitása akkor áll fenn, ha …",
+        "answers": [
+            {
+                "text": "a szárnyfelület legalább 10-szer nagyobb, mint a vízszintes irányfelület.",
+                "correct": false
+            },
+            {
+                "text": "a súlypont a szárny belépőéle előtt van.",
+                "correct": false
+            },
+            {
+                "text": "a hossznyomatéki egyensúly megbomlásakor kisebb nyomaték keletkezik a vízszintes irányfelületen, mint a szárnyon.",
+                "correct": false
+            },
+            {
+                "text": "a súlypont a semleges pont előtt van.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A troposzférában a hőmérsékleti gradiens …",
+        "answers": [
+            {
+                "text": "6,5°C/100 m.",
+                "correct": false
+            },
+            {
+                "text": "6,5°C/1000 m.",
+                "correct": true
+            },
+            {
+                "text": "6,5°C/10 km.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az indukált ellenállás-tényező …",
+        "answers": [
+            {
+                "text": "arányos a sebesség négyzetével.",
+                "correct": false
+            },
+            {
+                "text": "egyenesen arányos a felhajtóerő-tényezővel.",
+                "correct": false
+            },
+            {
+                "text": "egyenesen arányos a sebességgel.",
+                "correct": false
+            },
+            {
+                "text": "arányos a felhajtóerő-tényező négyzetével.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy statikusan hosszstabil repülőgép …",
+        "answers": [
+            {
+                "text": "miután egy külső zavaró hatás hossznyomatéki egyensúlyából kimozdítja, a repülőgép-vezető beavatkozása nélkül, önműködően az egyensúlyi helyzete felé mozdul.",
+                "correct": true
+            },
+            {
+                "text": "külső zavaró hatás következtében megbomlott hossznyomatéki egyensúlyi helyzetét a magassági kormány használata nélkül, néhány csillapodó lengés után visszanyeri.",
+                "correct": false
+            },
+            {
+                "text": "miután egy külső zavaró hatás hossznyomatéki egyensúlyából kimozdítja, az új helyzetében repül tovább.",
+                "correct": false
+            },
+            {
+                "text": "külső zavarás hatására megkezdett lengő mozgását közel állandó amplitúdóval és lengésidővel folytatja.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A NEL szerint a tengerszinten mért légnyomás …",
+        "answers": [
+            {
+                "text": "1013,25 hPa, azaz 29,92 Hginch.",
+                "correct": true
+            },
+            {
+                "text": "1025,13 hPa, azaz 29,92 Hginch.",
+                "correct": false
+            },
+            {
+                "text": "1025,13 hPa, azaz 29,29 Hginch.",
+                "correct": false
+            },
+            {
+                "text": "1013,25 hPa, azaz 29,29 Hginch.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép Vopt sebességén tudjuk maximalizálni siklás esetén a levegőben tölthető időt és egyben a föld felett lerepülhető távolságot.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A sűrűség mértékegysége: … A fajsúly mértékegysége: …",
+        "answers": [
+            {
+                "text": "N/m3 – kg/m3",
+                "correct": false
+            },
+            {
+                "text": "kg/m2 – N/m2",
+                "correct": false
+            },
+            {
+                "text": "kg/m3 – N/m3",
+                "correct": true
+            },
+            {
+                "text": "N/kg – kg/cm3",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A súlypont előrevándorlásával a magassági kormány érzékenysége … és a kormányerő …",
+        "answers": [
+            {
+                "text": "csökken – csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő – nő.",
+                "correct": false
+            },
+            {
+                "text": "csökken – nő.",
+                "correct": true
+            },
+            {
+                "text": "nő – csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Milyen kapcsolatban van a legkisebb siklószöget biztosító sebesség és az a sebesség, melyen a siklás során a legtöbb levegőben tölthető időt maximalizáljuk?",
+        "answers": [
+            {
+                "text": "A két sebesség azonos.",
+                "correct": false
+            },
+            {
+                "text": "Ez a repülőgép típusától függ.",
+                "correct": false
+            },
+            {
+                "text": "A siklás során a legtöbb levegőben tölthető időt biztosító sebesség nagyobb.",
+                "correct": false
+            },
+            {
+                "text": "A legkisebb siklószöget biztosító sebesség nagyobb.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Mekkora az indukált és a káros ellenállás aránya annál sebességnél, melyen egyenes vonalú vízszintes repüléskor az összellenállás minimális?",
+        "answers": [
+            {
+                "text": "1/2",
+                "correct": false
+            },
+            {
+                "text": "Ez az érték minden repülőgépen más és más.",
+                "correct": false
+            },
+            {
+                "text": "2/1",
+                "correct": false
+            },
+            {
+                "text": "1/1",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Nagy sebességű repülés esetén az indukált ellenállás jelentős.",
+                "correct": false
+            },
+            {
+                "text": "Nagy sebességű repülés esetén az alaki ellenállás elhanyagolhatóan kicsi.",
+                "correct": false
+            },
+            {
+                "text": "Nagy állásszögű repülésnél az indukált ellenállás akár 75-80%-a is lehet a légellenállásnak.",
+                "correct": true
+            },
+            {
+                "text": "Nagy állásszögű repülésnél az indukált ellenállás a légellenállás kb. 1%-át teszi ki.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy szimmetrikus profil felhajtóerő-tényezőjének változását (y-tengely) az állásszögváltozás (x-tengely) függvényében vizsgáljuk, akkor az így kapott görbe az x-tengelyt …",
+        "answers": [
+            {
+                "text": "a negatív tartományban metszi.",
+                "correct": false
+            },
+            {
+                "text": "az origóban metszi.",
+                "correct": true
+            },
+            {
+                "text": "nem metszi.",
+                "correct": false
+            },
+            {
+                "text": "pozitív tartományban metszi.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A súlypont hátravándorlásával a kormányérzékenység …",
+        "answers": [
+            {
+                "text": "nem változik.",
+                "correct": false
+            },
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárny legjobb Y/X hányadosa …",
+        "answers": [
+            {
+                "text": "kisebb a repülőgép legjobb Y/X hányadosánál.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb a repülőgép legjobb Y/X hányadosánál.",
+                "correct": true
+            },
+            {
+                "text": "lehet nagyobb is és kisebb is mint a repülőgép legjobb Y/X hányadosa.",
+                "correct": false
+            },
+            {
+                "text": "egyenlő a repülőgép legjobb Y/X hányadosával.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha az áramcsőben állandósult áramlás van és egy szakaszán az áramvonalak összetartanak, akkor ezen a részen a statikus nyomás … és a sebesség …",
+        "answers": [
+            {
+                "text": "nő – pedig csökken.",
+                "correct": false
+            },
+            {
+                "text": "csökken – pedig nő.",
+                "correct": true
+            },
+            {
+                "text": "nő – is nő.",
+                "correct": false
+            },
+            {
+                "text": "csökken – is csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A centripetális erő nagysága egyenesen arányos a tömeggel, a kerületi sebesség négyzetével és fordítottan a sugárral, iránya pedig a forgási középpont felé mutat.",
+                "correct": true
+            },
+            {
+                "text": "A centripetális erő nagysága egyenesen arányos a tömeggel, a kerületi sebességgel és a sugárral, iránya pedig a forgási középpont felé mutat.",
+                "correct": false
+            },
+            {
+                "text": "A centripetális erő nagysága egyenesen arányos a tömeggel, fordítottan arányos a kerületi sebesség négyzetével és a sugárral, iránya pedig a forgási középpont felé mutat.",
+                "correct": false
+            },
+            {
+                "text": "A centripetális erő nagysága egyenesen arányos a tömeggel, a kerületi sebesség négyzetével és fordítottan a sugárral, iránya pedig sugár irányban kifelé mutat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A légerők nagysága …",
+        "answers": [
+            {
+                "text": "egyenesen arányos a levegő sűrűségével és relatív áramlási sebességével.",
+                "correct": false
+            },
+            {
+                "text": "egyenesen arányos a levegő sűrűségével és négyzetesen a levegő relatív áramlási sebességével.",
+                "correct": true
+            },
+            {
+                "text": "fordítottan arányos a levegő sűrűségével és egyenesen arányos a levegő relatív áramlási sebességével.",
+                "correct": false
+            },
+            {
+                "text": "négyzetesen arányos a levegő sűrűségével és fordítottan arányos a levegő relatív áramlási sebességével.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A légcsavar elcsavarásának köszönhetően a szelvények beállítási szöge a légcsavarszárny végéhez közeledve …",
+        "answers": [
+            {
+                "text": "nő.",
+                "correct": false
+            },
+            {
+                "text": "csökken.",
+                "correct": true
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik ellenállás-összetevő nem nő a sebességgel?",
+        "answers": [
+            {
+                "text": "A káros ellenállás.",
+                "correct": false
+            },
+            {
+                "text": "Az indukált ellenállás.",
+                "correct": true
+            },
+            {
+                "text": "Az alaki ellenállás.",
+                "correct": false
+            },
+            {
+                "text": "A profilellenállás.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik sebesség választásával tudunk a legmesszebbre siklani?",
+        "answers": [
+            {
+                "text": "Vmax",
+                "correct": false
+            },
+            {
+                "text": "Vutazó",
+                "correct": false
+            },
+            {
+                "text": "Vopt",
+                "correct": true
+            },
+            {
+                "text": "Vgazd",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A szén-dioxid a légkörben átlagosan …",
+        "answers": [
+            {
+                "text": "0,1 térfogat %-ban jelen.",
+                "correct": false
+            },
+            {
+                "text": "3 térfogat %-ban jelen.",
+                "correct": false
+            },
+            {
+                "text": "0,03 térfogat %-ban jelen.",
+                "correct": true
+            },
+            {
+                "text": "1 térfogat %-ban jelen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy ívelt profil felhajtóerő-tényezőjének változását (y-tengely) az állásszögváltozás (x-tengely) függvényében vizsgáljuk, akkor az így kapott görbe az x-tengelyt …",
+        "answers": [
+            {
+                "text": "pozitív tartományban metszi.",
+                "correct": false
+            },
+            {
+                "text": "a negatív tartományban metszi.",
+                "correct": true
+            },
+            {
+                "text": "nem metszi.",
+                "correct": false
+            },
+            {
+                "text": "az origóban metszi.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A nyomásközéppont normál repülési helyzetekben a kritikus állásszög esetén mozdul a legelőbbre.",
+                "correct": true
+            },
+            {
+                "text": "A nyomásközéppont helyzete az állásszögtől független.",
+                "correct": false
+            },
+            {
+                "text": "A nyomásközéppont normál repülési helyzetekben az állásszög csökkenésével előrevándorol.",
+                "correct": false
+            },
+            {
+                "text": "Cy=0 esetén a nyomásközéppont a hátra tevődik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy szárny beállítási szöge 2°, és állásszöge 4° egyenletes sebességű vízszintes repülésben, akkor mekkora a repülőgép bólintási szöge?",
+        "answers": [
+            {
+                "text": "6°",
+                "correct": false
+            },
+            {
+                "text": "4°",
+                "correct": false
+            },
+            {
+                "text": "2°",
+                "correct": true
+            },
+            {
+                "text": "0°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A hatótávolság maximális, ha a légellenállás minimális.",
+                "correct": true
+            },
+            {
+                "text": "A tüzelőanyag-fogyasztás minimális, ha a légellenállás minimális.",
+                "correct": false
+            },
+            {
+                "text": "A levegőben tölthető idő maximális, ha a légellenállás minimális.",
+                "correct": false
+            },
+            {
+                "text": "A szükséges teljesítmény minimális, ha a légellenállás minimális.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A szögsebesség a sugár és a kerületi sebesség hányadosa.",
+                "correct": false
+            },
+            {
+                "text": "A kerületi sebesség a sugár és a szögsebesség szorzata.",
+                "correct": true
+            },
+            {
+                "text": "A kerületi sebesség a sugár és a szögelfordulás szorzata.",
+                "correct": false
+            },
+            {
+                "text": "A szögsebesség a sugár és a szögelfordulás hányadosa.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Fékszárny használatakor a repülőgép emelkedőképessége …",
+        "answers": [
+            {
+                "text": "romlik.",
+                "correct": true
+            },
+            {
+                "text": "javul.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárny beállítási szöge nem más, mint … által bezárt szög.",
+        "answers": [
+            {
+                "text": "a hossztengely és a szárnyprofil húrja",
+                "correct": true
+            },
+            {
+                "text": "a szárnyprofil húrja és középvonala",
+                "correct": false
+            },
+            {
+                "text": "a hossztengely és az áramló levegő iránya",
+                "correct": false
+            },
+            {
+                "text": "a szárnyprofil húrja és az áramló levegő iránya",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az indukált ellenállás a repülősúly … és a sebesség …",
+        "answers": [
+            {
+                "text": "csökkenésével nő – növekedésével is nő.",
+                "correct": false
+            },
+            {
+                "text": "növekedésével nő – növekedésével is nő.",
+                "correct": false
+            },
+            {
+                "text": "növekedésével csökken – csökkenésével is csökken.",
+                "correct": false
+            },
+            {
+                "text": "csökkenésével csökken – növekedésével is csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Haladó mozgást végző testre ható erő és az általa létesített gyorsulás egyenesen arányos, az arányossági tényező pedig a mozgatott test tömege.",
+        "answers": [
+            {
+                "text": "Ez Newton I. törvénye.",
+                "correct": false
+            },
+            {
+                "text": "Ez Newton II. törvénye.",
+                "correct": true
+            },
+            {
+                "text": "Ez Newton III. törvénye.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép jósági száma (Y/X hányados) …",
+        "answers": [
+            {
+                "text": "az állásszög növekedésével a leghatékonyabb állásszög eléréséig növekszik.",
+                "correct": true
+            },
+            {
+                "text": "4° állásszög esetén maximális.",
+                "correct": false
+            },
+            {
+                "text": "akkor maximális, ha a Vgazd sebességhez tartozó állásszögön repülünk.",
+                "correct": false
+            },
+            {
+                "text": "az állásszög növekedésével folyamatosan növekszik és a kritikus állásszögnél éri el maximumát.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "A szárnyon keletkező légerőket térben megoszló erőknek nevezzük.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy repülőgép gyakorlati csúcsmagasságának azt a magasságot nevezzük, ahol …",
+        "answers": [
+            {
+                "text": "már nincs teljesítményfeleslege.",
+                "correct": false
+            },
+            {
+                "text": "az emelkedés w függőleges sebessége 10 láb/percre csökken.",
+                "correct": false
+            },
+            {
+                "text": "már nem képes emelkedésre.",
+                "correct": false
+            },
+            {
+                "text": "az emelkedés w függőleges sebessége 100 láb/percre csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "A gravitációs gyorsulás …",
+        "answers": [
+            {
+                "text": "mértékegysége kg ∙ m/s2",
+                "correct": false
+            },
+            {
+                "text": "a testnek a gyorsító erővel szemben kifejtett ellenállása.",
+                "correct": false
+            },
+            {
+                "text": "az erő, mellyel a Föld vonzza a testet.",
+                "correct": false
+            },
+            {
+                "text": "a szabadon eső test gyorsulása.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "A kg · m/s2 melyik mértékegységnek felel meg?",
+        "answers": [
+            {
+                "text": "Joule",
+                "correct": false
+            },
+            {
+                "text": "Watt",
+                "correct": false
+            },
+            {
+                "text": "Newton",
+                "correct": true
+            },
+            {
+                "text": "Pascal",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Az indukált ellenállás a szárnykarcsúság növekedésével nő.",
+                "correct": false
+            },
+            {
+                "text": "Az indukált ellenállás jelentős nagy sebességű repülőgépek esetén.",
+                "correct": false
+            },
+            {
+                "text": "Az indukált ellenállás független a felhajtóerő-tényezőtől.",
+                "correct": false
+            },
+            {
+                "text": "Az indukált ellenállás-tényező független a sebességtől.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép hossztengelye és a szárnyprofil húrja közötti szög …",
+        "answers": [
+            {
+                "text": "az állásszög.",
+                "correct": false
+            },
+            {
+                "text": "a beállítási szög.",
+                "correct": true
+            },
+            {
+                "text": "a pályahajlási szög.",
+                "correct": false
+            },
+            {
+                "text": "a bólintási szög.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgépnek a szárny aszimmetrikus átesése során kialakuló stabil sebességű ferde törzshelyzetű orsózó, merülő mozgását …",
+        "answers": [
+            {
+                "text": "zuhanóspirálnak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "holland orsónak nevezik.",
+                "correct": false
+            },
+            {
+                "text": "dugóhúzónak nevezik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A szárnyprofil polárisa olyan görbe, mely …",
+        "answers": [
+            {
+                "text": "a felhajtóerő- és ellenállás-tényező között teremt kapcsolatot.",
+                "correct": true
+            },
+            {
+                "text": "a felhajtóerő-tényező és az állásszög között teremt kapcsolatot.",
+                "correct": false
+            },
+            {
+                "text": "a felhajtóerő-tényező és az eredő kereszttengelyre vett nyomaték között teremt kapcsolatot.",
+                "correct": false
+            },
+            {
+                "text": "a szükséges illetve rendelkezésre álló teljesítmény és a vízszintes repülési sebesség között teremt kapcsolatot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy testet állandósult áramlásba helyezünk és az áramló levegő sűrűségét a negyedére csökkentjük, akkor a test légellenállása …",
+        "answers": [
+            {
+                "text": "tizenhatodára csökken.",
+                "correct": false
+            },
+            {
+                "text": "negyedére csökken.",
+                "correct": true
+            },
+            {
+                "text": "felére csökken.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A NEL nem veszi figyelembe a levegő páratartalmát.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy szárny beállítási szöge 4,5°, és egyenletes sebességű emelkedésben állásszöge 8,5°, valamint a repülőgép bólintási szöge 7°, akkor mekkora a pályahajlási szög az emelkedés során?",
+        "answers": [
+            {
+                "text": "11,5°",
+                "correct": false
+            },
+            {
+                "text": "3°",
+                "correct": true
+            },
+            {
+                "text": "8,5°",
+                "correct": false
+            },
+            {
+                "text": "4°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az állásszög nem más, mint … által bezárt szög.",
+        "answers": [
+            {
+                "text": "a szárnyprofil húrja és az áramló levegő iránya",
+                "correct": true
+            },
+            {
+                "text": "a hossztengely és a szárnyprofil húrja",
+                "correct": false
+            },
+            {
+                "text": "a hossztengely és az áramló levegő iránya",
+                "correct": false
+            },
+            {
+                "text": "a szárnyprofil húrja és középvonala",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "Melyik egyenlőség igaz?",
+        "answers": [
+            {
+                "text": "ρ ∙ V = m",
+                "correct": true
+            },
+            {
+                "text": "ρ = G / V",
+                "correct": false
+            },
+            {
+                "text": "ρ = V / G",
+                "correct": false
+            },
+            {
+                "text": "V ∙ m = ρ",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "A kitüntetett (egyensúlyi) erőrendszerek jellemzője, hogy …",
+        "answers": [
+            {
+                "text": "hatásukra a nyugvó test továbbra is nyugalomban marad.",
+                "correct": true
+            },
+            {
+                "text": "azokat vonal menti erők alkotják.",
+                "correct": false
+            },
+            {
+                "text": "azokat felület menti erők alkotják.",
+                "correct": false
+            },
+            {
+                "text": "azokat felület menti és térben megoszló erők összessége alkotja.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A megközelítési sebességet tartva kitérített fékszárnnyal …",
+        "answers": [
+            {
+                "text": "nő a kritikus állásszög.",
+                "correct": false
+            },
+            {
+                "text": "csökken a légellenállás.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép nagyobb horizonthelyzetben esik át.",
+                "correct": false
+            },
+            {
+                "text": "meredekebb siklószöget érhetünk el.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz egyenes vonalú vízszintes repüléskor arra a sebességre, melynél a légellenállás minimális?",
+        "answers": [
+            {
+                "text": "Ezen a sebességen a káros ellenállás nagyobb, mint az indukált ellenállás.",
+                "correct": false
+            },
+            {
+                "text": "Az felhajtóerő és az ellenállás hányadosa minimális.",
+                "correct": false
+            },
+            {
+                "text": "Ezen a sebességen tudjuk biztosítani a legkisebb süllyedési szöget siklás esetén.",
+                "correct": true
+            },
+            {
+                "text": "Ezen a sebességen tudjuk maximalizálni a levegőben tölthető időt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A szárny elemi szelvényeinek húrhossza és a keresztten-gelyhez viszonyított pozíciója minden esetben azonos.",
+                "correct": false
+            },
+            {
+                "text": "A nyomásközéppont a normál repülési helyzeteknek meg-felelő állásszögek esetén az állásszög növekedésével az AC aerodinamikai középpont felé tart.",
+                "correct": true
+            },
+            {
+                "text": "A KAH a szárny belépőélétől számítva a húr 25%-ban található.",
+                "correct": false
+            },
+            {
+                "text": "Az aerodinamikailag egyenértékű szárny húrhossza az aerodinamikai tengely.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "… egyaránt az átesési sebesség növekedése irányába hatnak.",
+        "answers": [
+            {
+                "text": "Alacsonyabb repülősúly, kisebb bedöntés a forduló során, kisebb fékszárnykitérítés",
+                "correct": false
+            },
+            {
+                "text": "Nagyobb terhelési többes a forduló során, mellső súlyponthelyzet, szándékos átesés során alacsonyabb teljesítménybeállítás alkalmazása",
+                "correct": true
+            },
+            {
+                "text": "Nagyobb repülősúly, nagyobb fékszárnykitérítés, mellső súlyponthelyzet",
+                "correct": false
+            },
+            {
+                "text": "Nagyobb bedöntés a forduló során, szándékos átesés során nagyobb teljesítménybeállítás alkalmazása, hátsó súlyponthelyzet",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik helyzetben fordulhat elő, hogy a repülőgépet a magassági kormány teljes kitérítése esetén sem tudjuk kilebegtetni?",
+        "answers": [
+            {
+                "text": "Szélsőséges hátsó súlyponthelyzet esetén.",
+                "correct": false
+            },
+            {
+                "text": "Szélsőséges mellső súlyponthelyzet esetén.",
+                "correct": true
+            },
+            {
+                "text": "Akkor, ha a súlypont a semleges pont mögött van.",
+                "correct": false
+            },
+            {
+                "text": "Akkor, ha a súlypont a semleges pontban van.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A kabinból nézve az óramutató irányával megegyező irányba forgó légcsavar esetén a nekifutás kezdetén a felszállóteljesítmény ráadásakor milyen következménye van a légcsavar ferde megfúvásának?",
+        "answers": [
+            {
+                "text": "Legyezőnyomaték balra.",
+                "correct": true
+            },
+            {
+                "text": "Legyezőnyomaték jobbra.",
+                "correct": false
+            },
+            {
+                "text": "Orsózónyomaték balra.",
+                "correct": false
+            },
+            {
+                "text": "Orsózónyomaték jobbra.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgép egy állásszögnövelő széllökés után a repülőgép-vezető beavatkozása nélkül egyensúlyi helyzete körül állandó amplitúdóval és lengésidővel lengéseket folytat, akkor a repülőgép stabilitása …",
+        "answers": [
+            {
+                "text": "statikusan instabil és dinamikusan közömbös.",
+                "correct": false
+            },
+            {
+                "text": "statikusan stabil és dinamikusan instabil.",
+                "correct": false
+            },
+            {
+                "text": "statikusan instabil és dinamikusan stabil.",
+                "correct": false
+            },
+            {
+                "text": "statikusan stabil és dinamikusan közömbös.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A légcsavar hatásfoka …",
+        "answers": [
+            {
+                "text": "a szükséges teljesítménynek és a motor effektív teljesítményének a hányadosa.",
+                "correct": false
+            },
+            {
+                "text": "a motor effektív teljesítményének és szükséges teljesítménynek a hányadosa.",
+                "correct": false
+            },
+            {
+                "text": "a rendelkezésre álló teljesítménynek és a motor effektív teljesítményének a hányadosa.",
+                "correct": true
+            },
+            {
+                "text": "a motor effektív teljesítményének és a rendelkezésre álló teljesítménynek a hányadosa.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A repülőgép súlypontvándorlásának …",
+        "answers": [
+            {
+                "text": "hátsó határa a megengedhető minimális stabilitás.",
+                "correct": true
+            },
+            {
+                "text": "hátsó határa a kormányozhatóság leromlásának megengedhető határa.",
+                "correct": false
+            },
+            {
+                "text": "határa a semleges pont.",
+                "correct": false
+            },
+            {
+                "text": "mellső határa a semleges pont.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Mikor a legkisebb a légcsavar hasznos teljesítménye?",
+        "answers": [
+            {
+                "text": "A legnagyobb elérhető vízszintes sebességen.",
+                "correct": false
+            },
+            {
+                "text": "Ha repülés közben minimálisra állítjuk a teljesítményt.",
+                "correct": false
+            },
+            {
+                "text": "Az átesési sebességen.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép álló helyzetében.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy ívelt profil felhajtóerő-tényezőjének változását (y-tengely) az állásszögváltozás (x-tengely) függvényében vizsgáljuk, akkor az így kapott görbe az y-tengelyt …",
+        "answers": [
+            {
+                "text": "pozitív tartományban metszi.",
+                "correct": true
+            },
+            {
+                "text": "a negatív tartományban metszi.",
+                "correct": false
+            },
+            {
+                "text": "nem metszi.",
+                "correct": false
+            },
+            {
+                "text": "az origóban metszi.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Minden repülőgép esetében súlypontján (tömegközéppontján) …",
+        "answers": [
+            {
+                "text": "átmegy a vonóerő, a felhajtóerő és a súlyerő irányvektora.",
+                "correct": false
+            },
+            {
+                "text": "átmegy a felhajtóerő, a légellenállás és a súlyerő irányvektora.",
+                "correct": false
+            },
+            {
+                "text": "átmegy a vonóerő, a felhajtóerő, a légellenállás és a súlyerő irányvektora.",
+                "correct": false
+            },
+            {
+                "text": "azt a pontot értjük, ahol összes tömegét egy pontban lévőnek tételezzük fel.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "A test tömegének, a nehézségi gyorsulásnak és a test emelési magasságának szorzataként megkapjuk a test …",
+        "answers": [
+            {
+                "text": "helyzeti és mozgási energiájának összegét.",
+                "correct": false
+            },
+            {
+                "text": "helyzeti energiáját.",
+                "correct": true
+            },
+            {
+                "text": "mozgási energiáját.",
+                "correct": false
+            },
+            {
+                "text": "gyorsulását.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A légcsavarszárny pályairányú sebessége …",
+        "answers": [
+            {
+                "text": "a lapelemek fogástengelytől mért távolságával fordított arányban növekszik.",
+                "correct": false
+            },
+            {
+                "text": "a lapelemek fogástengelytől mért távolságával egyenes arányban növekszik.",
+                "correct": false
+            },
+            {
+                "text": "minden lapelem esetében változatlan.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A száraz levegő sűrűsége nagyobb.",
+                "correct": true
+            },
+            {
+                "text": "A nedves levegő sűrűsége nagyobb.",
+                "correct": false
+            },
+            {
+                "text": "A levegő sűrűségét a páratartalom nem befolyásolja.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Az aerodinamikai centrum …",
+        "answers": [
+            {
+                "text": "a szárny középvonalának 25 %-ában helyezkedik el.",
+                "correct": false
+            },
+            {
+                "text": "helyét úgy kapjuk meg, hogy a szárny tőhúrjához hozzáadjuk a szárnyvég húrhosszát, míg a szárnyvég húrjához a szárnytő húrhosszát, majd az így kapott pontokat egyetlen egyenessel összekötjük. Az AC ennek az egyenesnek és a középvonalnak a metszéspontja.",
+                "correct": false
+            },
+            {
+                "text": "a szárnytőben található profil húrjának mellső 1/4-ében helyezkedik el.",
+                "correct": false
+            },
+            {
+                "text": "jellemzője, hogy a felhajtóerő e pontra vett nyomatéka az állásszög függvényében nem változik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "Faroknehéz repülőgép trimelésekor a kormánylap felfelé tér ki.",
+                "correct": false
+            },
+            {
+                "text": "Fejnehéz repülőgép trimelésekor a trimlap lefelé tér ki.",
+                "correct": true
+            },
+            {
+                "text": "Fejnehéz repülőgép trimelése esetén a kormánylap lefelé tér ki.",
+                "correct": false
+            },
+            {
+                "text": "Faroknehéz repülőgép trimelése esetén a trimlap lefelé tér ki.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy statikusan stabil repülőgép hossznyomatéki egyensúlyában változás történik, például kormánykitérítés vagy széllökés hatására, akkor a vízszintes irányfelületen …",
+        "answers": [
+            {
+                "text": "nem keletkezik nyomaték, így visszaáll a nyomatéki egyensúly.",
+                "correct": false
+            },
+            {
+                "text": "ugyanakkora nyomaték keletkezik, mint a szárnyon. Ez hozza létre a nyomatéki egyensúlyt.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb nyomaték keletkezik, mint a szárnyon, mely a nyomatéki egyensúly visszaállításának irányába hat.",
+                "correct": true
+            },
+            {
+                "text": "kisebb nyomaték keletkezik, mint a szárnyon, mely a nyomatéki egyensúly visszaállításának irányába hat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Fékszárny használatakor …",
+        "answers": [
+            {
+                "text": "kisebb állásszögön esik át a repülőgép és az átesési sebesség alacsonyabb lesz.",
+                "correct": true
+            },
+            {
+                "text": "nagyobb állásszögön esik át a repülőgép és az átesési sebesség magasabb lesz.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb állásszögön esik át a repülőgép és az átesési sebesség alacsonyabb lesz.",
+                "correct": false
+            },
+            {
+                "text": "kisebb állásszögön esik át a repülőgép és az átesési sebesség magasabb lesz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egy testet állandósult áramlásba helyezünk és az áramló levegő sebessége a négyszeresére nő, akkor a test légellenállása …",
+        "answers": [
+            {
+                "text": "tizenhatszorosára nő.",
+                "correct": true
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            },
+            {
+                "text": "kétszeresére nő.",
+                "correct": false
+            },
+            {
+                "text": "négyszeresére nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Az alábbiak közül melyik mértékegység használatos nyomás kifejezésére?",
+        "answers": [
+            {
+                "text": "N · m",
+                "correct": false
+            },
+            {
+                "text": "m/s2",
+                "correct": false
+            },
+            {
+                "text": "kg · m/s2",
+                "correct": false
+            },
+            {
+                "text": "N/m2",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Vgazd sebességen …",
+        "answers": [
+            {
+                "text": "teszi meg a repülőgép a legnagyobb föld feletti távolságot siklásban.",
+                "correct": false
+            },
+            {
+                "text": "az időegységre jutó tüzelőanyag-fogyasztást minimalizáljuk.",
+                "correct": true
+            },
+            {
+                "text": "maximális a repülőgép hatótávolsága.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép Y/X hányadosa maximális.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Egy repülőgép sebessége egyenes vonalú vízszintes repülésben kétszeresére növekszik. A felhajtóerő-tényező ekkor …",
+        "answers": [
+            {
+                "text": "a négyszeresére nő.",
+                "correct": false
+            },
+            {
+                "text": "a kétszeresére nő.",
+                "correct": false
+            },
+            {
+                "text": "a felére csökken.",
+                "correct": false
+            },
+            {
+                "text": "a negyedére csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha egyenes vonalú egyenletes sebességű vízszintes repülésben a repülőgép súlypontja a szárnyon kialakuló nyomásközéppont mögött van, akkor a vízszintes irányfelület …",
+        "answers": [
+            {
+                "text": "terhelt, és a rajta keletkező légerő felfelé mutat.",
+                "correct": true
+            },
+            {
+                "text": "terheletlen.",
+                "correct": false
+            },
+            {
+                "text": "terhelt, és a rajta keletkező légerő lefelé mutat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "A forduló során …",
+        "answers": [
+            {
+                "text": "a repülőgép kifelé csúszásakor az eredő erő a forduló középpontja felé mutat.",
+                "correct": false
+            },
+            {
+                "text": "csúszásmentes fordulóban a felhajtóerő, a centrifugális erő és a súlyerő eredője zérus.",
+                "correct": true
+            },
+            {
+                "text": "a felhajtóerő a súlyerővel tart egyensúlyt.",
+                "correct": false
+            },
+            {
+                "text": "a centripetális erőt a felhajtóerő függőleges komponense biztosítja.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Az erő …",
+        "answers": [
+            {
+                "text": "nem mást, mint a gravitációs gyorsulás.",
+                "correct": false
+            },
+            {
+                "text": "a test tehetetlenségének mértéke.",
+                "correct": false
+            },
+            {
+                "text": "az a hatás, amely egy test mozgásállapotát irány vagy nagyság szerint, vagy a test alakját megváltoztatja.",
+                "correct": true
+            },
+            {
+                "text": "munkavégző képesség.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "LÉGKÖR",
+        "question": "A NEL szerint mekkora a légnyomás 5500 m magasságban?",
+        "answers": [
+            {
+                "text": "kb. 500 hPa.",
+                "correct": true
+            },
+            {
+                "text": "kb. 600 hPa.",
+                "correct": false
+            },
+            {
+                "text": "kb. 800 hPa.",
+                "correct": false
+            },
+            {
+                "text": "Pontosan nem lehet megmondani, függ a hőmérséklettől is.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Minden repülőgép esetében a rá ható erők … a repülőgép súlypontjában (tömegközéppontjában) támad.",
+        "answers": [
+            {
+                "text": "mindegyike, a felhajtóerő, a légellenállás, a vonóerő és a súlyerő",
+                "correct": false
+            },
+            {
+                "text": "közül a felhajtóerő, a légellenállás és a súlyerő",
+                "correct": false
+            },
+            {
+                "text": "közül a súlyerő",
+                "correct": true
+            },
+            {
+                "text": "közül a felhajtóerő és a súlyerő",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Ha a repülőgép hossznyomatékainak összege negatív, akkor …",
+        "answers": [
+            {
+                "text": "kereszttengelye körüli nyomatéka fejnehéz.",
+                "correct": true
+            },
+            {
+                "text": "kereszttengelye körüli nyomatéka faroknehéz.",
+                "correct": false
+            },
+            {
+                "text": "hossztengelye körüli nyomatéka faroknehéz.",
+                "correct": false
+            },
+            {
+                "text": "hossztengelye körüli nyomatéka fejnehéz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "MECHANIKA",
+        "question": "Egy kétkarú emelő bal oldalának forgatónyomatéka 40 Nm, jobb oldalának forgatónyomatéka pedig -16 Nm. A forgásponttól mekkora távolságban kell működtetnünk az emelő jobb oldalán egy 4 N-os erőt ahhoz, hogy az emelő egyensúlyban legyen?",
+        "answers": [
+            {
+                "text": "6 m-re.",
+                "correct": true
+            },
+            {
+                "text": "4 m-re.",
+                "correct": false
+            },
+            {
+                "text": "24 m-re.",
+                "correct": false
+            },
+            {
+                "text": "12 m-re.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "AERODINAMIKA",
+        "question": "Melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "Az indukált állásszög a végtelen terjedtségűnek tekintett szárny esetében nyer értelmet.",
+                "correct": false
+            },
+            {
+                "text": "A véges terjedtségű szárny effektív állásszöge nem más, mint a geometriai és az indukált állásszög különbsége.",
+                "correct": true
+            },
+            {
+                "text": "A véges terjedtségű szárny indukált állásszöge az effektív állásszög és a geometriai állásszög összege.",
+                "correct": false
+            },
+            {
+                "text": "A véges terjedtségű szárny effektív állásszögének a geometriai állásszöget tekintjük.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+/*Repülési gyakorlatok és eljárások.doc */
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "… a felhajtóerő a megnövekedett állásszög miatt nő meg ugrásszerűen.",
+        "answers": [
+            {
+                "text": "Szemből támadó vízszintes széllökés esetén",
+                "correct": false
+            },
+            {
+                "text": "Hátulról támadó vízszintes széllökés esetén",
+                "correct": false
+            },
+            {
+                "text": "Intenzív feláramlásba belerepülve",
+                "correct": true
+            },
+            {
+                "text": "Intenzív leáramlásba belerepülve",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a fékszárny asszimmetrikus helyzetben beragad, …",
+        "answers": [
+            {
+                "text": "a leszálláskor a lehető legjobban ki kell lebegtetni a repülőgépet, hogy minél alacsonyabb sebességen fogjon talajt.",
+                "correct": false
+            },
+            {
+                "text": "nem szabad kilebegtetni a repülőgépet, nagyobb sebességgel kell földet érni.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan kell helyesen beállítani a légcsavarszabályzó kart motorindításkor?",
+        "answers": [
+            {
+                "text": "Köztes állásban.",
+                "correct": false
+            },
+            {
+                "text": "Teljesen előre tolt helyzetben (kis szögre állítv.",
+                "correct": true
+            },
+            {
+                "text": "Teljesen hátra húzott helyzetben (nagy szögre állítv.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Melyik állítás igaz az állandó fordulatszámú légcsavar üzemelésére?",
+        "answers": [
+            {
+                "text": "A fordulatszám csökken a sebesség növekedésével.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavarállító berendezés állandó sebességen tartja a repülőgépet.",
+                "correct": false
+            },
+            {
+                "text": "A motor szívótérnyomásának felhasználásával működő légcsavarállító berendezés tartja a kiválasztott fordulatszámot.",
+                "correct": false
+            },
+            {
+                "text": "A lapátok beállítási szöge a sebesség növekedésével növekszik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Amikor a repülőgép-vezető akaratlanul IMC-be kerül, és a műszerek segítségével kell kivezetnie a repülőgépet VMC körülmények közé, …",
+        "answers": [
+            {
+                "text": "tilos a kabinból kitekintve vizuális referenciákat keresni a térbeli tájékozódáshoz, mert könnyen érzékcsalódás áldozata lehet.",
+                "correct": true
+            },
+            {
+                "text": "a kabinból kitekintve próbáljon vizuális referenciákat keresni a térbeli tájékozódáshoz. Ha ezt nem teszi, könnyen érzékcsalódás áldozata lehet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "Minden repülőgép úgy van tervezve, hogy nem tudjon dugóhúzóba esni.",
+                "correct": false
+            },
+            {
+                "text": "Dugóhúzóban a repülőgép sebessége nem állandósul, folyamatosan növekszik.",
+                "correct": false
+            },
+            {
+                "text": "A dugóhúzó akkor következik be, amikor a repülőgépszárny átesése a szárnytőben következik be.",
+                "correct": false
+            },
+            {
+                "text": "A dugóhúzó megszüntetésénél a csűrőket semleges helyzetben kell tartani.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mikor kelt nagyobb légellenállást a légcsavar motorleállás esetén?",
+        "answers": [
+            {
+                "text": "A szélkerékmódban forgó légcsavar esetén nagyobb ellenállás keletkezik, mint álló légcsavar esetén.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép légellenállását nem befolyásolja, hogy ilyenkor szélkerékmódba kerül-e a légcsavar vagy sem.",
+                "correct": false
+            },
+            {
+                "text": "A sebességétől függ, hogy az álló vagy a szélkerékmódban forgó légcsavar termel-e több ellenállást.",
+                "correct": false
+            },
+            {
+                "text": "Az álló légcsavar nagyobb légellenállást termel, mint amikor a levegő szélkerékmódban forgatja a légcsavart.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha csúcsra szegényítés után a keverékszabályzóval tovább szegényítünk, akkor …",
+        "answers": [
+            {
+                "text": "a fordulatszám és a kipufugógáz-hőmérséklet növekedni fog.",
+                "correct": false
+            },
+            {
+                "text": "a fordulatszám növekedni fog és a kipufugógáz-hőmérséklet csökkenni fog.",
+                "correct": false
+            },
+            {
+                "text": "a fordulatszám csökkenni fog és a kipufugógáz-hőmérséklet növekedni fog",
+                "correct": false
+            },
+            {
+                "text": "a fordulatszám és a kipufugógáz-hőmérséklet csökkenni fog.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A vitorlaállásba állított légcsavar esetén …",
+        "answers": [
+            {
+                "text": "a légcsavarlapátok légellenállása minimális lesz.",
+                "correct": true
+            },
+            {
+                "text": "a szélkerékhatás eredményeként pont akkora fordulatszám jön létre, hogy a motor olajozása biztosított legyen.",
+                "correct": false
+            },
+            {
+                "text": "a szélkerékhatás maximális.",
+                "correct": false
+            },
+            {
+                "text": "a szélkerékhatás egy optimális fordulatszámot hoz létre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A repülőgépszárny által keltett turbulencia annál erősebb és veszélyesebb a közelében közlekedő repülőgépekre, minél … a turbulenciát keltő repülőgép tömege és minél … halad.",
+        "answers": [
+            {
+                "text": "kisebb – gyorsabban",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – lassabban",
+                "correct": true
+            },
+            {
+                "text": "kisebb – lassabban",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – gyorsabban",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Nagy állásszögű repülés során mikor kell számítani a p-faktor nyomatékra?",
+        "answers": [
+            {
+                "text": "A kabinból nézve az óramutató járásával ellenkező irányba (balra) forgó légcsavar esetén.",
+                "correct": false
+            },
+            {
+                "text": "A kabinból nézve az óramutató járásával megegyező irányba (jobbra) forgó légcsavar esetén.",
+                "correct": false
+            },
+            {
+                "text": "Amikor a repülőgép mozgása sorána a légcsavar kitérül forgási síkjából.",
+                "correct": false
+            },
+            {
+                "text": "Jobbra és balra forgó légcsavar esetén egyaránt számítanunk kell erre a nyomatékra.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy repülőgép 30°-os bedöntésű szabályos vízszintes fordulót végez 95 csomós, majd 110 csomós sebességgel. Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A nagyobb sebesség esetén nagyobb lesz a terhelési többes.",
+                "correct": false
+            },
+            {
+                "text": "A felhajtóerő-tényező kisebb lesz alacsonyabb sebességen.",
+                "correct": false
+            },
+            {
+                "text": "A fordulósugár nagyobb lesz nagyobb sebességen.",
+                "correct": true
+            },
+            {
+                "text": "A felhajtóerő kisebb lesz alacsonyabb sebességen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hány százalékkal nő az átesési sebesség a 60°-os bedöntésű szabályos fordulóban?",
+        "answers": [
+            {
+                "text": "19%-kal.",
+                "correct": false
+            },
+            {
+                "text": "32%-kal.",
+                "correct": false
+            },
+            {
+                "text": "51%-kal.",
+                "correct": false
+            },
+            {
+                "text": "41%-kal.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Balra csűréskor a repülőgép … irányú orsózó mozgást végez, mely egyben … irányú legyező mozgással párosul.",
+        "answers": [
+            {
+                "text": "bal – bal",
+                "correct": false
+            },
+            {
+                "text": "jobb – bal",
+                "correct": false
+            },
+            {
+                "text": "jobb – jobb",
+                "correct": false
+            },
+            {
+                "text": "bal – jobb",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi a teendő, ha a felszállás előtti motorpróba során a kétkörös gyújtásról az egyik gyújtáskörre kapcsolva fordulatszámesést tapasztalunk?",
+        "answers": [
+            {
+                "text": "Természetes következménye a fordulatszámesés annak, ha a gyújtást csak az egyik gyújtáskör biztosítja, amennyiben a fordulatszámesés a gyártó által előírt mértéket nem haladja meg.",
+                "correct": true
+            },
+            {
+                "text": "Ilyenkor a gyújtás kritikus meghibásodására kell gyanakodni és a felszállást el kell halasztani.",
+                "correct": false
+            },
+            {
+                "text": "Ez a gyújtógyertya enyhe szennyeződésének következménye, melyet rövid ideig magas fordulatszámon történő motorjáratással esetleg meg lehet szűntetni. Ilyenkor a légiüzemeltetési utasítás és a repülőgép üzembentartójának rendelkezése szerint kell eljárni.",
+                "correct": false
+            },
+            {
+                "text": "Kisebb-nagyobb fordulatszámesés esetén a felszállást minden további teendő nélkül végre lehet hajtani.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Vízre végrehajtott kényszerleszállás esetén a mentőmellényeket …",
+        "answers": [
+            {
+                "text": "a repülőgép elhagyása után kell felfújni.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép elhagyása előtt kell felfújni.",
+                "correct": false
+            },
+            {
+                "text": "a kilebegtetéskor kell felfújni.",
+                "correct": false
+            },
+            {
+                "text": "a süllyedés során kell felfújni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az oldalkormány jobbra történő belépésekor a repülőgép … irányú legyező mozgást végez, mely egyben … irányú orsózó mozgással párosul.",
+        "answers": [
+            {
+                "text": "bal – bal",
+                "correct": false
+            },
+            {
+                "text": "jobb – jobb",
+                "correct": true
+            },
+            {
+                "text": "bal – jobb",
+                "correct": false
+            },
+            {
+                "text": "jobb – bal",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy 45°-os bedöntésű szabályos forduló során mekkora lesz a felhajtóerő, ha a repülőgép súlya 730 kg? (g = 9,81 m/s2)",
+        "answers": [
+            {
+                "text": "8235,5 N",
+                "correct": false
+            },
+            {
+                "text": "7161,3 N",
+                "correct": false
+            },
+            {
+                "text": "10097,4 N",
+                "correct": true
+            },
+            {
+                "text": "14322,6 N",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a sodronyköteles kormánymozgatásnál kötélszakadás miatt az egyik irányban megszűnik az erőátvitel, akkor …",
+        "answers": [
+            {
+                "text": "mindkét irányban működésképtelen lesz a kormány.",
+                "correct": false
+            },
+            {
+                "text": "a hibátlan oldalon még működni fog a kormány.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép vezethetetlenné válik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Motortűz esetén, ha sikerült megszüntetni a tüzet azáltal, hogy megszakítottuk a tüzelőanyag áramlását, …",
+        "answers": [
+            {
+                "text": "a motort megpróbálhatjuk újraindítani. Ha beindul, folytathatjuk a repülést.",
+                "correct": false
+            },
+            {
+                "text": "a motort megpróbálhatjuk újraindítani. Ha beindul, elővigyázatossági leszállást kell végrehajtani.",
+                "correct": false
+            },
+            {
+                "text": "a motort tilos újraindítani, kényszerleszállást kell végrehajtani.",
+                "correct": true
+            },
+            {
+                "text": "a motort megpróbálhatjuk újraindítani. Ha beindul, kitérőrepülőtérre le kell szállni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Vízreszállás esetén mikor kell felvenni a mentőmellényeket?",
+        "answers": [
+            {
+                "text": "A víz felett vezető útvonal repülése során mindvégig viselni kell.",
+                "correct": false
+            },
+            {
+                "text": "A kényszerhelyzet megállapításakor.",
+                "correct": true
+            },
+            {
+                "text": "A vízreszállás és a repülőgép elhagyása után.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mire vonatkozik a VLO sebesség?",
+        "answers": [
+            {
+                "text": "Maximális megengedett sebesség kibocsátott futóművel.",
+                "correct": false
+            },
+            {
+                "text": "Maximális megengedett sebesség a fékszárny működtetésekor.",
+                "correct": false
+            },
+            {
+                "text": "Maximális megengedett sebesség a futómű működtetésekor.",
+                "correct": true
+            },
+            {
+                "text": "Maximális megengedett sebesség kitérített fékszárnnyal.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A TAS növelésével a föld feletti sebesség mindig növekszik függetlenül a szélsebesség irányától és nagyságától.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy függőleges széllökés okozta állásszög-változás nagyobb repülési sebességen … , és … felhajtóerő-növekedést és túlterhelést hoz létre.",
+        "answers": [
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "kisebb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "kisebb – nagyobb",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az alábbiak közül mikor a legnagyobb a széleltérítés szöge …",
+        "answers": [
+            {
+                "text": "Szt = 15°",
+                "correct": false
+            },
+            {
+                "text": "Szt = 64°",
+                "correct": false
+            },
+            {
+                "text": "Szt = 89°",
+                "correct": true
+            },
+            {
+                "text": "Szt = 138°",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi a következménye annak, ha a motor üzemelése közben a porlasztófűtést bekapcsoljuk?",
+        "answers": [
+            {
+                "text": "Fordulatszám- és motorteljesítmény-csökkenés.",
+                "correct": true
+            },
+            {
+                "text": "Motorrázás, egyenetlen motorjárás és motorteljesítmény-csökkenés.",
+                "correct": false
+            },
+            {
+                "text": "Hengerfej-hőmérséklet növekedése és motorteljesítmény-növekedés.",
+                "correct": false
+            },
+            {
+                "text": "A motor teljesítménye nem változik, de fordulatszám-csökkenést tapasztalunk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Annak érdekében, hogy felszállásnál elkerüljük egy nagyobb leszálló repülőgép örvénysorának maradványait,",
+        "answers": [
+            {
+                "text": "a pálya végéről kezdjük a nekifutást, hogy minél hamarabb elemelkedjünk.",
+                "correct": false
+            },
+            {
+                "text": "az elemelkedést jóval a nagyobb repülőgép földet érési pontján túl tervezzük.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy repülőgép egyenes vonalú egyenletes sebességű vízszintes repülésben halad, ahol a felhajtóerő-tényező értéke Cy=1. 1 fokos állásszögváltozás 0,095-tel változtatja meg a felhajtóerő-tényezőt. A repülőgép függőleges feláramlásba repül, mely során az állásszög 6 fokkal változik. Mekkora lesz ekkor a terhelési többes?",
+        "answers": [
+            {
+                "text": "1.43",
+                "correct": false
+            },
+            {
+                "text": "6",
+                "correct": false
+            },
+            {
+                "text": "-1.95",
+                "correct": false
+            },
+            {
+                "text": "1.57",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a motor nem jár, a szívótérnyomás-mérő a … mutatja. A motor beindítása után alapjáraton a műszer …",
+        "answers": [
+            {
+                "text": "QNH-t – a külső légnyomás fölé emelkedik.",
+                "correct": false
+            },
+            {
+                "text": "QFE-t – a külső légnyomás fölé emelkedik.",
+                "correct": false
+            },
+            {
+                "text": "QNH-t – visszaesik a külső légnyomás alá.",
+                "correct": false
+            },
+            {
+                "text": "QFE-t – visszaesik a külső légnyomás alá.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A repülőgép tankolása során a statikus kisülés megakadályozásához …",
+        "answers": [
+            {
+                "text": "a repülőgépet kell leföldelni.",
+                "correct": false
+            },
+            {
+                "text": "a töltőállomást kell leföldelni.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgépet és a leföldelt töltőállomást össze kell földelni.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgépet és a töltőállomást le kell földelni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Milyen műszerrel ellenőrizzük a motorteljesítményt állandó fordulatszámú légcsavarral felszerelt repülőgépen?",
+        "answers": [
+            {
+                "text": "Tüzelőanyagnyomás-mérővel.",
+                "correct": false
+            },
+            {
+                "text": "Fordulatszámmérővel.",
+                "correct": false
+            },
+            {
+                "text": "Szívótérnyomás-mérővel.",
+                "correct": true
+            },
+            {
+                "text": "Hengerfej-hőmérővel.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Utazórepülésből a magassági kormány húzásával rövid emelkedést végzünk minden egyéb beavatkozás nélkül. Hogyan reagál a légcsavarállásszög-szabályzó?",
+        "answers": [
+            {
+                "text": "Növeli a lapátok beállítási szögét és csökkenti a fordulatszámot.",
+                "correct": false
+            },
+            {
+                "text": "Csökkenti a lapátok beállítási szögét és növeli a fordulatszámot.",
+                "correct": false
+            },
+            {
+                "text": "Növeli a lapátok beállítási szögét és megtartja a fordulatszámot.",
+                "correct": false
+            },
+            {
+                "text": "Csökkenti a lapátok beállítási szögét és megtartja a fordulatszámot.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A légcsavarszárny profiljának beállítási szöge mindig kisebb mint az állásszöge.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavarszárny profiljának beállítási szöge mindig azonos az állásszögével.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavarszárny profiljának beállítási szöge azonos állásszögével, ha az effektív emelkedési szöge nulla.",
+                "correct": true
+            },
+            {
+                "text": "A légcsavarszárny profiljának beállítási szöge mindig nagyobb mint az állásszöge.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A viszkóz-aquaplanning …",
+        "answers": [
+            {
+                "text": "blokkolással járó fékezéskor jön létre, és kialakulhat vékony vízrétegen is, amikor a súrlódás következtében a víz jelenléte ellenére is elegendő hő keletkezik ahhoz, hogy a gumi futófelülete felforrósodjon és nyúlóssá váljon.",
+                "correct": false
+            },
+            {
+                "text": "viszonylag nagy gurulósebességnél alakul ki olyan módon, hogy a sebesség növekedésével a feltorlódott víz nyomása eléri a repülőgép súlyát, amikor is a gumik felúsznak a vízfelületre.",
+                "correct": false
+            },
+            {
+                "text": "kialakulásához elég egy századmilliméter vastag vízréteg és egy finom felületű szilárd burkolatú pálya (például melyet a korábbi földet érések alkalmával letapadt gumiréteg tesz tükörsimává).",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Melyik az a sebességkorlátozás, melyet csak nyugodt időben léphetünk át?",
+        "answers": [
+            {
+                "text": "Vno",
+                "correct": true
+            },
+            {
+                "text": "Vne",
+                "correct": false
+            },
+            {
+                "text": "Vfe",
+                "correct": false
+            },
+            {
+                "text": "Va",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A felszállásra használt pályairány 32-es. A szél 280°-ról fúj. Az iskolakör repülésénél … szélellentartást kell alkalmazni.",
+        "answers": [
+            {
+                "text": "a rövidfalon és az alapfalon",
+                "correct": false
+            },
+            {
+                "text": "az alapfalon és a hosszúfalon",
+                "correct": false
+            },
+            {
+                "text": "felszálláskor, leszálláskor és a hosszúfalon",
+                "correct": false
+            },
+            {
+                "text": "mindvégig",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mikor kell C-módra kapcsolni az erre alkalmas transzpodert olyan repülőtéren, ahol nincs gurítóradar?",
+        "answers": [
+            {
+                "text": "Motorindítás előtt.",
+                "correct": false
+            },
+            {
+                "text": "Motorindítás után.",
+                "correct": false
+            },
+            {
+                "text": "A pályára guruláskor.",
+                "correct": true
+            },
+            {
+                "text": "A nekifutás megkezdésekor.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Melyik állítás helyes?",
+        "answers": [
+            {
+                "text": "Vízszintes repülésben és azonos sebességű fordulóban az állásszög nem különbözik.",
+                "correct": false
+            },
+            {
+                "text": "Vízszintes repülésben az állásszög nagyobb, mint azonos sebességű fordulóban.",
+                "correct": false
+            },
+            {
+                "text": "Vízszintes repülésben az állásszög kisebb, mint azonos sebességű fordulóban.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Farokkerekes repülőgép esetében a farokfutó elemelésekor …",
+        "answers": [
+            {
+                "text": "a reakciónyomaték és a precesszió egy irányba, míg a ferde megfúvás okozta nyomaték ezekhez képest ellentétesen hat.",
+                "correct": false
+            },
+            {
+                "text": "mind a három légcsavar keltette nyomaték egy irányba hat.",
+                "correct": true
+            },
+            {
+                "text": "a precesszió és a ferde megfúvás okozta nyomaték egy irányba, míg a reakciónyomaték ezekhez képest ellentétesen hat.",
+                "correct": false
+            },
+            {
+                "text": "a reakció- és a ferde megfúvás okozta nyomaték egy irányba, míg a precesszió ezekhez képest ellentétesen hat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Emelkedés során szélnyírás következtében a hátszél hirtelen 6 csomóról tartósan 17 csomóra változik. Ha a repülőgép-vezető nem avatkozik be, akkor a repülőgép sebessége a szélnyírás hatására átmenetileg … fog, és miután az új helyzetben a repülőgép pályája stabilizálódik, az emelkedés szöge … lesz. A szélnyírás során fellépő terhelési többes ilyenkor … lesz.",
+        "answers": [
+            {
+                "text": "növekedni – kisebb – n>1",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – nagyobb – n<1",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – kisebb – n<1",
+                "correct": true
+            },
+            {
+                "text": "növekedni – nagyobb – n>1",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi a teendő, ha a felszállás előtti motorpróba során az egyik gyújtáskörön enyhe motorrázást, egyenetlen motorjárást tapasztalunk?",
+        "answers": [
+            {
+                "text": "Ha a légiüzemeltetési utasítás vagy a repülőgép üzemben tartója máshogy nem rendelkezik, a felszállást minden további teendő nélkül végre lehet hajtani.",
+                "correct": false
+            },
+            {
+                "text": "Ez a gyújtógyertya enyhe szennyeződése miatt is előfordulhat, melyet rövid ideig magas fordulatszámon történő motorjáratással esetleg meg lehet szűntetni. Ilyenkor a légiüzemeltetési utasítás és a repülőgép üzembentartójának rendelkezése szerint kell eljárni.",
+                "correct": true
+            },
+            {
+                "text": "Ilyenkor a gyújtás kritikus meghibásodására kell gyanakodni és a felszállást el kell halasztani.",
+                "correct": false
+            },
+            {
+                "text": "Természetes következménye a motorrázás annak, ha a gyújtást csak az egyik gyújtáskör biztosítja.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A szabályos forduló során a terhelési többes …, mint 1, és az átesési sebesség …, mint vízszintes repülés esetén.",
+        "answers": [
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "kisebb – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "kisebb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan növelünk teljesítményt állandó fordulatszámú légcsavarral felszerelt repülőgépen?",
+        "answers": [
+            {
+                "text": "Előre toljuk a fordulatszám-szabályzó kart.",
+                "correct": false
+            },
+            {
+                "text": "Egyszerre toljuk előre a szívótérnyomás kart és a fordulatszám-szabályzó kart.",
+                "correct": false
+            },
+            {
+                "text": "A fordulatszám növelése előtt növeljük a szívótérnyomás kart.",
+                "correct": false
+            },
+            {
+                "text": "A fordulatszám növelése után növeljük a szívótérnyomás kart.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Minél nagyobb fékszárny-beállítással lebegtetünk ki, annál kisebb állásszögön következik be az átesés.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": true
+            },
+            {
+                "text": "Hamis.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy adott erejű vízszintes széllökés hatása annál kisebb, minél … a repülőgép sebessége és minél … a tömege.",
+        "answers": [
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": true
+            },
+            {
+                "text": "kisebb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "kisebb – nagyobb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi az első teendő, ha repülés közben motortűz alakulna ki?",
+        "answers": [
+            {
+                "text": "Süllyedésbe kell vinni a repülőgépet a kényszerleszálláshoz.",
+                "correct": false
+            },
+            {
+                "text": "Kényszerhelyzetet kell jelenteni rádión.",
+                "correct": false
+            },
+            {
+                "text": "A keverékszabályzóval és/vagy a tűzcsappal el kell venni a motortól a tüzelőanyagot, és süllyedésbe kell vinni a repülőgépet a kényszerleszálláshoz.",
+                "correct": false
+            },
+            {
+                "text": "Azt az eljárást kell követni, amit a gyártó által kiadott légiüzemeltetési utasítás előír.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha repülés közben motortűz alakul ki és sikerül azt megszüntetni …",
+        "answers": [
+            {
+                "text": "meg kell próbálni fenntartani a vízszintes repülést.",
+                "correct": false
+            },
+            {
+                "text": "folytatni kell a megkezdett kényszerleszállást.",
+                "correct": true
+            },
+            {
+                "text": "meg kell kísérelni a motor újraindítását. Ha ez nem sikerül, folytatni kell a megkezdett kényszerleszállást.",
+                "correct": false
+            },
+            {
+                "text": "vészsüllyedést kell alkalmazni, hogy a tűz nehogy újra kialakuljon.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy repülőgép 45°-os bedöntésű szabályos vízszintes fordulót végez 90 csomós, majd 115 csomós sebességgel. Összehasonlítva a két repülési helyzetet, mi fog különbözni az alábbiak közül?",
+        "answers": [
+            {
+                "text": "Csak az állásszög.",
+                "correct": true
+            },
+            {
+                "text": "Csak a terhelési többes.",
+                "correct": false
+            },
+            {
+                "text": "Csak az átesési sebesség.",
+                "correct": false
+            },
+            {
+                "text": "Az állásszög, a terhelési többes és az átesési sebesség.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi az első teendő, ha repülés közben azt tapasztaljuk, hogy a műszerfal mögül füst áramlik be kabinba?",
+        "answers": [
+            {
+                "text": "Szellőztetni kell a kabint, hogy a mérgező gázok eltávozhassanak.",
+                "correct": false
+            },
+            {
+                "text": "Azonnal le kell állítani a gyújtást.",
+                "correct": false
+            },
+            {
+                "text": "Azonnal el kell zárni a tűzcsapot.",
+                "correct": false
+            },
+            {
+                "text": "A főkapcsolót, a kabinfűtést és a típustól függően az elektromos berendezések kapcsolóit kell lekapcsolni, mindezt olyan módon és sorrendben, ahogy azt a gyártó által kiadott légiüzemeltetési utasítás előírja.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy vízszintes bal forduló során az elfordulás- és csúszásjelző lapátja és a libella golyója is balra mozdul ki. A szabályos forduló vezetése érdekében …",
+        "answers": [
+            {
+                "text": "csökkenteni kell a balra csűrést és jobbra lépni a pedált.",
+                "correct": false
+            },
+            {
+                "text": "növelni kell a bal bedöntést.",
+                "correct": false
+            },
+            {
+                "text": "balra kell lépni a pedált.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép-vezető nem tehet semmit. Ilyenkor a merev trim helytelen beállítására következtetünk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A normál bedöntésű forduló során a függőleges vezérsíkon keletkező légerő …",
+        "answers": [
+            {
+                "text": "hatására a repülőgép emeli az orrát. Részben ez magyarázza a magassági kormány használatának szükségét.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép orrát a forduló ellen akarja fordítani. Részben ez magyarázza az oldalkormány kitérítésének szükségét.",
+                "correct": true
+            },
+            {
+                "text": "hatására a repülőgép leadja az orrát Részben ez magyarázza a magassági kormány használatának szükségét.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép orrát a forduló irányába akarja fordítani. Részben ez magyarázza az oldalkormány kitérítésének szükségét.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha repülés közben a motor leáll, az első legfontosabb teendő, hogy …",
+        "answers": [
+            {
+                "text": "kényszerhelyzetet jelentsünk rádión.",
+                "correct": false
+            },
+            {
+                "text": "biztosítsuk a repülőgép legjobb siklásához tartozó sebességet.",
+                "correct": true
+            },
+            {
+                "text": "kényszerleszállásra alkalmas terepet keressünk.",
+                "correct": false
+            },
+            {
+                "text": "segítséget kérjünk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha szárnytűz vagy motortűz oltása érdekében vészsüllyedést alkalmazunk, …",
+        "answers": [
+            {
+                "text": "a Vno sebességet nem léphetjük át.",
+                "correct": false
+            },
+            {
+                "text": "a Vne sebességet nem léphetjük át.",
+                "correct": true
+            },
+            {
+                "text": "a kényszerhelyzet miatt a Vne sebességet kivételesen átléphetjük.",
+                "correct": false
+            },
+            {
+                "text": "a Va sebességet nem léphetjük át",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A szemből támadó vízszintes széllökés esetén fellépő túlterhelés annál nagyobb, minél … a repülőgép önsebessége és minél … a széllökés.",
+        "answers": [
+            {
+                "text": "kisebb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "kisebb – nagyobb",
+                "correct": true
+            },
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Milyen hatásai vannak a fékszárny behúzásának a kezdeti emelkedés során?",
+        "answers": [
+            {
+                "text": "A repülőgép hirtelen megül, és ezt követően jobban fog emelkedni.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép hirtelen emelkedésbe kezd, és ezt követően jobban fog emelkedni.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép hirtelen emelkedésbe kezd, és ezt követően rosszabbul fog emelkedni.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép hirtelen megül, és ezt követően rosszabbul fog emelkedni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A felszállás során mely esetekben kritikus a szárny belépőélének jegesedése?",
+        "answers": [
+            {
+                "text": "A felszállás teljes folyamatára kritikus hatással van a jegesedés.",
+                "correct": true
+            },
+            {
+                "text": "A kezdeti emelkedés során.",
+                "correct": false
+            },
+            {
+                "text": "Az orrfutó elemelésekor.",
+                "correct": false
+            },
+            {
+                "text": "A nekifutás során.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Adott fordulósugár esetén … sebességhez … bedöntés tartozik",
+        "answers": [
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A magasság növekedésével egy adott bedöntésű fordulóhoz tartozó átesési sebesség IAS-ban …",
+        "answers": [
+            {
+                "text": "nagyobb.",
+                "correct": false
+            },
+            {
+                "text": "kisebb.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ahhoz, hogy a tüzelőanyag hűtő hatása érvényesülhessen, a tökéleteshez képest mindig … keveréket kell használnunk.",
+        "answers": [
+            {
+                "text": "szegényebb.",
+                "correct": false
+            },
+            {
+                "text": "dúsabb.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A szabályos vízszintes fordulóban a terhelési többes … szám és értéke a bedöntés szögével …",
+        "answers": [
+            {
+                "text": "mindig 1-nél kisebb – csökken.",
+                "correct": false
+            },
+            {
+                "text": "mindig 1-nél nagyobb – nő.",
+                "correct": true
+            },
+            {
+                "text": "lehet 1-nél nagyobb vagy kisebb – nő.",
+                "correct": false
+            },
+            {
+                "text": "lehet 1-nél nagyobb vagy kisebb – csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan indítjuk be a repülőgép belsőégésű négyütemű dugattyús motorját?",
+        "answers": [
+            {
+                "text": "Indítózás előtt a primer befecskendezőt a kar lassú, szakaszos meghúzásával teleszívjuk tüzelőanyaggal és a hengerbe pumpáljuk a teljes tüzelőanyagot. Majd a primer kar rögzítése után, kis gázzal megkezdjük az indítózást.",
+                "correct": false
+            },
+            {
+                "text": "Azt az eljárást követjük, amit a gyártó által kiadott légiüzemeltetési utasítás előír.",
+                "correct": true
+            },
+            {
+                "text": "A szivatót a motor hőmérsékletétől függően beállítjuk és kis gázzal megkezdjük az indítózást.",
+                "correct": false
+            },
+            {
+                "text": "Teleszívjuk a primer befecskendezőt és alapgázon az indítózás megkezdése után, indítózás közben nyomjuk be a hengerekbe a felszívott tüzelőanyagot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A nekifutás során mikor kell számítanunk a légcsavar pörgettyűnyomatékának hatására?",
+        "answers": [
+            {
+                "text": "A gáz ráadásakor.",
+                "correct": false
+            },
+            {
+                "text": "A nekifutás alatt mindvégig.",
+                "correct": false
+            },
+            {
+                "text": "Az orrfutó elemelésekor.",
+                "correct": true
+            },
+            {
+                "text": "Amikor a nekifutás során a repülőgép már egy bizonyos sebességre szert tett.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Annak érdekében, hogy leszállásnál elkerüljük egy nagyobb felszálló repülőgép örvénysorának maradványait,",
+        "answers": [
+            {
+                "text": "a földet érési pontot lehetőleg jóval a nagyobb repülőgép elemelkedési pontján túl tervezzük.",
+                "correct": false
+            },
+            {
+                "text": "a földet érési pontot lehetőleg jóval a nagyobb repülőgép elemelkedési pontja elé tervezzük.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A dinamikus aquaplanning …",
+        "answers": [
+            {
+                "text": "kialakulásához elég egy századmilliméter vastag vízréteg és egy finom felületű szilárd burkolatú pálya (például melyet a korábbi földet érések alkalmával letapadt gumiréteg tesz tükörsimává).",
+                "correct": false
+            },
+            {
+                "text": "viszonylag nagy gurulósebességnél alakul ki olyan módon, hogy a sebesség növekedésével a feltorlódott víz nyomása eléri a repülőgép súlyát, amikor is a gumik felúsznak a vízfelületre.",
+                "correct": true
+            },
+            {
+                "text": "blokkolással járó fékezéskor jön létre, és kialakulhat vékony vízrétegen is, amikor a súrlódás következtében a víz jelenléte ellenére is elegendő hő keletkezik ahhoz, hogy a gumi futófelülete felforrósodjon és nyúlóssá váljon.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy repülőgép átesési sebessége 50 csomó. Mekkora lesz az átesési sebesség egy szabályos vízszintes fordulóban, ahol a terhelési többes n=2?",
+        "answers": [
+            {
+                "text": "70,5 kt",
+                "correct": true
+            },
+            {
+                "text": "Ez csak akkor lehet megválaszolni, ha ismerjük a bedöntési szöget és a sebességet.",
+                "correct": false
+            },
+            {
+                "text": "80 kt",
+                "correct": false
+            },
+            {
+                "text": "59,5 kt",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy függőleges emelésbe belerepülve a repülőgép-vezető beavatkozásának köszönhetően a repülőgép tartja korábbi magasságát és levegőhöz viszonyított sebességét. Ilyenkor a repülőgép …",
+        "answers": [
+            {
+                "text": "nagyobb állásszögön és nagyobb teljesítménybeállítással repül.",
+                "correct": false
+            },
+            {
+                "text": "kisebb állásszögön és kisebb teljesítménybeállítással repül.",
+                "correct": true
+            },
+            {
+                "text": "kisebb állásszögön és nagyobb teljesítménybeállítással repül.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb állásszögön és kisebb teljesítménybeállítással repül.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Vízre, jeges, havas, puha vagy egyenetlen talajra (mezőre, legelőre, szántóföldre) végrehajtott kényszerleszállás mindig … futóművel történik.",
+        "answers": [
+            {
+                "text": "kiengedett",
+                "correct": false
+            },
+            {
+                "text": "behúzott",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi az eljárási sorrend, amikor normál süllyedésből vízszintes repülésbe vezetjük a repülőgépet?",
+        "answers": [
+            {
+                "text": "Először beállítjuk az utazó-horizonthelyzetet a magassági kormánnyal, kikapcsoljuk a porlasztófűtést, majd ráadjuk az utazóteljesítményt.",
+                "correct": false
+            },
+            {
+                "text": "Először kikapcsoljuk a porlasztófűtést, ráadjuk az utazóteljesítményt, majd beállítjuk az utazó-horizonthelyzetet a magassági kormánnyal.",
+                "correct": true
+            },
+            {
+                "text": "Először kikapcsoljuk a porlasztófűtést, beállítjuk az utazó-horizonthelyzetet a magassági kormánnyal, majd ráadjuk az utazóteljesítményt.",
+                "correct": false
+            },
+            {
+                "text": "Először beállítjuk az utazó-horizonthelyzetet a magassági kormánnyal, ráadjuk az utazóteljesítményt, majd kikapcsoljuk a porlasztófűtést.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Dinamikus aquaplaning esetén intenzív fékezést kell alkalmazni.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mekkora a túlterhelés egy szabályos 60°-os bedöntésű fordulóban?",
+        "answers": [
+            {
+                "text": "n=2",
+                "correct": true
+            },
+            {
+                "text": "Ezt csak a sebesség ismeretében lehet megmondani.",
+                "correct": false
+            },
+            {
+                "text": "n=1,41",
+                "correct": false
+            },
+            {
+                "text": "Ezt csak a fordulósugár ismeretében lehet megmondani.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Melyik esetben csökken intenzívebben a szárny felhajtóerő-tényezője?",
+        "answers": [
+            {
+                "text": "A szárny belépőélének lejegesedésekor.",
+                "correct": true
+            },
+            {
+                "text": "A szárny teljes felületét beborító zúzmarás jegesedéskor.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az alábbiak közül minőségileg melyik terep a legalkalmasabb a kényszerleszállásra?",
+        "answers": [
+            {
+                "text": "Mezőgazdaságilag nem művelt mező (pl. legelő).",
+                "correct": false
+            },
+            {
+                "text": "Mezőgazdaságilag művelt felszántott terület.",
+                "correct": false
+            },
+            {
+                "text": "Mezőgazdaságilag művelt alacsony növényzetű terület.",
+                "correct": true
+            },
+            {
+                "text": "Mezőgazdaságilag művelt magasabb növényzetű terület.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Süllyedés során szélnyírás következtében a szembeszél hirtelen 20 csomóról tartósan 12 csomóra változik. Ha a repülőgép-vezető nem avatkozik be, akkor a repülőgép sebessége a szélnyírás hatására átmenetileg … fog, és miután az új helyzetben a repülőgép pályája stabilizálódik, a süllyedés szöge … lesz.",
+        "answers": [
+            {
+                "text": "növekedni – kisebb",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – kisebb",
+                "correct": true
+            },
+            {
+                "text": "növekedni – nagyobb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az alábbiak közül melyik a legjobb terep kényszerleszállásra?",
+        "answers": [
+            {
+                "text": "Megművelt mezőgazdasági terület alacsony növényzettel.",
+                "correct": true
+            },
+            {
+                "text": "Felszántott, barázdált mezőgazdasági terület.",
+                "correct": false
+            },
+            {
+                "text": "Autópálya.",
+                "correct": false
+            },
+            {
+                "text": "Tó nyugodt vízfelülettel.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi a legnagyobb veszélye a repülőgép beindításakor a hosszan tartó sikertelen indítózásnak?",
+        "answers": [
+            {
+                "text": "Porlasztótűz.",
+                "correct": true
+            },
+            {
+                "text": "Az, hogy az indulást el kell halasztani és a repülőgép-vezető nem tudja teljesíteni a repülési feladatot.",
+                "correct": false
+            },
+            {
+                "text": "Az indítómotor túlterhelése.",
+                "correct": false
+            },
+            {
+                "text": "Az akkumulátor lemerülése.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A helyes keverékarány beállításában … van segítségünkre.",
+        "answers": [
+            {
+                "text": "a szívótérnyomás-mérő",
+                "correct": false
+            },
+            {
+                "text": "a hengerfej-hőmérő",
+                "correct": false
+            },
+            {
+                "text": "a kipufogógáz-hőmérő",
+                "correct": true
+            },
+            {
+                "text": "az olajhőmérő",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Szembeszél esetén a repülőgép már alacsonyabb műszer szerinti sebességen elemelkedik, ezért a nekifutási úthossz rövidebb lesz.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan kell utazórepülésből normál emelkedésbe vezetni a repülőgépet?",
+        "answers": [
+            {
+                "text": "Először gázadással beállítjuk az emelkedőteljesítményt, majd a magassági kormány húzásával beállítjuk az emelkedő-horizonthelyzetet, illetve sebességet.",
+                "correct": true
+            },
+            {
+                "text": "A magassági kormány húzásával beállítjuk az emelkedő-horizonthelyzetet és sebességet, gázadás nem szükséges.",
+                "correct": false
+            },
+            {
+                "text": "Gázadással beállítjuk az emelkedő teljesítményt, a magassági kormány húzása nem szükséges.",
+                "correct": false
+            },
+            {
+                "text": "Először a magassági kormány húzásával beállítjuk az emelkedő-horizonthelyzetet, illetve sebességet, majd gázadással az emelkedőteljesítményt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A repülőgép maximális teljesítményen emelkedik. Az emelkedésből vízszintes repülésbe vezetjük a repülőgépet minden egyéb beavatkozás nélkül. Hogyan reagál a légcsavarállásszög-szabályzó?",
+        "answers": [
+            {
+                "text": "Csökkenti a lapátok beállítási szögét és megtartja a fordulatszámot.",
+                "correct": false
+            },
+            {
+                "text": "Növeli a lapátok beállítási szögét és megtartja a fordulatszámot.",
+                "correct": true
+            },
+            {
+                "text": "Növeli a lapátok beállítási szögét és csökkenti a fordulatszámot.",
+                "correct": false
+            },
+            {
+                "text": "Csökkenti a lapátok beállítási szögét és növeli a fordulatszámot.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A megközelítés során a süllyedés szögét úgy csökkenthetjük, hogy a teljesítménybeállítást … . Ekkor a magassági kormányt a kívánt mértékben … kell, hogy megtartsuk a választott süllyedősebességet.",
+        "answers": [
+            {
+                "text": "növeljük – nyomni",
+                "correct": false
+            },
+            {
+                "text": "csökkentjük – húzni",
+                "correct": false
+            },
+            {
+                "text": "csökkentjük – nyomni",
+                "correct": false
+            },
+            {
+                "text": "növeljük – húzni",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mitől függ a helyes bedöntési szög az egylapátos standard fordulóban?",
+        "answers": [
+            {
+                "text": "A szél sebességétől.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép súlyától.",
+                "correct": false
+            },
+            {
+                "text": "A sebességtől.",
+                "correct": true
+            },
+            {
+                "text": "A terhelési többestől.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Milyen hatásai vannak a fékszárny kitérítésének a süllyedéskor?",
+        "answers": [
+            {
+                "text": "A repülőgép hirtelen emelkedésbe kezd, és ezt követően siklóteljesítménye romlik.",
+                "correct": true
+            },
+            {
+                "text": "A repülőgép hirtelen megül, és ezt követően siklóteljesítménye romlik.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép hirtelen emelkedésbe kezd, és ezt követően siklóteljesítménye javul.",
+                "correct": false
+            },
+            {
+                "text": "A repülőgép hirtelen megül, és ezt követően siklóteljesítménye javul.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan szabályozzuk a fordulatszámot állandó fordulatszámú légcsavarral felszerelt repülőgépen?",
+        "answers": [
+            {
+                "text": "Nem szükséges szabályoznunk.",
+                "correct": false
+            },
+            {
+                "text": "A gázkarral.",
+                "correct": false
+            },
+            {
+                "text": "A légcsavarszabályzó karral.",
+                "correct": true
+            },
+            {
+                "text": "A szívótérnyomás karral.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mire vonatkozik a Vle sebesség?",
+        "answers": [
+            {
+                "text": "Maximális megengedett sebesség kitérített fékszárnnyal.",
+                "correct": false
+            },
+            {
+                "text": "Maximális megengedett sebesség kibocsátott futóművel.",
+                "correct": true
+            },
+            {
+                "text": "Maximális megengedett sebesség a futómű működtetésekor.",
+                "correct": false
+            },
+            {
+                "text": "Maximális megengedett sebesség a fékszárny működtetésekor.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A besiklás során a szembeszél a pályahajlási szöget …",
+        "answers": [
+            {
+                "text": "nem befolyásolja.",
+                "correct": false
+            },
+            {
+                "text": "növeli.",
+                "correct": true
+            },
+            {
+                "text": "csökkenti.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Normál felszállási eljárást tekintve",
+        "answers": [
+            {
+                "text": "a nekifutás az orrkerekes repülőgép esetében először három, majd két ponton történik, a farokkerekes repülőgépet viszont az elemelkedésig három ponton kell tartani.",
+                "correct": false
+            },
+            {
+                "text": "a nekifutás mind az orrkerekes, mind a farokkerekes repülőgép esetében először három, majd két ponton történik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A gőz-aquaplanning …",
+        "answers": [
+            {
+                "text": "blokkolással járó fékezéskor jön létre, és kialakulhat vékony vízrétegen is, amikor a súrlódás következtében a víz jelenléte ellenére is elegendő hő keletkezik ahhoz, hogy a gumi futófelülete felforrósodjon és nyúlóssá váljon.",
+                "correct": true
+            },
+            {
+                "text": "kialakulásához elég egy századmilliméter vastag vízréteg és egy finom felületű szilárd burkolatú pálya (például melyet a korábbi földet érések alkalmával letapadt gumiréteg tesz tükörsimává).",
+                "correct": false
+            },
+            {
+                "text": "viszonylag nagy gurulósebességnél alakul ki olyan módon, hogy a sebesség növekedésével a feltorlódott víz nyomása eléri a repülőgép súlyát, amikor is a gumik felúsznak a vízfelületre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a vízszintes forduló során a repülőgép emelkedne, akkor a bedöntést …",
+        "answers": [
+            {
+                "text": "csökkenteni kell vagy a magassági kormányból kell kiengedni.",
+                "correct": false
+            },
+            {
+                "text": "csökkenteni kell vagy a magassági kormányt jobban kell húzni.",
+                "correct": false
+            },
+            {
+                "text": "növelni kell vagy a magassági kormányt jobban kell húzni.",
+                "correct": false
+            },
+            {
+                "text": "növelni kell vagy a magassági kormányból kell kiengedni.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a kilebegtetés megfelelő magasságban történik, de a földet érés pillanatában megszólal az átesésjelző, akkor a repülőgép-vezető hibát követett el.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A terhelési többes növekedésével a forduló során az átesési sebesség …",
+        "answers": [
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Emelkedés során szélnyírás következtében a hátszél hirtelen 19 csomóról tartósan 10 csomóra változik. Ha a repülőgép-vezető nem avatkozik be, akkor a repülőgép sebessége a szélnyírás hatására átmenetileg … fog, és miután az új helyzetben a repülőgép pályája stabilizálódik, az emelkedés szöge … lesz.",
+        "answers": [
+            {
+                "text": "növekedni – nagyobb",
+                "correct": true
+            },
+            {
+                "text": "csökkenni – kisebb",
+                "correct": false
+            },
+            {
+                "text": "növekedni – kisebb",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – nagyobb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Süllyedés során szélnyírás következtében a szembeszél hirtelen 8 csomóról tartósan 15 csomóra változik. Ha a repülőgép-vezető nem avatkozik be, akkor a repülőgép sebessége a szélnyírás hatására átmenetileg … fog, és miután az új helyzetben a repülőgép pályája stabilizálódik, a süllyedés szöge … lesz.",
+        "answers": [
+            {
+                "text": "növekedni – nagyobb",
+                "correct": true
+            },
+            {
+                "text": "növekedni – kisebb",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – kisebb",
+                "correct": false
+            },
+            {
+                "text": "csökkenni – nagyobb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Nem ellenőrzött repülőtéren a szél 350°-ról fúj, sebessége 10 csomó. A választható pályairányok 09-es és 27-es. Melyik pályát választjuk a felszálláshoz?",
+        "answers": [
+            {
+                "text": "A 09-est.",
+                "correct": false
+            },
+            {
+                "text": "Ilyen helyzetben nem hajtunk végre felszállást.",
+                "correct": false
+            },
+            {
+                "text": "A 27-est.",
+                "correct": true
+            },
+            {
+                "text": "Bármelyiket választhatjuk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy repülőgép egyenes vonalú egyenletes sebességű vízszintes repülésben halad, ahol a felhajtóerő-tényező értéke Cy=1. 1 fokos állásszögváltozás 0,095-tel változtatja meg a felhajtóerő-tényezőt. A repülőgép függőleges leáramlásba repül, mely során az állásszög 4 fokkal változik. Mekkora lesz ekkor a terhelési többes?",
+        "answers": [
+            {
+                "text": "-1.38",
+                "correct": false
+            },
+            {
+                "text": "0.38",
+                "correct": false
+            },
+            {
+                "text": "0.62",
+                "correct": true
+            },
+            {
+                "text": "-1.62",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Milyen oltóberendezést használunk kabintűz oltására?",
+        "answers": [
+            {
+                "text": "Szén-dioxiddal oltót.",
+                "correct": false
+            },
+            {
+                "text": "Halonnal oltót.",
+                "correct": true
+            },
+            {
+                "text": "Vízzel oltót.",
+                "correct": false
+            },
+            {
+                "text": "Porral oltót.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az alábbiak közül melyik a legfontosabb a motorleállás miatti terepre történő kényszerleszállás esetén a földet éréskor?",
+        "answers": [
+            {
+                "text": "A fékszárny legyen teljesen kitérített helyzetben, hogy a talajfogás a lehető legalacsonyabb sebességen történjen.",
+                "correct": false
+            },
+            {
+                "text": "A futómű legyen kiengedett helyzetben.",
+                "correct": false
+            },
+            {
+                "text": "A tűzcsap legyen elzárva.",
+                "correct": true
+            },
+            {
+                "text": "A rádió legyen áram alatt a gyors segítséghívás érdekében.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mikor érvényesül a párnahatás?",
+        "answers": [
+            {
+                "text": "Késő őszi és téli hideg időben.",
+                "correct": false
+            },
+            {
+                "text": "Amikor a fékszárny leszálló helyzetben van állítva.",
+                "correct": false
+            },
+            {
+                "text": "Amíg a repülőgép föld feletti magassága nem nagyobb fesztávolságának kb. felénél.",
+                "correct": true
+            },
+            {
+                "text": "Intenzív szélben.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az utazómagasságon teljesítménykeveréket állítottunk be. Ha a süllyedés előtt nem … , akkor bizonyos magasságra süllyedve a keverék …",
+        "answers": [
+            {
+                "text": "szegényítünk – eldúsulhat.",
+                "correct": false
+            },
+            {
+                "text": "dúsítunk – túlszegényedhet.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Motorleállás esetén, …",
+        "answers": [
+            {
+                "text": "a motort megpróbálhatjuk újraindítani. Ha beindul, folytathatjuk a repülést.",
+                "correct": false
+            },
+            {
+                "text": "a motort megpróbálhatjuk újraindítani. Ha beindul, meg kell próbálni elővigyázatosságból kitérő repülőtérre leszállni.",
+                "correct": true
+            },
+            {
+                "text": "a motort megpróbálhatjuk újraindítani. Ha beindul, elővigyázatosságból le kell szállni az első alkalmas terepre.",
+                "correct": false
+            },
+            {
+                "text": "a motort tilos újraindítani, kényszerleszállást kell végrehajtani.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mit jelent, ha a motor beindítása után alapjáraton a szívótérnyomás-mérő a külső légnyomásnak megfelelő értéket mutat?",
+        "answers": [
+            {
+                "text": "A motor még hideg, be kell melegednie.",
+                "correct": false
+            },
+            {
+                "text": "Ez esetben a motor meghibásodására következtethetünk.",
+                "correct": true
+            },
+            {
+                "text": "A motor le van terhelve.",
+                "correct": false
+            },
+            {
+                "text": "Ez normál üzemi érték.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha szűkebb a forduló, mint amilyen sugár a sebességhez és a bedöntéshez tartozna a repülőgép … kezd csúszni.",
+        "answers": [
+            {
+                "text": "befelé",
+                "correct": false
+            },
+            {
+                "text": "kifelé",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Normál leszállási eljárást tekintve",
+        "answers": [
+            {
+                "text": "a talajfogás az orrkerekes repülőgép esetében két ponton történik, a farokkerekes repülőgéppel viszont három ponton kell földet érni.",
+                "correct": true
+            },
+            {
+                "text": "a talajfogás mind az orrkerekes, mind a farokkerekes repülőgép esetében két ponton történik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az indukált szárnyvégörvény-fonat annál erősebb és kiterjedtebb, minél … a repülőgép tömege és minél … az állásszöge.",
+        "answers": [
+            {
+                "text": "kisebb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": true
+            },
+            {
+                "text": "kisebb – nagyobb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az állandó fordulatszámú légcsavarral felszerelt repülőgépen …",
+        "answers": [
+            {
+                "text": "a fordulatszámot a motor szívótérnyomását szabályzó karral állítjuk.",
+                "correct": false
+            },
+            {
+                "text": "nem kell fordulatszámot szabályoznunk, mert a fordulatszám megtartásáról a légcsavarvezérlő gondoskodik.",
+                "correct": false
+            },
+            {
+                "text": "a fordulatszámot a légcsavarszabályzó karral állítjuk.",
+                "correct": true
+            },
+            {
+                "text": "a fordulatszámot a motor szívótérnyomásának szabályzásán keresztül a légcsavarszabályzó karral állítjuk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Felszálláskor az elemelkedés után milyen esetben kell gyorsítani a föld felett a repülőgépet?",
+        "answers": [
+            {
+                "text": "Ha használtunk fékszárnyat a felszálláskor.",
+                "correct": false
+            },
+            {
+                "text": "Ha nem használtunk fékszárnyat a felszálláskor.",
+                "correct": false
+            },
+            {
+                "text": "Szeles, lökéses időben.",
+                "correct": false
+            },
+            {
+                "text": "Minden esetben.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A fékszárny kiengedésével a süllyedés szöge …",
+        "answers": [
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A normál süllyedés során, ha a süllyedés mértékét csökkenteni szeretnénk, a teljesítményt … kell és a magassági kormány … vissza kell állítani a süllyedő sebességet.",
+        "answers": [
+            {
+                "text": "csökkenteni – húzásával",
+                "correct": false
+            },
+            {
+                "text": "növelni – húzásával",
+                "correct": true
+            },
+            {
+                "text": "csökkenteni – nyomásával",
+                "correct": false
+            },
+            {
+                "text": "növelni – nyomásával",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mit jelent, ha a motor beindítása után alapjáraton a szívótérnyomás-mérő visszaesik a külső légnyomás alá?",
+        "answers": [
+            {
+                "text": "Ez esetben a motor meghibásodására következtethetünk.",
+                "correct": false
+            },
+            {
+                "text": "A motor le van terhelve.",
+                "correct": false
+            },
+            {
+                "text": "Ez normál üzemi érték.",
+                "correct": true
+            },
+            {
+                "text": "A motor még hideg, be kell melegednie.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Adott sebesség esetén … bedöntéshez … fordulósugár tartozik",
+        "answers": [
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": false
+            },
+            {
+                "text": "nagyobb – kisebb",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Amikor emelkedőüzemből utazóüzemre váltunk …",
+        "answers": [
+            {
+                "text": "a visszaszabályzás és a repülőgép vízszintes repülésbe vezetése között nem szükséges sorrendiséget tartani.",
+                "correct": false
+            },
+            {
+                "text": "először a magassági kormány nyomásával vízszintes repülésbe visszük a repülőgépet, majd visszaszabályozunk utazóteljesítményre.",
+                "correct": true
+            },
+            {
+                "text": "először visszaszabályozunk utazóteljesítményre, majd a magassági kormány nyomásával vízszintes repülésbe visszük a repülőgépet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mit tehetünk annak érdekében, hogy az előttünk leszálló nagytömegű repülőgép által keltett turbulenciát a leszállás során elkerüljük?",
+        "answers": [
+            {
+                "text": "Nagy pályahajlási szöggel süllyedjünk, és úgy tervezzük a földet érés pontját, hogy a repülőgép a végbiztonsági sávban álljon meg.",
+                "correct": false
+            },
+            {
+                "text": "Minél nagyobb süllyedési szöget válasszunk, és úgy helyezkedjünk, hogy a pályaküszöbnél érünk földet.",
+                "correct": false
+            },
+            {
+                "text": "Kis pályahajlási szöggel süllyedjünk, és a földet érést a nagyobb repülőgép földet érési pontja és a küszöb közé tervezzük.",
+                "correct": false
+            },
+            {
+                "text": "Minél nagyobb süllyedési szöget válasszunk és a földet érést távolabb tervezzük a nagyobb repülőgép földet érési pontjától.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Adott bedöntés esetén … sebességhez … fordulósugár tartozik",
+        "answers": [
+            {
+                "text": "nagyobb – nagyobb",
+                "correct": true
+            },
+            {
+                "text": "nagyobb – kisebb",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Tiszta oldalszélről beszélünk, ha …",
+        "answers": [
+            {
+                "text": "a szélbeesési szög 90°.",
+                "correct": false
+            },
+            {
+                "text": "a széltámadási szög 90°.",
+                "correct": true
+            },
+            {
+                "text": "a szélellentartási szög 90°.",
+                "correct": false
+            },
+            {
+                "text": "a széleltérítési szög 90°.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy repülőgép 45°-os, majd 60°-os bedöntésű szabályos vízszintes fordulót végez 100 csomós sebességen. Összehasonlítva a két repülési helyzetet, mi fog különbözni az alábbiak közül?",
+        "answers": [
+            {
+                "text": "Az állásszög, a terhelési többes és az átesési sebesség.",
+                "correct": true
+            },
+            {
+                "text": "Csak az átesési sebesség.",
+                "correct": false
+            },
+            {
+                "text": "Csak az állásszög.",
+                "correct": false
+            },
+            {
+                "text": "Csak a terhelési többes.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A légiüzemeltetési utasítás az átesési sebességet a repülőgép …",
+        "answers": [
+            {
+                "text": "üressúlyára adja meg.",
+                "correct": false
+            },
+            {
+                "text": "maximális megengedett felszállósúlyára adja meg.",
+                "correct": true
+            },
+            {
+                "text": "üzemi súlyára adja meg.",
+                "correct": false
+            },
+            {
+                "text": "száraz üzemi súlyára adja meg.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a fékszárny kitérítésekor nem változtatunk az állásszögön, akkor a repülőgép …",
+        "answers": [
+            {
+                "text": "bólintási szöge kisebb lesz.",
+                "correct": false
+            },
+            {
+                "text": "pályahajlási szöge nem változik.",
+                "correct": false
+            },
+            {
+                "text": "emelkedni kezd.",
+                "correct": true
+            },
+            {
+                "text": "süllyedni kezd.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Felszántott területre történő kényszerleszállásnál 20 csomónál kisebb szélsebesség mellett … kell leszállni",
+        "answers": [
+            {
+                "text": "széllel szemben",
+                "correct": false
+            },
+            {
+                "text": "barázda mentén",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A normál süllyedés során, ha a süllyedés mértékét növelni szeretnénk, a teljesítményt … kell és a magassági kormány … vissza kell állítani a süllyedő sebességet.",
+        "answers": [
+            {
+                "text": "növelni – húzásával",
+                "correct": false
+            },
+            {
+                "text": "csökkenteni – húzásával",
+                "correct": false
+            },
+            {
+                "text": "növelni – nyomásával",
+                "correct": false
+            },
+            {
+                "text": "csökkenteni – nyomásával",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A normál bedöntésű forduló során a vízszintes vezérsíkon keletkező légerő …",
+        "answers": [
+            {
+                "text": "a repülőgép orrát a forduló irányába akarja fordítani. Részben ez magyarázza az oldalkormány kitérítésének szükségét a fordulóban.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép orrát a forduló ellen akarja fordítani. Részben ez magyarázza az oldalkormány kitérítésének szükségét a fordulóban.",
+                "correct": false
+            },
+            {
+                "text": "hatására a repülőgép emeli az orrát. Részben ez magyarázza a magassági kormány használatának szükségét a fordulóban.",
+                "correct": false
+            },
+            {
+                "text": "hatására a repülőgép leadja az orrát. Részben ez magyarázza a magassági kormány használatának szükségét a fordulóban.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a keverék el van dúsulva és szegényíteni kezdünk a keverékszabályzóval, …",
+        "answers": [
+            {
+                "text": "a fordulatszám csökkenni fog és a kipufugógáz-hőmérséklet növekedni fog",
+                "correct": false
+            },
+            {
+                "text": "a fordulatszám és a kipufugógáz-hőmérséklet növekedni fog.",
+                "correct": true
+            },
+            {
+                "text": "a fordulatszám növekedni fog és a kipufugógáz-hőmérséklet csökkenni fog.",
+                "correct": false
+            },
+            {
+                "text": "a fordulatszám és a kipufugógáz-hőmérséklet csökkenni fog.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az alábbiak közül melyik esetben kell a legkisebb sugarú íven megtörni a siklószöget?",
+        "answers": [
+            {
+                "text": "Szélcsendben és kis fékszárny esetén.",
+                "correct": false
+            },
+            {
+                "text": "Intenzív szembeszélben és nagy fékszárny esetén.",
+                "correct": true
+            },
+            {
+                "text": "Intenzív szembeszélben és kis fékszárny esetén.",
+                "correct": false
+            },
+            {
+                "text": "Szélcsendben és nagy fékszárny esetén.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Bal oldal-hátszélben történő guruláskor … , hogy stabilizáljuk a repülőgépet.",
+        "answers": [
+            {
+                "text": "jobbra kell csűrni és a magassági kormányt nyomni kell",
+                "correct": true
+            },
+            {
+                "text": "balra kell csűrni és a magassági kormányt nyomni kell",
+                "correct": false
+            },
+            {
+                "text": "jobbra kell csűrni és a magassági kormányt húzni kell",
+                "correct": false
+            },
+            {
+                "text": "balra kell csűrni és a magassági kormányt húzni kell",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A farokkerekes repülőgép terepjáró képessége jobb, mint az orrkerekesé, viszont rosszabb az oldalirányú és az iránystabilitása stabilitása.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az átesési sebesség nő …",
+        "answers": [
+            {
+                "text": "a repülőgép súlyának csökkenésével.",
+                "correct": false
+            },
+            {
+                "text": "a forduló során.",
+                "correct": true
+            },
+            {
+                "text": "a súlypont hátra vándorlásakor.",
+                "correct": false
+            },
+            {
+                "text": "a fékszárny használatakor.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A vízrefutás melyik típusa jön létre jellemzően a futópálya földet érési területén?",
+        "answers": [
+            {
+                "text": "A dinamikus aquaplaning.",
+                "correct": false
+            },
+            {
+                "text": "A gőz aquaplaning.",
+                "correct": false
+            },
+            {
+                "text": "A viszkóz-aquaplaning.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Orrkerekes repülőgép esetében az orrfutó elemelésekor …",
+        "answers": [
+            {
+                "text": "a precesszió, a reakció- és a ferde megfúvás okozta nyomaték egy irányba, míg a p-faktor ezekhez képest ellentétesen hat.",
+                "correct": false
+            },
+            {
+                "text": "a precesszió és a p-faktor egy irányba, míg a reakció- és a ferde megfúvás okozta nyomaték ezekhez képest ellentétesen hat.",
+                "correct": false
+            },
+            {
+                "text": "mind a négy a légcsavar keltette nyomaték egy irányba hat.",
+                "correct": false
+            },
+            {
+                "text": "a reakció-, a ferde megfúvás okozta nyomaték és a p-faktor egy irányba, míg a precesszió ezekhez képest ellentétesen hat.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A felszállás során mikor kell számítanunk a légcsavar reakciónyomatékának hatására?",
+        "answers": [
+            {
+                "text": "Ez a nyomaték gázadáskor érezhető a legjobban, de mindvégig kifejti a hatását, míg a motor jár.",
+                "correct": true
+            },
+            {
+                "text": "Kis sebességen és nagy fordulatszámon érvényesül jobban, ahogy a repülőgép sebességet gyűjt hatása csökken.",
+                "correct": false
+            },
+            {
+                "text": "Ez a nyomaték csak nagy állásszögű vagy csúszással járó repülés során érezhető.",
+                "correct": false
+            },
+            {
+                "text": "Az orrfutó elemelésekor, illetve minden olyan helyzetben, amikor a légcsavart kitérítjük forgási síkjából.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A függőleges síkban történő görbe vonalú repülés során az átesési sebesség a túlterhelés növekedésével …",
+        "answers": [
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A bedöntés függvényben a forduló során az átesési sebesség …",
+        "answers": [
+            {
+                "text": "nő.",
+                "correct": true
+            },
+            {
+                "text": "csökken.",
+                "correct": false
+            },
+            {
+                "text": "nem változik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hány százalékkal nő az átesési sebesség a 45°-os bedöntésű szabályos fordulóban?",
+        "answers": [
+            {
+                "text": "19%-kal.",
+                "correct": true
+            },
+            {
+                "text": "51%-kal.",
+                "correct": false
+            },
+            {
+                "text": "32%-kal.",
+                "correct": false
+            },
+            {
+                "text": "41%-kal.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan szabályozzuk vissza a teljesítményt állandó fordulatszámú légcsavarral felszerelt repülőgépen?",
+        "answers": [
+            {
+                "text": "Visszaszabályozzuk a fordulatszám-szabályzó kart.",
+                "correct": false
+            },
+            {
+                "text": "A fordulatszám csökkentése előtt szabályozzuk vissza a szívótérnyomás kart.",
+                "correct": true
+            },
+            {
+                "text": "Egyszerre szabályozzuk vissza a szívótérnyomás kart és a fordulatszám-szabályzó kart.",
+                "correct": false
+            },
+            {
+                "text": "A fordulatszám csökkentése után szabályozzuk vissza a szívótérnyomás kart.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A repülőgép súlyának növekedésével egy adott bedöntésű fordulóhoz tartozó átesési sebesség …",
+        "answers": [
+            {
+                "text": "nem változik.",
+                "correct": false
+            },
+            {
+                "text": "nő.",
+                "correct": true
+            },
+            {
+                "text": "csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Az állandó fordulatszámú légcsavar jobb teljesítményt nyújt, mint a merev légcsavar, mert …",
+        "answers": [
+            {
+                "text": "nagyobb a maximális légcsavarhatásfoka.",
+                "correct": false
+            },
+            {
+                "text": "széles sebességtartományban üzemel hatékonyan.",
+                "correct": true
+            },
+            {
+                "text": "lapátjainak felülete nagyobb.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb maximális vonóerőt képes létrehozni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha azt tapasztaljuk, hogy a főfutó az egyik oldalon defektes, akkor …",
+        "answers": [
+            {
+                "text": "a pályának a defektes futómű felé eső oldalára elvégezni a kényszerleszállást.",
+                "correct": false
+            },
+            {
+                "text": "füves repülőtérre kell elvégezni a kényszerleszállást.",
+                "correct": false
+            },
+            {
+                "text": "a pályának a hibátlan futómű felé eső oldalára elvégezni a kényszerleszállást.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A felszállás során mikor kell számítanunk a légcsavar által keltett ferde megfúvás okozta nyomaték hatására?",
+        "answers": [
+            {
+                "text": "Ez a nyomaték csak nagy állásszögű vagy csúszással járó repülés során érezhető.",
+                "correct": false
+            },
+            {
+                "text": "Ez a nyomaték gázadáskor érezhető a legjobban, de mindvégig kifejti a hatását, míg a motor jár.",
+                "correct": false
+            },
+            {
+                "text": "Az orrfutó elemelésekor, illetve minden olyan helyzetben, amikor a légcsavart kitérítjük forgási síkjából.",
+                "correct": false
+            },
+            {
+                "text": "Kis sebességen és nagy fordulatszámon érvényesül jobban, ahogy a repülőgép sebességet gyűjt, hatása csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Oldalszélben, adott széltámadási szög és szélsebesség esetén a széleltérítés annál nagyobb, minél nagyobb a repülőgép levegőhöz viszonyított sebessége.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egyenes vonalú 95 csomós sebességű vízszintes repülés során szélnyírás következtében a szembeszél hirtelen 6 csomóról 17 csomóra változik. Ha a repülőgép-vezető nem avatkozik be, akkor mekkora terhelési többest fog létrehozni a szélnyírás?",
+        "answers": [
+            {
+                "text": "n = 1,24",
+                "correct": true
+            },
+            {
+                "text": "n = 0,8",
+                "correct": false
+            },
+            {
+                "text": "n = 0,9",
+                "correct": false
+            },
+            {
+                "text": "n = 1,12",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A függőleges síkban történő görbe vonalú repülés során annál nagyobb túlterhelés jön létre, …",
+        "answers": [
+            {
+                "text": "minél kisebb sugarú köríven történik a mozgás és minél nagyobb sebességen.",
+                "correct": true
+            },
+            {
+                "text": "minél nagyobb sugarú köríven történik a mozgás, de a sebességtől nem függ.",
+                "correct": false
+            },
+            {
+                "text": "minél kisebb sugarú köríven történik a mozgás, de a sebességtől nem függ.",
+                "correct": false
+            },
+            {
+                "text": "minél nagyobb sugarú köríven történik a mozgás és minél kisebb sebességen.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A futómű behúzásakor a repülőgép sebessége … fog, és a hossznyomatéki egyensúlyban is változás állhat be … nyomaték formájában.",
+        "answers": [
+            {
+                "text": "csökkenni – orrnehéz",
+                "correct": false
+            },
+            {
+                "text": "nőni – orrkönnyű",
+                "correct": true
+            },
+            {
+                "text": "csökkenni – orrkönnyű",
+                "correct": false
+            },
+            {
+                "text": "nőni – orrnehéz",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A teljesítménykeverék …",
+        "answers": [
+            {
+                "text": "a csúcsra szegényített keverék.",
+                "correct": false
+            },
+            {
+                "text": "a csúcsra szegényített keveréknél dúsabb.",
+                "correct": true
+            },
+            {
+                "text": "a csúcsra szegényített keveréknél szegényebb.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Egy vízszintes jobb forduló során az elfordulás- és csúszásjelző lapátja jobbra mozdul ki, míg a libella golyója balra. A szabályos forduló vezetése érdekében …",
+        "answers": [
+            {
+                "text": "a repülőgép-vezető nem tehet semmit. Ilyenkor az elfordulásjelző hibás működésére következtetünk.",
+                "correct": false
+            },
+            {
+                "text": "csökkenteni kell a jobbra csűrést.",
+                "correct": false
+            },
+            {
+                "text": "növelni kell a jobbra csűrést.",
+                "correct": true
+            },
+            {
+                "text": "jobb pedált kell lépni.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A súlypont és a főfutók helyzetéből adódóan … repülőgép hajlamosabb az elpattanásra.",
+        "answers": [
+            {
+                "text": "a farokkerekes.",
+                "correct": true
+            },
+            {
+                "text": "az orrkerekes.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A magasság növekedésével a tüzelőanyag-levegő keverék …",
+        "answers": [
+            {
+                "text": "a kisebb sűrűségű, szegényebb levegőben elszegényedik.",
+                "correct": false
+            },
+            {
+                "text": "a csökkenő sűrűség miatt eldúsúl.",
+                "correct": true
+            },
+            {
+                "text": "aránya mindig optimális lesz, ha felszálláskor a keverékszabályzó kart megfelelően beállítottuk.",
+                "correct": false
+            },
+            {
+                "text": "aránya mindig optimális lesz, mert a porlasztó feladata a helyes keverékarány biztosítása.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan állítjuk le a belsőégésű négy hengeres repülőgépmotort figyelembe véve a repülőgép légiüzemeltetési utasításában foglaltakat?",
+        "answers": [
+            {
+                "text": "A gyújtáskapcsoló lekapcsolásával vagy a keverék teljes elszegényítésével, ha a porlasztó felépítéséből ez utóbbira van lehetőség.",
+                "correct": true
+            },
+            {
+                "text": "A gyújtáskapcsoló lekapcsolásával vagy a tűzcsap elzárásával, ha a tüzelőanyag-rendszer felépítéséből ez utóbbira van lehetőség.",
+                "correct": false
+            },
+            {
+                "text": "A főkapcsoló lekapcsolásával vagy a tűzcsap elzárásával, ha a tüzelőanyag-rendszer felépítéséből ez utóbbira van lehetőség.",
+                "correct": false
+            },
+            {
+                "text": "Minden esetben a gyújtáskapcsoló lekapcsolásával.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mikor kell felkapcsolni a villogót?",
+        "answers": [
+            {
+                "text": "A pályára guruláskor.",
+                "correct": false
+            },
+            {
+                "text": "Motorindítás után.",
+                "correct": false
+            },
+            {
+                "text": "Motorindítás előtt.",
+                "correct": true
+            },
+            {
+                "text": "A nekifutás megkezdésekor.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Ha a felszállás közben a motor leáll, akkor …",
+        "answers": [
+            {
+                "text": "ha van elegendő magasság, akkor 180°-os forduló után vissza kell szállni a pályára.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép-vezetőnek nincs más választása, az előtte elterülő terepen kell kényszerleszállást végrehajtani.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi az eljárási sorrend, amikor a repülőgépet utazórepülésből normál süllyedésbe vezetjük?",
+        "answers": [
+            {
+                "text": "Először visszaszabályzunk süllyedőteljesítményre. A sebesség elkoptatása után a magassági kormány nyomásával beállítjuk a süllyedő-horizonthelyzetet, illetve sebességet. Ezután porlasztófűtést kapcsolunk.",
+                "correct": false
+            },
+            {
+                "text": "Először porlasztófűtést kapcsolunk, majd a magassági kormány nyomásával beállítjuk a süllyedő-horizonthelyzetet, ezután visszaszabályzunk süllyedőteljesítményre és elkoptatjuk a sebességet.",
+                "correct": false
+            },
+            {
+                "text": "Először porlasztófűtést kapcsolunk, majd visszaszabályzunk süllyedőteljesítményre. A sebesség elkoptatása után a magassági kormány nyomásával beállítjuk a süllyedő-horizonthelyzetet, illetve sebességet.",
+                "correct": true
+            },
+            {
+                "text": "Először a magassági kormány nyomásával beállítjuk a süllyedő-horizonthelyzetet, majd porlasztófűtést kapcsolunk. Ezután visszaszabályzunk süllyedőteljesítményre és elkoptatjuk a sebességet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Mi a teendő, ha a felszállás előtti motorpróba során a porlasztófűtés bekapcsolásakor fordulatszámesést tapasztalunk?",
+        "answers": [
+            {
+                "text": "Kisebb-nagyobb fordulatszámesés esetén a felszállást minden további teendő nélkül végre lehet hajtani.",
+                "correct": false
+            },
+            {
+                "text": "Ez a gyújtógyertya enyhe szennyeződésének következménye, melyet rövid ideig magas fordulatszámon történő motorjáratással esetleg meg lehet szűntetni. Ilyenkor a légiüzemeltetési utasítás és a repülőgép üzembentartójának rendelkezése szerint kell eljárni.",
+                "correct": false
+            },
+            {
+                "text": "Természetes következménye a fordulatszámesés annak, ha a porlasztófűtést bekapcsoljuk, amennyiben a fordulatszámesés a gyártó által előírt mértéket nem haladja meg.",
+                "correct": true
+            },
+            {
+                "text": "Ilyenkor a porlasztó meghibásodására kell gyanakodni és a felszállást el kell halasztani.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "A repülőgép melyik emelkedősebessége magasabb?",
+        "answers": [
+            {
+                "text": "A legnagyobb emelkedési szöget biztosító sebesség.",
+                "correct": false
+            },
+            {
+                "text": "A legnagyobb függőleges emelkedéshez tartozó sebesség.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK",
+        "question": "Hogyan ellenőrizzük a fordulatszámot állandó fordulatszámú légcsavarral felszerelt repülőgépen?",
+        "answers": [
+            {
+                "text": "Fordulatszámmérővel.",
+                "correct": true
+            },
+            {
+                "text": "Hengerfej-hőmérővel.",
+                "correct": false
+            },
+            {
+                "text": "Tüzelőanyagnyomás-mérővel.",
+                "correct": false
+            },
+            {
+                "text": "Szívótérnyomás-mérővel.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+/*Repüléstervezés*/
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Ha a súlypont a mellső határhelyzet előtt van, a kormányozhatóság jelentősen romlik, a repülőgép irányítása állandó repülőgép-vezetést igényel.",
+        "answers": [
+            {
+                "text": "Igaz.",
+                "correct": false
+            },
+            {
+                "text": "Hamis.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép súlyának növekedésével …",
+        "answers": [
+            {
+                "text": "a repülőgép legjobb emelkedési szöge és a legnagyobb emelkedésének mértéke egyaránt csökken.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép legjobb emelkedési szöge és a legnagyobb emelkedésének mértéke nem változik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép legjobb emelkedési szöge csökken és a legnagyobb emelkedésének mértéke nő.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép legjobb emelkedési szöge nő és a legnagyobb emelkedésének mértéke csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A forgalmi teher magába foglalja …",
+        "answers": [
+            {
+                "text": "Egyiket sem foglalja magába.",
+                "correct": true
+            },
+            {
+                "text": "a személyzet és csomagjaik súlyát.",
+                "correct": false
+            },
+            {
+                "text": "az étkeztetéshez szükséges és az utasok kényelmét szolgáló felszerelések súlyát, valamint az elmozdítható higiéniai felszerelések és a működésükhöz szükséges anyagok súlyát.",
+                "correct": false
+            },
+            {
+                "text": "a személyzet és csomagjaik súlyát, az étkeztetéshez szükséges és az utasok kényelmét szolgáló felszerelések súlyát, valamint az elmozdítható higiéniai felszerelések és a működésükhöz szükséges anyagok súlyát.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Ha a súlypontszámításnál meghatározott pont a burkológörbe felett helyezkedik el, akkor …",
+        "answers": [
+            {
+                "text": "a repülőgép súlypontja átlépte a mellső határértéket.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép súlypontja átlépte a hátsó határértéket.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép felszállósúlya átlépte a megengedett maximális értéket.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Szembeszél esetén a repülőgép legjobb Y/X hányadosa … , és a siklóteljesítménye …",
+        "answers": [
+            {
+                "text": "romlik – javul.",
+                "correct": false
+            },
+            {
+                "text": "romlik – romlik.",
+                "correct": false
+            },
+            {
+                "text": "nem változik – romlik.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Szembeszél esetén a siklószög … és a lerepülhető legnagyobb föld feletti távolság …",
+        "answers": [
+            {
+                "text": "nem változik – csökken.",
+                "correct": false
+            },
+            {
+                "text": "kisebb lesz – nő.",
+                "correct": false
+            },
+            {
+                "text": "nagyobb lesz – csökken.",
+                "correct": true
+            },
+            {
+                "text": "nem változik – nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A végbiztonsági sávot (Stopway) azért hozták létre, hogy a leszállási úthossz elszámítása esetén azt a repülőgép-vezető a repülőgép kifékezésére igénybe vehesse.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik állítás hamis?",
+        "answers": [
+            {
+                "text": "Az üzemanyag nélküli súly a repülőgép felhasználható tüzelőanyag nélküli súlya.",
+                "correct": false
+            },
+            {
+                "text": "Az üzemanyag nélküli súly a száraz üzemi súly és a hasznos teher összege.",
+                "correct": true
+            },
+            {
+                "text": "Az üzemanyag nélküli súly tartalmazhat bizonyos mennyiségű üzemanyagot.",
+                "correct": false
+            },
+            {
+                "text": "Az üzemanyag nélküli súly magába foglalja a személyzet és csomagjaik súlyát.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy … a leszállási úthosszt.",
+        "answers": [
+            {
+                "text": "10%-os súlynövekedés kb. 10%-kal csökkenti.",
+                "correct": false
+            },
+            {
+                "text": "10%-os súlynövekedés kb. 10%-kal növeli.",
+                "correct": true
+            },
+            {
+                "text": "10%-os súlynövekedés kb. 5%-kal csökkenti.",
+                "correct": false
+            },
+            {
+                "text": "10%-os súlynövekedés kb. 5%-kal növeli.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Ha egy repülőgép tüzelőanyag-tartálya a súlypont mögött helyezkedik el, akkor a repülés során a tüzelőanyag fogyásával …",
+        "answers": [
+            {
+                "text": "a súlypont hátra vándorol, mely faroknehéz nyomatékot kelt.",
+                "correct": false
+            },
+            {
+                "text": "a súlypont előre vándorol, mely fejnehéz nyomatékot kelt.",
+                "correct": true
+            },
+            {
+                "text": "a súlypont előre vándorol, mely faroknehéz nyomatékot kelt.",
+                "correct": false
+            },
+            {
+                "text": "a súlypont hátra vándorol, mely fejnehéz nyomatékot kelt.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Ha a súlypontszámításnál meghatározott pont a burkológörbe bal oldali szakaszán kívül kerül (a burkoló görbe és az y-tengely közé), akkor …",
+        "answers": [
+            {
+                "text": "a repülőgép súlypontja átlépte a mellső határértéket.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép súlypontja átlépte a hátsó határértéket.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép felszállósúlya átlépte a megengedett maximális értéket.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy … súlynövekedés … növeli a felszállási úthosszt.",
+        "answers": [
+            {
+                "text": "20%-os – 5%-kal",
+                "correct": false
+            },
+            {
+                "text": "10%-os – 20%-kal",
+                "correct": true
+            },
+            {
+                "text": "10%-os – 5%-kal",
+                "correct": false
+            },
+            {
+                "text": "5%-os – 20%-kal",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy 1000 láb magasság-növekedés vagy … hőmérséklet-növekedés … a felszállási úthosszt.",
+        "answers": [
+            {
+                "text": "5°C – 20%-kal csökkenti",
+                "correct": false
+            },
+            {
+                "text": "10°C – 10%-kal növeli",
+                "correct": true
+            },
+            {
+                "text": "10°C – 5%-kal növeli",
+                "correct": false
+            },
+            {
+                "text": "5°C – 10%-kal csökkenti",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "12-es siklószám esetén álló motorral 4500 lábról a legjobb sikláshoz tartozó sebességet választva mekkora föld feletti távolságot tudunk megtenni a földet érésig szélcsendben.",
+        "answers": [
+            {
+                "text": "kb. 37,5 km-t.",
+                "correct": false
+            },
+            {
+                "text": "kb. 16,5 km-t.",
+                "correct": true
+            },
+            {
+                "text": "kb. 14,4 km-t.",
+                "correct": false
+            },
+            {
+                "text": "kb. 15,7 km-t.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép súlyának növekedésével …",
+        "answers": [
+            {
+                "text": "a szerkezet túlterhelésének határai tágabbak.",
+                "correct": false
+            },
+            {
+                "text": "a szerkezet túlterhelésének határai szűkebbek.",
+                "correct": true
+            },
+            {
+                "text": "a szerkezet túlterhelésének határai nem változnak.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A hatótávolság …",
+        "answers": [
+            {
+                "text": "A hatótávolságra a szél nincs hatással.",
+                "correct": false
+            },
+            {
+                "text": "szembeszél esetén nő, hátszél esetén csökken.",
+                "correct": false
+            },
+            {
+                "text": "szembeszél esetén csökken, hátszél esetén nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép súlyának növekedésével a minimális légellenálláshoz tartozó …",
+        "answers": [
+            {
+                "text": "Vopt sebesség nagyobb lesz.",
+                "correct": true
+            },
+            {
+                "text": "Vgazd sebesség kisebb lesz.",
+                "correct": false
+            },
+            {
+                "text": "Vgazd sebesség nagyobb lesz.",
+                "correct": false
+            },
+            {
+                "text": "Vopt sebesség kisebb lesz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép üzemanyag nélküli súlya …",
+        "answers": [
+            {
+                "text": "alatt azt a súlyt értjük, mely semmilyen üzemanyagot nem foglal magába.",
+                "correct": false
+            },
+            {
+                "text": "tartalmazhat bizonyos mennyiségű üzemanyagot.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A legnagyobb emelkedési szög elérését biztosító sebességet … nevezzük, mely a legnagyobb … fog adódni.",
+        "answers": [
+            {
+                "text": "Vy-nak – Fp – X teljesítmény-feleslegnél",
+                "correct": false
+            },
+            {
+                "text": "Vx-nek – Fp – X vonóerő-feleslegnél",
+                "correct": true
+            },
+            {
+                "text": "Vx-nek – Pr – Psz vonóerő-feleslegnél",
+                "correct": false
+            },
+            {
+                "text": "Vy-nak-nak – Pr – Psz teljesítmény-feleslegnél",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy 1000 láb magasság-növekedés vagy … hőmérséklet-növekedés … a leszállási úthosszt",
+        "answers": [
+            {
+                "text": "5°C – 10%-kal csökkenti",
+                "correct": false
+            },
+            {
+                "text": "10°C – 5%-kal növeli",
+                "correct": true
+            },
+            {
+                "text": "10°C – 10%-kal növeli",
+                "correct": false
+            },
+            {
+                "text": "5°C – 20%-kal csökkenti.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép súlyának növekedésével …",
+        "answers": [
+            {
+                "text": "Vx csökken, míg Vy nő.",
+                "correct": false
+            },
+            {
+                "text": "Vx nő, míg Vy csökken.",
+                "correct": false
+            },
+            {
+                "text": "Vx nő, míg Vy nem változik.",
+                "correct": false
+            },
+            {
+                "text": "Vx és Vy is nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Az emelkedés során a legnagyobb emelkedés mértéke …",
+        "answers": [
+            {
+                "text": "A legnagyobb emelkedés mértékére a szél nincs hatással.",
+                "correct": true
+            },
+            {
+                "text": "szembeszél esetén csökken, hátszél esetén nő.",
+                "correct": false
+            },
+            {
+                "text": "szembeszél esetén nő, hátszél esetén csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A kb. 10 cm magas száraz füves felület … növeli, a kb. 10 cm magas nedves füves felület … növeli a leszállási úthosszt.",
+        "answers": [
+            {
+                "text": "kb. 5%-kal – kb. 15%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 10%-kal – kb. 20%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 15%-kal – kb. 30%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 20%-kal – kb. 30%-kal",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A legnagyobb varióhoz tartozó sebességet … nevezzük, mely a legnagyobb … fog adódni.",
+        "answers": [
+            {
+                "text": "Vy-nak – Fp – X teljesítmény-feleslegnél",
+                "correct": false
+            },
+            {
+                "text": "Vy-nak-nak – Pr – Psz teljesítmény-feleslegnél",
+                "correct": true
+            },
+            {
+                "text": "Vx-nek – Fp – X vonóerő-feleslegnél",
+                "correct": false
+            },
+            {
+                "text": "Vx-nek – Pr – Psz vonóerő-feleslegnél",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "TODA – Clearway = …",
+        "answers": [
+            {
+                "text": "ASDA",
+                "correct": false
+            },
+            {
+                "text": "LDA",
+                "correct": false
+            },
+            {
+                "text": "Stopway",
+                "correct": false
+            },
+            {
+                "text": "TORA",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik helyzetben nagyobb a szárny indukált ellenállása?",
+        "answers": [
+            {
+                "text": "A súlyponthelyzetnek nincs erre hatása.",
+                "correct": false
+            },
+            {
+                "text": "Mellső és hátsó súlyponthelyzet esetén egyaránt.",
+                "correct": false
+            },
+            {
+                "text": "Hátsó súlyponthelyzet esetén.",
+                "correct": false
+            },
+            {
+                "text": "Mellső súlyponthelyzet esetén.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy a futópálya 1%-os lejtésével a leszállási úthossz …",
+        "answers": [
+            {
+                "text": "5%-kal csökken.",
+                "correct": false
+            },
+            {
+                "text": "10%-kal csökken.",
+                "correct": false
+            },
+            {
+                "text": "5%-kal nő.",
+                "correct": true
+            },
+            {
+                "text": "10%-kal nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A nekifutási úthossz alatt …",
+        "answers": [
+            {
+                "text": "a fékoldástól az 50 láb magasságra történő emelkedésig számított távolságot értjük.",
+                "correct": false
+            },
+            {
+                "text": "a fékoldástól az orrfutó elemeléséig számított távolságot értjük.",
+                "correct": false
+            },
+            {
+                "text": "a fékoldástól a repülőgép elemelkedéséig számított távolságot értjük.",
+                "correct": true
+            },
+            {
+                "text": "a fékoldástól az átesési sebesség 1,2-szeresénél nagyobb sebesség eléréséig megtett távolságot értjük.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy az átesési sebesség … megfelelő hátszél komponens esetén … a leszállási úthossz.",
+        "answers": [
+            {
+                "text": "10%-nak – 20%-kal nő",
+                "correct": true
+            },
+            {
+                "text": "1%-nak – 5%-kal nő",
+                "correct": false
+            },
+            {
+                "text": "10%-nak – 20%-kal csökken",
+                "correct": false
+            },
+            {
+                "text": "1%-nak – 5%-kal csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik sebességet kell tartanunk, ha a legkisebb föld feletti távolság megtétele mellet szeretnénk biztosítani a legnagyobb emelkedést.",
+        "answers": [
+            {
+                "text": "Vgazd sebességet.",
+                "correct": false
+            },
+            {
+                "text": "Vopt sebességet.",
+                "correct": false
+            },
+            {
+                "text": "Vy sebességet.",
+                "correct": false
+            },
+            {
+                "text": "Vx sebességet.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Ha Vgazd sebességet választjuk, akkor",
+        "answers": [
+            {
+                "text": "a tüzelőanyag-fogyasztást maximalizáljuk.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép hatótávolságát maximalizáljuk.",
+                "correct": false
+            },
+            {
+                "text": "a minimális szükséges teljesítménnyel repülünk.",
+                "correct": true
+            },
+            {
+                "text": "a minimális légellenállással repülünk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik sebességet kell tartanunk, ha a legrövidebb idő alatt szeretnénk egy bizonyos magasságra emelkedni.",
+        "answers": [
+            {
+                "text": "Vx sebességet.",
+                "correct": false
+            },
+            {
+                "text": "Vy sebességet.",
+                "correct": true
+            },
+            {
+                "text": "Vgazd sebességet.",
+                "correct": false
+            },
+            {
+                "text": "Vopt sebességet.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Növekvő magassággal Vx …",
+        "answers": [
+            {
+                "text": "IAS szerint nő és TAS szerint csökken.",
+                "correct": false
+            },
+            {
+                "text": "IAS és TAS szerint is csökken.",
+                "correct": false
+            },
+            {
+                "text": "IAS szerint csökken és TAS szerint nő.",
+                "correct": false
+            },
+            {
+                "text": "IAS és TAS szerint is nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A kb. 10 cm magas száraz füves felület … növeli, a 10 cm magas nedves füves felület … növeli a felszállási úthosszt. A 10 cm-nél magasabb száraz füves felület … növeli a felszállási úthosszt.",
+        "answers": [
+            {
+                "text": "kb. 25%-kal – kb. 30%-kal – kb. 30%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 20%-kal – kb. 25%-kal – kb. 25%-kal.",
+                "correct": true
+            },
+            {
+                "text": "kb. 10%-kal – kb. 20%-kal – kb. 25%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 10%-kal – kb. 20%-kal – kb. 20%-kal",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Az alábbiak közül jellemzően melyik helyzetben a legnagyobb a repülőgép szerkezeti túlterhelésének lehetősége?",
+        "answers": [
+            {
+                "text": "Kisebb súly és hátsó súlypont esetén..",
+                "correct": false
+            },
+            {
+                "text": "Nagyobb súly és hátsó súlypont esetén.",
+                "correct": true
+            },
+            {
+                "text": "Kisebb súly és mellső súlypont esetén..",
+                "correct": false
+            },
+            {
+                "text": "Nagyobb súly és mellső súlypont esetén.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A belsőégésű Otto-motorral felszerelt repülőgép szükséges teljesítménye akkor minimális, ha a légellenállás minimális.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": true
+            },
+            {
+                "text": "Igaz.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik állítás hamis?",
+        "answers": [
+            {
+                "text": "A levegőben tölthető időt a minimális tüzelőanyag-fogyasztás esetén maximalizáljuk.",
+                "correct": false
+            },
+            {
+                "text": "A hatótávolságot a minimális teljesítmény esetén maximalizáljuk.",
+                "correct": true
+            },
+            {
+                "text": "A hatótávolság akkor a legnagyobb, ha a repülőgép a lehető legkisebb légellenállással repül.",
+                "correct": false
+            },
+            {
+                "text": "A hatótávolságot Vopt sebesség választásával maximalizáljuk.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Az üzemi súly …",
+        "answers": [
+            {
+                "text": "az üzemanyag nélküli súly.",
+                "correct": false
+            },
+            {
+                "text": "a száraz üzemi súly és az üzemanyagok súlyának összege.",
+                "correct": true
+            },
+            {
+                "text": "a száraz üzemi súly, az üzemanyagok súlyának és a forgalmi teher összege.",
+                "correct": false
+            },
+            {
+                "text": "a száraz üzemi súly, az üzemanyagok súlyának és a hasznos teher összege.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A legtöbb levegőben tölthető idő és a hatótávolság …",
+        "answers": [
+            {
+                "text": "mellső súlyponthelyzet esetén csökken.",
+                "correct": false
+            },
+            {
+                "text": "hátsó súlyponthelyzet esetén nő.",
+                "correct": false
+            },
+            {
+                "text": "A súlyponthelyzetnek nincs ezekre hatása.",
+                "correct": false
+            },
+            {
+                "text": "mellső és hátsó súlyponthelyzet esetén egyaránt csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Egy repülőgép tengerszintről 5500 feet-re 12 perc alatt képes felemelkedni. Mekkora átlagosan az emelkedés mértéke az emelkedés során?",
+        "answers": [
+            {
+                "text": "kb. 460 feet/min.",
+                "correct": true
+            },
+            {
+                "text": "kb. 480 feet/min.",
+                "correct": false
+            },
+            {
+                "text": "kb. 660 feet/min.",
+                "correct": false
+            },
+            {
+                "text": "kb. 580 feet/min.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Egy futópálya hossza (TORA) 600 m, akadálymentes sáv nincs kijelölve. Az elemelkedéshez szükséges úthossz 389 m, az 50 láb magasság eléréséhez szükséges távolság pedig 761 m. Végrehajthatjuk-e a felszállást az adott körülmények alapján?",
+        "answers": [
+            {
+                "text": "Igen.",
+                "correct": false
+            },
+            {
+                "text": "Nem.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Növekvő magassággal Vy …",
+        "answers": [
+            {
+                "text": "IAS és TAS szerint is nő.",
+                "correct": false
+            },
+            {
+                "text": "IAS szerint nő és TAS szerint csökken.",
+                "correct": false
+            },
+            {
+                "text": "IAS és TAS szerint is csökken.",
+                "correct": false
+            },
+            {
+                "text": "IAS szerint csökken és TAS szerint nő.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Az orrkerekénél mért súly 90 font, mely mérési pont a viszonyítási síktól 40 inch-re van. A főfutók a viszonyítási síktól 95 inch-re vannak és a főfutóknál mért súly oldalanként 700 font. Milyen távolságra van a repülőgép súlypontja a viszonyítási síktól?",
+        "answers": [
+            {
+                "text": "88,7 inch-re.",
+                "correct": false
+            },
+            {
+                "text": "90 inch-re.",
+                "correct": false
+            },
+            {
+                "text": "93, 2 inchre.",
+                "correct": false
+            },
+            {
+                "text": "91,6 inch-re.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "TORA + Stopway = …",
+        "answers": [
+            {
+                "text": "Clearway",
+                "correct": false
+            },
+            {
+                "text": "TODA",
+                "correct": false
+            },
+            {
+                "text": "LDA",
+                "correct": false
+            },
+            {
+                "text": "ASDA",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép súlyának növekedésével a hatótávolság …, a legtöbb levegőben tölthető idő …, a repülőgép siklószáma …",
+        "answers": [
+            {
+                "text": "csökken – csökken – nem változik.",
+                "correct": true
+            },
+            {
+                "text": "nő – nő – javul.",
+                "correct": false
+            },
+            {
+                "text": "csökken – nő – romlik.",
+                "correct": false
+            },
+            {
+                "text": "csökken – csökken – romlik.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A 10 cm-nél magasabb száraz füves felület … növeli, a 10 cm-nél magasabb nedves füves felület … is növelheti a leszállási úthosszt. Havas futópályafelület minimum … növeli a leszállási úthosszt.",
+        "answers": [
+            {
+                "text": "kb. 25%-kal – 30%-kal – 40%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 30%-kal – 40%-kal – 25%-kal",
+                "correct": true
+            },
+            {
+                "text": "kb. 10%-kal – 30%-kal – 20%-kal",
+                "correct": false
+            },
+            {
+                "text": "kb. 20%-kal – 30%-kal – 15%-kal",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik súlydefiníció foglalja magába a személyzet és csomagjaik súlyát?",
+        "answers": [
+            {
+                "text": "A hasznos teher.",
+                "correct": false
+            },
+            {
+                "text": "Az üressúly.",
+                "correct": false
+            },
+            {
+                "text": "A száraz üzemi súly.",
+                "correct": true
+            },
+            {
+                "text": "A forgalmi teher.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Minél nagyobb fékszárnykitérítést alkalmazunk, a leszállási úthossz annál rövidebb lesz.",
+        "answers": [
+            {
+                "text": "Hamis.",
+                "correct": false
+            },
+            {
+                "text": "Igaz.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A rendelkezésre álló leszállási úthossz = …",
+        "answers": [
+            {
+                "text": "a TODA-val.",
+                "correct": false
+            },
+            {
+                "text": "LDA + Stopway.",
+                "correct": false
+            },
+            {
+                "text": "az LDA-val.",
+                "correct": true
+            },
+            {
+                "text": "TORA + Stopway.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Ha egy futópályán nincs megjelölve akadálymentes sáv (Clearway), akkor a repülőgépnek a kezdeti emelkedés során el kell érnie az 50 láb magasságot a futópálya …",
+        "answers": [
+            {
+                "text": "TORA szakaszán.",
+                "correct": true
+            },
+            {
+                "text": "LDA szakaszán.",
+                "correct": false
+            },
+            {
+                "text": "ASDA szakszán.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Az emelkedés során az emelkedés szöge …",
+        "answers": [
+            {
+                "text": "Az emelkedés szögére a szél nincs hatással.",
+                "correct": false
+            },
+            {
+                "text": "szembeszél esetén csökken, hátszél esetén az emelkedés szöge meredekebb lesz.",
+                "correct": false
+            },
+            {
+                "text": "szembeszél esetén meredekebb lesz, hátszél esetén az emelkedés szöge csökken.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Motorleállás esetén a földet érésig …",
+        "answers": [
+            {
+                "text": "Vopt sebességet választva tudjuk megtenni a legnagyobb föld feletti távolságot. Ekkor a siklószög a lehető legnagyobb.",
+                "correct": false
+            },
+            {
+                "text": "Vgazd sebességet választva tudjuk megtenni a legnagyobb föld feletti távolságot. Ekkor a siklószög a lehető legkisebb.",
+                "correct": false
+            },
+            {
+                "text": "Vgazd sebességet választva tudjuk megtenni a legnagyobb föld feletti távolságot. Ekkor a siklószög a lehető legnagyobb.",
+                "correct": false
+            },
+            {
+                "text": "Vopt sebességet választva tudjuk megtenni a legnagyobb föld feletti távolságot. Ekkor a siklószög a lehető legkisebb.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A legtöbb levegőben tölthető idő …",
+        "answers": [
+            {
+                "text": "szembeszél esetén csökken, hátszél esetén nő.",
+                "correct": false
+            },
+            {
+                "text": "szembeszél esetén nő, hátszél esetén csökken.",
+                "correct": false
+            },
+            {
+                "text": "A legtöbb levegőben tölthető időre a szél nincs hatással.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Megfelelő felszállási fékszárnybeállítás estén (a mechanizáció nélküli felszálláshoz képest) a nekifutási úthossz … , az 50 lábra történő kezdeti emelkedéshez … föld feletti távolság megtétele szükséges. A felszállási úthossz mindent egybevetve …",
+        "answers": [
+            {
+                "text": "csökken – nagyobb – csökken.",
+                "correct": true
+            },
+            {
+                "text": "nő – nagyobb – nő.",
+                "correct": false
+            },
+            {
+                "text": "nő – kisebb – nem változik.",
+                "correct": false
+            },
+            {
+                "text": "csökken – kisebb – csökken.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A leszállási úthossz meghatározásánál a biztonságos számítás érdekében a szembeszél komponensnek … vesszük figyelembe, hátszél komponens esetén pedig … értékkel számolunk.",
+        "answers": [
+            {
+                "text": "120%-át – 80%-os",
+                "correct": false
+            },
+            {
+                "text": "80%-át – 120%-os",
+                "correct": false
+            },
+            {
+                "text": "50%-át – 150%-os",
+                "correct": true
+            },
+            {
+                "text": "150%-át – 50%-os",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Általánosan elmondható, hogy a futópálya … emelkedésével a felszállási úthossz …",
+        "answers": [
+            {
+                "text": "5%-os – 1%-kal nő.",
+                "correct": false
+            },
+            {
+                "text": "1%-os – 5%-kal nő.",
+                "correct": true
+            },
+            {
+                "text": "1%-os – 10%-kal nő.",
+                "correct": false
+            },
+            {
+                "text": "10%-os – 1%-kal nő.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Melyik állítás igaz?",
+        "answers": [
+            {
+                "text": "A szerkezetileg megengedett maximális fel- és leszállósúly azonos érték.",
+                "correct": false
+            },
+            {
+                "text": "A szerkezetileg megengedett maximális gurulósúly lehet kisebb, mint a szerkezetileg megengedett maximális felszállósúly.",
+                "correct": false
+            },
+            {
+                "text": "A gurulósúly az az összsúly, mellyel a repülőgép a nekifutást megkezdi.",
+                "correct": false
+            },
+            {
+                "text": "Egy repülőgép üressúlya nem feltétlenül egyezik meg a gyártó által megadott üressúllyal.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Egy négyszemélyes repülőgép viszonyítási síkja a légcsavarkúp csúcsa. A repülőgép üressúlyának és a beletöltött olaj súlyának összege 1521,2 font, az ehhez tartozó nyomaték pedig 134855 font-inch. A beletöltött tüzelőanyag súlya 288 font, mely 95 inch erőkaron hat. Az első üléssor terhelése 330 font, mely 80,5 inch erőkaron hat. A második üléssor terhelése 150 font, 118,1 inch erőkarral. A megengedett maximális felszállósúly 2300 font, a súlypont mellső határhelyzete 82 inch, hátsó határhelyzete 93 inch a viszonyítási síktól. Végrehajthatjuk-e a felszállást az adott körülmények között? Milyen távolságra lesz a repülőgép súlypontja a viszonyítási síktól?",
+        "answers": [
+            {
+                "text": "Nem. 93,6 inchre.",
+                "correct": false
+            },
+            {
+                "text": "Nem. 92,4 inchre.",
+                "correct": false
+            },
+            {
+                "text": "Igen. 90,2 inchre.",
+                "correct": true
+            },
+            {
+                "text": "Igen. 87,9 inchre.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "Hátszél esetén …",
+        "answers": [
+            {
+                "text": "a repülőgép föld feletti sebessége nagyobb, mint a levegőhöz viszonyított sebessége, ezért (a szélcsendhez képest) hosszabb nekifutás után emelkedik el.",
+                "correct": true
+            },
+            {
+                "text": "a repülőgép föld feletti sebessége kisebb, mint a levegőhöz viszonyított sebessége, ezért (a szélcsendhez képest) rövidebb nekifutás után elemelkedik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép föld feletti sebessége nagyobb, mint a levegőhöz viszonyított sebessége, ezért (a szélcsendhez képest) rövidebb nekifutás után elemelkedik.",
+                "correct": false
+            },
+            {
+                "text": "a repülőgép föld sebessége kisebb, mint a levegőhöz viszonyított sebessége, ezért (a szélcsendhez képest) hosszabb nekifutás után emelkedik el.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A száraz üzemi súly és a forgalmi teher összege …",
+        "answers": [
+            {
+                "text": "az üzemanyag nélküli súly.",
+                "correct": true
+            },
+            {
+                "text": "megengedett maximális felszállósúly.",
+                "correct": false
+            },
+            {
+                "text": "a felszállósúly.",
+                "correct": false
+            },
+            {
+                "text": "az üzemi súly.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A felszállási úthossz meghatározásánál a biztonságos számítás érdekében a szembeszél komponensnek … vesszük figyelembe, hátszél komponens esetén pedig … értékkel számolunk.",
+        "answers": [
+            {
+                "text": "80%-át – 120%-os",
+                "correct": false
+            },
+            {
+                "text": "150%-át – 50%-os",
+                "correct": false
+            },
+            {
+                "text": "50%-át – 150%-os",
+                "correct": true
+            },
+            {
+                "text": "120%-át – 80%-os",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A repülőgép üressúlya …",
+        "answers": [
+            {
+                "text": "alatt azt a súlyt értjük, mely semmilyen üzemanyagot nem foglal magába .",
+                "correct": false
+            },
+            {
+                "text": "tartalmazhat bizonyos mennyiségű üzemanyagot.",
+                "correct": true
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A súlypontszámítás során …",
+        "answers": [
+            {
+                "text": "negatív nyomatéknak vesszük az óramutató járásával egyező irányú, és pozitív nyomatéknak vesszük az óramutató járásával ellentétes irányú nyomatékokat.",
+                "correct": false
+            },
+            {
+                "text": "pozitív nyomatéknak vesszük az óramutató járásával egyező irányú, és negatív nyomatéknak vesszük az óramutató járásával ellentétes irányú nyomatékokat.",
+                "correct": false
+            },
+            {
+                "text": "pozitív nyomatéknak vesszük a viszonyítási sík mögött, és negatív nyomatéknak vesszük a viszonyítási sík előtt keletkező nyomatékokat.",
+                "correct": true
+            },
+            {
+                "text": "negatív nyomatéknak vesszük a viszonyítási sík mögött, és pozitív nyomatéknak vesszük a viszonyítási sík előtt keletkező nyomatékokat.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    },
+    {
+        "subject": "REPÜLÉSTERVEZÉS",
+        "question": "A futópálya azon szakaszát, melyet megszakított felszállásnál a repülőgép kifékezésére használhatunk fel …",
+        "answers": [
+            {
+                "text": "akadálymentes sávnak nevezünk.",
+                "correct": false
+            },
+            {
+                "text": "Stopway-nek nevezzük.",
+                "correct": true
+            },
+            {
+                "text": "Clearway-nek nevezzük.",
+                "correct": false
+            },
+            {
+                "text": "LDA-nak nevezzük.",
+                "correct": false
+            }
+        ],
+        "hint": ""
+    }
 ];
 
 const selectedAnswers = []; 
@@ -4955,6 +20037,7 @@ const topicEl = document.getElementById("topics");
 
 let currentQuestionIndex = 0;
 let score = 0;
+
 
 
 
@@ -5025,16 +20108,19 @@ topicsElem.addEventListener("click", function(event) {
 
 
 
-
+// Létrehozzuk az üres tömböt a kérdések számával
+function initializeSelectedAnswers() {
+  selectedAnswers.fill(undefined);
+}
 
 // Kezdeti állapot beállítása
 function startQuiz(){
-	currentQuestionIndex = 0;
-	score = 0;
-	nextButton.innerHTML= "Következő";
-	showQuestion();
+  currentQuestionIndex = 0;
+  score = 0;
+  initializeSelectedAnswers(); // Inicializáljuk az selectedAnswers tömböt
+  nextButton.innerHTML= "Következő";
+  showQuestion();
 }
-
 // Következő kérdés megjelenítése
 const toggleSwitch = document.getElementById("toggleSwitch");
 
@@ -5084,6 +20170,11 @@ questionElement.appendChild(hintIcon);
       box.classList.add("current");
     }
   });
+  const selectedAnswerIndex = selectedAnswers[currentQuestionIndex];
+  if (selectedAnswerIndex != null) {
+    const selectedAnswerButton = answerButtons.children[selectedAnswerIndex];
+    selectedAnswerButton.classList.add(selectedAnswerButton.dataset.correct ? "correct" : "incorrect");
+  }
 }
 
 toggleSwitch.addEventListener("change", showQuestion);
@@ -5091,11 +20182,11 @@ toggleSwitch.addEventListener("change", showQuestion);
 function hint(){
 
 };
+
 // Választás letárolás és ellenőrzése
 function selectAnswer(e) {
   const selectBtn = e.target;
-  const answerIndex = Array.from(answerButtons.children).indexOf(selectBtn);
-  selectedAnswers.push(answerIndex); // Letároljuk a kiválasztott válasz sorszámát.
+  selectBtn.classList.add('selected');
   const isCorrect = selectBtn.dataset.correct === "true";
   if (isCorrect) {
     selectBtn.classList.add("correct");
@@ -5110,14 +20201,16 @@ function selectAnswer(e) {
     button.disabled = true;
   });
   nextButton.style.display = "block";
-  updateQuizStatusBox(isCorrect);
+  storeAnswer();
 }
 
-// A függvény először kiválasztja az aktuális kérdéshez tartozó választ, majd kiszámolja annak sorszámát az összes válasz között, majd eltárolja azt a "selectedAnswers" tömbben az adott kérdéshez tartozóan, azaz a megadott "questionIndex" sorszámú indexen. A függvény akkor hívódik meg, amikor a felhasználó választ ad az adott kérdésre a "selectAnswer" függvényen keresztül. A "questionIndex" paramétert a "selectAnswer" függvényből kapjuk meg, amikor meghívjuk a "storeAnswer" függvényt.
-function storeAnswer(questionIndex) {
+// A függvény eltárolja a felhasználó válaszát az adott kérdésre, majd frissíti a quiz status box-okat
+function storeAnswer() {
   const selectBtn = answerButtons.querySelector('.selected');
   const answerIndex = Array.from(answerButtons.children).indexOf(selectBtn);
-  selectedAnswers[questionIndex] = answerIndex;
+  selectedAnswers[currentQuestionIndex] = answerIndex;
+  const isCorrect = selectBtn.dataset.correct === "true";
+  updateQuizStatusBox(isCorrect);
 }
 
 // Az aktuális állapot visszaállítása
@@ -5190,14 +20283,14 @@ function createQuizStatusBoxes(num){
 function displayQuestion(questionNo) {
     // itt a kérdés megjelenítése történik a megadott sorszám alapján
     nextButton.innerHTML = "Újrakezdés";
-	nextButton.style.display = "block"
+    nextButton.style.display = "block"
+    quizStatusClickable = true;
 }
 
+// Quiz status box-ok színének frissítése
 function updateQuizStatusBox(isCorrect){
-
-    const box = quizStatusBoxes[currentQuestionIndex];
-    box.classList.add(isCorrect ? "correct" : "incorrect");
-    
+  const box = quizStatusBoxes[currentQuestionIndex];
+  box.classList.add(isCorrect ? "correct" : "incorrect");
 }
 
 
@@ -5212,12 +20305,24 @@ function showQuestionOnQuizStatusBox(e) {
   }
 
   // Ha a válasz a quiz status boxban van megjelenítve, akkor ezt is frissíteni kell
-  if (selectedAnswers[currentQuestionIndex]) {
-    const selectedAnswerIndex = selectedQuestions[currentQuestionIndex].answers.findIndex(answer => answer.text === selectedAnswers[currentQuestionIndex]);
+  if (selectedAnswers[currentQuestionIndex] != null) {
+    const selectedAnswerIndex = selectedAnswers[currentQuestionIndex];
     const selectedAnswerButton = answerButtons.children[selectedAnswerIndex];
     selectedAnswerButton.classList.add(selectedAnswerButton.dataset.correct ? "correct" : "incorrect");
+    // Ha a válasz helytelen, akkor a helyes válasz is megjelenik a quiz status box-on
+    if (!selectedAnswerButton.dataset.correct) {
+      const correctAnswerIndex = selectedQuestions[currentQuestionIndex].answers.findIndex(answer => answer.correct);
+      const correctAnswerButton = answerButtons.children[correctAnswerIndex];
+      correctAnswerButton.classList.add("correct");
+    }
+  } else {
+    // Ha még nem válaszoltunk az adott kérdésre, akkor töröljük a korábbi válasz jelöléseket
+    removeCorrectClass();
+    removeInCorrectClass();
+    showScore();
   }
 }
+
 
 
 // Az X ikonra kattintás eseménykezelője
@@ -5278,6 +20383,7 @@ function closeHint() {
 			document.getElementById("hint-popup").style.display = "none";
 			overlay.classList.remove('show');
 		}
+
 listTopics();
 
 

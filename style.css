@@ -13,7 +13,7 @@ body {
 .app {
   background: #f1f1f1;
   width: 90%;
-  margin: 50px auto 0;
+  margin: 50px auto 50px;
   border-radius: 10px;
   padding: 30px;
 }

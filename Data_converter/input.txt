@@ -1,0 +1,383 @@
+MÛSZERTAN
+A sebességmérés során a sûrûségváltozás következtében kialakuló pontatlanságot …
+ a CAS és a TAS nem tartalmazza.
+ az IAS és a CAS nem tartalmazza.
+ a TAS és a GS nem tartalmazza.
+ a CAS, a TAS és a GS nem tartalmazza.
+ROSSZ
+MÛSZERTAN
+Hogyan nevezzük azt a tüzelõanyag-mérõt, melynek kijelzõjét a szárnyon elhelyezve, vagy a kabinban a repülõgép-vezetõ melletti ablakok felett, a szárnytõ és a törzs csatlakozásánál találhatjuk meg?
+ Úszós-örvényáramú mérõ.
+ Úszós-potenciométeres mérõ.
+ Úszós-kúpfogaskerekes mérõ.
+ Úszós-centrifugális mérõ.
+ROSSZ
+MOTORTAN
+Mire következtethetünk, ha a repülés során az olajhõmérséklet növekedni kezd, majd egy idõ után az olajnyomásban hirtelen esés következik be?
+ Túl nagy az olajmennyiség, a motor kinyomja magából.
+ Nem elegendõ az olajmennyiség.
+ Jelentõs olajszivárgásra.
+ A motor túlmelegedésére.
+ROSSZ
+SZERKEZETTAN
+A tartószerkezetes és a félhéjszerkezetû szárny aerodinamikailag megkívánt alakhûségét …
+ dobozos szerkezetek biztosítják.
+ a fõtartók biztosítják.
+ a bordák biztosítják.
+ a vászon és a lemezborítás biztosítja.
+ROSSZ
+MOTORTAN
+A magassági motorral felszerelt repülõgép … mint egy azonos kategóriájú feltöltõ nélküli motorral felszerelt repülõgép esetében.
+ elméleti és gyakorlati csúcsmagassága ugyanakkora
+ elméleti és gyakorlati csúcsmagassága nagyobb
+ elméleti csúcsmagassága nagyobb, de gyakorlati csúcsmagassága ugyanakkora
+ elméleti csúcsmagassága nagyobb, de gyakorlati csúcsmagassága kisebb
+ROSSZ
+MOTORTAN
+A tüzelõanyag-rendszer mûködésére veszélyes jegesedés …
+ fagypont alatti léghõmérséklet esetén jelentkezik.
+ akkor jön létre, amikor a repülõgép felülete fagypont alá hûlt és melegebb, nedvesebb légtömegbe repül bele.
+ széles hõmérséklet tartományban, fagypont alatti léghõmérséklet, de akár 20°C-nál magasabb léghõmérséklet esetén is ki alakulhat.
+ 20°C-nál magasabb léghõmérséklet esetén már nem alakulhat ki.
+ROSSZ
+SZERKEZETTAN
+Milyen anyagból készül a kompozit technológiával épült repülõgéptörzs?
+ Ötvözött alumínium.
+ Titán.
+ Szálerõsítésû mûanyag.
+ Ötvözött acél.
+ROSSZ
+MÛSZERTAN
+A torlólapátos variométer …
+ szelencés mûszer.
+ mûködése a hõellenállás-változáson alapul.
+ a késleltetett nyomáskiegyenlítõdés elvén mûködik.
+ROSSZ
+MÛSZERTAN
+A léghûtéses motor hûtésérõl …
+ a hengerfej-hõmérõ tájékoztat.
+ a kipufugógáz-hõmérõ tájékoztat.
+ a szívótérnyomás-mérõ tájékoztat.
+ a tüzelõanyagátfolyás-mérõ tájékoztat.
+ROSSZ
+MÛSZERTAN
+Mire következtethetünk, ha a repülõgép magasságváltozásától függetlenül a variométer 0 függõleges sebességet mutat?
+ A Pitot-csõ eldugult
+ A statikus port eldugult.
+ A statikus vezeték ereszt.
+ A Pitot-vezeték ereszt.
+ROSSZ
+MOTORTAN
+Melyik állítás igaz?
+ A szelepet a szeleprugó nyitja és a bütyök zárja.
+ A szelepet a bütyök nyitja és a szeleprugó zárja.
+ROSSZ
+MÛSZERTAN
+A sebességmérõ sárga tartományának …
+ alsó határa a Vs átesési sebesség, felsõ határa Vno normál üzemi sebesség.
+ alsó határa a Vno normál üzemi sebesség, felsõ határa a Vne át nem léphetõ sebesség.
+ alsó határa a Va manõverezési sebesség, felsõ határa Vno normál üzemi sebesség.
+ alsó határa a Va manõverezési sebesség, felsõ határa a Vne át nem léphetõ sebesség.
+ROSSZ
+MOTORTAN
+Melyik állítás igaz?
+ A szívószelep a FHP után nyit és az AHP elõtt zár.
+ A szívószelep a FHP elõtt nyit és az AHP után zár.
+ A szívószelep a FHP után nyit és az AHP után zár.
+ A szívószelep a FHP elõtt nyit és az AHP elõtt zár.
+ROSSZ
+MÛSZERTAN
+Az IAS sebesség …
+ meghatározása a légkör sûrûségváltozása miatt, navigációs számítások elvégzése érdekében szükséges.
+ a sebességmérõrõl leolvasott érték.
+ meghatározása a Pitot-statikus rendszer beépítési hibái miatt szükséges.
+ meghatározása a levegõ összenyomhatóságából származó mérési hiba miatt szükséges.
+ROSSZ
+MOTORTAN
+Ha a fõfúvóka méretét úgy választják meg, hogy alacsony fordulatszámon megfelelõ arányú keveréket biztosítson, akkor …
+ a kiegyenlítõ fúvóka akadályozza meg a keverék elszegényedését.
+ a féklevegõ fúvóka akadályozza meg a keverék elszegényedését.
+ a féklevegõ fúvóka akadályozza meg a keverék eldúsulását.
+ a kiegyenlítõ fúvóka akadályozza meg a keverék eldúsulását.
+ROSSZ
+SZERKEZETTAN
+A kisrepülõgépek törzsének burkolata …
+ fából készül.
+ alumíniumból készül.
+ fából, alumíniumból és szálerõsítésû mûanyagból is készülhet.
+ szálerõsítésû mûanyagból készül.
+ROSSZ
+MOTORTAN
+Milyen hengerelrendezésre utal a bütyköstárcsa?
+ Állóhengeres sorosmotor.
+ Boxermotor.
+ Lógóhengeres sorosmotor.
+ Csillagmotor.
+ROSSZ
+MOTORTAN
+A befecskendezéses motorral felszerelt repülõgép elõnye, hogy mentes a tüzelõanyag-rendszer mûködésére veszélyes jegesedéstõl.
+ Igaz.
+ Hamis.
+ROSSZ
+MOTORTAN
+A bütyköstengelyt …
+ a forgattyústengely fogaskerék-áttétellel vagy lánccal hajtja.
+ a forgattyústengely fogasszíjjal vagy lánccal hajtja.
+ a vezérmûtengely hajtja.
+ a forgattyústengely fogaskerék-áttétellel, fogasszíjjal vagy lánccal hajtja.
+ROSSZ
+MÛSZERTAN
+A … szerint a magasságmérõ a repülõgép közepes tengerszint feletti magasságát mutatja.
+ QNE
+ QNH
+ QFE
+ROSSZ
+MOTORTAN
+Melyik vezérlésre igaz, hogy a vezérlõbütyök a szelepszárral közvetlenül érintkezik?
+ A felülszelepelt és alulvezérelt vezérlésre.
+ A felülszelepelt és felülvezérelt vezérlésre.
+ Az oldaltszelepelt és alulvezérelt vezérlésre.
+ROSSZ
+MOTORTAN
+A motorzsalu nyitott állapotában …
+ a léghûtés hatékonyságát csökkentjük, ezért a hûtés csökken.
+ a léghûtés hatékonyságát növeljük, ezért a hûtés nõ.
+ a léghûtés hatékonyságát csökkentjük, ezért a hûtés nõ.
+ a léghûtés hatékonyságát növeljük, ezért a hûtés csökken.
+ROSSZ
+SZERKEZETTAN
+Milyen anyagból készül a kisrepülõgépek belsõégésû motorjának forgattyúsháza?
+ Ötvözött acél.
+ Titán.
+ Ötvözött alumínium.
+ Szálerõsítésû mûanyag.
+ROSSZ
+MÛSZERTAN
+Magas léghõmérséklet esetén egy adott magasságnak a NEL-hez képest … sûrûségmagasság felel meg.
+ kisebb.
+ nagyobb.
+ A léghõmérséklet nem befolyásolja a sûrûségmagasságot.
+ROSSZ
+MÛSZERTAN
+A … kód adott repülõtér meghatározott pontjára vonatkoztatott légnyomás jelölésére szolgál.
+ QNE
+ QNH
+ QFE
+ROSSZ
+SZERKEZETTAN
+Azt a szárnyat, melynél a borítás egyáltalán nem vesz részt a teherviselésben … szárnynak nevezzük.
+ tartószerkezetes
+ szabadonhordó
+ félhéjszerkezetû
+ héjszerkezetû
+ROSSZ
+MÛSZERTAN
+A … szerinti magasságmérés a 1013,25 hPa-nak megfelelõ nyomás alapján történik.
+ QNE
+ QNH
+ QFE
+ROSSZ
+MÛSZERTAN
+Ha a repülõgép-vezetõ a helyes QNH nyomáshoz képest magasabb nyomást állít be a magasságmérõn, akkor a mûszer …
+ helyes értéknél kevesebbet fog mutatni.
+ attól függõen, hogy a nyomás magasabb vagy alacsonyabb 1013,25 hPa-nál, többet vagy kevesebbet fog mutatni.
+ a helyes értéknél többet fog mutatni.
+ NEL körülmények között helyesen fog mutatni.
+ROSSZ
+MÛSZERTAN
+A külsõ léghõmérséklet-mérõ jellemzõen …
+ bimetálos hõmérõ.
+ ellenálláshõmérõ.
+ hõelemes hõmérõ.
+ROSSZ
+MÛSZERTAN
+A térképen azonos mágneses elhajlással rendelkezõ pontokat összekötõ vonalat … vonalaknak nevezzük. A nulla mágneses elhajlású pontokat összekötõ vonalakat … vonalaknak nevezzük. Az azonos mágneses lehajlású pontokat összekötõ vonalakat … vonalaknak nevezzük.
+ agon – izoklin – izogon
+ agon – izogon – izoklin
+ izogon – agon – izoklin
+ izoklin – izogon – agon
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+Ha egy ampermérõ skálájának bal oldalán található a nulla töltés jelzése, akkor ez az ampermérõ …
+ az akkumulátorba és az akkumulátorból folyó áram erõsségét mutatja.
+ a generátor felõl folyó áram erõsségét méri.
+ROSSZ
+MOTORTAN
+Melyik alábbi felsorolás mindegyik elemére igaz, hogy a forgattyús mechanizmus egy alkatrésze?
+ Fõtengely, dugattyúcsapszeg, hajtókar.
+ Dugattyú, hengerfejtömítés, kompressziógyûrû.
+ Hajtórúd, dugattyúgyûrûk, szelepszár.
+ROSSZ
+MÛSZERTAN
+Mit mutat az elfordulásjelzõ és a libella jobb dugóhúzóban?
+ A lapát teljesen kitér balra, a golyó teljesen kitér jobbra.
+ A lapát és a golyó teljesen kitér jobbra.
+ A lapát teljesen kitér jobbra, a golyó teljesen kitér balra.
+ A lapát és a golyó teljesen kitér balra.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+Az URH tartományban dolgozó rádióállomások … , a föld-föld közötti összeköttetés távolságát a Föld görbülete …
+ mûködését az idõjárás befolyásolja – nem korlátozza.
+ mûködése az idõjárásra közömbös – nem korlátozza.
+ mûködését az idõjárás befolyásolja – korlátozza.
+ mûködése az idõjárásra közömbös – korlátozza.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+A repülõgépek fedélzeti parancsnoki rádió-adóvevõ készülékei … frekvenciatartományban … mûködnek?
+ az ultrarövid-hullámú – AM-modulációval
+ a rövidhullámú – FM-modulációval
+ a középhullámú – FM-modulációval
+ az ultra magas – AM-modulációval
+ROSSZ
+MÛSZERTAN
+A statikus légfelvevõ eldugulásakor a magasságmérõ …
+ a helyes értékhez képest kevesebbet fog mutatni.
+ nem reagál a magasságváltozásra.
+ a helyes értékhez képest többet fog mutatni.
+ a légnyomás változásának megfelelõen fog fals értéket mutatni.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+Repülés közben a repülõgép-vezetõ füstöt érzékel a mûszerfalból és arra kényszerül, hogy lekapcsolja az elektromos rendszer fõkapcsolóját. Az alábbiak közül melyik mûszer válhat mûködésképtelenné?
+ Sebességmérõ.
+ Magasságmérõ.
+ Elfordulásjelzõ.
+ Folyadékos mágneses iránytû.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+Melyik állítás igaz?
+ Az elfordulásjelzõk és a tüzelõanyagmennyiség-mérõk mûködéséhez feltétlenül szükséges elektromos áram.
+ A fékszárny-mûködtetéshez és a motorindításhoz feltétlenül szükséges elektromos áram.
+ Az elfordulásjelzõk és a tüzelõanyagmennyiség-mérõk mûködéséhez, valamint a fékszárny-mûködtetéshez és a motorindításhoz feltétlenül szükséges elektromos áram.
+ Az elfordulásjelzõk és a tüzelõanyagmennyiség-mérõk mûködéséhez, valamint a fékszárnymûködtetéshez és a motorindításhoz sem feltétlenül szükséges elektromos áram.
+ROSSZ
+MÛSZERTAN
+A mágneses iránytûnek azt a hibáját, melyet a repülõgép fém alkatrészei és villamos berendezései által keltett mágneses tér okoz … nevezzük.
+ mágneses elhajlásnak
+ deklinációnak
+ inklinációnak
+ deviációnak
+ROSSZ
+SZERKEZETTAN
+Mi a célja a magassági kormánylapokon alkalmazott trimmechanizmusnak?
+ A repülõgép-vezetõ tehermentesítésére és egy adott repülési helyzetben a kormányerõ csökkentésére szolgál.
+ A kormányérzékenység növelésére vagy csökkentésére alkalmazzuk.
+ A kormánylap súlykiegyenlítése által a repülõgép-vezetõ tehermentesítésére szolgál.
+ A kormánylap aerodinamikai kiegyenlítése által a repülõgép-vezetõ tehermentesítésére szolgál.
+ROSSZ
+MOTORTAN
+A kényszercirkulációs kenés esetén …
+ egy membrános szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.
+ egy forgólapátos szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.
+ egy fogaskerék-szivattyú juttatja el a nyomás alá helyezett olajat a kenési pontokra.
+ a forgó alkatrészek belecsapnak az olajgyûjtõben lévõ olajba és a kenés a szétfröccsenõ olajjal történik.
+ROSSZ
+MOTORTAN
+Melyik állítás igaz?
+ A benzin oktánszáma nincs kapcsolatban a kompresszítótûréssel.
+ Minél kisebb egy motor kompresszióviszonya, annál nagyobb oktánszámú benzinnel üzemel.
+ Minél kisebb a benzin oktánszáma, annál nagyobb a kompressziótûrése.
+ Minél nagyobb a benzin oktánszáma, annál nagyobb a kompressziótûrése.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+… az áramvezetõ keresztmetszetén idõegység alatt áthaladó elektromos töltés nagyságát értjük.
+ A kapacitáson
+ Az ellenálláson
+ Az áramerõsségen
+ A feszültségen
+ROSSZ
+SZERKEZETTAN
+Milyen anyagból készül a kisrepülõgépek fémborítása?
+ Ötvözött acél.
+ Titán.
+ Ötvözött alumínium.
+ Szálerõsítésû mûanyag.
+ROSSZ
+MOTORTAN
+Ha a fõfúvóka méretét úgy választják meg, hogy magas fordulatszámon megfelelõ arányú keveréket biztosítson, akkor …
+ a féklevegõ fúvóka akadályozza meg a keverék eldúsulását.
+ a kiegyenlítõ fúvóka akadályozza meg a keverék elszegényedését.
+ a kiegyenlítõ fúvóka akadályozza meg a keverék eldúsulását.
+ a féklevegõ fúvóka akadályozza meg a keverék elszegényedését.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+A C-módú transzponder A-módra kapcsolva …
+ csak a fedélzeti számot sugározza.
+ alapvetõen a fedélzeti számot és a magasságot sugározza, de egyéb információk és adatok közlésére is alkalmas.
+ csak a magasságot sugározza.
+ a fedélzeti számot és a magasságot sugározza.
+ROSSZ
+MÛSZERTAN
+Emelkedés során a variométer szelencéje a mûszerházban fennálló … nyomásérték miatt … , a mutató pedig emelkedést fog jelezni.
+ magasabb – kitágul
+ alacsonyabb – kitágul
+ alacsonyabb – összenyomódik
+ magasabb – összenyomódik
+ROSSZ
+MOTORTAN
+Mikor a leghajlamosabb a motor a túlhûlésre?
+ nagy fordulatszám és kis sebesség esetén.
+ nagy fordulatszám és nagy sebesség esetén.
+ kis fordulatszám és kis sebesség esetén.
+ kis fordulatszám és nagy sebesség esetén.
+ROSSZ
+MÛSZERTAN
+Az északi féltekén az északi irányú fordulónál a fordulót a kívánt iránytûirányszög eléréséhez képest … kell befejezni, mert az iránytû …
+ késõbb – késik.
+ hamarabb – késik.
+ késõbb – siet.
+ hamarabb – siet.
+ROSSZ
+MOTORTAN
+A csillagmotor …
+ oldaltszelepelt és alulvezérelt.
+ felülszelepelt és felülvezérelt.
+ felülszelepelt és alulvezérelt.
+ROSSZ
+MOTORTAN
+Ha egy motorban hengerenkénti befecskendezés történik, akkor …
+ szabályozott befecskendezésrõl beszélünk.
+ közvetlen befecskendezésrõl beszélünk.
+ közvetett befecskendezésrõl beszélünk.
+ központi befecskendezésrõl beszélünk.
+ROSSZ
+MOTORTAN
+A mágneses gyújtás hátránya, hogy indításkor nem ad elég erõs gyújtást.
+ Igaz.
+ Hamis.
+ROSSZ
+MOTORTAN
+A fojtószelep lejegesedése …
+ kis sebesség és nagy fordulatszám esetén jellemzõ.
+ kis fordulatszám esetén jellemzõ.
+ nagy sebesség és kis fordulatszám esetén jellemzõ.
+ nagy fordulatszám esetén jellemzõ.
+ROSSZ
+MOTORTAN
+A kompresszióviszony növelésének …
+ a tüzelõanyag lobbanáspontja szab határt.
+ a motor legnagyobb fordulatszáma szab határt.
+ a motor szerkezeti elemeinek teherviselõ képessége szab határt.
+ a kopogás szab határt.
+ROSSZ
+ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA
+Repülés közben a repülõgép-vezetõ füstöt érzékel a mûszerfalból és arra kényszerül, hogy lekapcsolja az elektromos rendszer fõkapcsolóját. Az alábbiak közül melyik mûszer válik mûködésképtelenné?
+ Úszós-kúpfogaskerekes tüzelõanyagszint-mérõ.
+ Szívótérnyomásmérõ.
+ Távnyomásméréssel mûködõ olajnyomásmérõ.
+ Vákuumrendszerrõl mûködtetett elfordulásjelzõ.
+ROSSZ
+SZERKEZETTAN
+A szálerõsített anyagok alkalmazásával jelentõs súlycsökkenés tapasztalható, és szilárdságuk felveszi a versenyt a többi építési eljárással.
+ Igaz.
+ Hamis.
+ROSSZ
+MOTORTAN
+A felülszelepelt és alulvezérelt kialakításnál a vezérlés történhet bütyköstengelyrõl és bütyköstárácsól is.
+ Hamis.
+ Igaz.
+ROSSZ
+MOTORTAN
+A motor túlmelegedése esetén kopogás is bekövetkezhet.
+ Hamis.
+ Igaz.
+ROSSZ
