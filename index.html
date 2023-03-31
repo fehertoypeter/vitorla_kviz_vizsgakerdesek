@@ -4,38 +4,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kvíz</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     
  <div class="app">
-  
+<div class="cover">
 
-<div id="main-div">
-  <div id="div1">
-    <label class="switch">
-      <input type="checkbox" id="toggleSwitch">
-      <span class="slider round"></span>
-    </label>
+
+
+  <div id="main-div">
+    <div id="div1">
+      <label class="switch">
+        <input type="checkbox" id="toggleSwitch">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div id="div2"> </div>
+    <div id="restart-icon">Kvíz befejezése &#x2716;</div>
   </div>
-  <div id="div2"> </div>
-  <div id="restart-icon">Kvíz befejezése &#x2716;</div>
-</div>
 
-  
-
-  <div class="topics">
-    <p id="topics"></p>  
-  </div>
     
-  <div class="quiz">
-    <div id="quiz-status"></div> 
-    <h2 id="question"><i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i></h2>     
-    <div id="answer-buttons"></div>
 
-    <button id="next-btn">Tovább</button>
+    <div class="topics">
+      <p id="topics"></p>  
+    </div>
+      
+    <div class="quiz">
+      <div id="quiz-status"></div> 
+      <h2 id="question"><i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i></h2>     
+      <div id="answer-buttons"></div>
+
+
+
+
+
+      <button id="next-btn">Tovább</button>
+    </div>
+
+  <div id=main-page>
+<i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i>
+  <h2> 
+  Üdv az SPL vizsgára készülők számára készített gyakorló programban. <br> <br> </h2>
+  <p id="bevezeto"> 
+  A program segítségével az alapvető elméleti és gyakorlati tudásokat tesztelhetitek, amire szükségünk lesz a sikeres SPL vizsga letételéhez.
+  <br><br> 
+  A program tartalma: <br> 
+  - Gyakorló mód, ahol témakörönként nézhetitek végig a kérdéseket és válaszokat. <br> 
+  - Részletes magyarázatok a kérdésekhez és válszokhoz (FEJLESZTÉS ALATT)<br> 
+  - Vizsga mód ahol a Repülési teljesítmény és tervezés, Emberi teljesítőképesség, Meteorológia, Navigáció, Üzemeltetési eljárások, Repüléselmélet és Kommunikáció átfogó témaköröket tesztelhetitek időlimittel és a témakörhöz tartozó kérdésszámhoz véletlenszerüen válogatott kérdésekkel. <br> <br> 
+
+  Sok sikert! :) 
+    
+  </p>
+  <div id="mode-selection">
+
+    <button id="study-mode-btn">Gyakorlómód</button>
+    <button id="quiz-mode-btn">Vizsgamód</button>
   </div>
-
+  </div>
 </div>
 
 <div id="hint-popup">
@@ -43,9 +71,16 @@
   <div id="hint-inner">
     <p id="hint"></p>
   </div>
-  
+
+
 </div>
+</div>
+
+
+
+
 <div id="overlay"></div>
+<script src="questions.js"></script>
 <script src="script.js"></script>
 
 

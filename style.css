@@ -1,15 +1,32 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu',sans-serif; 
   box-sizing: border-box;
+
 }
+#quiz-status::-webkit-scrollbar {
+  width: 5px;
+}
+
+#quiz-status::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+#quiz-status::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+
+
+
 
 body {
   background: #212121;
   color: #fff;
 }
-
+/*
 .app {
   background: #f1f1f1;
   width: 90%;
@@ -17,7 +34,17 @@ body {
   border-radius: 10px;
   padding: 30px;
 }
+*/
+.app {
+  background-image: url("Images/home-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 90vh;
+  width: 90vw;
+  margin: 5vh auto;
+  border-radius: 10px;
 
+}
 .app h1 {
   font-size: 2.5rem;
   color: #212121;
@@ -26,6 +53,60 @@ body {
   padding-bottom: 30px;
   text-align: left;
 }
+.cover{
+  margin: 5vh auto;
+  border-radius: 10px;
+  padding: 30px;
+  min-height: 90vh;
+  width: 90vw;
+  margin: 5vh auto;
+  border-radius: 10px;
+  }
+
+#main-page{
+  width:50%;
+}
+#main-page h2{
+  font-size: 1.5rem;
+  color:black;
+}
+#bevezeto {
+  font-family: 'Ubuntu',sans-serif!important;
+    font-size: 14px;
+    font-weight: 300;
+    color:black;
+    line-height: 1.42857143;
+}
+#mode-selection {
+  display: flex;
+}
+
+#mode-selection button {
+  display: block;
+    margin-right: 30px;
+    margin-top: 5vh;
+    padding-left: 10px;
+    padding-right:10px;
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background: #e9e9e9;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Ubuntu',sans-serif!important;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+#mode-selection button:hover {
+transition: all 0.3s ease-in-out;
+background-color: transparent;
+color: black;
+border: 2px solid black;
+}
+
+
 .topics{
 	font-size: 0.9rem;
   color: #212121;
@@ -51,6 +132,9 @@ body {
   color: #212121;
   font-weight: 600;
   text-align: left;
+}
+h2#question {
+    margin-bottom: 12px;
 }
 .finish-quiz-container {
   position: relative;
@@ -113,7 +197,12 @@ body {
 div#quiz-status {
     margin-top: 20px;
     margin-bottom: 30px;
+    margin-bottom: 30px;
+    height: 100px;
+    overflow-y: scroll;
+    display:none;
 }
+
 .quiz-status-box {
   display: inline-block;
   width: 20px;
@@ -166,6 +255,7 @@ div#quiz-status {
 }
 div#div1 {
     width: 10%;
+    display:none;
 }
 div#div2 {
     width: 60%;
@@ -189,6 +279,7 @@ div#div2 {
     display: flex;
   	justify-content: center;
   	flex-direction: column;
+    display:none;
 }
 
 /* TOGGLE SWITCH DESIGNJA*/
@@ -323,11 +414,55 @@ p#hint {
     border:500px;
 }
 
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
+
+  .cover{
+    background-color: #00000054;
+    width:100%;
+    height:100%;
+    padding: 20px;
+    min-height: 90vh;
+  width: 98vw;
+  margin: 5vh auto;
+  border-radius: 10px;
+  }
+  .app h1 {
+  color:white;
+}
+div#quiz-status {
+    margin-bottom: 30px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    overflow-y: scroll;
+    display:none;
+}
+#main-page h2{
+  color:white;
+}
+#bevezeto {
+  color:white;
+}
+
+  #main-page{
+  width:90%;
+  margin: 0 auto;
+}
+
   .app {
-    width: 100%;
+    width: 98%;
     min-height: 690px;
     margin-top: 50px;
+    margin-bottom:50px;
 }
 };
     margin-top: 50px;
@@ -373,6 +508,9 @@ display: flex;
 
 #restart-icon {
   order: 2; /* set order to 2 by default */
+}
+.quiz-status-box::before {
+    font-size: 0.7rem;
 }
 
 }
