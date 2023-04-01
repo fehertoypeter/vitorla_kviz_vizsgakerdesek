@@ -2,6 +2,7 @@ const selectedAnswers = [];
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const restartButton = document.getElementById("restart-btn");
 const topicEl = document.getElementById("topics");
 const examEL = document.getElementById("examTopics");
 const modeSelection = document.getElementById("mode-selection");
@@ -311,10 +312,15 @@ function resetState(){
 function showScore(){
 	resetState();
 	questionElement.innerHTML = `A pontszámod ${Math.floor((score / selectedQuestions.length) * 100)}%!`;
-	nextButton.innerHTML = "Újrakezdés";
-	nextButton.style.display = "block"
+	nextButton.style.display = "none";
+	restartButton.style.display = "block";
+	restartButton.addEventListener("click", ()=>{
+	location.reload();
+	});
+
 
 }
+
 
 // Következő kérdés gomb megjelenítése és funkciója
 function handleNextButton(){
@@ -503,8 +509,8 @@ const countdownInterval = setInterval(() => {
 
   if (timeLeft <= 0) {
     clearInterval(countdownInterval);
-    countdownNumber.textContent = "Time's up!";
-    return;
+    countdownNumber.textContent = "--:--";
+    showScore();
   }
 
   countdownNumber.textContent = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;

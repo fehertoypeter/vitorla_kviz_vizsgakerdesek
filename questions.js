@@ -3,7 +3,7 @@ const examTopics = [
   {
     examName: 'Légi Jog',
     questionCount: 24,
-    timeLimit: 2400, // másodperc
+    timeLimit: 4, // másodperc
     examTopics: 'LÉGIJOG , LÉGIKÖZLEKEDÉSI JOGI ALAPISMERETEK , REPÜLÉSI SZABÁLYOK , LÉGIALKALMASSÁG ÉS ÜZEMELTETÉS',  
   },
   {
@@ -38,19 +38,19 @@ const examTopics = [
   },
   {
     examName: 'Üzemeltetési eljárások',
-    questionCount: 20,
+    questionCount: 5, // MÓDOSÍTANI 20-ra 
     timeLimit: 1200, // másodperc
     examTopics: 'LÉGIÜZEMELTETÉS , ÜZEMELTETÉSI ISMERETEK',
   },
   {
     examName: 'Repüléselmélet',
-    questionCount: 20,
+    questionCount: 1,// MÓDOSÍTANI 20-ra
     timeLimit: 1200, // másodperc
     examTopics: 'REPÜLÉSELMÉLET',
   },
   {
     examName: 'Kommunikáció',
-    questionCount: 18,
+    questionCount: 1,// MÓDOSÍTANI 20-ra
     timeLimit: 1800, // másodperc
     examTopics: 'RÁDIÓKOMMUNIKÁCIÓ , RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK',
   }
@@ -20653,12 +20653,92 @@ const questions = [
 	},
 	{
 		subject: "ÜZEMELTETÉSI ISMERETEK",
-		question: "mmm",
+		question: "A dugattyús motorok esetén a keverék arány ...",
 		answers: [
-			{ text: "mmm", correct: true},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "a hengerbe belépõ tüzelõanyag és levegõ térfogata közötti arány.", correct: true},
+			{ text: "a hengerbe belépõ tüzelõanyag és levegõ tömege közötti arány.", correct: true},
+			{ text: "a porlasztóba belépõ tüzelõanyag és levegõ térfogata közötti arány.", correct: false},
+			{ text: "a porlasztóba belépõ tüzelõanyag tömege és a levegõ térfogata közötti arány.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "A korszerû porlasztókban a keverék arány változtatása a ...",
+		answers: [
+			{ text: "tüzelõanyag áram beállításával érhetõ el.", correct: true},
+			{ text: "a levegõ áram beállításával érhetõ el.", correct: false},
+			{ text: "a levegõ és a tüzelõanyag áram beállításával érhetõ el.", correct: false},
+			{ text: "a levegõ, a tüzelõanyag áram és a hõmérséklet beállításával érhetõ el.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Amikor a magasság növekedésével a dugattyús motor keverék arányát állítjuk, akkor ez azt jelenti, hogy ...",
+		answers: [
+			{ text: "növekszik a keverék arány.", correct: false},
+			{ text: "csökken a tüzelõanyag mennyisége a keverékben, azért hogy kompenzáljuk a kevegõ sûrûségének növekedését.", correct: false},
+			{ text: "csökken a tüzelõanyag áram annak érdekében, hogy kompenzáljuk a levegõ sûrûség csökkenését.", correct: true},
+			{ text: "növekszik a tüzelõanyag mennyisége a keverékben, azért hogy kompenzáljuk a levegõ sûrûségének és nyomásának csökkenését.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Amikor a porlasztót melegítjük, akkor ...",
+		answers: [
+			{ text: "a keverék szegényebbé válik.", correct: false},
+			{ text: "a szegényebb keverék fordulatszám csökkenést eredményez.", correct: false},
+			{ text: "a keverék gazdagabbá válik.", correct: true},
+			{ text: "nem történik változás a keverék arányban.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Amikor a pilóta a dugattyús motor keverék karját a szegényebb helyzet felé mozgatja, akkor ...",
+		answers: [
+			{ text: "a porlasztóba bejutó levegõ térfogata csökken.", correct: false},
+			{ text: "az égõtérbe bejutó tüzelõanyag mennyisége csökken.", correct: true},
+			{ text: "az égõtérbe bejutó tüzelõanyag mennyisége növekszik.", correct: false},
+			{ text: "a porlasztóba bejutó levegõ térfogata növekszik.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Milyen mûszerrel (mûszerekkel) figyelik, a nem állítható légcsavarral felszerelt repülõgépen, a leadott teljesítményt?",
+		answers: [
+			{ text: "fordulatszám és kipufogó gázhõmérséklet mérõ mûszerrel", correct: false},
+			{ text: "fordulatszám és szívócsõ nyomásmérõ mûszerrel", correct: false},
+			{ text: "fordulatszám és tüzelõanyag fogyasztás mérõ mûszerrel", correct: false},
+			{ text: "fordulatszám kijelzõvel", correct: true},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Az utazóra optimalizált, nem állítható légcsavarról szóló következõ állítások közül melyik az igaz felszálló körülmények esetén?",
+		answers: [
+			{ text: "A légcsavar toll állásszöge relatívan nagy.", correct: true},
+			{ text: "A légcsavar toll állásszöge relatívan kicsi.", correct: false},
+			{ text: "A légcsavar toll profil metszetének állásszöge negatív.", correct: false},
+			{ text: "A légcsavar tollak állásszöge nullára csökken.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Repülés közbeni hajtómû meghibásodás esetén egy egyhajtómûves repülõgépen, amely nincs felszerelve vitorla állító rendszerrel, az állandó sebességû légcsavar lapátjai ...",
+		answers: [
+			{ text: "a centrifugális erõ hatására a legkisebb beállítási szöghelyzetbe mozdulnak el.", correct: true},
+			{ text: "az autorotáció hatására létrejött olajnyomás eredményeként kisebb beállítási szöghelyzetbe mozdulnak el.", correct: false},
+			{ text: "az autorotációs fordulatszámtól függõen egy bizonyos beállítási szöghelyzetbe mozdulnak el.", correct: false},
+			{ text: "a légerõ hatására a legnagyobb beállítási szöghelyzetbe mozdulnak el.", correct: false},
+		]
+	},
+	{
+		subject: "ÜZEMELTETÉSI ISMERETEK",
+		question: "Fékoldáskor a légcsavar tollak beállítási szögének (1) és a légcsavar kar helyzetének (2) helyes kombinációja:",
+		answers: [
+			{ text: "(1)nagy (2) hátsó", correct: false},
+			{ text: "(1)nagy (2) elülsõ", correct: false},
+			{ text: "(1)kicsi (2) elülsõ", correct: true},
+			{ text: "(1)kicsi (2) hátsó", correct: false},
 		]
 	},
 	
