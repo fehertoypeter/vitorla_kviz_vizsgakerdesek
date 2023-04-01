@@ -15,25 +15,40 @@
 
 
   <div id="main-div">
-    <div id="div1">
-      <label class="switch">
-        <input type="checkbox" id="toggleSwitch">
-        <span class="slider round"></span>
-      </label>
-    </div>
-    <div id="div2"> </div>
-    <div id="restart-icon">Kvíz befejezése &#x2716;</div>
+  <div id="div1">
+    <label class="switch">
+      <input type="checkbox" id="toggleSwitch">
+      <span class="slider round"></span>
+    </label>
   </div>
+  <div id="div2">
+    <div id="div3"></div>
+    <div id="countdownBox">
+      <div class="countdown">
+        <div class="countdown-number"></div>
+      </div>
+    </div>   
+  </div>
+  <div id="restart-icon">Kvíz befejezése &#x2716;</div>
+</div>
+
+
 
     
 
     <div class="topics">
       <p id="topics"></p>  
     </div>
+    <div class="examTopics">
+      <p id="examTopics"></p>  
+    </div>
       
     <div class="quiz">
       <div id="quiz-status"></div> 
-      <h2 id="question"><i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i></h2>     
+      <h2 id="question"><i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i></h2> 
+
+      
+
       <div id="answer-buttons"></div>
 
 
@@ -44,7 +59,6 @@
     </div>
 
   <div id=main-page>
-<i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i>
   <h2> 
   Üdv az SPL vizsgára készülők számára készített gyakorló programban. <br> <br> </h2>
   <p id="bevezeto"> 
@@ -61,7 +75,7 @@
   <div id="mode-selection">
 
     <button id="study-mode-btn">Gyakorlómód</button>
-    <button id="quiz-mode-btn">Vizsgamód</button>
+    <button id="exam-mode-btn">Vizsgamód</button>
   </div>
   </div>
 </div>

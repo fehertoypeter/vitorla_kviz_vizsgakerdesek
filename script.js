@@ -1,18 +1,19 @@
-
-
 const selectedAnswers = []; 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const topicEl = document.getElementById("topics");
+const examEL = document.getElementById("examTopics");
 const modeSelection = document.getElementById("mode-selection");
 const mainPage = document.getElementById("main-page");
 const quizStatus = document.getElementById('quiz-status');
 const restartIcon = document.getElementById("restart-icon");
 const div1 = document.querySelector('#div1');
-
+const countdownBox = document.querySelector("#countdownBox");
+let selectedExamQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+let countdownTime = 0;
 
 
 
@@ -41,7 +42,7 @@ topicEl.addEventListener("click", function(event) {
 function listTopics() {
 	
 	modeSelection.style.display = "none";
-	document.getElementById("div2").textContent = "Válassz a lenti témakörökből";
+	document.getElementById("div3").textContent = "Válassz a lenti témakörökből";
 
   const topics = [];
   questions.forEach((q) => {
@@ -56,15 +57,70 @@ function listTopics() {
     pEl.textContent = t; // Beállítjuk a szöveget
     pEl.addEventListener("click", function(event) {
       const clickedTopic = event.target.textContent;
-      document.getElementById("div2").textContent = clickedTopic;
+      document.getElementById("div3").textContent = clickedTopic;
     });
     topicEl.appendChild(pEl); // Hozzáadjuk az elemet a "topics" id-jú elemhez
   });
   
 }
 
+
+
+function listExamTopics() {
+  modeSelection.style.display = "none";
+  document.getElementById("div3").textContent = "Válassz a lenti vizsgák közül";
+
+  const exams = examTopics.map((topic) => topic.examName.toUpperCase());
+
+  const examEl = document.getElementById("examTopics");
+  exams.forEach((exam) => {
+    const pEl = document.createElement("p");
+    const examObject = examTopics.find((topic) => topic.examName.toUpperCase() === exam);
+    pEl.textContent = `${exam}`;
+    pEl.addEventListener("click", function(event) {
+      const clickedExam = event.target.textContent.split(" - ")[0];
+      console.log(`Az exam-hez tartozó topics: ${examObject.examTopics}`);
+      document.getElementById("div3").textContent = clickedExam;
+      // Eltároljuk a timeLimit értékét a timer változóban
+      const timeLimit = examObject.timeLimit;
+      countdownTime = examObject.timeLimit;
+      console.log(`A timeLimit értéke: ${timeLimit}`);
+      // Kiválogatjuk az exam-hez tartozó kérdéseket és hozzáadjuk a selectedExamQuestions tömbhöz
+      const examTopicsArray = examObject.examTopics.split(" , ");
+      const matchingQuestions = [];
+      examTopicsArray.forEach((topic) => {
+        matchingQuestions.push(...questions.filter((q) => q.subject.toUpperCase() === topic.toUpperCase()));
+      });
+      selectedExamQuestions = [...selectedExamQuestions, ...matchingQuestions];
+		console.log(selectedExamQuestions);
+      // Véletlenszerűen kiválasztunk `questionCount` darab kérdést a `selectedExamQuestions` tömbből
+      const randomIndices = [];
+      while (randomIndices.length < examObject.questionCount) {
+        const randomIndex = Math.floor(Math.random() * selectedExamQuestions.length);
+        if (!randomIndices.includes(randomIndex)) {
+          randomIndices.push(randomIndex);
+
+        }
+
+      }
+      selectedExamQuestions = selectedExamQuestions.filter((question, index) => randomIndices.includes(index));
+
+      console.log(selectedExamQuestions);
+    });
+    examEl.appendChild(pEl);
+  });
+
+}
+
+
+  
+  
+
+
+
 // Berakjuk az álltalunk kiválasztott témakör kérdéseit a selectedQuestions tömbbe. 
 const topicsElem = document.getElementById("topics");
+const examTopicsElem = document.getElementById("examTopics");
 let selectedQuestions = [];
 
 fetch("questions.js")
@@ -86,7 +142,6 @@ topicsElem.addEventListener("click", function(event) {
   questions.forEach(function(question) {
     if (question.subject === clickedTopic) {
       selectedQuestions.push(question);
-
     }
 
   });
@@ -95,6 +150,35 @@ topicsElem.addEventListener("click", function(event) {
   createQuizStatusBoxes(selectedQuestions.length);
   startQuiz();
 });
+
+examTopicsElem.addEventListener("click", function(event) {
+  // Töröljük a korábbi kattintásokból származó kérdéseket és válaszokat
+  selectedQuestions = selectedExamQuestions.slice();
+
+  const clickedTopic = event.target.textContent;
+
+  questions.forEach(function(question) {
+    if (question.subject === clickedTopic) {
+      selectedQuestions.push(question);
+    }
+
+  });
+  examEL.style.display = "none"; // Rejtjük el a "topics" id-jú elemet
+  countdownClock();
+  deleteQuizStatusBoxes();
+  createQuizStatusBoxes(selectedQuestions.length);
+  startQuiz();
+});
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -106,12 +190,13 @@ function initializeSelectedAnswers() {
 
 // Kezdeti állapot beállítása
 function startQuiz(){
-	restartIcon.style.display = "block";
+restartIcon.style.display = "block";
   currentQuestionIndex = 0;
   score = 0;
   initializeSelectedAnswers(); // Inicializáljuk az selectedAnswers tömböt
   nextButton.innerHTML= "Következő";
   showQuestion();
+
 }
 // Következő kérdés megjelenítése
 const toggleSwitch = document.getElementById("toggleSwitch");
@@ -388,7 +473,7 @@ function closeHint() {
 
 
 const studyModeBtn = document.getElementById("study-mode-btn");
-
+const examModeBtn = document.getElementById("exam-mode-btn");
 
 studyModeBtn.addEventListener("click", function() {
   	document.getElementById("main-page").style.display = "none";
@@ -397,10 +482,37 @@ studyModeBtn.addEventListener("click", function() {
   	listTopics();
 
 });
+examModeBtn.addEventListener("click", function() {
+  	document.getElementById("main-page").style.display = "none";
+  	document.querySelector('.cover').style.backgroundColor = 'rgb(241 241 241 / 95%)';
+/*	document.querySelector(".app").style.backgroundImage = "none";*/
+  	listExamTopics();
+
+});
+
+function countdownClock() {
+const countdown = document.querySelector(".countdown");
+const countdownNumber = document.querySelector(".countdown-number");
 
 
+let timeLeft = countdownTime // ide állítsuk be a visszaszámlálás időtartamát másodpercben
 
+const countdownInterval = setInterval(() => {
+  const minutes = Math.floor(timeLeft / 60);
+  const seconds = timeLeft % 60;
 
+  if (timeLeft <= 0) {
+    clearInterval(countdownInterval);
+    countdownNumber.textContent = "Time's up!";
+    return;
+  }
+
+  countdownNumber.textContent = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  timeLeft -= 1;
+}, 1000);
+countdownBox.style.display = "block";
+
+};
 
 
 

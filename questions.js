@@ -1,5 +1,64 @@
+const examTopics = [
+  
+  {
+    examName: 'Légi Jog',
+    questionCount: 24,
+    timeLimit: 2400, // másodperc
+    examTopics: 'LÉGIJOG , LÉGIKÖZLEKEDÉSI JOGI ALAPISMERETEK , REPÜLÉSI SZABÁLYOK , LÉGIALKALMASSÁG ÉS ÜZEMELTETÉS',  
+  },
+  {
+    examName: 'Légijármű álltalános ismeretek',
+    questionCount: 20,
+    timeLimit: 1200, // másodperc
+	examTopics: 'SZERKEZETTAN , MŰSZERTAN , MOTORTAN , ELEKTROMOSSÁGTAN ÉS RÁDIÓTECHNIKA , SZILÁRDSÁGTAN',  
+  },
+  {
+    examName: 'Repülési teljesítmény és tervezés',
+    questionCount: 20,
+    timeLimit: 1200, // másodperc
+    examTopics: 'REPÜLÉSTERVEZÉS',
+  },
+  {
+    examName: 'Emberi teljesítőképesség',
+    questionCount: 22,
+    timeLimit: 2400, // másodperc
+    examTopics: 'ELSŐSEGÉLYNYÚJTÁS , PSZICHOLÓGIAI ALAPISMERETEK , REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK , REPÜLÉSÉLETTAN',
+  },
+  {
+    examName: 'Meteorológia',
+    questionCount: 27,
+    timeLimit: 3600, // másodperc
+    examTopics: 'LÉGKÖR , METEROLÓGIA , REPÜLÉSMETEOROLÓGIA',
+  },
+  {
+    examName: 'Navigáció.',
+    questionCount: 20,
+    timeLimit: 2400, // másodperc
+    examTopics: 'NAVIGÁCIÓ',
+  },
+  {
+    examName: 'Üzemeltetési eljárások',
+    questionCount: 20,
+    timeLimit: 1200, // másodperc
+    examTopics: 'LÉGIÜZEMELTETÉS , ÜZEMELTETÉSI ISMERETEK',
+  },
+  {
+    examName: 'Repüléselmélet',
+    questionCount: 20,
+    timeLimit: 1200, // másodperc
+    examTopics: 'REPÜLÉSELMÉLET',
+  },
+  {
+    examName: 'Kommunikáció',
+    questionCount: 18,
+    timeLimit: 1800, // másodperc
+    examTopics: 'RÁDIÓKOMMUNIKÁCIÓ , RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK',
+  }
+];
+
 const questions = [
 	{
+
 		subject: "REPÜLÉSI SZABÁLYOK",
 		question: "Milyen minimális megengedett látástávolságig lehet üzemelni F-osztályú légtérben a látvarepülési szabályok szerint?",
 		answers: [
@@ -20596,7 +20655,7 @@ const questions = [
 		subject: "ÜZEMELTETÉSI ISMERETEK",
 		question: "mmm",
 		answers: [
-			{ text: "mmm", correct: false},
+			{ text: "mmm", correct: true},
 			{ text: "mmm", correct: false},
 			{ text: "mmm", correct: false},
 			{ text: "mmm", correct: false},
@@ -20604,3 +20663,46 @@ const questions = [
 	},
 	
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
