@@ -1,5 +1,6 @@
 const selectedAnswers = []; 
 const questionElement = document.getElementById("question");
+const finalScoreElement = document.getElementById("finalScore");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const restartButton = document.getElementById("restart-btn");
@@ -10,6 +11,9 @@ const mainPage = document.getElementById("main-page");
 const quizStatus = document.getElementById('quiz-status');
 const restartIcon = document.getElementById("restart-icon");
 const div1 = document.querySelector('#div1');
+const div2 = document.querySelector('#div2');
+const outercornerbox = document.querySelector('#outercornerbox');
+
 const countdownBox = document.querySelector("#countdownBox");
 let selectedExamQuestions = [];
 let currentQuestionIndex = 0;
@@ -311,7 +315,9 @@ function resetState(){
 // Pontszámok megjelenítése
 function showScore(){
 	resetState();
-	questionElement.innerHTML = `A pontszámod ${Math.floor((score / selectedQuestions.length) * 100)}%!`;
+	questionElement.innerHTML = ``;
+	finalScore.innerHTML = `A pontszámod ${Math.floor((score / selectedQuestions.length) * 100)}%!`;
+	finalScore.style.display = "block";
 	nextButton.style.display = "none";
 	restartButton.style.display = "block";
 	restartButton.addEventListener("click", ()=>{
@@ -390,6 +396,7 @@ function updateQuizStatusBox(isCorrect){
 function showQuestionOnQuizStatusBox(e) {
   const clickedBox = e.target;
   const clickedQuestionNo = parseInt(clickedBox.getAttribute("data-question-no")) - 1;
+  finalScore.style.display = "none";
 
   if (clickedQuestionNo !== currentQuestionIndex) {
     currentQuestionIndex = clickedQuestionNo;
@@ -499,7 +506,8 @@ examModeBtn.addEventListener("click", function() {
 function countdownClock() {
 const countdown = document.querySelector(".countdown");
 const countdownNumber = document.querySelector(".countdown-number");
-
+div2.classList.add("no-radius");
+outercornerbox.classList.add("flexbox");
 
 let timeLeft = countdownTime // ide állítsuk be a visszaszámlálás időtartamát másodpercben
 
