@@ -1605,7 +1605,6 @@ const questions = [
 			{ text: "ICAO", correct: true},
 			{ text: "IATA", correct: false},
 			{ text: "IFALPA", correct: false},
-			{ text: "mmm", correct: false},
 		]
 	},
 	{
@@ -1753,7 +1752,6 @@ const questions = [
 			{ text: "FL 100 felett 10 km, alatta 3 km", correct: false},
 			{ text: "5 km és 10 km között", correct: false},
 			{ text: "'C' és 'D' légtérben FL 100 fölött 8 km, alatta 5km, 'F' és 'G' légtérben 5 km", correct: true},
-			{ text: "mmm", correct: false},
 		]
 	},
 	{
@@ -2774,7 +2772,6 @@ const questions = [
 			{ text: "a deviációt – az inklinációt – a deklinációt", correct: false},
 			{ text: "az inklinációt – a deviációt – a deklinációt", correct: true},
 			{ text: "a deklinációt – az inklinációt – a deviációt", correct: false},
-			{ text: "mmm", correct: false},
 		]
 	},
 	{
@@ -20283,7 +20280,6 @@ const questions = [
 			{ text: "A szájüregbõl a látható idegentestet kivesszük, a szájüreget kitöröljük, illetve a Heimlich-féle mûfogást alkalmazzuk.", correct: true},
 			{ text: "Úgy, hogy a sérülttel vizet itatunk, majd azt kiköpetjük vele. Zsebkendõt alkalmazva a szájüreget kitisztítjuk.", correct: false},
 			{ text: "A lehetõ leghamarabb egy légzõcsövet kell a beteg torkán letolni, majd kézzel a látható idegentestet eltávolítani.", correct: false},
-			{ text: "mmm", correct: false},
 		]
 	},
 	{
@@ -20553,102 +20549,102 @@ const questions = [
 	},
 	{
 		subject: "MOTORTAN",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "MŰSZERTAN",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "NAVIGÁCIÓ",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSELMÉLET",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSI ELJÁRÁSOK",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSI SZABÁLYOK",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSMETEOROLÓGIA",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "SZERKEZETTAN",
-		question: "mmm",
+		question: "bbb",
 		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
+			{ text: "bbb", correct: false},
 		]
 	},
 	{
@@ -20741,7 +20737,1736 @@ const questions = [
 			{ text: "(1)kicsi (2) hátsó", correct: false},
 		]
 	},
-	
+// EXCEL KÉRDÉSEI
+
+	{
+		subject: "EXCEL",
+		sub_subject:"1.     100363 510 01 11 01 A testek halmazállapotáról",
+		question: "Az anyag halmazállapotát meghatározza",
+		answers: [
+			{ text: " a test térfogata.", correct: false},
+			{ text: " az anyag fajsúlyának és térfogatának szorzata.", correct: false},
+			{ text: " az anyag molekulái közötti kapcsolat.", correct: true},
+			{ text: " a test alakja.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"2.     100364 510 01 11 04 A levegő fajsúlya és sűrűsége",
+		question: "A sűrűség",
+		answers: [
+			{ text: " a fajsúly és tömeg szorzata.", correct: false},
+			{ text: " az egységnyi térfogatú anyag, adott alátámasztási felületre gyakorolt hatása (m3/kg/m2).", correct: false},
+			{ text: " a tömeg és nehézségi gyorsulás szorzata (kgm/s2).", correct: false},
+			{ text: " az egységnyi térfogatba foglalt anyag tömege (kg/m3).", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"3.     100001 510 01 11 05 A nyomás terjedése folyadékokban és gázokban",
+		question: "A statikus nyomásból származó erő",
+		answers: [
+			{ text: " a felület síkjára mindig merőleges.", correct: true},
+			{ text: " a felület síkjával mindig párhuzamos.", correct: false},
+			{ text: " nem meghatározható irányban hat.", correct: false},
+			{ text: " iránya a felület minőségétől függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"4.     100365 510 01 11 06 A statikus és dinamikus repülés alapelve",
+		question: "Kinek a törvénye foglalja magába a statikus repülés alapelvét?",
+		answers: [
+			{ text: " Newton. ", correct: false},
+			{ text: " Bernoulli.", correct: false},
+			{ text: " Archimedes. ", correct: true},
+			{ text: " Faraday.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"5.     100002 510 01 12 02 A folytonosság törvénye",
+		question: "Ha egy áramlás sebességét kétszeresére növeljük, hogyan alakul a dinamikus nyomás ?",
+		answers: [
+			{ text: " Felére csökken.", correct: false},
+			{ text: " Negyedére csökken.", correct: false},
+			{ text: " Kétszeresére nő.", correct: false},
+			{ text: " Négyszeresére nő.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"6.     100003 510 01 12 02 A folytonosság törvénye",
+		question: "Ha egy áramlásba helyezett profil felett az áramlási sebesség nő,",
+		answers: [
+			{ text: " a dinamikus nyomás negatív értéket vesz fel.", correct: false},
+			{ text: " az energia megmaradás következtében a statikus nyomás nem változik.", correct: false},
+			{ text: " akkor a statikus nyomás ott lecsökken.", correct: true},
+			{ text: " a folytonosság törvénye miatt a statikus nyomás is nő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"7.     100004 510 01 12 02 A folytonosság törvénye",
+		question: "Ha egy áramcsőben stacionárius áramlás van és a cső keresztmetszete a felére csökken, akkor",
+		answers: [
+			{ text: " az áramlás sebessége negyedére csökken.", correct: false},
+			{ text: " az áramlás sebessége a felére csökken.", correct: false},
+			{ text: " az áramlás sebessége a négyszeresére nő.", correct: false},
+			{ text: " az áramlás sebessége a kétszeresére nő.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"8.     100005 510 01 12 02 A folytonosság törvénye",
+		question: "Egy áramcsőben azt tapasztaljuk, hogy az áramlás sebessége kétszeresére nő. Ennek az oka az, hogy az",
+		answers: [
+			{ text: " áramcső keresztmetszete a negyedére csökkent.", correct: false},
+			{ text: " áramcső keresztmetszete a felére csökkent.", correct: true},
+			{ text: " áramcső keresztmetszete a kétszeresére nőtt.", correct: false},
+			{ text: " áramcső keresztmetszete a négyszeresére nőtt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"9.     100006 510 01 12 04 Az energia megmaradása és a Bernoulli törvény",
+		question: "Ha egy áramlás sebessége csökken, akkor a statikus nyomás az áramlásban",
+		answers: [
+			{ text: " csökken.", correct: false},
+			{ text: " nő.", correct: true},
+			{ text: " nem meghatározható.", correct: false},
+			{ text: " nem változik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"10.  100007 510 01 12 04 Az energia megmaradása és a Bernoulli törvény",
+		question: "Hogyan alakul a torlónyomás, ha a közeg sebességét kétszeresére növeljük?",
+		answers: [
+			{ text: " A torlónyomás a negyedére csökken.", correct: false},
+			{ text: " A torlónyomás kétszeres lesz.", correct: false},
+			{ text: " A torlónyomás a felére csökken.", correct: false},
+			{ text: " A torlónyomás négyszeres lesz.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"11.  100366 510 01 12 04 Az energia megmaradása és a Bernoulli törvény",
+		question: "Bernoulli törvénye szerint",
+		answers: [
+			{ text: " a statikus nyomás értékét nem befolyásolja a torlónyomás változása.", correct: false},
+			{ text: " az áramló levegő mozgási energiája az idők folyamán állandó.", correct: false},
+			{ text: " a változó keresztmetszetű csőben az áramló közeg minden pontjában azonos a potenciális energia.", correct: false},
+			{ text: " a torló-, és statikus nyomás összege az áramlás bármely keresztmetszetében állandó.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"12.  100367 510 01 12 06 A lamináris és turbulens áramlás ",
+		question: "Lamináris áramlásban az áramló részecskék",
+		answers: [
+			{ text: " kis sebesség esetén is mozognak az áramlás irányára merőlegesen.", correct: false},
+			{ text: " mozgása csak összességében mutatja az áramvonalat.", correct: false},
+			{ text: " nagyobb sebesség esetén már az áramlás irányára merőlegesen is mozognak.", correct: false},
+			{ text: " mozgása az áramvonallal egybeesik.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"13.  100008 510 01 13 01 A levegő ellenállása és a határréteg",
+		question: "Áramlásba helyezett testen kialakuló légellenállás függ-e a közeg sűrűségétől ? ",
+		answers: [
+			{ text: " Igen, ha a sűrűség nő, az ellenállás is nő.", correct: true},
+			{ text: " Nem , mert a sebesség csökken.", correct: false},
+			{ text: " Igen, kétszeres sebességű áramlásban négyszeresére nő az ellenállás.", correct: false},
+			{ text: " Nem, az ellenállás a negyedére csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"14.  100009 510 01 13 04 A határréteg és a test-ellenállás",
+		question: "Ha a szárnyprofil körül a határréteg turbulenssé válik, akkor",
+		answers: [
+			{ text: " az alaki ellenállás növekszik.", correct: false},
+			{ text: " az alaki ellenállás nem változik", correct: true},
+			{ text: " az alaki ellenállás lecsökken.", correct: false},
+			{ text: " a súrlódási ellenállás lecsökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"15.  100368 510 01 13 04 A határréteg és a test-ellenállás",
+		question: "A test ellenállása az áramlás",
+		answers: [
+			{ text: " sebességének változásakor nem változik.", correct: false},
+			{ text: " sebességével egyenes arányban változik.", correct: false},
+			{ text: " sebességének négyzetével arányosan változik.", correct: true},
+			{ text: " sebességének növekedésével csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"16.  100369 510 01 13 04 A határréteg és a test-ellenállás ",
+		question: "Határréteg ",
+		answers: [
+			{ text: " a lamináris és turbulens áramlás közötti átmenet.", correct: false},
+			{ text: " az a viszonylag vékony réteg, amelyben a levegőrészecskék sebességét a belső súrlódási erők befolyásolják.", correct: true},
+			{ text: " az a réteg, amelyben a részecskék mozgási sebességét semmilyen erők nem befolyásolják.", correct: false},
+			{ text: " az a réteg, amelyben a levegő sebessége megegyezik a zavartalan áramlás sebességével.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"17.  100010 510 01 23 02 A nyomás eloszlása a szárnyszelvény körül és a nyomásközéppont",
+		question: "Az állásszög növekedésével a szárnyprofilon a nyomásközéppont",
+		answers: [
+			{ text: " hátra vándorol.", correct: false},
+			{ text: " előre vándorol.", correct: true},
+			{ text: " nem mozdul el.", correct: false},
+			{ text: " elmozdulása nem határozható meg.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"18.  100011 510 01 23 03 A szárnyon keletkező légerők összefüggései ",
+		question: "A felhajtóerő mindig",
+		answers: [
+			{ text: " 60°-os szöget zár be az ellenállással.", correct: false},
+			{ text: " párhuzamos az áramlás irányával.", correct: false},
+			{ text: " mindig merőleges a profil húrjára.", correct: false},
+			{ text: " merőleges az áramlás irányára.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"19.  100012 510 01 23 03 A szárnyon keletkező légerők összefüggései",
+		question: "A repülőgép 108 km/h sebességgel repül. A merülési sebesség 2 m/s. A gép üres tömege 220 kg, a pilóta 80 kg-os. Mennyi az ellenállás értéke ?",
+		answers: [
+			{ text: " 1471 N", correct: false},
+			{ text: " 196 N", correct: true},
+			{ text: " az adott adatok alapján nem számolható ki.", correct: false},
+			{ text: " 98 N", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"20.  100013 510 01 23 03 A szárnyon keletkező légerők összefüggései",
+		question: "A légellenállás mindig",
+		answers: [
+			{ text: " merőleges az áramlás irányára.", correct: false},
+			{ text: " párhuzamos az áramlás irányával.", correct: true},
+			{ text: " meghatározatlan irányba van az áramlás irányához képest.", correct: false},
+			{ text: " 45°-os szöget zár be a felhajtóerővel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"21.  100014 510 01 23 03 A szárnyon keletkező légerők összefüggései",
+		question: "Egy repülőgép sebessége 108 km/h, merülési sebessége 2 m/s. Hányszorosa a felhajtóerő az ellenállásnak?",
+		answers: [
+			{ text: " Nem számítható, kevés az adat.", correct: false},
+			{ text: " 54-szerese.", correct: false},
+			{ text: " Egyenlőek.", correct: false},
+			{ text: " 15-szöröse.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"22.  100015 510 01 23 03 A szárnyon keletkező légerők összefüggései",
+		question: "A légellenállás és a felhajtóerő közötti összefüggések közül mely igaz:",
+		answers: [
+			{ text: " A felhajtóerő mindig nagyobb az ellenállásnál.", correct: false},
+			{ text: " A felhajtóerő és az ellenállás egymásra merőleges.", correct: true},
+			{ text: " A felhajtóerő lehet azonos irányú az ellenállással.", correct: false},
+			{ text: "  Ha a felhajtóerő nő, akkor az ellenállás is nő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"23.  100016 510 01 23 03 A szárnyon keletkező légerők összefüggései",
+		question: "Egy repülőgép üres tömege 200 kg. A pilóta az ejtőernyővel együtt 100 kg. Egy bizonyos repülési helyzetben a merülési sebessége 2 m/s és a gép ellenállása 150 N. Mennyi a repülőgép haladási sebessége? (1g=10m/s)",
+		answers: [
+			{ text: " 162 km/h", correct: false},
+			{ text: " 144 km/h", correct: true},
+			{ text: " 72 km/h", correct: false},
+			{ text: " 300 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"24.  100017 510 01 23 04 A szárnyon keletkező légerők alakulása különböző állásszögek mellett ",
+		question: "A kritikus állásszög átlépésekor a repülőgép",
+		answers: [
+			{ text: " dugóhúzózni kezd.", correct: false},
+			{ text: " csak kis sebességgel repülve esik át.", correct: false},
+			{ text: " mindig átesik.", correct: true},
+			{ text: " sturcspirálba esik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"25.  100018 510 01 23 04 A szárnyon keletkező légerők alakulása különböző állásszögek mellett",
+		question: "Az állásszög",
+		answers: [
+			{ text: " az áramlás iránya és a szárnyprofil húrja közötti szög.", correct: true},
+			{ text: " a szárnyprofil húrja és a vízszintes sík közötti szög.", correct: false},
+			{ text: " a repülőgép hossztengelye és a szárnyprofil húrja közti szög.", correct: false},
+			{ text: " a siklószög fele.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"26.  100019 510 01 23 04 A szárnyon keletkező légerők alakulása különböző állásszögek mellett",
+		question: "Ha egy repülőgép szárnya átesik ennek mindig az az oka, hogy",
+		answers: [
+			{ text: " a szárny deformálódott.", correct: false},
+			{ text: " a szárny túl lassan haladt.", correct: false},
+			{ text: " a szárny átlépte a kritikus állásszöget.", correct: true},
+			{ text: " a súlypont helyzet rossz helyen van.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"27.  100020 510 01 23 04 A szárnyon keletkező légerők alakulása különböző állásszögek mellett",
+		question: "Lehetséges-e olyan repülési helyzet amikor nulla a felhajtó erő miközben a repülőgép repül?",
+		answers: [
+			{ text: " Igen.", correct: true},
+			{ text: " Nem.", correct: false},
+			{ text: " Csak szimmetrikus profilú gépnél.", correct: false},
+			{ text: " Csak speciálisan kiképzett műrepülőgépeknél.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"28.  100021 510 01 23 05 A légerő-tényezők ábrázolása polárdiagramban",
+		question: "A polárgörbéről a maximális felhajtóerő tényező meghatározható",
+		answers: [
+			{ text: " a görbéhez húzott vízszintes érintővel a görbe legfelső pontján.", correct: true},
+			{ text: " a görbéhez húzott vízszintes érintővel a görbe legalsó pontján.", correct: false},
+			{ text: " a görbéhez húzott függőleges érintővel.", correct: false},
+			{ text: " a görbéhez az origóból húzott érintővel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"29.  100022510 01 23 06 A siklószám és a siklószög",
+		question: "A siklószám növekedésével",
+		answers: [
+			{ text: " a siklószög nem változik.", correct: false},
+			{ text: " a siklószög növekszik.", correct: false},
+			{ text: " a siklószög csökken.", correct: true},
+			{ text: " a siklószög változása nem meghatározható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"30.  100023 510 01 23 07 Milyen tulajdonságokat olvashatunk le a polárdiagramról. A polárdiagram felbontása.",
+		question: "A polárgörbe segítségével a legkisebb siklószög a következő módon határozható meg :",
+		answers: [
+			{ text: " a Cymax és a Cxmin hányadosából.", correct: false},
+			{ text: " az origóból a görbéhez húzott érintő és a Cy tengely által bezárt szög leolvasásával.", correct: true},
+			{ text: " a Cymin-nél leolvassuk az állásszöget.", correct: false},
+			{ text: " a Cxmin-hez tartozó állásszöggel egyenlő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"31.  100024 510 01 23 07 Milyen tulajdonságokat olvashatunk le a polárdiagramról. ",
+		question: "A polárdiagram felbontása. A polárgörbéből a legkisebb ellenállás tényező a következő módon határozható meg:",
+		answers: [
+			{ text: " speciális matematikai eszközökkel határozható csak meg.", correct: false},
+			{ text: " az origóból a görbéhez húzott érintő érintési pontjának a Cx tengelyre való vetítésével.", correct: false},
+			{ text: " nem határozható meg.", correct: false},
+			{ text: " a görbéhez a Cy tengellyel párhuzamosan húzott érintő és a Cx tengely metszéspontja.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"32.  100025 510 01 30 00 A véges kiterjedésű szárny",
+		question: "Egy téglalap alakú szárnnyal ellátott repülőgép fesztávja 15 m, húrhossza 75 cm. Mekkora a szárny oldalviszonya?",
+		answers: [
+			{ text: " 0,2", correct: false},
+			{ text: " 20", correct: true},
+			{ text: " 15,75", correct: false},
+			{ text: " 14,25", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"33.  100026 510 01 32 03 A felhajtóerő eloszlása a fesztáv mentén és az indukált ellenállás alakulása",
+		question: "Az indukált ellenállás",
+		answers: [
+			{ text: " annál nagyobb, minél lassabban repül a repülőgép.", correct: true},
+			{ text: " az állásszög növekedésével csökken.", correct: false},
+			{ text: " nem függ a felhajtóerő nagyságától.", correct: false},
+			{ text: " csak a levegő hőmérsékletétől függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"34.  100027 510 01 32 03 A felhajtóerő eloszlása a fesztáv mentén és az indukált ellenállás alakulása",
+		question: "A geometriai elcsavarás",
+		answers: [
+			{ text: " alkalmazásakor a szárnyszelvény típusa a fesztáv mentén változik.", correct: false},
+			{ text: " célja, hogy az indukált ellenállás csökkenjen.", correct: true},
+			{ text: " miatt a szárnyvég hamarabb esik át, mint a szárnytő.", correct: false},
+			{ text: " miatt a szárnyvégek felé nő a felhajtóerő, hogy a csűrő hatásosabb legyen.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"35.  100028 510 01 32 03 A felhajtóerő eloszlása a fesztáv mentén és az indukált ellenállás alakulása",
+		question: "Az aerodinamikai elcsavarás",
+		answers: [
+			{ text: " következtében a szárnyvég később esik át, mint a szárnytő.", correct: true},
+			{ text: " miatt nő az indukált ellenállás.", correct: false},
+			{ text: " egyszerűbbé teszi a szárny gyártását.", correct: false},
+			{ text: " nem befolyásolja az indukált ellenállást.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"36.  100029 510 01 32 03 A felhajtóerő eloszlása a fesztáv mentén és az indukált ellenállás alakulása",
+		question: "Az alábbi repülési helyzetek közül melyhez tartozik a legnagyobb indukált ellenállás?",
+		answers: [
+			{ text: " tökéletesen kilebegtetett leszállás.", correct: true},
+			{ text: " Vmax-al való repülés.", correct: false},
+			{ text: " háton repülés optimális sebességgel.", correct: false},
+			{ text: " az indukált ellenállás csak a szárny geometriájától függ, ezért minden helyzetben azonos az értéke.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"37.  100030 510 01 32 04 Az oldalviszony hatása az indukált ellenállásra",
+		question: "Adott húrhossz mellett az indukált ellenállás",
+		answers: [
+			{ text: " kisebb, ha a fesztáv nagyobb.", correct: true},
+			{ text: " nagyobb, ha a fesztáv nagyobb.", correct: false},
+			{ text: " nem függ a fesztávtól.", correct: false},
+			{ text: " csak a repülőgép tömegétől függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"38.  100031 510 02 01 01 Növendék pilóta szakszolgálati engedély",
+		question: "(5/2001) Vitorlázórepülő növendék képzés hány éves korban kezdhető el?",
+		answers: [
+			{ text: " 18", correct: false},
+			{ text: " 15", correct: true},
+			{ text: " 16", correct: false},
+			{ text: " 17", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"39.  100032 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "(5/2001) Vitorlázórepülő szakszolgálati engedély megszerzésének alsó korhatára?",
+		answers: [
+			{ text: " 17", correct: true},
+			{ text: " 16", correct: false},
+			{ text: " 15", correct: false},
+			{ text: " 18", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"40.  100033 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó) ",
+		question: "(5/2001) Vitorlázórepülő szakszolgálati engedéllyel",
+		answers: [
+			{ text: " személyszállítás végezhető kereskedelmi céllal 18. életév betöltése után.", correct: false},
+			{ text: " személyszállítás végezhető nem kereskedelmi céllal 18. életév betöltése után.", correct: true},
+			{ text: " személyszállítás végezhető nem kereskedelmi céllal 17. életév betöltése után.", correct: false},
+			{ text: " személyszállítás végezhető kereskedelmi céllal 17. életév betöltése után.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"41.  41. 100034 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "(5/2001) Egyéb feltételek megléte esetén vitorlázórepülő szakszolgálati engedéllyel utas szállítható, ha a pilóta",
+		answers: [
+			{ text: " az elmúlt 90 napban legalább 3 felszállást teljesített bármely típuson.", correct: false},
+			{ text: " az elmúlt 90 napban legalább 3 felszállást teljesített az adott típuson.", correct: true},
+			{ text: " az elmúlt 60 napban legalább 3 felszállást teljesített az adott típuson.", correct: false},
+			{ text: " az elmúlt 60 napban legalább 3 felszállást teljesített bármely típuson.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"42.  100035 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "(5/2001) Vitorlázórepülő szakszolgálati engedély hosszabbításának feltételei? ",
+		answers: [
+			{ text: " 10 óra repülési idő, 3 önálló vontatás az elmúlt 24 hónapban.", correct: false},
+			{ text: " 10 óra repülési idő az elmúlt 24 hónapban.", correct: false},
+			{ text: " 20 óra repülési idő az elmúlt 24 hónapban.", correct: false},
+			{ text: " 20 óra repülési idő, 6 önálló vontatás az elmúlt 24 hónapban.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"43.  100344 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "A PPL Vitorlázó képesítés megszerzéséhez szükséges-e az FAI 'D' vizsga megléte? ",
+		answers: [
+			{ text: " Igen, a 'D' vizsga összes követelményének meg kell felelni.", correct: false},
+			{ text: " Igen, az 5 órás feladat kivételével, amely meghatározott feltételek megléte esetén elhagyható.", correct: true},
+			{ text: " Igen, de csak akkor, ha nincs a jelöltnek vontatói kiképzése.", correct: false},
+			{ text: " Nem, csak vontatói kiképzésre van szükség és 150 óra összes repült időre.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"44.  100345 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "Ha az Ön PPL Vitorlázó képesítésének folyamatossága nem biztosított, mit kell tenni? ",
+		answers: [
+			{ text: " Kiképző szervnél gyakorlatba hozó és minősítő ellenőrző repülést kell végrehajtani.", correct: true},
+			{ text: " Kiképző szervnél minősítő ellenőrző repülést kell végrehajtani.", correct: false},
+			{ text: " Kiképző szervnél gyakorlatba hozó repüléseket kell végrehajtani.", correct: false},
+			{ text: " Elegendő, ha bármely, az ön által felkért oktatóval gyakorlatba hozó repüléseket repül.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"45.  100346 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "Önnek PPL vitorlázó képesítése van és az elmúlt 90 napban csak együléses teljesítmény repülőgépekkel 16 felszállást és 39 órát repült. Felkérik, hogy a starthelyen lévő IS 28B2 kétszemélyes vitorlázógépet repülje be a hangárhoz egy növendékkel. Mit tesz?",
+		answers: [
+			{ text: " Amennyiben a növendék írásban kijelenti, hogy vállalja a repülést, úgy ezt ön megteheti.", correct: false},
+			{ text: " A kérésnek eleget tesz, mert a PPL vitorlázó képesítéssel parancsnoki teendőket láthat el és ez feljogosítja önt nem kereskedelmi célú személyszállításra.", correct: false},
+			{ text: " Ezt a feladatot csak a repülőtér vezető megbízására hajthatja végre.", correct: false},
+			{ text: " Csak egyedül repülheti be a gépet, mert az adott típusú géppel nem teljesítette a személyszállításhoz szükséges minimumot.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"46.  100347 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "Milyen jogosítások szerezhetők a PPL vitorlázópilóta képesítéshez?",
+		answers: [
+			{ text: " Oktató, IFR, VFR.", correct: false},
+			{ text: " Oktató, berepülő, movit.", correct: false},
+			{ text: " Oktató, berepülő, műrepülő.", correct: true},
+			{ text: " Oktató, műrepülő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"47.  100348 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "Önnek PPL vitorlázópilóta képesítése van. Mikor tekinthető folyamatosnak a képesítése?",
+		answers: [
+			{ text: " 24 hónapig, repült időtől függetlenül.", correct: false},
+			{ text: " Ha a kihagyás 50 repült óráig 1 hónapnál nem több.", correct: true},
+			{ text: " A repülőtér vezető döntése alapján változhat.", correct: false},
+			{ text: " A szakszolgálati engedély megszerzése után az ön képesítése folyamatosan érvényes.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"48.  100349 510 02 01 02 Magánpilóta szakszolgálati engedély (vitorlázó)",
+		question: "Önnek PPL vitorlázópilóta képesítése van. Mikor tekinthető folyamatosnak a képesítése?",
+		answers: [
+			{ text: " Ha a kihagyás 50-200 repült óra között 3 hónapnál nem több, 200-600 repült óra között 6 hónapnál nem több.", correct: true},
+			{ text: " Ha a kihagyás 50-200 repült óra között 6 hónapnál nem több, 200-600 repült óra között 12 hónapnál nem több.", correct: false},
+			{ text: " Ha a kihagyás 50-200 repült óra között 3 hónapnál nem több, 200-600 repült óra között 6 hónapnál nem több.", correct: false},
+			{ text: " 50 óra repült idő felett a folyamatosság automatikusan érvényes.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"49.  49. 100036 510 02 01 03 Jogosítások a magánpilóta szakszolgálati engedélyhez",
+		question: "MOVIT (5/2001) Vitorlázórepülő oktatói jogosítás megszerzésének feltételei:",
+		answers: [
+			{ text: " 21. életév, középfokú iskolai végzettség, 2 éves szakszolgálati engedély, 250 óra repült idő vitorlázógépen.", correct: true},
+			{ text: " 18. életév, középfokú iskolai végzettség, 2 éves szakszolgálati engedély, 250 óra repült idő vitorlázógépen.", correct: false},
+			{ text: " 21. életév, felsőfokú iskolai végzettség, 2 éves szakszolgálati engedély, 250 óra repült idő vitorlázógépen.", correct: false},
+			{ text: " 21. életév, középfokú iskolai végzettség, 2 éves szakszolgálati engedély, 200 óra repült idő vitorlázógépen.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"50.  100037 510 02 01 03 Jogosítások a magánpilóta szakszolgálati engedélyhez, MOVIT (5/2001)",
+		question: "Vitorlázórepülő oktatói jogosítás folyamatosnak tekinthető, ha a kihagyás:",
+		answers: [
+			{ text: " 250-600 repült óráig max. 12 hónap 600 repült óra fölött max 24 hónap.", correct: false},
+			{ text: " 250-600 repült óráig max. 6 hónap 600 repült óra fölött max 12 hónap.", correct: true},
+			{ text: " 250-500 repült óráig max. 6 hónap 500 repült óra fölött max 12 hónap.", correct: false},
+			{ text: " 250-500 repült óráig max. 12 hónap 500 repült óra fölött max 24 hónap.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"51.  100370 510 03 12 01 Iskola gyakorló gépek ",
+		question: "Iskola-gyakorló gépek fő jellemzői:",
+		answers: [
+			{ text: " kétkormányos kivitelben készülnek, feladatuk a kezdő növendékek képzése, jó repülőtulajdonság, rendkívül sok és nagy erőhatásokkal szembeni ellenállóképesség.", correct: true},
+			{ text: " egy és kétkormányos kivitelben készülnek, feladatuk az egyedülrepülések gyakorlása, magas siklószám.", correct: false},
+			{ text: " egykormányos kivitelben készülnek, kizárólagos feladatuk az egyedülrepülések gyakorlása, jó repülőtulajdonság, nagy szilárdság.", correct: false},
+			{ text: " egy és kétkormányos kivitelben készülnek, nagy szilárdságúak, kialakításuknál fontos a formai kivitel és a magas siklószám.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"52.  100371 510 03 13 00 Vitorlázó repülőgépekre jellemző adatok ",
+		question: "Vitorlázó repülőgépekre jellemző adatok: fesztáv",
+		answers: [
+			{ text: " a két szárny hosszának összege törővég nélkül.", correct: false},
+			{ text: " a két szárny hosszának összege.", correct: false},
+			{ text: " a két szárny hosszának összege a főtartó csonkok nélkül.", correct: false},
+			{ text: " a két szárnyvég egymástól való távolsága méterben.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"53.  100372 510 03 13 00 Vitorlázó repülőgépekre jellemző adatok",
+		question: "ldalviszony és karcsúság",
+		answers: [
+			{ text: " a repülőgép súlyának és hosszanti metszet felületének a hányadosa.", correct: false},
+			{ text: " a szárny hosszanti metszetének felülete osztva a fesztávval.", correct: false},
+			{ text: " a fesztáv négyzetének és a szárny felületének hányadosa.", correct: true},
+			{ text: " a szárny fesztávjának és hosszának a hányadosa.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"54.  100373 510 03 13 00 Vitorlázó repülőgépekre jellemző adatok ",
+		question: "Felületi terhelés:",
+		answers: [
+			{ text: " az oldalviszony és a teljes terhelés aránya.", correct: false},
+			{ text: " a repülőgép üres súlyának és felületének a hányadosa.", correct: false},
+			{ text: " a repülőgép repülési súlyának és oldalviszonyának a hányadosa.", correct: false},
+			{ text: " a repülőgép repülési súlyának és szárny felületének a hányadosa.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"55.  100038 510 03 13 01 Műszaki adatok",
+		question: "A felületi terhelés",
+		answers: [
+			{ text: " felvétel közben a szárnyfelületre eső terhelés.", correct: false},
+			{ text: " forduló közben a szárnyfelületre eső terhelés.", correct: false},
+			{ text: " a gép repülési súlyának és a szárnyfelületnek a hányadosa.", correct: true},
+			{ text: " a szárny terhelhetősége a nyűgözőhelyen.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"56.  100039 510 03 13 03 Üzemeltetési adatok ",
+		question: "Mi a VA?",
+		answers: [
+			{ text: " Az a maximális sebesség, amelynél durva kormánymozdulatokkal sem léphető át a maximális terhelési többes.", correct: true},
+			{ text: " Az a sebesség, ahol az 'A' típusú flatter keletkezése a legvalószínűbb.", correct: false},
+			{ text: " Átlag sebesség.", correct: false},
+			{ text: " A repülőgép maximális megengedett sebessége.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"57.  57. 100040 510 03 26 01 Légerők",
+		question: "Vízszintes 180 km/h-s sebességgel haladó vitorlázó repülőgép 20 m/s-os széllökést kap szemből. Mennyi a terhelési többes a lökés pillanatában?",
+		answers: [
+			{ text: " 1,96", correct: true},
+			{ text: " 1,4", correct: false},
+			{ text: " 0,51", correct: false},
+			{ text: " Nem számítható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"58.  100041 510 03 27 02 Rezgési jelenségek",
+		question: "Mi az oka a külső gerjesztésű 'farokremegésnek' vagy farokfelület 'lobogásnak' ?",
+		answers: [
+			{ text: " Az oldalkormány túlzott kitérítése csúsztatás közben.", correct: false},
+			{ text: " Kis sebességnél a vízszintes vezérsík átesése.", correct: false},
+			{ text: " Nagy sebességnél fordulóban a csűrők által okozott áramlás leválás.", correct: false},
+			{ text: " Kis sebességek esetén a szárnyról periodikusan leváló örvények farokfelületre ható gerjesztő hatása.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"59.  100042 510 03 27 02 Rezgési jelenségek ",
+		question: "A flatter",
+		answers: [
+			{ text: " a szárnyon keletkező nyíróerő következtében lép fel.", correct: false},
+			{ text: " a Flettner-lap használatakor keletkező jelenség.", correct: false},
+			{ text: " merevebb építésű gépeknél kisebb sebességnél is előfordul.", correct: false},
+			{ text: " a maximális sebesség felett jelentkezhet.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"60.  100043 510 03 27 02 Rezgési jelenségek ",
+		question: "Milyen sebességnél keletkezhet flatter?",
+		answers: [
+			{ text: " A maximális megengedett sebesség felett legalább 20%-al.", correct: true},
+			{ text: " Bármely sebessségnél az engedélyezett sebességtartományban.", correct: false},
+			{ text: " Vmax + 20 km/h-nál.", correct: false},
+			{ text: " Flatter csak motoros gépeken keletkezik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"61.  61. 100044 510 03 28 01 Terhelési többszörös ",
+		question: "A terhelési többszörös",
+		answers: [
+			{ text: " annál nagyobb, minél nagyobb a repülőgép tömege.", correct: false},
+			{ text: " növekszik a sebességgel.", correct: false},
+			{ text: " soha nem lehet nulla.", correct: false},
+			{ text: " a szárnyon keletkező felhajtóerő és a repülőgép súlyának a hányadosa.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"62.  62. 100045 510 03 28 01 Terhelési többszörös",
+		question: "A repülőgép tömege 400 kg, a szárnyon 7848 N erő keletkezik a forduló közben. Mennyi a terhelési többes?",
+		answers: [
+			{ text: " 0.05", correct: false},
+			{ text: " 19.62", correct: false},
+			{ text: " 0.5", correct: false},
+			{ text: " 2.0", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"63.  63. 100046 510 03 28 01 Terhelési többszörös",
+		question: "A repülőgép 216 km/h sebességgel halad. A cy értéke ekkor 0.16. A gépen az elérhető maximális cy érték 1.6. Mekkora a maximálisan elérhető terhelési többes durva felvétel esetén ebből a sebességből?",
+		answers: [
+			{ text: " 10", correct: true},
+			{ text: " 0.1", correct: false},
+			{ text: " nem meghatározható.", correct: false},
+			{ text: " 1.76", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"64.  64. 100047 510 03 28 01 Terhelési többszörös",
+		question: "Mi az összefüggés a terhelési többes, a törő terhelési többes és a biztonsági tényező között.",
+		answers: [
+			{ text: " Terhelési többes = törő terhelési többes - biztonsági tényező.", correct: false},
+			{ text: " Biztonsági tényező = terhelési többes/ törő terhelési többes ", correct: false},
+			{ text: " Biztonsági tényező = törő terhelési többes/ terhelési többes.", correct: true},
+			{ text: " Nincs összefüggés.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"65.  65. 100048 510 03 28 03 Biztonsági tényező",
+		question: "Egy repülőgép maximális terhelési többese 4.5 törő terhelési többese 8.1. Mennyi a biztonsági tényező?",
+		answers: [
+			{ text: " 1.80", correct: true},
+			{ text: " 0.55", correct: false},
+			{ text: " 12.60", correct: false},
+			{ text: " 3.60", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"66.  66. 100049 510 03 28 04 Törő terhelési többes ",
+		question: "A törő terhelési többes",
+		answers: [
+			{ text: " a megengedett terhelési többes és a biztonsági tényező szorzata.", correct: true},
+			{ text: " csak a maximális felszállósúllyal repülő vitorlázógéppel érhető el.", correct: false},
+			{ text: " turbulens időben kisebb, mint nyugodt időben.", correct: false},
+			{ text: " csak zuhanásból való felvétel közben érhető el.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"67.  67. 100050 510 03 31 02 A szárnyra ható terhelések ",
+		question: "A szárnyon a következő igénybevételek keletkeznek :",
+		answers: [
+			{ text: " nyírás, csavarás, lengés.", correct: false},
+			{ text: " nyírás, hajlítás, csavarás.", correct: true},
+			{ text: " hajlítás, csavarás.", correct: false},
+			{ text: " csavarás, nyírás, lengés.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"68.  68. 100051 510 03 31 02 A szárnyra ható terhelések",
+		question: "Szárnyfesztáv = 18 m. Átlagos húrhossz : 1 m. A gép tömege : 270 kg. Mennyi a felületi terhelés ?",
+		answers: [
+			{ text: " 495.41 N/m2", correct: false},
+			{ text: " 0.0068 m2/N", correct: false},
+			{ text: " 294.3 N/m2", correct: false},
+			{ text: " 147.15 N/m2", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"69.  69. 100052 510 03 31 02 A szárnyra ható terhelések ",
+		question: "A repülőgép össztömege 400 kg, felületi terhelése 300 N/m. Mekkora a szárnyfelület?",
+		answers: [
+			{ text: " 13.08 m2.", correct: true},
+			{ text: " 14.5 m2.", correct: false},
+			{ text: " 12.1 m2.", correct: false},
+			{ text: " Kevés az adat, nem számítható ki.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"70.  70. 100053 510 03 31 02 A szárnyra ható terhelések",
+		question: "Repülés közben a szárnyon keletkező hajlító terhelés a legnagyobb igénybevételt",
+		answers: [
+			{ text: " a féklap vonalában okozza.", correct: false},
+			{ text: " a szárnyvégen okozza.", correct: false},
+			{ text: " a csűrők vonalában okozza.", correct: false},
+			{ text: " a szárnytőben okozza.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"71.  71. 100054 510 03 31 02 A szárnyra ható terhelések",
+		question: "Repülés közben a szárnyon keletkező csavaró igénybevétel legnagyobb részét",
+		answers: [
+			{ text: " a torziós orrborítás veszi fel.", correct: true},
+			{ text: " a főtartó veszi fel.", correct: false},
+			{ text: " a csűrőkormány veszi fel.", correct: false},
+			{ text: " a szárnyvég csúszó veszi fel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"72.  72. 100055 510 03 31 02 A szárnyra ható terhelések",
+		question: "A repülőgép szárnyán milyen csavaró nyomaték keletkezik nagy sebességű repülésnél?",
+		answers: [
+			{ text: " A felhajtóerővel egyenesen arányos nyomaték.", correct: false},
+			{ text: " A szárnyat hátra csavaró nyomaték.", correct: false},
+			{ text: " A szárnyon nincs nyomaték.", correct: false},
+			{ text: " A szárnyat előre csavaró nyomaték.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"73.  73. 100056 510 03 31 02 A szárnyra ható terhelések",
+		question: "Két vitorlázógép tömege megegyezik. Az egyikben kettő 100 kg-os pilóta ül. A másikban egy 100 kg-os pilóta ül és 100 kg víz van a szárnyakban. Mindkét gép azonos túlterhelést kap a levegőben. Melyik szárnybekötése kap nagyobb terhelést?",
+		answers: [
+			{ text: " Nem állapítható meg.", correct: false},
+			{ text: " Amelyik szárnyában 100 kg víz van.", correct: false},
+			{ text: " A két szárnybekötés azonosan terhelődik.", correct: false},
+			{ text: " Amelyikben a két 100 kg-os pilóta ül.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"74.  74. 100057 510 03 32 01 Szerkezeti kialakítás ",
+		question: "A differenciál csűrő feladata",
+		answers: [
+			{ text: " a kormányerők csökkentése.", correct: false},
+			{ text: " az ellentétes fordulónyomaték csökkentése.", correct: true},
+			{ text: " a kisebb fordulósugár elérése.", correct: false},
+			{ text: " a csűrőflatter kiküszöbölése.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"75.  75. 100058 510 03 32 01 Szerkezeti kialakítás",
+		question: "Nagy sebességnél mi okozza a csűrőhatásosság csökkenését?",
+		answers: [
+			{ text: " A belépőél leárnyékolja a csűrőt.", correct: false},
+			{ text: " Az áramlás leválik a csűrőlapról.", correct: false},
+			{ text: " A pilóta nem tudja megfelelően kitéríteni a botkormányt.", correct: false},
+			{ text: " A csűrőlap lefelé való kitérítése következtében a szárny előre csavarodik.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"76.  76. 100059 510 03 32 01 Szerkezeti kialakítás",
+		question: "A differenciál csűrő használatakor adott botkormány elmozdításkor",
+		answers: [
+			{ text: " az ívelőlapok is kitérnek.", correct: false},
+			{ text: " felfelé a csűrőlap kevésbé tér ki mint lefelé.", correct: false},
+			{ text: " különböző sebességek esetén a csűrő kitérítés változik.", correct: false},
+			{ text: " lefelé a csűrőlap kevésbé tér ki mint felfelé.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"77.  77. 100060 510 03 32 02 Kormányerők csökkentése",
+		question: "A szokásos Fletner-lap helyzete a pilótafülkéből repülés közben",
+		answers: [
+			{ text: " a féklap mozgatással befolyásolható.", correct: false},
+			{ text: " a trimmkarral állítható.", correct: false},
+			{ text: " közvetlenül nem állítható, helyzete a botkormány helyzetétől függ.", correct: true},
+			{ text: " a súlyponttól függően automatikusan változik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"78.  78. 100061 510 03 32 04 Ívelőlap",
+		question: "A Fowler-lap kibocsájtása",
+		answers: [
+			{ text: " növeli a szárny felületét és íveltségét.", correct: true},
+			{ text: " csökkent a Cy tényezőt.", correct: false},
+			{ text: " csökkenti a kritikus állásszög értékét.", correct: false},
+			{ text: " növeli a felületi terhelést.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"79.  79. 100062 510 03 32 04 Ívelőlap",
+		question: "Az ívelőlap leszálló helyzetében ",
+		answers: [
+			{ text: " nagyobb cymax érhető el.", correct: true},
+			{ text: " nagyobb kritikus állásszög érhető el.", correct: false},
+			{ text: " az ellenállás csökken.", correct: false},
+			{ text: " a szárny felületi terhelése csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"80.  80. 100063 510 03 32 04 Ívelőlap",
+		question: "Az ívelőlap lefelé való kitérítésével a repülőgép",
+		answers: [
+			{ text: " hátszélben könnyebben repül.", correct: false},
+			{ text: " kisebb sebességet tud elérni, és a kritikus állásszög megnő.", correct: true},
+			{ text: " siklószáma növelhető, mivel magasabb lesz a felhajtóerő.", correct: false},
+			{ text: " kisebb sebességet tud elérni, de a kritikus állásszög lecsökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"81.  81. 100064 510 03 32 04 Ívelőlap",
+		question: "Az ívelőlap leszálló fokozatba való állításával ",
+		answers: [
+			{ text: " Csak az ellenállás nő, ami a siklószám romlásához vezet.", correct: false},
+			{ text: " növelhető a repülőgép siklószáma.", correct: false},
+			{ text: " Cxmax nő, Cymax csökken.", correct: false},
+			{ text: " megnő a szárny íveltsége.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"82.  82. 100065 510 03 36 00 Kormányerők csökkentése",
+		question: "Ha a magassági kormány Flettner-lappal van felszerelve, akkor a bot előrenyomásakor a Flettner-lap",
+		answers: [
+			{ text: " nem tér ki, mert fix beállítású.", correct: false},
+			{ text: " lefelé tér ki.", correct: false},
+			{ text: " felfelé tér ki.", correct: true},
+			{ text: " kitérési iránya a repülőgép súlypont helyzetétől függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"83.  83. 100066 510 03 36 00 Kormányerők csökkentése",
+		question: "A repülőgép fejre trimmelésekor a trimlap",
+		answers: [
+			{ text: " lefelé mozdul el.", correct: false},
+			{ text: " felfelé mozdul el.", correct: true},
+			{ text: " semleges helyzetben marad.", correct: false},
+			{ text: " elmozdulása a magassági kormány helyzetétől függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"84.  84. 100067 510 04 10 00 Repülést ellenőrző műszerek",
+		question: "A vitorlázórepülőgép repülést ellenőrző műszerei :",
+		answers: [
+			{ text: " iránytű, elfordulásjelző, hosszdőlésmérő.", correct: false},
+			{ text: " sebességmérő, magasságmérő, iránytű.", correct: false},
+			{ text: " sebességmérő, variométer, magasságmérő.", correct: true},
+			{ text: " elektromos variométer, GPS, magasságmérő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"85.  85. 100068 510 04 10 00 Repülést ellenőrző műszerek",
+		question: "Mely műszerek használják fel a Pitot-cső statikus jelét? ",
+		answers: [
+			{ text: " Sebességmérő, variométer.", correct: false},
+			{ text: " Variométer, magasságmérő.", correct: false},
+			{ text: " Sebességmérő, variométer, magasságmérő.", correct: true},
+			{ text: " Sebességmérő, magasságmérő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"86.  86. 100069 510 04 10 00 Repülést ellenőrző műszerek",
+		question: "Mely műszerek használják fel a torlónyomást? ",
+		answers: [
+			{ text: " Magasságmérő.", correct: false},
+			{ text: " Sebességmérő, totálenergia variométer", correct: true},
+			{ text: " Variométer.", correct: false},
+			{ text: " Hosszdőlésmérő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"87.  87. 100070 510 04 12 00 Magasságmérő",
+		question: "A Pitot-cső áramlás irányába néző nyílásának eldugulása esetében a magasságmérő",
+		answers: [
+			{ text: " azt a magasságot mutatja, ahol a dugulás történt.", correct: false},
+			{ text: " helyesen mutat.", correct: true},
+			{ text: " a repülési magasság nagyobb a mutatott értéknél.", correct: false},
+			{ text: " a repülési magasság kisebb a mutatott értéknél.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"88.  88. 100071 510 04 12 00 Magasságmérő",
+		question: "A magasságmérőt 0 m-re állítva a repülőtéren a műszer nyomás ablakában a következő nyomás olvasható le :",
+		answers: [
+			{ text: " a tengerszintre átszámított nyomás.", correct: false},
+			{ text: " a tengerszinti nyomás.", correct: false},
+			{ text: " a repülőtéri légnyomás.", correct: true},
+			{ text: " a dinamikus nyomás.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"89.  89. 100072 510 04 12 00 Magasságmérő",
+		question: "Mihez képest mutatja a magasságmérő a repülési magasságot? ",
+		answers: [
+			{ text: " Mindig a tengerszinthez képest.", correct: false},
+			{ text: " A nyomásablakban beállított nyomásnak megfelelő szinthez képest.", correct: true},
+			{ text: " Mindig a reptér szintjéhez képest.", correct: false},
+			{ text: " Mindig a standard légköri nyomáshoz képest.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"90.  90. 100073 510 04 13 00 Sebességmérő",
+		question: "A Pitot-cső áramlás irányába eső nyílásában",
+		answers: [
+			{ text: " az össz- és dinamikus nyomás különbsége érzékelhető.", correct: false},
+			{ text: " a statikus nyomás érzékelhető.", correct: false},
+			{ text: " a dinamikus nyomás érzékelhető.", correct: false},
+			{ text: " a levegő össznyomása érzékelhető.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"91.  91. 100074 510 04 13 00 Sebességmérő",
+		question: "A Pitot-cső áramlásra merőleges furatában",
+		answers: [
+			{ text: " a dinamikus és a statikus nyomás különbsége érzékelhető.", correct: false},
+			{ text: " a dinamikus nyomás érzékelhető.", correct: false},
+			{ text: " az össznyomás érzékelhető.", correct: false},
+			{ text: " a statikus nyomás érzékelhető.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"92.  92. 100075 510 04 13 00 Sebességmérő",
+		question: "Egy repülőgép sebességmérője 500 m-en egyenes vonalú siklás közben 100 km/h sebességet mutat, 2500 m-en szintén 100 km/h-t. Ekkor a repülőgép önsebessége :",
+		answers: [
+			{ text: " növekszik.", correct: true},
+			{ text: " csökken.", correct: false},
+			{ text: " állandó marad.", correct: false},
+			{ text: " a tendencia nem állapítható meg.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"93.  93. 100076 510 04 13 00 Sebességmérő ",
+		question: "Csúsztatás közben a sebességmérő",
+		answers: [
+			{ text: " a tényleges sebességet mutatja.", correct: false},
+			{ text: " többet mutat a ténylegesnél.", correct: false},
+			{ text: " kevesebbet mutat a ténylegesnél.", correct: true},
+			{ text: " viselkedése nem megjósolható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"94.  94. 100077 510 04 13 00 Sebességmérő",
+		question: "Tengerszinten a sűrűség 1,25 kg/m3. A repülőgép sebességmérője 100 km/h-t mutat nyugodt levegőben. 2000 m-en, ahol a sűrűség 1,00 kg/m3 szintén 100 km/h-t mutat nyugodt levegőben. Hogyan alakul a repülőgép föld feletti sebessége nyugodt levegőben a két esetben?",
+		answers: [
+			{ text: " Tengerszinten: 100 km/h 2000 m-en: 125,0 km/h", correct: false},
+			{ text: " Tengerszinten: 100 km/h 2000 m-en: 100 km/h", correct: false},
+			{ text: " Tengerszinten: 100 km/h 2000 m-en: 111,8 km/h", correct: true},
+			{ text: " Tengerszinten: 100 km/h 2000 m-en: 88,2 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"95.  95. 100078 510 04 13 01 Pitot csöves sebességmérő",
+		question: "A Pitot-cső a következő nyomásokat érzékeli közvetlenül:",
+		answers: [
+			{ text: " össznyomás, statikus nyomás", correct: true},
+			{ text: " dinamikus nyomás, statikus nyomás", correct: false},
+			{ text: " szélnyomás, légnyomás ", correct: false},
+			{ text: " magasságnyomás", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"96.  96. 100079 510 04 14 00 Varióméter",
+		question: "Nyugodt levegőben haladva a gépet a botkormány meghúzásával emelkedésbe viszi. Két variométer van a műszerfalon. A mutatott értékekből állapítsa meg, hogy melyik a hagyományos, és melyik az összenergia variométer.",
+		answers: [
+			{ text: " Az összenergia variométer emelkedést mutat, a hagyományos variométer nem.", correct: false},
+			{ text: " A hagyományos variométer emelkedést mutat, az összenergia variométer nem.", correct: true},
+			{ text: " Nem állapítható meg, mert mindkettő emelkedést mutat.", correct: false},
+			{ text: " Az összenergia variométer csipogó hanggal jelzi az emelést.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"97.  97. 100080 510 04 14 00 Varióméter",
+		question: "A hőpalack rendeltetése a variométer rendszerében:",
+		answers: [
+			{ text: " megnövelni a műszerház belső térfogatát és ezzel kis méréshatárú, finom érzékelésű variométert biztosítani.", correct: true},
+			{ text: " a hőmérséklet változásából adódó hibák kiküszöbölése.", correct: false},
+			{ text: " a variométer lefagyásának megakadályozása.", correct: false},
+			{ text: " a visszahúzórugó hőtágulásának megakadályozása.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"98.  98. 100081 510 04 14 00 Varióméter",
+		question: "A totálenergia variométer",
+		answers: [
+			{ text: " méri a repülési magasságot és ebből számolja ki a süllyedés és emelkedés mértékét.", correct: false},
+			{ text: " kiküszöböli a magassági kormány kitéréséből adódó hibás variométer jelzéseket.", correct: true},
+			{ text: " mindig elektromos áramot igényel.", correct: false},
+			{ text: " hanggal jelzi az emelkedés és süllyedés mértékét.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"99.  99. 100082 510 04 15 00 A szelencés műszerek hibái",
+		question: "Csörlés közben a sebesség csökken, a magasságmérő nem változik, a variométer nem mozdul Mire következtet ?",
+		answers: [
+			{ text: " a Pitot-cső össznyomás vezetéke szakadt.", correct: false},
+			{ text: " a Pitot-cső statikus rendszere eltömődött.", correct: true},
+			{ text: " A Pitot-cső össznyomás vezetéke eltömődött.", correct: false},
+			{ text: " A Pitot-cső statikus vezetéke szakadt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"100.               100. 100083 510 04 15 00 A szelencés műszerek hibái",
+		question: "A Pitot-cső össznyomás érzékelője eldugult. A variométer működése a következő képpen alakul:",
+		answers: [
+			{ text: " hibátlanul működik tovább.", correct: true},
+			{ text: " csak süllyedést mutat.", correct: false},
+			{ text: " csak emelkedést mutat.", correct: false},
+			{ text: " a hiba keletkezésekor mért értéket mutatja.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"101.               101. 100084 510 04 15 00 A szelencés műszerek hibái",
+		question: "A Pitot-cső össznyomás érzékelőjének eldugulása esetén mely műszerek mutatnak hibásan?",
+		answers: [
+			{ text: " Magasságmérő, variométer.", correct: false},
+			{ text: " Sebességmérő, magasságmérő.", correct: false},
+			{ text: " Minden barometrikus műszer.", correct: false},
+			{ text: " Sebességmérő, totál energia variométer.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"102.               102. 100085 510 04 15 00 A szelencés műszerek hibái",
+		question: "A magasságmérőt felszállás előtt nulla méterre állítja. Csörlés közben a magaságmérő emelkedést mutat, de leoldás után lassan ismét nullára tér vissza. Mire következtet?",
+		answers: [
+			{ text: " A szelence kilyukadt.", correct: true},
+			{ text: " Az össznyomásérzékelő eldugult.", correct: false},
+			{ text: " A statikus érzékelő eldugult.", correct: false},
+			{ text: " A hőpalack sérült.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"103.               103. 100086 510 04 15 00 A szelencés műszerek hibái",
+		question: "1000 m magasan 100 km/h-t mutat a sebességmérő nyugodt levegőben. A gépet a bot megnyomásával meredek süllyedésbe viszi át, amit a magasságmérő és a variométer jelez is, de a sebességmérő által mutatott érték csökken. Mire következtet?",
+		answers: [
+			{ text: " A Pitot-cső statikus nyomás érzékelője eldugult.", correct: false},
+			{ text: " A Pitot-cső össznyomás érzékelője eldugult.", correct: true},
+			{ text: " A Pitot-cső összes furata eljegesedett.", correct: false},
+			{ text: " A kompenzátor rosszul van beállítva.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"104.               104. 100087 510 04 15 00 A szelencés műszerek hibái",
+		question: "A magasságmérőről lecsúszik a statikus vezeték. Mit olvashat le a műszerről repülés közben?",
+		answers: [
+			{ text: " A kabin repülési magasságát, ami többé-kevésbé megegyezik a repülőgép repülési magasságával.", correct: true},
+			{ text: " Nullát mutat.", correct: false},
+			{ text: " Megáll azon az értéken, amit a meghibásodás előtt mutatott.", correct: false},
+			{ text: " Kitér a maximumra.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"105.               105. 100088 510 04 16 03 Folyadékos mágneses iránytű",
+		question: "A mágneses iránytű deklinációjának oka az, hogy",
+		answers: [
+			{ text: " a mágnestű felfüggesztve nem vízszintesen áll.", correct: false},
+			{ text: " a földrajzi és mágneses észak nem esik egybe.", correct: true},
+			{ text: " a repülőgépben fém alkatrészek vannak.", correct: false},
+			{ text: " a repülőgép gyorsuló mozgást végez.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"106.               106. 100089 510 04 16 03 Folyadékos mágneses iránytű",
+		question: "Az iránytű a felsoroltak közül mely repülési helyzetben használhatatlan? ",
+		answers: [
+			{ text: " Nagy bedöntésű fordulóban.", correct: true},
+			{ text: " Lassítás közben.", correct: false},
+			{ text: " Gyorsítás közben.", correct: false},
+			{ text: " Féklapnyitás után.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"107.               107. 100090 510 04 16 03 Folyadékos mágneses iránytű",
+		question: "Nyugat felé repülve gyorsít a repülőgéppel. Az iránytű mit mutat? ",
+		answers: [
+			{ text: " Nyugat felé mutat.", correct: false},
+			{ text: " Eltér délies irányba.", correct: false},
+			{ text: " Eltér északias irányba.", correct: true},
+			{ text: " Körbe fordul.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"108.               108. 100091 510 04 17 01 Az elfordulásjelző",
+		question: "Látással végrehajtott bal fordulóban az elfordulásjelző jobbra tér ki. Mire következtet ?",
+		answers: [
+			{ text: " A műszer áramforrását fordított polaritással kötötték be.", correct: true},
+			{ text: " A műszer jó, mert fordulóban azt mutatja, merre kell csűrni a forduló megszüntetéséhez.", correct: false},
+			{ text: " A pörgettyű csapágya akad.", correct: false},
+			{ text: " Kicsi az akkumulátor feszültsége.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"109.               109. 100092 510 04 17 01 Az elfordulásjelző",
+		question: "Jobb 90-°os bedöntésű fordulóban az elfordulásjelző középre áll.",
+		answers: [
+			{ text: " A műszer jó, mivel a gép függőleges tengely körüli forgását méri, és ez ebben a helyzetben 0.", correct: true},
+			{ text: " A pörgettyű megszorult, ezért automatikusan középre állt.", correct: false},
+			{ text: " Az akkumulátor feszültség ingadozik és ezért a mutató jobbra balra ingadozik, majd középre áll.", correct: false},
+			{ text: " Ez csak pillanatnyi helyzet, mert balra fog kitérni, hogy a kivételi irányt mutassa.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"110.               110. 100093 510 04 17 01 Az elfordulásjelző",
+		question: "Az elfordulás jelző a repülőgép fordulóba való bedöntése során kezdetben egyre jobban kitér, majd a bedőlés növelésével lassan visszatér eredeti helyzetébe.",
+		answers: [
+			{ text: " A műszer főtengelye szorul.", correct: false},
+			{ text: " Ez természetes, mert a repülőgép függőleges tengelye körüli elfordulás értékével arányosan tér ki.", correct: true},
+			{ text: " Az áramforrás kimerülőben van és nem bírja a hosszú idejű kitérést.", correct: false},
+			{ text: " Az áramforrás fordított polaritással van bekötve.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"111.               111. 100094 510 04 17 01 Az elfordulásjelző",
+		question: "Az elfordulásmérő kitérése mivel arányos?",
+		answers: [
+			{ text: " A repülőgép függőleges tengelye körüli szögsebességével.", correct: true},
+			{ text: " A repülőgép bedőlésével.", correct: false},
+			{ text: " A forduló sugarával.", correct: false},
+			{ text: " Az északhoz képest való elfodulásával.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"112.               112. 100095 510 04 18 00 Hosszdőlésmérő",
+		question: "A hosszdőlés mérő által mutatott érték mikor elfogadható?",
+		answers: [
+			{ text: " Csak fordulóban.", correct: false},
+			{ text: " Minden esetben.", correct: false},
+			{ text: " Csak vízszintes repülés közben.", correct: true},
+			{ text: " Csak állandó (statikus) repülési sebesség esetén.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"113.               113. 100096 510 04 18 00 Hosszdőlésmérő",
+		question: "A hosszdőlésmérő által mutatott mérték mivel arányos egyenes vonalú egyenletes sebességű repülés közben?",
+		answers: [
+			{ text: " Nem határozható meg.", correct: false},
+			{ text: " Az állásszöggel.", correct: false},
+			{ text: " A siklószöggel.", correct: false},
+			{ text: " A repülőgép hossztengelyének a vízszintes síkkal bezárt szögével.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"114.               114. 100097 510 05 10 03 A repülőgép kormányozhatósága, kormányzása ",
+		question: "Ha a csűrőkormányt elengedjük, ",
+		answers: [
+			{ text: " akkor a gép gyorsulni kezd az állandó bedöntés miatt.", correct: false},
+			{ text: " nem lehet fordulót végrehajtani.", correct: false},
+			{ text: " a repülőgép nem dönthető be.", correct: false},
+			{ text: " a repülőgép bizonyos bedöntési határok között vezethető az oldalkormánnyal.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"115.               115. 100098 510 05 10 03 A repülőgép kormányozhatósága, kormányzása",
+		question: "Ha a magassági kormány mozgató mechanizmusa eltörik, és a kormánylap szabadon mozog, hogyan szabályozza a gép sebességét a trimmel, ha az nem a botkormányra hat?",
+		answers: [
+			{ text: " A repülőgép sebessége változtathatatlanná válik.", correct: false},
+			{ text: " A trimmkar hátrahúzásával a repülőgép gyorsul.", correct: false},
+			{ text: " A trimmkar előrenyomásával a repülőgép gyorsul.", correct: true},
+			{ text: " A repülőgép csak gyorsítható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"116.               116. 100099 510 05 10 03 A repülőgép kormányozhatósága, kormányzása ",
+		question: "Ha az oldalkormány beszorul repülés közben, akkor",
+		answers: [
+			{ text: " a trim hatástalanná válik.", correct: false},
+			{ text: " nem lehet fordulózni.", correct: false},
+			{ text: " a magassági kormány leárnyékolódik.", correct: false},
+			{ text: " a gép bizonyos korlátokkal vezethető a csűrő kormánnyal.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"117.               117. 100100 510 05 21 01 A motornélküli repülőgép sebessége, az erők egyensúlya ",
+		question: "Egyenesvonalú egyenletes sebességű siklás közben a terhelési többes",
+		answers: [
+			{ text: " kisebb mint 1.", correct: false},
+			{ text: " nagyobb mint 1.", correct: false},
+			{ text: " egyenlő 1-el.", correct: true},
+			{ text: " 0.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"119.               119. 100102 510 05 21 02 A sebességi görbe",
+		question: "Az optimális sebesség az a sebesség, ahol",
+		answers: [
+			{ text: " a legjobb a termikfogás lehetősége.", correct: false},
+			{ text: " a gép merülési sebessége a legnagyobb.", correct: false},
+			{ text: " a gép átesik.", correct: false},
+			{ text: " a gép siklószáma a legnagyobb.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"120.               120. 100103 510 05 21 02 A sebességi görbe",
+		question: "A gazdaságos sebesség az a sebesség, ahol",
+		answers: [
+			{ text: " a gép átesik.", correct: false},
+			{ text: " a gép siklószáma a legnagyobb.", correct: false},
+			{ text: " a gép merülési sebessége a legkisebb.", correct: true},
+			{ text: " a legkevesebbe kerül egy óra légiidő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"121.               121. 100104 510 05 21 02 A sebességi görbe",
+		question: "Mi az optimális és gazdaságos sebesség közötti összefüggés?",
+		answers: [
+			{ text: " optimális sebesség = gazdaságos sebesség", correct: false},
+			{ text: " optimális sebesség < gazdaságos sebesség", correct: false},
+			{ text: " optimális sebesség > gazdaságos sebesség", correct: true},
+			{ text: " géptípustól függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"122.               122. 100105 510 05 21 02 A sebességi görbe",
+		question: "Adott magasságról a lehető legmesszebb akar siklani nyugodt időben. Milyen sebességgel repül?",
+		answers: [
+			{ text: " Maximális sebességgel.", correct: false},
+			{ text: " Gazdaságos sebességgel.", correct: false},
+			{ text: " 80 km/h sebességgel.", correct: false},
+			{ text: " Optimális sebességgel.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"123.               123. 100106 510 05 21 02 A sebességi görbe",
+		question: "Adott magasságból milyen sebességel kell repülnie, hogy a lehető legtöbb időt tölthesse a levegőben nyugodt időben?",
+		answers: [
+			{ text: " Gazdaságos sebességgel.", correct: true},
+			{ text: " Optimális sebességgel.", correct: false},
+			{ text: " Minimális sebességgel.", correct: false},
+			{ text: " 120 km/h sebességgel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"124.               124. 100107 510 05 21 02 A sebességi görbe",
+		question: "108 km/h sebességgel siklik. A variométer 2 m/s-ot mutat. Két egymástól 21 km-re lévő tájékozódási pont közötti utat 10 perc alatt teszi meg. Mekkora a repülés irányába eső szélkomponens, és a siklószám?",
+		answers: [
+			{ text: " 5 m/s szembeszél, siklószám = 17.5", correct: false},
+			{ text: " 5 m/s hátszél, siklószám = 17.5", correct: true},
+			{ text: " 5 m/s hátszél, siklószám = 15", correct: false},
+			{ text: " 5 m/s szembeszél, siklószám = 15", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"125.               125. 100108 510 05 21 02 A sebességi görbe",
+		question: "A sebességi polárisból hogy határozhatja meg a minimális merülési sebességet?",
+		answers: [
+			{ text: " a görbéhez az origóból húzott érintő függőleges tengelyre vetítve.", correct: false},
+			{ text: " a görbéhez húzott függőleges érintő és a vízszintes tengely.", correct: false},
+			{ text: " a görbékhez húzott vízszintes érintő és a függőleges tengely metszéspontja.", correct: true},
+			{ text: " a görbéhez az origóból húzott érintő vízszintes tengelyre vetítve.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"126.               126. 100109 510 05 21 02 A sebességi görbe",
+		question: "Két azonos repülőgép azonos magasságon siklani kezd nyugodt időben. Lehetséges-e, hogy azonos távolságra érnek el különböző sebességgel?",
+		answers: [
+			{ text: " igen, mert a polárgörbét két különböző sebességű helyen metszheti el a siklószöget reprezentáló egyenes.", correct: true},
+			{ text: " nem, mert ha különböző sebességgel mennek, különböző lesz a siklószámuk.", correct: false},
+			{ text: " igen, de csak egy speciális esetben.", correct: false},
+			{ text: " nem, mert ez csak az optimális sebességgel lehetséges.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"127.               127. 100110 510 05 21 02 A sebességi görbe",
+		question: "Növendékével minél több időt akar tölteni a levegőben egy felszállásból. Milyen sebességgel repül?",
+		answers: [
+			{ text: " optimális sebességgel.", correct: false},
+			{ text: " gazdaságos sebességgel.", correct: true},
+			{ text: " minimális sebességgel.", correct: false},
+			{ text: " maximális sebességgel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"128.               128. 100111 510 05 21 02 A sebességi görbe",
+		question: "Ha a repülőgépbe vízballasztot teszünk, akkor",
+		answers: [
+			{ text: " a legjobb siklószámhoz tartozó sebesség megnő, de a siklószám változatlan marad.", correct: true},
+			{ text: " a legjobb siklószámhoz tartozó sebesség megnő, és a siklószám is megnő.", correct: false},
+			{ text: " a minimális merülési sebesség csökken.", correct: false},
+			{ text: " a siklószám nő, mert a minimális merülési sebesség csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"130.               130. 100113 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "Egyenes siklás sebességingadozásait leghatékonyabban a",
+		answers: [
+			{ text: " a variométer állandó értéken tartásával csökkenthetjük.", correct: false},
+			{ text: " a sebességmérő figyelésével küszöbölhetjük ki.", correct: false},
+			{ text: " a repülőgép hangváltozásait figyelve állíthatjuk meg.", correct: false},
+			{ text: " horizont állandó helyzetben való tartásával küszöbölhetjük ki.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"131.               131. 100114 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "4 km-es látásban kezdő növendéket oktat. Mire számíthat? ",
+		answers: [
+			{ text: " Nagy lesz a siklási sebesség.", correct: false},
+			{ text: " Nyugodt a levegő, ezért a növendék is nyugodtabb.", correct: false},
+			{ text: " Kisebb magasságra fog csőrölni, mivel a csörlési sebesség nem állítható be.", correct: false},
+			{ text: " A sebesség és iránytartás romlik, mivel nincs horizont látás.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"132.               132. 100115 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "Be akarja mutatni a növendéknek, hogy a trimmlappal ellátott repülőgép hogyan kormányozható trimmel a magassági kormány beszorulás esetén. Ekkor :",
+		answers: [
+			{ text: " ha gyorsítani akar, a trimmkart hátra kell húzni.", correct: true},
+			{ text: " ha gyorsítani akar, a trimmkart előre kell tolni.", correct: false},
+			{ text: " ha lassítani akar, a trimmkart hátra kell húzni.", correct: false},
+			{ text: " a gépet nem lehet trimmel kormányozni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"133.               133. 100116 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "Mi követi legjobban a repülőgép sebesség változását ?",
+		answers: [
+			{ text: " A sebességmérő.", correct: false},
+			{ text: " A horizont állása.", correct: false},
+			{ text: " A repülőgép hangja.", correct: true},
+			{ text: " A hosszdőlésmérő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"134.               134. 100117 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "Egyenes repülés oktatása közben hol választja ki az iránypontot a növendék számára?",
+		answers: [
+			{ text: " A repülőtér 5 km-es körzetén belül.", correct: false},
+			{ text: " A legközelebbi lakott területen.", correct: false},
+			{ text: " A látótávolság függvényében a lehető legtávolabbi helyen.", correct: true},
+			{ text: " A lehető legmagasabban elhelyezkedő tereptárgy közelében", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"135.               135. 100118 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "Hogyan jöhet rá arra, hogy a növendék a siklás gyakorlásakor túl közeli iránypontot választott?",
+		answers: [
+			{ text: " A siklási sebesség csökken.", correct: false},
+			{ text: " A siklás sebessége nőni kezd.", correct: true},
+			{ text: " A gép 'bólogatni' kezd.", correct: false},
+			{ text: " A gép átesik rövid időn belül.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"136.               136. 100119 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "Egyenes repülés közben a sebesség folyamatosan ingadozik. Mire következtet?",
+		answers: [
+			{ text: " - a növendék a sebességmérő alapján próbál sebességet tartani.", correct: true},
+			{ text: " - a súlypont hátul van.", correct: false},
+			{ text: " - a trimhuzal elszakadt.", correct: false},
+			{ text: " - a sebességmérőhöz vezető statikus cső elszakadt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"137.               137. 100120 510 05 21 03 A siklási sebesség a gyakorlatban",
+		question: "A horizonthelyzet vízszintes repülésben egyértelműen meghatározza a repülési sebességet.",
+		answers: [
+			{ text: " igen, ha a repülőgép állandósult sebességgel repül.", correct: false},
+			{ text: " nem, mert a sebesség csakis a sebességmérővel határozható meg.", correct: false},
+			{ text: " igen, mert a horizonthelyzet mindig jellemző az aktuális sebességre.", correct: true},
+			{ text: " nem, mert a horizontot csak fordulóban használjuk referenciaként.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"138.               138. 100121 510 05 21 05 A kormányok használata",
+		question: "Az oldalkormány használatának a szabálya.",
+		answers: [
+			{ text: " Normál körülmények között minden csűrőkitéréshez oldalkormányt kell használni, hogy megszüntessük az ellentétes forduló nyomatékot.", correct: true},
+			{ text: " Az oldalkormányt csak dugóhúzóban használjuk.", correct: false},
+			{ text: " Az oldalkormányt csak fordulóban használjuk.", correct: false},
+			{ text: " Csak csúsztatásban használjuk sebességtartásra.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"139.               139. 100122 510 05 21 05 A kormányok használata",
+		question: "Csúsztatás közben hogyan érheti el a maximális hatást úgy, hogy a repülőgépet irányba is tudja tartani?",
+		answers: [
+			{ text: " A csűrő teljes kitérítése valamelyik irányba és iránytartás az oldalkormány használatával.", correct: false},
+			{ text: " Az oldalkormány teljes belépése az egyik irányba, és iránytartás a szükséges csűréssel.", correct: true},
+			{ text: " Az oldal és csűrő kormány hirtelen teljes kitérítése ellentétes irányokba.", correct: false},
+			{ text: " Az oldal és csűrő kormány hirtelen teljes kitérítése azonos irányba.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"140.               140. 100123 510 05 21 06 Siklás közben előforduló vezetési hibák, okaik, és kijavításuk",
+		question: "A repülőgép átesése mikor következik be biztosan?",
+		answers: [
+			{ text: " Ha a súlypont a hátsó határ közelében van.", correct: false},
+			{ text: " Ha a sebesség a gyári minimum alá csökken.", correct: false},
+			{ text: " Ha átlépjük a kritikus állásszöget.", correct: true},
+			{ text: " Ha merülésbe kerül a gép.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"141.               141. 100124 510 05 22 00 A dugóhúzó",
+		question: "Dugóhúzó gyakorlathoz emelkedik termikben és a növendéken látja, hogy rosszul van. Mit tesz?",
+		answers: [
+			{ text: " Nem emelkedik tovább, és rögtön elkezdi a dugóhúzókat, mielőtt a növendék nagyon rosszul lesz.", correct: false},
+			{ text: " Félbeszakítja a fordulót és más feladatokat végrehajtatva a növendékkel leszáll, mert a növendék nem tud az eredeti feladatra koncentrálni.", correct: true},
+			{ text: " Tovább emelkedik nyitott ablakkal, mert ez rendbehozza a növendéket.", correct: false},
+			{ text: " Alkalmatlannak minősíti a növendéket és eltanácsolja a repüléstől.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"142.               142. 100125 510 05 22 01 A repülőgép dugóhúzó tulajdonságai",
+		question: "A dugóhúzó veszélyessége abban rejlik, hogy",
+		answers: [
+			{ text: " mindaddig fennmarad, amíg a létrehozó okokat nem szüntetjük meg.", correct: true},
+			{ text: " a repülőgép folyamatosan gyorsul és átlépi a megengedett maximális sebességet.", correct: false},
+			{ text: " 5 fordulat után nem lehet megszüntetni.", correct: false},
+			{ text: " a nagy terhelés miatt a pilóta elájulhat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"143.               143. 100126 510 05 22 01 A repülőgép dugóhúzó tulajdonságai",
+		question: "Dugóhúzóban a gép",
+		answers: [
+			{ text: " a hossz- és kereszttengelye körül forog.", correct: false},
+			{ text: " a függőleges és a hossztengelye körül forog.", correct: true},
+			{ text: " a függőleges és a kereszttengelye körül forog.", correct: false},
+			{ text: " mindhárom tengelye körül forog.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"144.               144. 100127 510 05 22 01 A repülőgép dugóhúzó tulajdonságai",
+		question: "A repülőgép súlyponthelyzetének túlzott hátra tolódása ",
+		answers: [
+			{ text: " csökkenti a faroklobogást, mert a szárnyról leváló örvények a vezérsík felett mennek el.", correct: false},
+			{ text: " kedvező, mert csökkenti a kormányerőket.", correct: false},
+			{ text: " kedvező, mert csörlés közben jobban emelkedik a gép.", correct: false},
+			{ text: " instabillá teszi a gépet, hajlamossá teszi dugóhúzóra, és nehezíti az abból való kivételt.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"145.               145. 100128 510 05 22 03 Kivétel dugóhúzóból",
+		question: "Dugóhúzó gyakorlás közben dugóhúzóból való kivétel után mire utasítja a növendéket?",
+		answers: [
+			{ text: " A zuhanásból való felvételt az utazó horizont helyzetig kéri és megvárja amíg lelassul a gép ebben a helyzetben.", correct: true},
+			{ text: " A zuhanásból való felvételből erős emelkedésbe viteti át a gépet, hogy nagyobb magasság legyen a következő feladathoz.", correct: false},
+			{ text: " Nagy bedöntésű fordulót kezdet el a növendékkel, mert így gyorsabban lelassul a repülőgép.", correct: false},
+			{ text: " Átveszi a vezetést és erős felrántással igyekszik magasságot gyűjteni a következő feladathoz.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"146.               146. 100129 510 05 23 01 Erők egyensúlya a fordulóban",
+		question: "Meg akarja mutatni a növendéknek a 2g hatását. Milyen bedöntésű fordulót hajt végre?",
+		answers: [
+			{ text: " 30°", correct: false},
+			{ text: " 60°", correct: true},
+			{ text: " 45°", correct: false},
+			{ text: " 90°", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"147.               147. 100130 510 05 23 01 Erők egyensúlya a fordulóban",
+		question: "Fordulóban mekkora a Cymax a vízszintes irányú repülés Cymax-ához képest? ",
+		answers: [
+			{ text: " Cymax ford. < Cymax vízsz.", correct: true},
+			{ text: " Cymax ford . > Cymax vízsz.", correct: false},
+			{ text: " Cymax ford. = Cymax vízsz.", correct: false},
+			{ text: " nem határozható meg.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"148.               148. 100131 510 05 23 02 A repülőgép mozgásának elemzése fordulóban",
+		question: "Vízszintes repülésből azonos állásszögű fordulóba megyünk át.",
+		answers: [
+			{ text: " A merülősebesség csökkeni fog, ezért termikelünk körözve.", correct: false},
+			{ text: " A repülőgép merülési sebessége növekedni fog.", correct: true},
+			{ text: " Nem változik a merülési sebesség.", correct: false},
+			{ text: " Típusfüggő, nem lehet megállapítani.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"149.               149. 100132 510 05 23 02 A repülőgép mozgásának elemzése fordulóban",
+		question: "30°-os bedöntésű fordulót repül 108 km/h sebességgel. Mekkora a fordulósugár ?",
+		answers: [
+			{ text: " 210 m", correct: false},
+			{ text: " 183 m", correct: false},
+			{ text: " 159 m", correct: true},
+			{ text: " 366 m", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"150.               150. 100133 510 05 23 02 A repülőgép mozgásának elemzése fordulóban",
+		question: "45°-os bedöntésű fordulóban 108 km/h sebességgel repül. Mennyi a fordulósugár ? (g=10 m/s)",
+		answers: [
+			{ text: " 80 m", correct: false},
+			{ text: " 100 m", correct: false},
+			{ text: " 90 m", correct: true},
+			{ text: " Nem határozható meg, kevés az adat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"151.               151. 100134 510 05 23 02 A repülőgép mozgásának elemzése fordulóban",
+		question: "A repülőgép állandó sebességű fordulóban milyen sebességnél esik át ?",
+		answers: [
+			{ text: " A bedöntéstől független, az egyenes repülés minimális sebességével megegyező sebességnél.", correct: false},
+			{ text: " A bedöntéstől függő, az egyenes repülés minimális sebességénél kisebb sebességnél.", correct: false},
+			{ text: " A bedöntéstől függő, az egyenes repülés minimális sebességénél nagyobb sebességnél.", correct: true},
+			{ text: " Nem határozható meg, a pilóta súlyától függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"152.               152. 100135 510 05 23 04 Az ellentétes fordulónyomaték kiküszöbölése",
+		question: "Hogyan mutatja be növendékének az ellentétes forgatónyomaték hatását?",
+		answers: [
+			{ text: " szabályos fordulatot hajt végre és elmagyarázza hogyan kell a pedálokat használni.", correct: false},
+			{ text: " pedál használata nélkül finoman csűr valamelyik irányba, és felhívja a figyelmet a repülőgép orrának elmozdulási irányára.", correct: true},
+			{ text: " 30 fokos fordulót hajt végre.", correct: false},
+			{ text: " spirálozás közben termikus időben felhívja rá a figyelmet.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"153.               153. 100136 510 05 23 05 Forduló közben elkövetett vezetési hibák",
+		question: "Bal fordulóban a golyó balra tér ki. Hogyan korrigálja a hibát ?",
+		answers: [
+			{ text: " Balra lépve, jobbra csűrve vagy mindkettő.", correct: true},
+			{ text: " Jobbra lépve, jobbra csűrve vagy mindkettő.", correct: false},
+			{ text: " Balra lépve, balra csűrve vagy mindkettő.", correct: false},
+			{ text: " Jobbra lépve.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"154.               154. 100137 510 05 23 05 Forduló közben elkövetett vezetési hibák",
+		question: "Jobb fordulóban a golyó balra tér ki. Hogyan helyesbíti a hibát?",
+		answers: [
+			{ text: " A sebesség növelésével.", correct: false},
+			{ text: " Jobbra lépéssel.", correct: false},
+			{ text: " Balra csűréssel.", correct: false},
+			{ text: " Balra lépéssel, jobbra csűréssel, vagy mindkettővel.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"155.               155. 100138 510 05 23 05 Forduló közben elkövetett vezetési hibák ",
+		question: "Forduló közben a gép kifelé csúszik. Mi az oka?",
+		answers: [
+			{ text: " Kicsi sebesség.", correct: false},
+			{ text: " Túlzott bedöntés és nem elégséges oldalkormány.", correct: false},
+			{ text: " Túlzott oldalkormány használat vagy nem elégséges bedöntés.", correct: true},
+			{ text: " Bedöntés közben a gép termikbe került.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"156.               156. 100139 510 05 23 05 Forduló közben elkövetett vezetési hibák",
+		question: "Nagy bedöntésű fordulóban a befelé csúszás hogy szüntethető meg?",
+		answers: [
+			{ text: " A magassági kormány meghúzásával.", correct: true},
+			{ text: " A magassági kormány megnyomásával.", correct: false},
+			{ text: " További befelé csűréssel.", correct: false},
+			{ text: " Az oldalkormány kifelé lépésével.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"157.               157. 100140 510 05 23 06 Az éles fordulók",
+		question: "A kormány szerepcsere már jól érzékelhető ",
+		answers: [
+			{ text: " 90°-os bedöntésnél.", correct: false},
+			{ text: "  5°-os bedöntésnél.", correct: false},
+			{ text: "  30°-os bedöntésnél.", correct: false},
+			{ text: "  60°-os bedöntésnél.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"158.               158. 100141 510 05 24 00 Felszállás csörlő-vontatásban",
+		question: "Kötélszakadás gyakorlásakor mi az elsődleges a leszállással kapcsolatban? ",
+		answers: [
+			{ text: " Mindig a starthelyhez szállni, azért, hogy a következő felszállás minél hamarabb elmehessen.", correct: false},
+			{ text: " Mindig a repülőtér munkaterületén belül biztonságosan leszállni és megállni.", correct: true},
+			{ text: " Mindig széllel szemben kell leszállni.", correct: false},
+			{ text: " Szigorúan csak a szakítás magasságához igazítani a leoldás utáni teendőket.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"159.               159. 100142 510 05 24 01 Az orrcsörlés",
+		question: "Orrcsörlés közben a gép beleng a kereszttengely körül. Mi az oka és hogy szüntethető meg?",
+		answers: [
+			{ text: " Ok: a magassági kormány átesése. Megszüntetés: a magassági kormány előre engedése.", correct: true},
+			{ text: " Ok: az aggregátor nem tudja tartani a fordulatszámot. Megszüntetés : az aggregátor javítása.", correct: false},
+			{ text: " Ok: erős oldalszél. Megszüntetés : a szél irányába csűrni.", correct: false},
+			{ text: " Ok: Hátsó súlyponthelyzet. Megszüntetés : az első ülés terhelésének csökkentése.", correct: false},
+		]
+	},
+		
 ];
 
 

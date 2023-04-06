@@ -36,7 +36,9 @@ body {
 }
 */
 .app {
-  background-image: url("Images/home-bg.jpg");
+  background-image: url("Images/home-bg.jpg"); 
+ /* background-image: url("Images/home-bg-2.jpg"); */
+  background-position: center 50px;
   background-size: cover;
   background-position: center center;
   min-height: 90vh;
