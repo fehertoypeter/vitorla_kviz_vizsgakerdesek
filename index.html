@@ -81,23 +81,6 @@
  
     
   </p>
-
-
-  <form>
-    <label for="nev">Név:</label>
-    <input type="text" id="nev" name="nev"><br>
-
-    <label for="kor">Kor:</label>
-    <input type="number" id="kor" name="kor"><br>
-
-    <label for="varos">Város:</label>
-    <input type="text" id="varos" name="varos"><br>
-
-    <button type="button" onclick="adatokIrasa()">Adatok írása</button>
-  </form>
-
-
-  
   <div id="mode-selection">
 
   
@@ -153,24 +136,7 @@
 <div id="overlay"></div>
 <script src="questions.js"></script>
 <script src="script.js"></script>
-<script>
-    function adatokIrasa() {
-      let nev = document.getElementById("nev").value;
-      let kor = document.getElementById("kor").value;
-      let varos = document.getElementById("varos").value;
-      let adatok = {nev: nev, kor: kor, varos: varos};
-      let adatokJSON = JSON.stringify(adatok);
-      
-      let xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          console.log("Az adatok elmentve.");
-        }
-      };
-      xhttp.open("PUT", "adatok.json", true);
-      xhttp.send(adatokJSON);
-    }
-  </script>
+
 
   </body>
 </html>

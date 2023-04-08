@@ -56,8 +56,8 @@ const examTopics = [
   },
   {
     examName: 'Vitorla Specifikus kérdések (Excel)',
-    questionCount: 24,
-    timeLimit: 20, // másodperc
+    questionCount: 2400,
+    timeLimit: 40, // másodperc
     examTopics: 'EXCEL',  
   }
 ];
