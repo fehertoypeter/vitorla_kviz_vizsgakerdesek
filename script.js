@@ -533,30 +533,25 @@ countdownBox.style.display = "block";
 
 
 
+function addToData() {
+  var inputValue = document.getElementById("inputField").value;
 
-let proba = [
-	{
-		subject: "REPÜLÉSI SZABÁLYOK",
-		question: "Milyen minimális megengedett látástávolságig lehet üzemelni F-osztályú légtérben a látvarepülési szabályok szerint?",
-		answers: [
-			{ text: "5 km.", correct: false},
-			{ text: "5 km, de ha a repülést olyan sebességgel hajtják végre, ami lehetővé teszi az egyéb forgalom vagy akadályok időbeni észlelését és az összeütközés elkerülését, akkor 1500 m.", correct: false},
-			{ text: " 8 km FL100-on és felette, 5 km FL100 alatt.", correct: true},
-			{ text: "8 km.", correct: false},
-		],
-		hint:"",
-	}
-];
-
-function updateJSON() {
-  var hint = document.getElementById("hintField").value;
-  proba[0].hint = hint;
-  var jsonData = JSON.stringify(questions);
-
-  var element = document.getElementById("output");
-  element.innerHTML = jsonData;
+  // Adatok beolvasása a JSON fájlból
+  fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+      data.data.push(inputValue);
+      
+      // Módosított adatok visszatöltése a JSON fájlba
+      fetch('data.json', {
+        method: 'PUT',
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+    });
 }
-
 
 
 
