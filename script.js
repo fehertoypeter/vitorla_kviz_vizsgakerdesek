@@ -533,25 +533,6 @@ countdownBox.style.display = "block";
 
 
 
-function addToData() {
-  var inputValue = document.getElementById("inputField").value;
-
-  // Adatok beolvasása a JSON fájlból
-  fetch('data.json')
-    .then(response => response.json())
-    .then(data => {
-      data.data.push(inputValue);
-      
-      // Módosított adatok visszatöltése a JSON fájlba
-      fetch('data.json', {
-        method: 'PUT',
-        body: JSON.stringify(data),
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-    });
-}
 
 
 

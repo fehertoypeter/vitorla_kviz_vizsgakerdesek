@@ -53,6 +53,12 @@ const examTopics = [
     questionCount: 1,// MÓDOSÍTANI 20-ra
     timeLimit: 1800, // másodperc
     examTopics: 'RÁDIÓKOMMUNIKÁCIÓ , RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK',
+  },
+  {
+    examName: 'Vitorla Specifikus kérdések (Excel)',
+    questionCount: 24,
+    timeLimit: 20, // másodperc
+    examTopics: 'EXCEL',  
   }
 ];
 
@@ -20778,8 +20784,8 @@ const questions = [
 		question: "Kinek a törvénye foglalja magába a statikus repülés alapelvét?",
 		answers: [
 			{ text: " Newton. ", correct: false},
-			{ text: " Bernoulli.", correct: false},
-			{ text: " Archimedes. ", correct: true},
+			{ text: " Bernoulli.", correct: true},
+			{ text: " Archimedes. ", correct: false},
 			{ text: " Faraday.", correct: false},
 		]
 	},
@@ -22466,7 +22472,2338 @@ const questions = [
 			{ text: " Ok: Hátsó súlyponthelyzet. Megszüntetés : az első ülés terhelésének csökkentése.", correct: false},
 		]
 	},
-		
+	{
+		subject: "EXCEL",
+		sub_subject:"160.               160. 100143 510 05 24 04 A súlypontcsörlés mechanikai viszonyai ",
+		question: "Csörlés közben mekkora az átesési sebesség?",
+		answers: [
+			{ text: " Nem határozható meg.", correct: false},
+			{ text: " Kisebb mint szabad repülésben.", correct: false},
+			{ text: " Megegyezik a szabadrepülésben elérhető minimális sebességgel.", correct: false},
+			{ text: " Nagyobb mint szabad repülésben.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"161.               161. 100144 510 05 24 05 Csőrlés erős szélben, oldalszélben",
+		question: "Csörlés előtt miért lényeges a szélsebesség megfigyelése még akkor is, ha az a megengedett határ alatt van?",
+		answers: [
+			{ text: " Mert a szélsebesség alapbetően befolyásolhatja kötélszakadás esetén az adott magasságon a döntést arról, hogy egyenes irányba szállunk le, vagy visszafordulunk.", correct: true},
+			{ text: " Mert nagyobb szélben könnyebb emelést fogni az aggregátor felett.", correct: false},
+			{ text: " Mert nagyobb szélben a kabin szellőzőket be kell csukni a nagy zajterhelés miatt.", correct: false},
+			{ text: " Mert nagyobb szélben a veszély esetén kilőtt jelzőrakéta rövidebb ideig látszik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"162.               162. 100145 510 05 24 05 Csörlés erős szélben, oldalszélben",
+		question: "Csörlés közben hogyan kell korrigálni az oldalszél hatását? ",
+		answers: [
+			{ text: " Megfelelő mértékben a szélirányba kell fordulni, majd tartani a vízszintes szárnyat.", correct: true},
+			{ text: " Lógatni kell a szél irányába.", correct: false},
+			{ text: " Nem kell korrigálni, mert az aggregátor úgyis irányba húz.", correct: false},
+			{ text: " Nem lehet korrigálni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"163.               163. 100146 510 05 24 05 Csőrlés erős szélben, oldalszélben",
+		question: "Oldalszeles csőrlésre készül. A szél jobbról fúj. Amíg a gép a földön gurul milyen kormánymozdulatokra készül fel?",
+		answers: [
+			{ text: " Balra belépett oldalkormány, balra kitérített csűrő.", correct: false},
+			{ text: " Balra belépett oldalkormány, jobbra kitérített csűrő.", correct: true},
+			{ text: " Jobbra belépett oldalkormány, jobbra kitérített csűrő.", correct: false},
+			{ text: " Szokásos semleges kormányhelyzetek.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"165.               165. 100148 510 05 25 02 A sebességi görbe alakulása ellenszélben és hátszélben",
+		question: "90 km/h sebességnél a variométer 1 m/s süllyedést jelez. Mi rontja le jobban a sikló­számot, ha 1 m/s -os leáramlásba merül, vagy ha 10 m/s-os szembeszélbe kerül ?",
+		answers: [
+			{ text: " 10 m/s szembeszél.", correct: false},
+			{ text: " 1 m/s merülés", correct: true},
+			{ text: " Egyformán rontják le.", correct: false},
+			{ text: " Nem lehet meghatározni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"166.               166. 100149 510 05 25 02 A sebességi görbe alakulása ellenszélben és hátszélben",
+		question: "90 km/h sebességgel siklik. A gép merülése 1 m/s. 18 km/h szembeszél van. Mennyi a siklószám ?",
+		answers: [
+			{ text: " □ 30", correct: false},
+			{ text: " □ 20", correct: true},
+			{ text: " □ 25", correct: false},
+			{ text: " □ 35", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"167.               167. 100150 510 05 25 07 Iskolakör repülése általános időjárási helyzetben",
+		question: "Hosszúfalon az oldalszél miatt befelé sodródik. Hogyan szünteti ezt meg ?",
+		answers: [
+			{ text: " Folyamatosan a szél irányába csűr. Így állandó fordulóban van, amely a gépet visszaviszi az eredeti pályára.", correct: false},
+			{ text: " Az oldalkormányt a szél irányába belépi mivel ezzel kiküszöbölhető a farok felület miatti 'szélkakas' effektus.", correct: false},
+			{ text: " Szabályos kormánymozdulatokkal elhajlást hajt végre a szél irányába, majd vízszintes szárnnyal repülve ellenőrzi, hogy jól választotta-e meg a rátartás szögét.", correct: true},
+			{ text: " Folyamatosan a szél irányába csűr, és az elfordulási tendenciát az oldalkormánnyal fogja meg.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"168.               100151 510 05 25 08 Iskolakör repülés erős szélben, oldalszélben",
+		question: "Iskolakör repülése közben hirtelen erős merülésbe kerül hosszú ideig. Milyen döntést hoz?",
+		answers: [
+			{ text: " Elsődleges szempont, hogy a repülőtér munkaterületén belül lehetőleg széllel szemben biztonságosan földet érjen.", correct: true},
+			{ text: " Mindenképpen a leszállójel mellé kell leszállnia az üzemmenet miatt.", correct: false},
+			{ text: " Vissza kell fordulnia, hogy kiérjen a merülésből.", correct: false},
+			{ text: " A magassági kormány meghúzásával csökkenti a merülési sebességet.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"169.               169. 100152 510 05 26 05 A leszállás különleges esetei ",
+		question: "Oldalszeles leszállásnál hány módszert alkalmazhat?",
+		answers: [
+			{ text: " Folyamatos oldalkormány belépés a szél irányába.", correct: false},
+			{ text: " Szélrátartás.", correct: true},
+			{ text: " Csűsztatás (lógatás).", correct: false},
+			{ text: " Szélrátartás vagy csúsztatás (lógatás).", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"170.               170. 100153 510 05 26 06 A leszállás közben elkövetett hibák.",
+		question: "A növendék kissé rövidre száll le és a gép láthatólag nem fog a starthelyig elgurulni a földetérés után. Mit tesz, ha már a gép földet ért?",
+		answers: [
+			{ text: " Átveszi a botot a növendéktől és előrenyomva elemeli a farokcsúszót majd előrébbgurul.", correct: false},
+			{ text: " Felkéri a növendéket, hogy a botot előrenyomva emelje el a farokcsúszót és guruljon előrébb.", correct: false},
+			{ text: " Felhívja a növendék figyelmét, hogy a botot 'hason' tartva szabályosan guruljon a géppel.", correct: true},
+			{ text: " A féklapot becsukva igyekszik visszapattanni a levegőbe és hosszabbra menni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"171.               171. 100154 510 05 32 00 A vitorlázó repülőgép vezetése repülőgép vontatásban",
+		question: "Vontatás közben hogyan változik a kormányok érzékenysége ?",
+		answers: [
+			{ text: " Minden kormányé nő.", correct: false},
+			{ text: " Az oldalkormányé nő, a magassági és csűrőkormányé csökken.", correct: false},
+			{ text: " Az oldalkormányé csökken a magassági és csűrő kormányé nő.", correct: true},
+			{ text: " Minden kormányé csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"172.               172. 100155 510 05 32 00 A vitorlázó repülőgép vezetése repülőgép vontatásban",
+		question: "A vitorlázógép beleng a vontatógép mögött. Mi a megszüntetés helyes módja? ",
+		answers: [
+			{ text: " Leoldás.", correct: false},
+			{ text: " A lengéssel ellentétesen csűrni.", correct: false},
+			{ text: " Valamelyik holtponton oldalkormánnyal megfogni a lengést, majd vízszintes szárnnyal visszatérni a vontatógép mögé.", correct: true},
+			{ text: " A vontatógép alá történő nyomás.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"173.               173. 100156 510 05 32 03 Vontatás általános repülési helyzetben",
+		question: "Vontatás közben a vitorlázógéppel a fordulót mikor kell elkezdeni ? ",
+		answers: [
+			{ text: " Meg kell várni, amíg a vontatókötél 30 °-os szöget zár be a gépünk hossztengelyével.", correct: false},
+			{ text: " Abban a pillanatban, amikor a vontatógép elkezdi.", correct: false},
+			{ text: " Nem kell elkezdeni, a vontatógép behúz a fordulóba.", correct: false},
+			{ text: " Azon a helyen, ahol a motoros gép belépett a fordulóba.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"174.               174. 100157 510 05 43 02 A termik megfogása és megtartása",
+		question: "Mi határozza meg, hogy egy termikben milyen bedöntéssel tud legjobban emelkedni ? ",
+		answers: [
+			{ text: " Minél nagyobb bedöntéssel repül annál jobban emelkedik.", correct: false},
+			{ text: " A termik sebességeloszlása és a gép forduló polárisa.", correct: true},
+			{ text: " Állandóan 30°-os bedöntéssel kell repülni termikben.", correct: false},
+			{ text: " 45° és 60° közötti bedöntéssel kell repülni termikben.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"175.               175. 100350 510 06 10 03 Hangárrend",
+		question: "Hogyan vontatja be a csörlőaggregátort a hangárba?",
+		answers: [
+			{ text: " Csak diesel üzemű vontatóval lehet az aggregátort a hangárba húzni.", correct: false},
+			{ text: " Csak szikrafogóval ellátott vontatójárművel lehet az aggregátort a hangárba húzni.", correct: false},
+			{ text: " A csörlőaggregátort tilos járó motorú vontatóval a hangárba húzni, ezért a hangárba be kell tolni.", correct: true},
+			{ text: " Csak akkor szabad járó motorú vontatójárművel a hangárba húzni az aggregátort, ha a hangárban nincsenek vitorlázó és motoros repülőgépek.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"176.               176. 100351 510 06 10 03 Hangárrend",
+		question: "Milyen szabályok vonatkoznak a hangárban való dohányzásra?",
+		answers: [
+			{ text: " A hangárban csak akkor szabad dohányozni, ha a hangár üres.", correct: false},
+			{ text: " A hangárban csak a kijelölt helyen lehet dohányozni.", correct: false},
+			{ text: " A hangárban és annak meghatározott körzetében tilos dohányozni.", correct: true},
+			{ text: " A hangárban való dohányzást a repülőtér vezetője engedélyezi bizonyos időszakonként.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"177.               177. 100352 510 06 10 03 Hangárrend",
+		question: "Megázott vitorlázógépeket helyeznek el a hangárban. Mi a teendő? ",
+		answers: [
+			{ text: " Belső víztelenítés után a réstakarókat el kell távolítani, hogy a kellő szellőzés a szárítást segítse.", correct: true},
+			{ text: " A repülőgép nyílásait belső víztelenítés után gondosan le kell zárni, hogy a hangárban lévő rágcsálók ne juthassanak be a repülőgépbe.", correct: false},
+			{ text: " A repülőgép kabinját ki kell nyitni, a réstakarókat eltávolítani, és nagyteljesítményű hősugárzókat kell elhelyezni a közelükben, hogy a nedvesség minél előbb eltávozzon.", correct: false},
+			{ text: " Semmiféle teendő nincs, a hangárajtót nyitva hagyva a nedvesség rövid időn belül eltávozik a gépekből.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"178.               178. 100353 510 06 20 02 Repülés előtti vizsga",
+		question: "Ön repülés előtti vizsgát hajt végre, amikor telefonhoz hívják az irodába. Mi a teendő.",
+		answers: [
+			{ text: " Elmegy telefonálni, majd folytatja az átvizsgálást.", correct: false},
+			{ text: " A vizsgálatot nem szakítja félbe, mert a géphez visszatérve esetleg kimaradnak átvizsgálási lépések, ami komolyan veszélyezteti a repülésbiztonságot.", correct: true},
+			{ text: " Elmegy telefonálni és az átvizsgálás befejezésére felkér valakit, aki repüli azt a típust, amelyet Ön átvizsgál.", correct: false},
+			{ text: " Elmegy telefonálni, és az átvizsgálást befejezteti az ügyeletes műszakival.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"179.               179. 100354 510 06 40 00 Gépmozgatás a repülőtéren",
+		question: "Jobb oldalszélben vontatják a vitorlázó repülőgépet a starthelyre. Melyik szárnyvéget kell tartania a kísérőnek?",
+		answers: [
+			{ text: " Tetszőleges.", correct: false},
+			{ text: " Bal szárnyvéget.", correct: false},
+			{ text: " Jobb szárnyvéget.", correct: true},
+			{ text: " Alsó szárnyasnál a jobb, felső szárnyasnál a bal szárnyvéget.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"180.               180. 100355 510 06 40 00 Gépmozgatás a repülőtéren",
+		question: "Starthelyen erős szél fúj. Hogyan helyezi el a vitorlázógépeket várakozásra?",
+		answers: [
+			{ text: " Széllel szembe fordítva kihúzott féklapokkal.", correct: false},
+			{ text: " Oldalszélbe fordítva, a széllel ellentétes oldali szárnyvég leterhelve a földön.", correct: false},
+			{ text: " Széllel szembe fordítva és valamelyik szárnyvég a földön leterhelve.", correct: false},
+			{ text: " Oldalszélbe fordítva, a szélfelőli szárnyvég leterhelve a földön.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"181.               181. 100356 510 06 40 00 Gépmozgatás a repülőtéren",
+		question: "Gépkihúzás közben mit kell tenni a botkormánnyal?",
+		answers: [
+			{ text: " Valamely véghelyzetben rögzíteni, hogy a kihúzás közbeni rázkódás ne károsítsa a vezérsíkot és a magassági kormány mozgatását.", correct: true},
+			{ text: " Rögzítetlenül hagyni, hogy mindig felvegye a számára legkedvezőbb helyzetet.", correct: false},
+			{ text: " Leszerelni a vezérsíkot, hogy ne károsodjon vontatás közben.", correct: false},
+			{ text: " Kikötni a magassági kormány mozgató rudazatait, hogy a botkormány ne csapkodjon a fülkében.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"182.               182. 100357 510 06 40 00 Gépmozgatás a repülőtéren",
+		question: "Starthelyen beerősödik a szél. Mi a teendő a várakozó vitorlázógépekkel?",
+		answers: [
+			{ text: " Azonnal az összes repülőgépet széllel szembe kell fordítani, hogy a szél ne csapkodhassa a kormányfelületeket.", correct: false},
+			{ text: " Azonnal hátszélbe fordítani, hogy a szél ne csapkodhassa a kormányfelületeket.", correct: true},
+			{ text: " A kormányokat rögzíteni kell, hogy a szél ne károsíthassa a kormányfelületeket és kormány mozgatásokat.", correct: false},
+			{ text: " A repülőgépeket közel kell egymáshoz tolni, hogy az első szélárnyéka védje a többit.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"183.               183. 100361 510 06 60 01 Üzemeltetési utasítás",
+		question: "Ellenőrizni akarja a repülőgépének terhelhetőségét, de nem találja a légiüzemeltetési utasítását. Mit tesz?",
+		answers: [
+			{ text: " Bármely azonos típusú repülőgép légiüzemeltetési utasításában megkeresheti a súlyadatokat és azokkal számolhat.", correct: false},
+			{ text: " Csak akkor használhatja más lajstromjelű, de ugyan olyan típusú repülőgépek légiüzemeltetési utasítását, ha azok az Önével azonos évben lettek legyártva.", correct: false},
+			{ text: " Mindenképpen megkeresi a légiüzemeltetési utasítást, mert azonos típusú repülőgépek között is vannak különbségek, amelyet a légi üzemeltetési utasítás tartalmaz.", correct: true},
+			{ text: " Nem ellenőrzi az adatokat, hanem megbecsüli a terhelhetőséget a gépnapló bejegyzései alapján.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"184.               184. 100362 510 06 60 02 Légialkalmassági bizonyítvány",
+		question: "Hol ellenőrizheti le, hogy meddig érvényes gépének az utolsó berepülése.",
+		answers: [
+			{ text: " A légialkalmassági bizonyítványban.", correct: true},
+			{ text: " A gépnaplóban.", correct: false},
+			{ text: " A berepülések mindig egy naptári évre vonatkoznak, így december 31-én lejárnak.", correct: false},
+			{ text: " A berepülések mindig a gyártás dátumának napján járnak le. Pl minden év október 8-án, ha a gyártási dátum 1974. október 8.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"185.               185. 100359 510 06 60 03 Repülőgépkönyv",
+		question: "Mega akarja nézni, hogy hány órát repülhet még a repülőgép a következő időszakos vizsgálatig. Hol talál erről információt?",
+		answers: [
+			{ text: " A légiüzemeltetési engedélyben.", correct: false},
+			{ text: " A gépnaplóban.", correct: false},
+			{ text: " A repülőgép könyvben.", correct: true},
+			{ text: " A berepülési jegyzőkönyvben.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"186.               186. 100358 510 06 60 04 Gépnapló",
+		question: "Melyik okmányba igazolja le a gép átvételét?",
+		answers: [
+			{ text: " A lajstromozási bizonyítványban.", correct: false},
+			{ text: " A formulárban.", correct: false},
+			{ text: " A repülőgépkönyvben.", correct: false},
+			{ text: " A gépnaplóban.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"187.               187. 100360 510 06 60 04 Gépnapló",
+		question: "Gépátvételkor ellenőrizni akarja, hogy a repülőgépnek az elmúlt időszakban voltak-e meghibásodásai. Hol van ennek nyoma?",
+		answers: [
+			{ text: " Elegendő csak a repülőgépkönyvet leellenőrizni.", correct: false},
+			{ text: " A gépnaplóban és ha komolyabb javításra volt szükség akkor a repülőgép könyvben is.", correct: true},
+			{ text: " A nagyjavítási jegyzőkönyvekben.", correct: false},
+			{ text: " A berepülési jegyzőkönyvekben.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"188.               188. 100158 510 07 02 02 Jellemző pontok, metszékek a Föld felszínén",
+		question: "Szélességi köröknek nevezzük :",
+		answers: [
+			{ text: " az Egyenlítővel párhuzamos metsző síkok és a Föld metszésvonalait.", correct: true},
+			{ text: " A Föld tengelyét tartalmazó metsző síkok és a Föld metszésvonalait.", correct: false},
+			{ text: " Azokat a köröket, amelyek a Föld legszélesebb helyén mennek át.", correct: false},
+			{ text: " A keleti és nyugati szélességi köröket.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"189.               189. 100159 510 07 02 02 Jellemző pontok, metszékek a Föld felszínén ",
+		question: "Hosszúsági köröknek nevezzük :",
+		answers: [
+			{ text: " Azokat a köröket, amelyek a Föld leghosszabb helyén mennek át.", correct: false},
+			{ text: " Az Egyenlítővel párhuzamos metsző síkok és a Föld metszésvonalait.", correct: false},
+			{ text: " a Föld tengelyét tartalmazó metsző síkok és a Föld metszésvonalait.", correct: true},
+			{ text: " Az északi és déli hosszúsági köröket.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"190.               190. 100160 510 07 02 03 Földrajzi koordináták, szélesség, hosszúság",
+		question: "Repülő navigációban a helymeghatározáshoz",
+		answers: [
+			{ text: " először a földrajzi hosszúságot, majd a szélességet adjuk meg.", correct: false},
+			{ text: " először a földrajzi szélességet, majd a hosszúságot adjuk meg.", correct: true},
+			{ text: " a déli féltekén más rendszert használunk, mint az északi féltekén.", correct: false},
+			{ text: " Greenwich-től keletre más rendszert használunk, mint nyugatra.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"191.               191. 100161 510 07 02 03 Földrajzi koordináták, szélesség, hosszúság",
+		question: "Egy helység koordinátái : 47°26'18'N és 019°14'27'E. Számítsa át a koordinátákat fok, perc, századperc értékekre.",
+		answers: [
+			{ text: " □ 47°26,30'N 019°14,45'E", correct: true},
+			{ text: " □ 47°26,90'N 019°14,45'E", correct: false},
+			{ text: " □ 47°26,30'N 019°14,54'E", correct: false},
+			{ text: " □ 47°26,09'N 019°14,13'E", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"192.               192. 100162 510 07 02 04 Időszámítás",
+		question: "Hány fokot fordul el óránként a föld?",
+		answers: [
+			{ text: " 36°", correct: false},
+			{ text: " 24°", correct: false},
+			{ text: " 15°", correct: true},
+			{ text: " 3,6°", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"193.               193. 100163 510 07 02 07 Az orthodrom és loxodrom fogalma ",
+		question: "Az orthodrom",
+		answers: [
+			{ text: " a délköröket azonos szögben metszi.", correct: false},
+			{ text: " a föld felszínén két pontot összekötő legrövidebb útvonal.", correct: true},
+			{ text: " az Északi és Déli sarkot köti össze.", correct: false},
+			{ text: " az Egyenlítő latin neve.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"194.               194. 100164 510 07 02 07 Az orthodrom és loxodrom fogalma",
+		question: "A loxodrom",
+		answers: [
+			{ text: " az a görbe vonal, amely a föld felületén haladva a hosszúsági köröket állandó szög alatt metszi.", correct: true},
+			{ text: " az a görbe vonal, amely a föld felületén haladva a szélességi köröket állandó szög alatt metszi.", correct: false},
+			{ text: " az Északi és Déli sarkot köti össze.", correct: false},
+			{ text: " az Egyenlítő latin neve.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"195.               195. 100165 510 07 02 07 Az orthodrom és loxodrom fogalma",
+		question: "Mágneses iránytűvel folyamatosan 60°-os irányt tart. Ez milyen útvonal? ",
+		answers: [
+			{ text: " Orthodrom.", correct: false},
+			{ text: " Nem határozható meg.", correct: false},
+			{ text: " Loxodrom.", correct: true},
+			{ text: " Egyenes.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"196.               196. 100166 510 07 02 08 A Föld mágneses erőtere",
+		question: "Mi a deklináció (mágneses elhajlás) oka ?",
+		answers: [
+			{ text: " A repülőgép gyorsulása.", correct: false},
+			{ text: " A repülőgépben lévő mágnesezhető anyagok.", correct: false},
+			{ text: " A földrajzi és mágneses sarkok nem esnek egybe.", correct: true},
+			{ text: " A csillapítófolyadék elpárolgása a műszerházból.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"197.               197. 100167 510 07 02 09 Mágnestű az erőtérben ",
+		question: "Mi a deviáció oka?",
+		answers: [
+			{ text: " A földrajzi és a mágneses sarkok nem esnek egybe.", correct: false},
+			{ text: " A repülőgépen levő mágnesezhető anyagok.", correct: true},
+			{ text: " A repülőgép gyorsulása.", correct: false},
+			{ text: " Az iránytű kiegyensúlyozatlansága.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"198.               198. 100168 510 07 03 04 Méretarány",
+		question: "500.000 -es térképen két település egymástól 14.5 cm-re van. Mekkora köztük a távolság ?",
+		answers: [
+			{ text: " 34.5 km", correct: false},
+			{ text: " 7.25 km", correct: false},
+			{ text: " 725 km", correct: false},
+			{ text: " 72.5 km", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"199.               199. 100169 510 07 03 04 Méretarány",
+		question: "86 km-t milyen hosszú szakasz jellemez egy 1:500.000 méretarányú térképen?",
+		answers: [
+			{ text: " 17.2 mm", correct: false},
+			{ text: " 17.2 cm", correct: true},
+			{ text: " 4.3 cm", correct: false},
+			{ text: " 4.3 mm", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"200.               200. 100170 510 07 03 04 Méretarány",
+		question: "Egy 50 km-es szakaszt kell felmérnie egy 1:500.000 és egy 1:250.000 méretarányú térképre. Melyik térképen lesz hosszabb a szakasz?",
+		answers: [
+			{ text: " 1:250.000-en.", correct: true},
+			{ text: " 1:500.000-en.", correct: false},
+			{ text: " Egyenlő hosszúak lesznek.", correct: false},
+			{ text: " A vetület típusának ismerete nélkül nem mondható meg.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"201.               201. 100171 510 07 03 04 Méretarány",
+		question: "50 km-es szakasz melyik térképen a hosszabb? Az 1:500.000-en vagy az 1:1.000.000-on?",
+		answers: [
+			{ text: " Egyforma, mert szögtartóak.", correct: false},
+			{ text: " Négyzetes az eltérés.", correct: false},
+			{ text: " 1:500.000", correct: true},
+			{ text: " 1:1.000.000", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"202.               202. 100172 510 07 03 06 Térképeink jelei, jelzései",
+		question: "Milyen fajta térképen metszik egymást a szintvonalak?",
+		answers: [
+			{ text: " Lambert - Gauss kúpvetületen.", correct: false},
+			{ text: " Mercator vetületen.", correct: false},
+			{ text: " Lambert vetületen.", correct: false},
+			{ text: " Egyiken sem.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"203.               203. 100173 510 07 05 02 Navigációs szélháromszög",
+		question: "Térképirányszög = 65° Deklináció +2° Deviáció -3° Mennyi az iránytű irányszög ?",
+		answers: [
+			{ text: " 60°", correct: false},
+			{ text: " 64°", correct: false},
+			{ text: " 66°", correct: true},
+			{ text: " 70°", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"204.               204. 100174 510 07 05 02 Navigációs szélháromszög",
+		question: "Iránytű irányszög 250°  Deklináció +2°  Deviáció -3° Mennyi a térképirányszög ?",
+		answers: [
+			{ text: " 255°", correct: false},
+			{ text: " 251°", correct: false},
+			{ text: " 249°", correct: true},
+			{ text: " 245°", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"205.               205. 100175 510 07 05 02 Navigációs szélháromszög",
+		question: "Deviáció 0° Deklináció 0° Térképirányszög 180° Műszer szerinti sebesség 72 km/h. Szél: 90°-ról 10 m/s. Mennyi a földfeletti sebesség ?",
+		answers: [
+			{ text: " kevés az adat, nem számítható.", correct: false},
+			{ text: " 81.65 km/h", correct: false},
+			{ text: " 72 km/h", correct: false},
+			{ text: " 62.35 km/h", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"206.               206. 100176 510 07 05 02 Navigációs szélháromszög",
+		question: "Deviáció 0° Deklináció 0° Térképirányszög 180° Műszer szerinti sebesség 72 km/h. Szél: 90-°ról 10 m/s. Mennyi a kormány irányszög ?",
+		answers: [
+			{ text: " 210°", correct: false},
+			{ text: " 180°", correct: false},
+			{ text: " 150°", correct: true},
+			{ text: " kevés az adat, nem számítható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"207.               207. 100177 510 07 05 02 Navigációs szélháromszög",
+		question: "Deviáció 0°. Deklináció 0°. A-ból B pontba repül. Iránytűje a térképen kimért szöget mutatja. 10 perc siklás után egy tó felett repül el, amely 2.4 km-re van a B ponttól a kurzusra merőlegesen. Mekkora az oldalszél komponens?",
+		answers: [
+			{ text: " 4 m/s.", correct: true},
+			{ text: " 4 km/h.", correct: false},
+			{ text: " 2.4 m/s.", correct: false},
+			{ text: " Kevés az adat, nem számítható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"208.               208. 100178 510 07 05 02 Navigációs szélháromszög",
+		question: "30 km repülés után azonosítja a helyzetét és 1 km-re a kurzus mellett van. Hány fok eltéréssel repült a megkívánt iránytű irányszöghöz képest?",
+		answers: [
+			{ text: " 3°", correct: false},
+			{ text: " 1°", correct: false},
+			{ text: " 2°", correct: true},
+			{ text: " 1/30°", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"209.               209. 100179 510 07 05 02 Navigációs szélháromszög",
+		question: "GPS-el mért sebessége 130 km/h, a repülőgép sebességmérője 120km/h-t mutat. Mennyi a szélrátartás?",
+		answers: [
+			{ text: " Nem számítható.", correct: false},
+			{ text: " 10°", correct: false},
+			{ text: " 10 km/h.", correct: false},
+			{ text: " Pontosan 10 km/h hátszél van.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"210.               210. 100180 510 07 06 02 A magasságmérő használata",
+		question: "Az induló repülőtér magassága 250 m. Indulás előtt a magasságmérőt 0 m-re állítja. Átrepül egy hegy felett, amelyet a térkép 600 m magasnak jelez. A magasságmérő 1000 m-t mutat. Mennyi a tényleges magassága a hegy felett ?",
+		answers: [
+			{ text: " 1000 m", correct: false},
+			{ text: " 1250 m", correct: false},
+			{ text: " 850 m", correct: false},
+			{ text: " 650 m", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"211.               211. 100181 510 07 06 02 A magasságmérő használata",
+		question: "Az induló repülőtér magassága 250 m. Indulás előtt a magasságmérőt 0 m-re állítja. Indulás előtt közlik önnel, hogy 2000 m-es korlátozás van. Milyen magasra emelkedhet magasságmérő szerint ?",
+		answers: [
+			{ text: " 2750 m", correct: false},
+			{ text: " 1750 m", correct: true},
+			{ text: " 2000 m", correct: false},
+			{ text: " 2250 m", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"212.               212. 100182 510 07 06 02 A magasságmérő használata",
+		question: "Az induló repülőtér tengerszint feletti magassága 200 m. Repülés előtt QNH (tengeszinti) nyomást állít a magasságmérőn. A magasságmérő",
+		answers: [
+			{ text: " -200 m-t mutat.", correct: false},
+			{ text: " 0 m-t mutat.", correct: false},
+			{ text: " 200 m-t mutat.", correct: false},
+			{ text: " nem meghatározható értéket mutat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"213.               213. 100183 510 07 06 02 A magasságmérő használata",
+		question: "Az induló repülőtér magassága 200 m. A magasságmérőt 200 m-re állítja felszállás előtt. Átrepül egy hegy felett, amely magassága a térkép szerint 500 m miközben a magasságmérő 1000 m-t mutat. Mekkora a hegy tetejétől számított magassága?",
+		answers: [
+			{ text: " 700 m.", correct: false},
+			{ text: " 500 m.", correct: true},
+			{ text: " 300 m.", correct: false},
+			{ text: " 200 m.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"214.               214. 100184 510 07 06 02 A magasságmérő használata",
+		question: "Induló repülőtér magassága 300 m. 0 m-re állított magasságmérővel száll fel. Végsiklást végez egy másik repülőtérre, amelynek a tengerszint feletti magassága 700 m. 30-as siklószámmal milyen magasságmérő állásnál kell indulnia, hogy 15 km-ről, hogy 100 m tényleges magasságon érkezzen a repülőtér fölé.",
+		answers: [
+			{ text: " 1500 m.", correct: false},
+			{ text: " 1200 m.", correct: false},
+			{ text: " 1300 m.", correct: false},
+			{ text: " 1000 m.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"215.               215. 100185 510 07 06 02 A magasságmérő használata",
+		question: "Egy 750 m magas hegyen leszállva a magasságmérője 600 m-t mutat. A repülőtéren indulás előtt lenullázta a magasságmérőt. Mennyi az induló reptér tengerszint feletti magassága?",
+		answers: [
+			{ text: " 150 m", correct: true},
+			{ text: " 800 m", correct: false},
+			{ text: " 300 m", correct: false},
+			{ text: " kevés az adat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"216.               216. 100186 510 07 06 02 A magasságmérő használata",
+		question: "Leszállás után mutathat-e a magasságmérő negatív értéket? ",
+		answers: [
+			{ text: " igen, ha a leszálló reptérnél magasabb helyről indult helyi QFE beállítással.", correct: true},
+			{ text: " igen, ha a leszálló reptérnél magasabb helyről indult helyi QNH beállítással.", correct: false},
+			{ text: " Csak akkor, ha repülés közben elállította a nyomás skálát.", correct: false},
+			{ text: " Soha.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"217.               217. 100187 510 07 06 03 A sebesség mérése",
+		question: "Két pont közötti távolság 50 km. Ezt 30 perc alatt teszi meg 136 km/h-s műszer szerinti sebességgel. Milyen következtetést von le?",
+		answers: [
+			{ text: " 86 km/h a sebesség.", correct: false},
+			{ text: " 10 m/s-os hátszél komponens van.", correct: false},
+			{ text: " Szennyezett a belépőél, ezért a gép lassul.", correct: false},
+			{ text: " 10 m/s-os szembeszél komponens van.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"218.               218. 100188 510 08 24 00 A földfelszín sugárzásháztartása",
+		question: "A felszín egy darabjának az albedója 20%. Ez azt jelenti hogy:",
+		answers: [
+			{ text: " az összes beeső sugárzás 20%-a elnyelődik.", correct: false},
+			{ text: " az összes beeső sugárzás 20%-a visszaverődik.", correct: true},
+			{ text: " 20% valószínűséggel található termik.", correct: false},
+			{ text: " 20% a terepre szállás valószínűsége.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"219.               219. 100189 510 08 32 00 A hőmérséklet mérése, magassággal való változása, az állapotgörbe ",
+		question: "Normál légkörben a hőmérséklet a magassággal",
+		answers: [
+			{ text: " csökken.", correct: true},
+			{ text: " növekszik.", correct: false},
+			{ text: " nem változik.", correct: false},
+			{ text: " ingadozik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"220.               220. 100190 510 08 32 00 A hőmérséklet mérése, magassággal való változása, az állapotgörbe",
+		question: "Izotermiáról akkor beszélünk, ha",
+		answers: [
+			{ text: " a hőmérséklet izobárikus.", correct: false},
+			{ text: " a légkör hőmérséklete a magassággal nő.", correct: false},
+			{ text: " a légkör hőmérséklete a magassággal csökken.", correct: false},
+			{ text: " a légkör hőmérséklete a magassággal nem változik.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"221.               221. 100191 510 08 32 00 A hőmérséklet mérése, magassággal való változása, az állapotgörbe",
+		question: "A hőmérséklet 410 méteren 12,4 °C, 850 méteren 8,4°C. Mennyi a grádiens?",
+		answers: [
+			{ text: " □ -1,4 °C/100 m", correct: false},
+			{ text: " □ 1,4 °C/100 m", correct: false},
+			{ text: " □ 4,72 °C/100 m", correct: false},
+			{ text: " □ 0,91 °C/100 m", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"222.               222. 100192 510 08 35 00 Az inverzió kialakulása és típusai",
+		question: "Inverzióról akkor beszélünk, ha a hőmérséklet a",
+		answers: [
+			{ text: " magassággal csökken amit az állapotgörbén jobbra dőlő szakasz jelez.", correct: false},
+			{ text: " magassággal növekszik, amit az állapotgörbén jobbra dőlő szakasz jelez.", correct: true},
+			{ text: " magassággal növekszik, amit az állapotgörbén balra dőlő szakasz jelez.", correct: false},
+			{ text: " magassággal csökken, amit az állapotgörbén balra dőlő szakasz jelez.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"223.               223. 100193 510 08 35 00 Az inverzió kialakulása és típusai",
+		question: "A starthelyen 18°C a hőmérséklet a csörlés tetején 23°C.",
+		answers: [
+			{ text: " Normális hőmérséklet eloszlás van a repülőtér felett.", correct: false},
+			{ text: " Inverzió van a repülőtér felett.", correct: true},
+			{ text: " Izotermia van a repülőtér felett.", correct: false},
+			{ text: " Nagy a páratartalom.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"224.               224. 100194 510 08 36 00 A lokális és adiabatikus hőmérsékleti grádiens",
+		question: "Az emelkedő légtömeg hőmérséklete a földfelszínen 20°C. Hány fokos lesz ez a légtömeg 1000 m-en, ha száraz adiabatikus módon emelkedik?",
+		answers: [
+			{ text: " 30°C.", correct: false},
+			{ text: " 10°C.", correct: true},
+			{ text: " 26.5°C.", correct: false},
+			{ text: " 13.5°C.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"225.               225. 100195 510 08 37 00 Az egyensúlyi rétegződés",
+		question: "A légkörben az egyensúlyi helyzet labilis, ha a ",
+		answers: [
+			{ text: " lokális gradiens kisebb az adiabatikus gradiensnél.", correct: false},
+			{ text: " lokális gradiens nagyobb az adiabatikus gradiensnél.", correct: true},
+			{ text: " lokális gradiens egyenlő az adiabatikus gradienssel.", correct: false},
+			{ text: " a lokális gradiens kisebb mint nulla.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"226.               226. 100196 510 08 37 00 Az egyensúlyi rétegződés",
+		question: "Helyi felszállás kiértékelésével a lokális hőmérsékleti grádiens értéke 1,2 °C/100m. Mire számít?",
+		answers: [
+			{ text: " Nem lesznek feláramlások, mert a levegő rétegződése instabil.", correct: false},
+			{ text: " Nem lesznek feláramlások, mert a levegő rétegződése stabil.", correct: false},
+			{ text: " Lesznek feláramlások, mert a levegő rétegződése stabil.", correct: false},
+			{ text: " Lesznek feláramlások, mert a levegő rétegződése instabil.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"227.               227. 100197 510 08 39 00 A termik",
+		question: "Miből adódik az, hogy a termikben nagyobb magasságban nagyobb átmérőn lehet körözni mint kis magasságon?",
+		answers: [
+			{ text: " A felszálló légtömeg emelkedés közben tágul a környező levegő nyomáscsökkenése miatt.", correct: true},
+			{ text: " A felszálló légtömeg hőmérséklete nő, mert közelebb kerül a naphoz.", correct: false},
+			{ text: " A felszálló légtömeg felmelegíti a környező levegőt és az is emelkedni kezd.", correct: false},
+			{ text: " A termikek átmérője a magassággal csökken, tehát a kérdés értelmetlen.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"228.               228. 100198 510 08 39 00 A termik",
+		question: "Mi az oka a száraz termikes időnek?",
+		answers: [
+			{ text: " Stabil a rétegződés.", correct: false},
+			{ text: " Alacsony a száraz adiabata értéke.", correct: false},
+			{ text: " A kondenzációs szint alacsonyabban van, mint a konvekciós szint.", correct: false},
+			{ text: " A konvekciós szint alacsonyabb mint a kondenzációs szint.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"229.               229. 100199 510 08 39 02 Hőmérsékleti rétegződés a konvekciós rétegben",
+		question: "A nedves adiabatikus gradiens és a száraz adiabatikus gradiens között a következő az összefüggés :",
+		answers: [
+			{ text: " A két gradiens egymással egyenlő.", correct: false},
+			{ text: " A nedves adiabatikus gradiens kisebb mint a száraz.", correct: true},
+			{ text: " A száraz adiabatikus gradiens kisebb mint a nedves.", correct: false},
+			{ text: " Attól függ, hogy melyik féltekén vizsgáljuk.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"230.               230. 100200 510 08 39 03 A buborék termik",
+		question: "A buboréktermik áramlási viszonyaira mi a jellemző?",
+		answers: [
+			{ text: " A buborék magban a feláramlási sebesség lecsökken.", correct: false},
+			{ text: " A magban a feláramlási sebesség kb. kétszer akkora, mint a buborék emelkedési sebessége.", correct: true},
+			{ text: " A buborékhoz közeledve rögtön emelést lehet érezni.", correct: false},
+			{ text: " A buborékban mindenhol feláramlás van.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"231.               231. 100201 510 08 42 04 Harmatpont ",
+		question: "A harmatpont",
+		answers: [
+			{ text: " az a hőmérséklet, ahol a jegesedés fellép.", correct: false},
+			{ text: " elérése elegendő a felhők képződéséhez.", correct: false},
+			{ text: " értéke nem függ a levegő vízgőz tartalmától.", correct: false},
+			{ text: " az a hőmérséklet, amelyen a levegő telítetté válik.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"232.               232. 100202 510 08 42 06 Kondenzációs folyamatok a légkörben",
+		question: "Mi a kapcsolat a kondenzációs és konvekciós szint között?",
+		answers: [
+			{ text: " A kondenzációs szint csak a konvekciós szint alatt lehet.", correct: false},
+			{ text: " A kondenzációs szint lehet a konvekciós szint alatt és felett is.", correct: true},
+			{ text: " A kondenzációs szint csak a konvekciós szint felett lehet.", correct: false},
+			{ text: " A két szint mindig egy magasságban helyezkedik el.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"233.               233. 100203 510 08 42 06 Kondenzációs folyamatok a légkörben",
+		question: "Kondenzióhoz a következőkre van szükség:",
+		answers: [
+			{ text: " nedvesség.", correct: false},
+			{ text: " alacsony hőmérséklet és kondenzációs magvak.", correct: false},
+			{ text: " magas hőmérséklet és telítettség.", correct: false},
+			{ text: " telítettség és kondenzációs magvak.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"234.               234. 100204 510 08 43 00 A köd keletkezése és típusai. A szmog",
+		question: "Kisugárzási köd akkor keletkezik, ha",
+		answers: [
+			{ text: " ha éjszaka erős felhősödés tapasztalható.", correct: false},
+			{ text: " ha hideg, erősen kihűlt talajra páradús levegő áramlik.", correct: false},
+			{ text: " ha a felhőalap 10 m alá csökken.", correct: false},
+			{ text: " a talajközeli levegő hőmérséklete a kisugárzás következtében a harmatpont alá csökken.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"235.               235. 100205 510 08 43 00 A köd keletkezése és típusai. A szmog ",
+		question: "Mikor beszélünk ködről?",
+		answers: [
+			{ text: " Ha a látástávolság 500 m alá csökken.", correct: false},
+			{ text: " Ha földközelben nedvesség csapódik ki a légkörből.", correct: true},
+			{ text: " Ha a látástávolság 1 km alá csökken.", correct: false},
+			{ text: " Ha a hőmérséklet hirtelen 10°C-t csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"236.               236. 100206 510 08 43 00 A köd keletkezése és típusai. A smog ",
+		question: "Mikor keletkezik advekciós köd?",
+		answers: [
+			{ text: " Ha meleg levegő áramlik hideg területek fölé.", correct: false},
+			{ text: " Ha a hideg, erősen kihűlt talajra vagy a talaj közeli hideg légpárnára páradús meleg levegő áramlik.", correct: true},
+			{ text: " Ha a talajközeli levegő hőmérséklete a kisugárzás következtében a harmatpont alá csökken.", correct: false},
+			{ text: " Ha a felhőalap magassága nagy sebességgel 0 m-re csökken.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"237.               237. 100207 510 08 44 01 A felhők osztályozása ",
+		question: "Középszintő felhők a következők :",
+		answers: [
+			{ text: " Sc, St, Ns", correct: false},
+			{ text: " Ci, Cc, Cs", correct: false},
+			{ text: " As, Ac", correct: true},
+			{ text: " Cb", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"238.               238. 100208 510 08 44 01 A felhők osztályozása",
+		question: "A magasszintű felhők a következők :",
+		answers: [
+			{ text: " Sc, St, Ns,", correct: false},
+			{ text: " As, Ac", correct: false},
+			{ text: " Ci, Cc, Cs", correct: true},
+			{ text: " Cb", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"239.               239. 100209 510 08 44 01 A felhők osztályozása",
+		question: "Az alacsony szintű felhők a következők:",
+		answers: [
+			{ text: " Sc, St, Ns", correct: true},
+			{ text: " Ci, Cc, Cs", correct: false},
+			{ text: " Ac, As", correct: false},
+			{ text: " Cu hu, Cu cong, Cb", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"240.               240. 100210 510 08 47 00 A jegesedés",
+		question: "Melyik állítás igaz a repülőgép jegesedésével kapcsolatban?",
+		answers: [
+			{ text: " Jegesedés csak Cb-ben következhet be.", correct: true},
+			{ text: " A repülőgép -20°C alatti hőmérsékletű felhőben repülve eljegesedik.", correct: false},
+			{ text: " A repülőgép 0 és -5°C közötti felhőben repülve eljegesedik.", correct: false},
+			{ text: " Jegesedés csak ónos esőben következhet be.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"241.               241. 100211 510 08 51 03 Bárikus rendszerek ",
+		question: "Ciklonnak nevezzük azt a bárikus rendszert,",
+		answers: [
+			{ text: " amelynek izobárjai zártak és a légnyomás a rendszer középpontja felé csökken. A ciklon az északi féltekén az óramutató járásával megegyezően forog.", correct: false},
+			{ text: " amelynek izobárjai zártak és a légnyomás a rendszer középpontja felé csökken. A ciklon az északi féltekén az óramutató járásával ellentétesen forog.", correct: true},
+			{ text: " amelynek izobárjai zártak és a légnyomás a rendszer középpontja felé növekszik. A ciklon az északi féltekén az óramutató járásával ellentétesen forog.", correct: false},
+			{ text: " amelynek izobárjai zártak és a légnyomás a rendszer középpontja felé növekszik. A ciklon az északi féltekén az óramutató járásával egyező irányba forog.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"242.               242. 100212 510 08 51 03 Bárikus rendszerek",
+		question: "Anticiklonnak nevezzük azt a bárikus rendszert amely,",
+		answers: [
+			{ text: " izobárjai keresztezik egymást és a légnyomás a rendszer középpontja felé csökken.", correct: false},
+			{ text: " izobárjai zártak, és a légnyomás a rendszer középpontja felé csökken.", correct: false},
+			{ text: " izobárjai zártak és a légnyomás a rendszer középpontja felé növekszik.", correct: true},
+			{ text: " izobárjai keresztezik egymást és a légnyomás a rendszer középpontja felé nő.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"243.               243. 100213 510 08 51 04 A légnyomás csökkenése a magassággal, a Nemzetközi Normál Atmoszféra ",
+		question: "A normál légkör főbb adatai a következők :",
+		answers: [
+			{ text: " Hőmérséklet tengerszinten 15°C, tengerszinti nyomás 1000 mb, lokális hőmérsékleti gradiens 0.65°C/100m", correct: false},
+			{ text: " Hőmérséklet tengerszinten 0°C, tengerszinti nyomás 1013.25 mb, lokális hőmérsékleti gradiens 0.65°C/100m", correct: false},
+			{ text: " Hőmérséklet tengerszinten 15°C, tengerszinti nyomás 1013.25 mb, lokális hőmérsékleti gradiens 0.65°C/100m", correct: true},
+			{ text: " Hőmérséklet tengerszinten 15°C, tengerszinti nyomás 1013.25 mb, lokális hőmérsékleti gradiens 1°C/100m", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"244.               244. 100214 510 08 51 05 A szél keletkezése",
+		question: "Mi az összefüggés a szélsebesség és irány, valamint a magasság között. (Ekman spirál)",
+		answers: [
+			{ text: " A szélsebesség általában a magassággal nő és iránya jobbra fordul.", correct: true},
+			{ text: " A szélsebesség általában a magassággal nő és iránya balra fordul.", correct: false},
+			{ text: " A szélsebesség általában a magassággal csökken és iránya jobbra fordul.", correct: false},
+			{ text: " A szélsebesség általában a magassággal csökken és iránya balra fordul.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"245.               245. 100215 510 08 51 05 A szél keletkezése",
+		question: "Hidegfront halad át a repülőtér felett. Milyen sorrendben jelenik meg a felhőzet? ",
+		answers: [
+			{ text: " Cu, Cu cong, Cb, Ns, Ac, As", correct: true},
+			{ text: " Ci, Cc, Ac, Ns", correct: false},
+			{ text: " Ns, Ac, Cc, Ci", correct: false},
+			{ text: " Ac, As, Ci, Cs", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"246.               246. 100216 510 08 51 05 A szél keletkezése",
+		question: "A repülőtér felett melegfront halad át. Milyen sorrendben, milyen felhőzetet lehet megfigyelni ?",
+		answers: [
+			{ text: " Ci, Cs, Ac, As, Ns", correct: true},
+			{ text: " Ac, As, Ci, Cs, Ns", correct: false},
+			{ text: " Ns, Ac, As, Ci, Cs", correct: false},
+			{ text: " Ci, Cs", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"247.               247. 100217 510 08 51 05 A szél keletkezése",
+		question: "Az okklúziós front kialakulása annak a következménye, hogy a ciklonban",
+		answers: [
+			{ text: " melegfront fokozatosan felbomlik.", correct: false},
+			{ text: " hidegfront magas hegynek ütközve lefékeződik.", correct: false},
+			{ text: " a melegfront gyorsabban mozog mint a hideg, így eléri azt.", correct: false},
+			{ text: " a hidegfront gyorsabban mozog mint a meleg, így eléri azt.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"249.               249. 100219 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Minimális merülési sebesség :",
+		answers: [
+			{ text: " Is 28 B2  0.80 m/s Góbé     0.88 m/s", correct: false},
+			{ text: " Is 28 B2  1.68 m/s Góbé     1.95 m/s", correct: false},
+			{ text: " Is 28 B2  0.58 m/s Góbé     0.85 m/s", correct: false},
+			{ text: " Is 28 B2  0.68 m/s Góbé     0.95 m/s", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"250.               250. 100220 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Terhelés többes 2 személlyel :",
+		answers: [
+			{ text: " Is 28 B2 +6.3 -3.65 Góbé    +4.6 -3.5", correct: false},
+			{ text: " Is 28 B2 +5.3 -2.65 Góbé    +3.6 -2.50", correct: true},
+			{ text: " Is 28 B2 +5.3 -0 Góbé    +3.6 -0", correct: false},
+			{ text: " Is 28 B2 +3.3 -2.65 Góbé    +4.6 -2.5", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"251.               251. 100221 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Maximális megengedett sebesség nyugodt időben :",
+		answers: [
+			{ text: " Is 28 B2 250 km/h Góbé     185 km/h", correct: false},
+			{ text: " Is 28 B2  190km/h Góbé     147 km/h", correct: false},
+			{ text: " Is 28 B2 230 km/h Góbé    165 km/h vagy 190 km/h variánstól függő.", correct: true},
+			{ text: " Is 28 B2 260 km/h Góbé     195 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"252.               252. 100222 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Maximális megengedett sebesség lökéses időben:",
+		answers: [
+			{ text: " Is 28 B2  110 km/h  Góbé  80 km/h.", correct: false},
+			{ text: " Is 28 B2  175 km/h  Góbé  157 km/h.", correct: false},
+			{ text: " Is 28 B2  165 km/h  Góbé  140 km/h.", correct: true},
+			{ text: " Is 28 B2  140 km/h  Góbé  100 km/h.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"253.               253. 100223 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Felrántási sebesség :",
+		answers: [
+			{ text: " Is 28 B2 200 km/h Góbé    100 km/h", correct: false},
+			{ text: " Is 28 B2 165 km/h Góbé    140 km/h vagy 147 km/h variánstól függő", correct: true},
+			{ text: " Is 28 B2 190 km/h Góbé     140 km/h", correct: false},
+			{ text: " Is 28 B2 130 km/h Góbé    130 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"254.               254. 100224 510 09 01 00 GÓBÉ / IS28B2 adatok ",
+		question: "Maximális súlypontcsörlési sebesség :",
+		answers: [
+			{ text: " Is 28 B2  125 km/h Góbé       95 km/h", correct: true},
+			{ text: " Is 28 B2  170 km/h Góbé       95 km/h", correct: false},
+			{ text: " Is 28 B2  155 km/h Góbé     105 km/h", correct: false},
+			{ text: " Is 28 B2  165 km/h Góbé     110 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"255.               255. 100225 510 09 01 00 GÓBÉ / IS28B2 adatok ",
+		question: "Maximális vontatási sebesség :",
+		answers: [
+			{ text: " Is 28 B2  150 km/h Góbé     140 km/h", correct: false},
+			{ text: " Is 28 B2  140 km/h Góbé     130 km/h", correct: true},
+			{ text: " Is 28 B2  160 km/h Góbé     160 km/h", correct: false},
+			{ text: " Is 28 B2  120 km/h Góbé     100 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"256.               256. 100226 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Maximális siklószám és optimális sebesség 2 személlyel :",
+		answers: [
+			{ text: " Is 28 B2  34 / 100 km/h  Góbé  23.7/81 km/h", correct: true},
+			{ text: " Is 28 B2  30 / 120 km/h  Góbé  20 / 100 km/h", correct: false},
+			{ text: " Is 28 B2  42 / 120 km/h  Góbé  26 / 81 km/h", correct: false},
+			{ text: " Is 28 B2  34 / 120 km/h  Góbé  23.7 / 91 km/h", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"257.               257. 100227 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Minimális első ülés terhelés ballaszt nélkül egy személlyel :",
+		answers: [
+			{ text: " Is 28 B2 50 kg  Góbé 60 kg", correct: false},
+			{ text: " Is 28 B2 70 kg  Góbé 70 kg", correct: true},
+			{ text: " Is 28 B2 100 kg  Góbé 80 kg", correct: false},
+			{ text: " Is 28 B2 75 kg  Góbé 75 kg", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"258.               258. 100228 510 10 01 02 Repülések osztályozása",
+		question: "(II/7) Valamilyen új képesítés céljából folytatott kiképző repülés ideje alatt a szakszolgálati engedéllyel rendelkező személy",
+		answers: [
+			{ text: " nem minősül növendéknek, ha legalább 500 órája van.", correct: false},
+			{ text: " nem minősül növendéknek.", correct: false},
+			{ text: " növendéknek minősül, ha a szakmai vezető úgy dönt.", correct: false},
+			{ text: " növendéknek minősül.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"259.               259. 100229 510 10 01 04 A repülőgépvezetés technikája",
+		question: "(IV/3) Az adott típusra megengedett maximális sebességi értéket",
+		answers: [
+			{ text: " túllépni szigorúan tilos.", correct: true},
+			{ text: " túllépni csak műrepülés közben szabad.", correct: false},
+			{ text: " túllépni csak nyugodt időben végsiklás közben szabad.", correct: false},
+			{ text: " 0.8-es biztonsági tényezővel szabad csak figyelembe venni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"260.               260. 100230 510 10 01 04 A repülőgépvezetés technikája",
+		question: "(IV/10) Az iskolakör 4. fordulójának minimális magassága",
+		answers: [
+			{ text: " az oktató döntésétől függ.", correct: false},
+			{ text: " 90 m.", correct: false},
+			{ text: " 50 m.", correct: true},
+			{ text: " a szélerőtől függ.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"261.               261. 100231 510 10 01 04 A repülőgépvezetés technikája",
+		question: "(IV/6) Mekkora a megengedett maximális emelkedési szög a csőrlés alsó 30 m-én?",
+		answers: [
+			{ text: " 40°", correct: false},
+			{ text: " 30°", correct: true},
+			{ text: " 20°", correct: false},
+			{ text: " 45°", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"262.               262. 100232 510 10 01 04 A repülőgépvezetés technikája",
+		question: "(IV/13) Meddig szabad csúsztatni a leszállás kiszámításának helyesbítése céljából?",
+		answers: [
+			{ text: " 20 m.", correct: false},
+			{ text: " 5 m.", correct: false},
+			{ text: " 15 m.", correct: true},
+			{ text: " 10 m.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"mmm",
+		question: "mmm",
+		answers: [
+			{ text: "mmm", correct: false},
+			{ text: "mmm", correct: false},
+			{ text: "mmm", correct: false},
+			{ text: "mmm", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"263.               263. 100233 510 10 01 05 Általános szabályok",
+		question: "Bármely átképzési feladatnál a napi felszállásszám: ",
+		answers: [
+			{ text: " maximum 5 felszállás csörlésből.", correct: false},
+			{ text: " Az oktató határozza meg a növendék képességei alapján.", correct: true},
+			{ text: " maximum három felszállás vontatásból.", correct: false},
+			{ text: " összesen 5 felszállás.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"264.               264. 100234 510 10 01 05 Általános szabályok",
+		question: "Csörlőindítású felszálláshoz az időjárási minimum :",
+		answers: [
+			{ text: " 800 m felhőalap 4 km látás.", correct: false},
+			{ text: " az oktató határozza meg.", correct: false},
+			{ text: " 500 m felhőalap, 5 km látás", correct: false},
+			{ text: " 400 m felhőalap 3 km látás", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"265.               265. 100235 510 10 01 05 Általános szabályok",
+		question: "Az ejtőernyő viselése kötelező minden ",
+		answers: [
+			{ text: " 600 m feletti feladatnál.", correct: false},
+			{ text: " 500 m feletti feladatnál.", correct: false},
+			{ text: " 300 m feletti feladatnál.", correct: false},
+			{ text: " 400 m feletti feladatnál.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"266.               266. 100236 510 10 01 05 Általános szabályok",
+		question: "A vontatásos kiképzőrepülés időjárási minimumai ? ",
+		answers: [
+			{ text: " 5 km látás 300 m felhőalap ", correct: false},
+			{ text: " 3 km látás 300 m felhőalap ", correct: false},
+			{ text: " 10 km látás 500 m felhőalap ", correct: false},
+			{ text: " 5 km látás 500 m felhőalap", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"267.               267. 100237 510 10 01 05 Általános szabályok",
+		question: "(V/b) Repülőgépvezető növendék csak akkor engedhető egyedül repülésre (az egyéb feltételek megléte mellett), ha",
+		answers: [
+			{ text: " legalább 16 éves.", correct: true},
+			{ text: " az előírt elméleti anyagból vizsgát tett.", correct: false},
+			{ text: " az előírt előadásokat látogatta.", correct: false},
+			{ text: " az egyedül repülés után egy hónapon belül elméleti vizsgát tesz.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"268.               268. 100238 510 10 01 05 Általános szabályok",
+		question: "(V/5) Oktatók minősítő ellenőrző repülését (nem szakszolgálati engedély meghosszabbításhoz) ki végezheti?",
+		answers: [
+			{ text: " A főpilóta.", correct: false},
+			{ text: " A szakmai vezető vagy az általa megbízott személy.", correct: true},
+			{ text: " Bármely oktató, akinek több a repült ideje az ellenőrzendő oktatónál.", correct: false},
+			{ text: " A hatóság által megbízott főoktató.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"269.               269. 100239 510 10 01 05 Általános szabályok",
+		question: "(V/6) A növendék egyedül repülés előtti ellenőrző repülése után az üzemnap befejeződik.",
+		answers: [
+			{ text: " Az ellenőrzőrepülés érvényességét a szakmai vezető dönti el.", correct: false},
+			{ text: " Az ellenőrző repülés egy hétig érvényes.", correct: false},
+			{ text: " Az ellenőrző repülés nem érvényes a következő napon.", correct: true},
+			{ text: " Az ellenőrző repülés 1 napig érvényes.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"270.               270. 100240 510 10 01 05 Általános szabályok",
+		question: "(V/17) A repülőgépvezetők idegen repülőtéren való helyi repülés előtt",
+		answers: [
+			{ text: " ellenőrző repülést kell hogy végrehajtsanak.", correct: false},
+			{ text: " nem kell hogy ellenőrző repülést hajtsanak végre.", correct: false},
+			{ text: " a szakmai vezető megítélése alapján ellenőrző repülésre utasíthatók.", correct: true},
+			{ text: " típusvizsgát kell hogy tegyenek valamely kiképző típusból.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"271.               271. 100241 510 10 01 05 Általános szabályok",
+		question: "(V/31) Vontató üzemű kiképzés időjárás minimumai :",
+		answers: [
+			{ text: " 5 km látás, 500 m felhőalap.", correct: true},
+			{ text: " 5 km látás, 300 m felhőalap.", correct: false},
+			{ text: " 3 km látás, 300 m felhőalap.", correct: false},
+			{ text: " 3 km látás, 500 m felhőalap.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"272.               272. 100242 510 10 01 05 Általános szabályok",
+		question: "(V/34) Elméleti típusvizsga végrehajtásának módja:",
+		answers: [
+			{ text: " Szakmai vezető előtt.", correct: false},
+			{ text: " Főmérnök által megbízott műszaki előtt.", correct: false},
+			{ text: " Bizottság előtt. (elnök + 1 fő műszaki) ", correct: true},
+			{ text: " Bármely két oktató előtt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"273.               273. 100243 510 10 01 05 Általános szabályok",
+		question: "(V/37) Két, szakszolgálati engedéllyel rendelkező személy repül egy kétkormányos géppel. Ki a parancsnok?",
+		answers: [
+			{ text: " A két személy eldönti maga között.", correct: false},
+			{ text: " A repülőüzem vezetője dönti el.", correct: true},
+			{ text: " A repült órák száma dönti el.", correct: false},
+			{ text: " Az életkor dönti el.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"274.               274. 100244 510 10 01 05 Általános szabályok",
+		question: "(V/5) Vitorlázórepülő rgv. szakszolgálati engedély megújításához szükséges reptechnikai ellenőrzést ki végezheti?",
+		answers: [
+			{ text: " a szakosztályvezető.", correct: false},
+			{ text: " LÜI által jóváhagyott vizsgabizottsági tag.", correct: true},
+			{ text: " a főpilóta által jóváhagyott oktató.", correct: false},
+			{ text: " csak a szakmai vezető.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"275.               275. 100245 510 10 01 05 Általános szabályok",
+		question: "(V/6) Egyedül repülés előtti dugóhúzó ellenőrzés után az idő elromlik, és a növendék nem engedhető el egyedül.",
+		answers: [
+			{ text: " A dugóhúzó ellenőrző 1 hónapig érvényes.", correct: false},
+			{ text: " A dugóhúzó ellenőrző csak a repülés napján érvényes.", correct: false},
+			{ text: " A dugóhúzó ellenőrző 1 hétig érvényes.", correct: false},
+			{ text: " A dugóhúzó ellenőrző érvényes a későbbiekben is.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"276.               276. 100246 510 10 01 05 Általános szabályok",
+		question: "(V/20) Növendéknek termikbemutatót tervez, (II/4 feladat) de az idő elromlik, ezért egyedüli iskolakör feladatra      feladat) küldi.",
+		answers: [
+			{ text: " Csak a II/6-os feladat után kell előzetes felkészítésben részesíteni a növendéket.", correct: false},
+			{ text: " A növendéket mindig előzetes felkészítésben kell részesíteni.", correct: false},
+			{ text: " Csak első éves növendéket kell ilyenkor előzetes felkészítésben részesíteni.", correct: false},
+			{ text: " A növendéket nem kell előzetes felkészítésben részesíteni.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"277.               277. 100247 510 10 01 05 Általános szabályok",
+		question: "(V/3) Növendéket - egyéb feltételek megléte esetén - ki engedheti el repülésre a starthelyen?",
+		answers: [
+			{ text: " A szakosztály vezető.", correct: false},
+			{ text: " A repülésiüzem vezető.", correct: false},
+			{ text: " Az indító oktató.", correct: true},
+			{ text: " A szakmai vezető.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"278.               278. 100248 510 10 01 06 Repülőüzem megszervezése, vezetése",
+		question: "Csőrlés tetején a növendék leoldja a kötelet, de az nem oldódik le és az aggregátor kezelő elvágja a kötelet. A gépen nincs rádió. Hogyan figyelmezteti a növendéket ?",
+		answers: [
+			{ text: " Piros rakéta kilövésével.", correct: true},
+			{ text: " Sárga rakéta kilövésével.", correct: false},
+			{ text: " Zöld rakéta kilövésével.", correct: false},
+			{ text: " 'X' jel kirakásával.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"279.               279. 100249 510 10 01 06 Repülőüzem megszervezése, vezetése",
+		question: "Kötélszakadási gyakorlat zászlójele ?",
+		answers: [
+			{ text: " 4 kör", correct: false},
+			{ text: " 2 kör", correct: false},
+			{ text: " 3 kör", correct: false},
+			{ text: " 1 kör", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"280.               280. 100250 510 10 01 06 Repülőüzem megszervezése, vezetése (VI/13) ",
+		question: "A levegőben egy gép a 4. fordulót hajtja végre.",
+		answers: [
+			{ text: " Ha az indítandó gép teljesítmény gép, akkor a csőrlés indítható.", correct: false},
+			{ text: " Az indító elindíthatja a csőrlést.", correct: false},
+			{ text: " Ha oktató van mindkét gépben, akkor a csörlés indítható.", correct: false},
+			{ text: " Az indító nem adhat jelet a csőrlés megkezdésére.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"281.               281. 100251 510 10 01 06 Repülőüzem megszervezése, vezetése",
+		question: "(VI/17) Elegendő-e egy 'T' jel a repülőüzem munkaterületének berendezéséhez?",
+		answers: [
+			{ text: " Nem.", correct: false},
+			{ text: " Igen, ha a repülőüzem vezetője engedélyezi a repülés biztonságát figyelembe véve.", correct: true},
+			{ text: " Csak ha teljesítmény üzem folyik.", correct: false},
+			{ text: " Csak ha egy gépes üzem folyik.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"282.               282. 100252 510 10 01 06 Repülőüzem megszervezése, vezetése",
+		question: "(VI/20) Növendékének leszállási parancsot akar adni. Mit tesz?",
+		answers: [
+			{ text: " Piros rakétát lő ki.", correct: false},
+			{ text: " Sárga rakétát lő ki.", correct: false},
+			{ text: " Zöld rakétát lő ki.", correct: true},
+			{ text: " Bármely színű rakétát kilőhet.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"283.               283. 100253 510 10 01 06 Repülőüzem megszervezése, vezetése",
+		question: "(VI/21) Csörlés tetején leoldás után a vitorlázó repülőgépről a kötél nem esett le. Milyen zászlójelet használ?",
+		answers: [
+			{ text: " Három kör.", correct: false},
+			{ text: " Folyamatos körözés.", correct: false},
+			{ text: " A zászló lábhoz engedése.", correct: false},
+			{ text: " Fej feletti lengetés.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"284.               284. 100254 510 10 01 07 Csörlőindítású repülésekre vonatkozó szabályok",
+		question: "Csörlő üzemű repülést vezet, és zivatar közeledtét észleli. Mi a teendő ? ",
+		answers: [
+			{ text: " Minél több felszállást elvégeztetni a zivatar megérkezéséig.", correct: false},
+			{ text: " Beszüntetni a csörlést a zivatar elvonulásáig.", correct: true},
+			{ text: " A csörlési magasság növeléséhez ki kell használniu a kifutószelet.", correct: false},
+			{ text: " Csak orrcsörlést engedélyez az erős szél miatt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"285.               285. 100255 510 10 01 07 Csörlőindítású repülésekre vonatkozó szabályok",
+		question: "Hol engedélyezett a fordulógyakorlás és termikfogás az iskolakörön.",
+		answers: [
+			{ text: " A 4. fordulóban 90 m-ig.", correct: false},
+			{ text: " Bárhol 150 m magasságig.", correct: false},
+			{ text: " A hosszúfalon a 3. forduló helyéig 150 m magasságig.", correct: true},
+			{ text: " Csak közvetlenül leoldás után.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"286.               286. 100256 510 10 01 07 Csörlőindítású repülésekre vonatkozó szabályok",
+		question: "(VII/2) Kétkormányos csörléses iskolaüzem esetén ki vagy mi határozza meg azt a szélsebességet, amelynél a feladat még elvégezhető? (Figyelembe véve az adott típus szél korlátait.)",
+		answers: [
+			{ text: " Az oktató olyanképpen, hogy a növendék számára a repülés eredményes legyen.", correct: true},
+			{ text: " A szakmai vezető.", correct: false},
+			{ text: " A növendék.", correct: false},
+			{ text: " A főpilóta.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"287.               287. 100257 510 10 01 08 Vontatásos repülésekre vonatkozó szabályok",
+		question: "Első távos, vontatókiképzéssel rendelkező növendék a célrepülőtérre száll le.",
+		answers: [
+			{ text: " Csak oktatóval vontatható haza a növendék.", correct: false},
+			{ text: " A növendék nem vontatható haza.", correct: false},
+			{ text: " A növendék csak másnap vontatható haza.", correct: false},
+			{ text: " A növendék haza vontatható.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"288.               288. 100258 510 10 01 08 Vontatásos repülésekre vonatkozó szabályok",
+		question: "Első távos, vontatói kiképzéssel rendelkező növendék terepen száll le.",
+		answers: [
+			{ text: " A növendék nem vontatható haza.", correct: true},
+			{ text: " A növendék haza vontatható.", correct: false},
+			{ text: " A növendék csak másnap vontatható haza.", correct: false},
+			{ text: " Repülésvezetői egyszeri engedéllyel haza vontatható.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"289.               289. 100259 510 10 01 08 Vontatásos repülésekre vonatkozó szabályok",
+		question: "Páros vontatás esetében jobb oldalszélben hogyan állítja be a vitorlázógépeket a vontatógép mögé ?",
+		answers: [
+			{ text: " Egymás mögé a motorosgép hossztengelyébe.", correct: false},
+			{ text: " Jobb lépcsőbe.", correct: true},
+			{ text: " A motoros gép két szárnyvége mögé.", correct: false},
+			{ text: " Bal lépcsőbe.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"290.               290. 100260 510 10 01 08 Vontatásos repülésekre vonatkozó szabályok",
+		question: "Vitorlázógép leold a vontatógéről. Mi a vitorlázórepülőgép pilótájának a teendője ?",
+		answers: [
+			{ text: " Húzott fordulóval jobbra kifordulni.", correct: true},
+			{ text: " Jobbra kifordulni.", correct: false},
+			{ text: " Balra kifordulni.", correct: false},
+			{ text: " Balra nyomott fordulóval kifordulni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"292.               292. 100262 510 10 01 08 Vontatásos repülésekre vonatkozó szabályok",
+		question: "(VIII/3) Egygépes vonatatás esetén, ha az adott vitorlázó típus légiüzemeltetési utasítása másképp nem rendelkezik, akkor a kötélhossz:",
+		answers: [
+			{ text: " 40 - 50 m.", correct: false},
+			{ text: " 40 - 100 m.", correct: false},
+			{ text: " 50 - 100 m.", correct: true},
+			{ text: " max. 60 m.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"293.               293. 100263 510 10 01 09 Vitorlázó műszerrepülésre vonatkozó szabályok",
+		question: "Műszerrepülés oktatása során a látvarepülési műszereken kívül a repülőgép ",
+		answers: [
+			{ text: " hátsó műszerfala el van látva folyadékos iránytűvel, elfordulásjelzővel és hosszdőlés mérővel.", correct: false},
+			{ text: " első és hátsó műszerfala el van látva folyadékos iránytűvel, elfordulásjelzővel és hosszdőlés mérővel.", correct: true},
+			{ text: " első és hátsó műszerfala el van látva elfordulásjelzővel.", correct: false},
+			{ text: " első műszerfala el van látva folyadékos iránytűvel, elfordulásjelzővel és hosszdőlés mérővel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"294.               294. 100264 510 10 01 09 Vitorlázó műszerrepülésre vonatkozó szabályok",
+		question: "Műszerrepülést oktatni csak olyan géppel szabad, amely",
+		answers: [
+			{ text: " zuhanósebessége kisebb mint 180 km/h.", correct: false},
+			{ text: " felhőrepülésre alkalmas.", correct: false},
+			{ text: " a szükséges műszerekkel fel van szerelve és felhőrepülésre alkalmas.", correct: false},
+			{ text: " az előírt műszerekkel fel van szerelve.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"295.               295. 100265 510 10 01 10 Teljesítményrepülésre vonatkozó szabályok",
+		question: "Távrepülés nem hajtható végre egyéb feltételek megléte esetén, ha",
+		answers: [
+			{ text: " az elfordulásjelző nem működik.", correct: false},
+			{ text: " nincs GPS a fedélzeten.", correct: false},
+			{ text: " nincs repülési parancs a fedélzeten.", correct: true},
+			{ text: " nincs útvonalvázlat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"296.               296. 100266 510 10 01 10 Teljesítményrepülésre vonatkozó szabályok",
+		question: "(X/4) Távrepülésre indított gép fedélzetén az alábbiak közül mi kell hogy legyen?",
+		answers: [
+			{ text: " GPS.", correct: false},
+			{ text: " Gépnapló és alkalmassági bizonyítvány.", correct: true},
+			{ text: " Rádiótelefon.", correct: false},
+			{ text: " Elektromos variométer.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"297.               297. 100267 510 10 01 10 Teljesítményrepülésre vonatkozó szabályok ",
+		question: "(X/17) 4000 méter feletti repüléshez",
+		answers: [
+			{ text: " nem régebbi mint 1 éves orvosi vizsgálat szükséges.", correct: false},
+			{ text: " érvényes magassági repülőorvosi alkalmasság nem szükséges.", correct: false},
+			{ text: " érvényes magassági repülőorvosi alkalmasság szükséges.", correct: true},
+			{ text: " legalább 200 repült óra szükséges.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"298.               298. 100268 510 10 01 10 Teljesítményrepülésre vonatkozó szabályok",
+		question: "(X/16) Az első értékelhető távrepülés végrehajtható (növendék esetén)",
+		answers: [
+			{ text: " segédmotoros vitorlázó repülőgéppel is.", correct: false},
+			{ text: " bármely kétkormányos oktató vitorlázó repülőgéppel.", correct: false},
+			{ text: " bármely 32 siklószám alatti gyakorló vitorlázórepülőgéppel.", correct: true},
+			{ text: " azzal a kétkormányos kiképző repülőgéppel, amellyel a növendék kiképzése történt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"299.               299. 100269 510 10 01 11 Közlekedési szabályok",
+		question: "Forduló közben az előzés szabálya :",
+		answers: [
+			{ text: " Rádión történő egyeztetés után bárhogy lehet előzni.", correct: false},
+			{ text: " csak belső körön lehet előzni.", correct: false},
+			{ text: " Tilos!", correct: false},
+			{ text: " csak külső körön lehet előzni.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"300.               300. 100270 510 10 01 11 Közlekedési szabályok",
+		question: "Keresztezés esetén kinek van elsőbbsége két vitorlázógép közül ?",
+		answers: [
+			{ text: " Kétüléses gépnek az együlésessel szemben.", correct: false},
+			{ text: " A balról érkezőnek.", correct: false},
+			{ text: " Teljesítménygépnek az oktatógéppel szemben.", correct: false},
+			{ text: " A jobbról érkezőnek.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"301.               301. 100271 510 10 01 11 Közlekedési szabályok",
+		question: "A felhőt",
+		answers: [
+			{ text: " tilos dugóhúzóval elhagyni.", correct: true},
+			{ text: " csak dugóhúzóval lehet elhagyni.", correct: false},
+			{ text: " nem szabad megközelíteni 100 m-nél közelebbre.", correct: false},
+			{ text: " tilos körberepülni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"302.               302. 100272 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/2) Szembetalálkozás esetén a kitérés szabálya.",
+		answers: [
+			{ text: " Az egyik gép jobbra, a másik balra fordul.", correct: false},
+			{ text: " mindkét gép balra tér ki.", correct: false},
+			{ text: " Mindkét gép jobbra tér ki.", correct: true},
+			{ text: " Az egyik gép nyomni kezdi, ezt látva a másik húzza.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"303.               303. 100273 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/5) Iskolakörön az előzésre mely szabály igaz? ",
+		answers: [
+			{ text: " Kétkormányos gép nem előzhet egykormányost.", correct: false},
+			{ text: " Azonos típusú gépek egymást nem előzhetik.", correct: true},
+			{ text: " Növendék nem előzhet repülőgép vezetőt.", correct: false},
+			{ text: " Két növendék nem előzheti egymást.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"304.               304. 100274 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/11) Ha ugyanabban a termikben több gép emelkedik, akkor",
+		answers: [
+			{ text: " a gépek nem kőrözhetik le egymást.", correct: false},
+			{ text: " felhőalapon várakozni tilos.", correct: true},
+			{ text: " rádiókapcsolat esetén a gépek beleemelkedhetnek a felhőbe.", correct: false},
+			{ text: " a növendékek kötelesek lemaradni az emelkedésben.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"305.               305. 100275 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/11) Ha ugyanabban a termikben több gép emelkedik, akkor ",
+		answers: [
+			{ text: " rádiókapcsolat esetén a gépek beleemelkedhetnek a felhőbe.", correct: false},
+			{ text: " a gépek nem kőrözhetik le egymást.", correct: false},
+			{ text: " felhőalapon várakozni tilos.", correct: true},
+			{ text: " a növendékek kötelesek lemaradni az emelkedésben.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"306.               306. 100276 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/22) A hangárhoz való leszállásra mi igaz?",
+		answers: [
+			{ text: " A hangárhoz szállni tilos.", correct: false},
+			{ text: " A hangárhoz való leszállásra a repülőüzem vezető adhat engedélyt.", correct: true},
+			{ text: " A hangárhoz csak oktató szállhat.", correct: false},
+			{ text: " A hangárhoz csak kétüléses gépben két oktató szállhat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"307.               307. 100277 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/21) Mely növendékek indíthatók légtér repülésre?",
+		answers: [
+			{ text: " Akiket a szakmai vezető erre feljogosít.", correct: false},
+			{ text: " Akik a kiképzésben elérik a megfelelő szintet.", correct: false},
+			{ text: " Akik a közlekedési szabályokból eredményes vizsgát tettek és az eredményt a tervezési füzetbe rögzítették.", correct: true},
+			{ text: " Akiknek legalább 25 repült órájuk van.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"308.               308. 100278 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/6) Iskolakörön való repüléskor az előzésre a következő igaz: ",
+		answers: [
+			{ text: " Csak a hosszúfalon lehet előzni.", correct: false},
+			{ text: " Csak az iskolakör külső oldala irányában lehet előzni.", correct: true},
+			{ text: " Csak szakszolgálati engedélyes előzhet növendéket.", correct: false},
+			{ text: " Csak oktató előzhet növendéket.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"309.               309. 100279 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/7) Vitorlázó repülőgépek milyen távolságra közelíthetik meg egymást a levegőben?",
+		answers: [
+			{ text: " A pilóta képzettsége határozza meg.", correct: false},
+			{ text: " 100 m.", correct: false},
+			{ text: " 150 m.", correct: false},
+			{ text: " 50 m.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"310.               310. 100280 510 10 01 11 Közlekedési szabályok",
+		question: "(XI/9) Ki a felelős a minimális távolság betartásáért termikben?",
+		answers: [
+			{ text: " A felhőalapon várakozó gép pilótája.", correct: false},
+			{ text: " Az oktató.", correct: false},
+			{ text: " Az alacsonyabban tartózkodó gép pilótája.", correct: false},
+			{ text: " A gyorsabban emelkedő gép pilótája.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"311.               311. 100281 510 11 01 01 A magasság és a csökkent légnyomás",
+		question: "Milyen magasságban csökken felére a légköri nyomás a tengerszintihez képest?",
+		answers: [
+			{ text: " 5500 m", correct: true},
+			{ text: " 2500 m", correct: false},
+			{ text: " 7500 m", correct: false},
+			{ text: " 10200 m", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"312.               312. 100282 510 11 01 01 A magasság és a csökkent légnyomás",
+		question: "Miért veszélyes az orrgarat nyálkahártyájának gyulladása?",
+		answers: [
+			{ text: " A szervezet kevesebb oxigénhez jut, ami - ha nem tudja kompenzálni - ájuláshoz vezethet.", correct: false},
+			{ text: " A gyakori orrfújás elvonja a pilóta figyelmét a repülőgép vezetésétől.", correct: false},
+			{ text: " Mert az arcüreget és az orrgaratot összekötő járatok elzáródnak és nem lehetséges a nyomáskiegyenlítődés süllyedés és emelkedés közben.", correct: true},
+			{ text: " A szem állandó könnyezése miatt ideiglenes látásromlás következik be.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"313.               313. 100283 510 11 01 01 A magasság és a csökkent légnyomás",
+		question: "A repülés mely fázisában jelent nagyobb veszélyt a duzzadt orrgarat? ",
+		answers: [
+			{ text: " Emelkedés közben.", correct: false},
+			{ text: " Süllyedés közben.", correct: true},
+			{ text: " Vízszintes repülésben nagy sebességnél.", correct: false},
+			{ text: " Nagy terhelésű fordulóban.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"314.               314. 100287 510 11 01 01 A magasság és a csökkent légnyomás",
+		question: "Hogyan növelhető az oxigénhiánnyal szembeni ellenállás?",
+		answers: [
+			{ text: " Az immunrendszer erősítésével.", correct: false},
+			{ text: " Zsírban gazdag ételek fogyasztásával.", correct: false},
+			{ text: " Megfelelő gyógyszerekkel.", correct: false},
+			{ text: " Szénhidrátok és megfelelő vitaminok fogyasztásával, testedzéssel.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"315.               315. 100284 510 11 01 02 A magasság és az oxigénelégtelenség",
+		question: "Mi okozza a hypoxiát?",
+		answers: [
+			{ text: " Túl nagy pozitív terhelés.", correct: false},
+			{ text: " A belélegzett levegőben túl sok az oxigén.", correct: false},
+			{ text: " Túl nagy negatív terhelés.", correct: false},
+			{ text: " A belélegzett levegőben nem elegendő az oxigén mennyisége.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"316.               316. 100285 510 11 01 02 A magasság és az oxigénelégtelenség",
+		question: "Mik a hypoxia tünetei?",
+		answers: [
+			{ text: " Felületes légzés, lassuló szívverés, a végtagok lehűlése.", correct: false},
+			{ text: " Légzés elmélyülés, gyorsuló szívverés, hőségérzet, látótér elsötétülés, rosszullét.", correct: true},
+			{ text: " Rosszullét, gyomorégés, lábremegés, kihűlés.", correct: false},
+			{ text: " Vörösvakság, fülzúgás.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"317.               317. 100286 510 11 01 02 A magasság és az oxigénelégtelenség",
+		question: "Milyen magasságon vezethet ájuláshoz és halálhoz a hypoxia?",
+		answers: [
+			{ text: " 7000 m", correct: true},
+			{ text: " 6000 m", correct: false},
+			{ text: " 5000 m", correct: false},
+			{ text: " 4000 m", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"318.               318. 100288 510 11 01 03 Gyorsulások",
+		question: "Milyen irányú gyorsulásból eredő terhelést nevezünk pozitívnak? ",
+		answers: [
+			{ text: " Fej-láb irányú.", correct: true},
+			{ text: " Láb-fej irányú.", correct: false},
+			{ text: " Mell-hát irányú.", correct: false},
+			{ text: " Hát-mell irányú.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"319.               319. 100289 510 11 01 03 Gyorsulások",
+		question: "Mikor jelentkezhet a szürke-fátyol jelenség? ",
+		answers: [
+			{ text: " Nagy sebességű repülés esetén.", correct: false},
+			{ text: " Negatív terhelés esetén.", correct: false},
+			{ text: " Pozitív terhelés esetén.", correct: true},
+			{ text: " Felhőben való repülés esetén.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"320.               320. 100304 510 11 01 03 Gyorsulások",
+		question: "Mely irányú gyorsulást viseli el legnehezebben a szervezet? ",
+		answers: [
+			{ text: " Fej-láb irányú.", correct: false},
+			{ text: " Láb-fej irányú.", correct: true},
+			{ text: " Mell-hát irányú.", correct: false},
+			{ text: " Hát-mell irányú.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"321.               321. 100290 510 11 02 00 Az elsősegélynyújtás szabályai",
+		question: "Amennyiben a sérültről a ruhát el kell távolítani, az milyen sorrendben történik? ",
+		answers: [
+			{ text: " Mindig a felsőtesten kell kezdeni.", correct: false},
+			{ text: " Mindig a sérült végtagon kell kezdeni.", correct: false},
+			{ text: " Mindig az épen maradt végtagon kell kezdeni.", correct: true},
+			{ text: " Mindig az alsó végtagokon kell kezdeni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"322.               322. 100303 510 11 02 00 Az elsősegélynyújtás szabályai",
+		question: "Ha meggyőződtünk arról, hogy a balesetesnek nincs légzése, mi a teendő? ",
+		answers: [
+			{ text: " Stabil oldalfekvés.", correct: false},
+			{ text: " Befúvásos lélegeztetés.", correct: false},
+			{ text: " Szívmasszázs.", correct: false},
+			{ text: " A sérült légutainak szabaddátétele és szabadon tartása.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"323.               323. 100307 510 11 02 00 Az elsősegélynyújtás szabályai",
+		question: "A verőeres vérzés ismérve?",
+		answers: [
+			{ text: " Vérszivárgás.", correct: false},
+			{ text: " Sötétvörös vér egyenletes folyása.", correct: false},
+			{ text: " Élénkpiros, fecskendező bőséges vér.", correct: true},
+			{ text: " Nem felismerhető.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"324.               324. 100310 510 11 02 00 Az elsősegélynyújtás szabályai",
+		question: "Nyílt törés ellátásánál az első teendő:",
+		answers: [
+			{ text: " A törés rögzítése.", correct: true},
+			{ text: " A seb ellátása.", correct: false},
+			{ text: " A törött csontvégek összeillesztése.", correct: false},
+			{ text: " Hidegvizes borogatás, hogy ne legyen erős duzzanat.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"325.               325. 100311 510 11 02 00 Az elsősegélynyújtás szabályai",
+		question: "A sín hossza törés ellátásánál:",
+		answers: [
+			{ text: " A töréstől 10-10 cm hosszú mindkét irányban.", correct: false},
+			{ text: " A törött csont alatti és feletti ízületeket is túlérje.", correct: true},
+			{ text: " Nem számít a hossza.", correct: false},
+			{ text: " A töréstől 20-20 cm hosszú mindkét irányban.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"326.               326. 100315 510 11 02 00 Az elsősegélynyújtás szabályai",
+		question: "Több ember szenvedett balesetet. Kit lát el először?",
+		answers: [
+			{ text: " Az artériás vérzésben szenvedőt.", correct: true},
+			{ text: " Az eszméletlen sérültet, ha van pulzusa, légzése.", correct: false},
+			{ text: " A nyílt törést szenvedett sérültet.", correct: false},
+			{ text: " A ficamot szenvedett sérültet.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"327.               327. 100291 510 11 02 01 Élesztési eljárások",
+		question: "Szájból-orrba történő lélegeztetés során hány befúvást kell percenként végezni?",
+		answers: [
+			{ text: " 16-20", correct: false},
+			{ text: " 10-15", correct: true},
+			{ text: " 25-30", correct: false},
+			{ text: " 30-35", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"328.               328. 100292 510 11 02 01 Élesztési eljárások",
+		question: "Ájult sérült válla alá miért kell összetekert pokrócot vagy valami hasonlót helyezni mesterséges lélegeztetés esetén?",
+		answers: [
+			{ text: " Kényelmesebb a sérült számára a lélegeztetés.", correct: false},
+			{ text: " Így a fej hátrahajlik, a nyak megfeszül és ez meggátolja a nyelv hátracsúszását.", correct: true},
+			{ text: " A nyakat melegen kell tartani, hogy a lélegeztetés alatt ne merevedjen el.", correct: false},
+			{ text: " A mesterséges légzést végző személy kényelmesebb testhelyzetet tud felvenni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"329.               329. 100293 510 11 02 01 Élesztési eljárások",
+		question: "Mesterséges lélegeztetés közben szívmasszázst végzünk. Ennek a száma percenként:",
+		answers: [
+			{ text: " 40-50", correct: false},
+			{ text: " 30-40", correct: false},
+			{ text: " 60-70", correct: true},
+			{ text: " 80-90", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"330.               330. 100294 510 11 02 02 Sérülések",
+		question: "Mikor beszélünk fedett sérülésről? ",
+		answers: [
+			{ text: " Ha a bőr sértetlen.", correct: true},
+			{ text: " Ha a sérült felületet ruházat fedi.", correct: false},
+			{ text: " Ha a sérülés zárt helyen történt.", correct: false},
+			{ text: " Ha a sérüléshez nem férünk hozzá.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"331.               331. 100295 510 11 02 02 Sérülések ",
+		question: "Enyhe agyrázkódás tünetei:",
+		answers: [
+			{ text: " órákig tartó eszméletlenség felületes légzés", correct: false},
+			{ text: " néhány másodperces eszméletvesztés a sérült a környezetét nem ismeri fel a sérült nem mozog a sérült esetleg hány", correct: true},
+			{ text: " gyenge vérzés a fejbőrön, a halánték környékén", correct: false},
+			{ text: " gyors légzés erős izzadás remegő végtagok", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"332.               332. 100296 510 11 02 02 Sérülések",
+		question: "Agyrázkódást szenvedett sérült ellátása",
+		answers: [
+			{ text: " félig ülő helyzetbe fektetni, hidegvizes vagy jeges borogatás a fejre lehető leggyorsabb kórházba szállítás", correct: true},
+			{ text: " a sérültet lefektetni, melegvizes borogatás a fejre, ha három órán belül nincs javulás, kórházba szállítani", correct: false},
+			{ text: " A sérülttel tilos bármit is tenni, amíg a kihívott mentő meg nem érkezik.", correct: false},
+			{ text: " Különösebb ellátás nem szükséges, a sérült állapota néhány órán belül sokat javul és utána dönteni tud a kórházba szállításáról.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"333.               333. 100308 510 11 02 02 Sérülések",
+		question: "Kivérzett beteg elhelyezése?",
+		answers: [
+			{ text: " Fejét megemeljük, így kevésbé szédül.", correct: false},
+			{ text: " Teljesen vízszintesre fektetjük, hogy minden szerv egyformán kapjon vért.", correct: false},
+			{ text: "  Stabil oldalfekvésbe fektetjük.", correct: false},
+			{ text: " A fejet mélyebben helyezzük el mint a törzset, lábakat megemeljük 45°-os szögben.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"334.               334. 100305 510 11 02 03 Zúzódások",
+		question: "Külső zúzódás miatt létrejött duzzanat kezelése? ",
+		answers: [
+			{ text: " Melegvizes borogatás.", correct: false},
+			{ text: " Hidegvizes borogatás.", correct: true},
+			{ text: " A duzzanatra nyomókötést helyezünk.", correct: false},
+			{ text: " A duzzanatra szorosan sínt helyezünk.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"335.               335. 100306 510 11 02 03 Zúzódások",
+		question: "Belső zúzódást szenvedett hasi sérült ellátása? ",
+		answers: [
+			{ text: " Leültetni és sok folyadékot itatni vele.", correct: false},
+			{ text: " Vízszintes helyzetbe fektetni és eltiltani a mozgástó, evéstől, ivástól.", correct: true},
+			{ text: " Felhúzatni vele a lábait, hogy kevésbé érezze a fájdalmat.", correct: false},
+			{ text: " Azonnal a leghamarabb érkező autóba ültetni és a lehető leggyorsabban kórházba vinni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"336.               336. 100297 510 11 02 04 Nyílt sérülések, sebek",
+		question: "A hajszáleres vérzés ismérvei:",
+		answers: [
+			{ text: " sötétvörös vér folyik, nagy mennyiségű", correct: false},
+			{ text: " vörös, szivárgó jellegű, csekély mennyiségű ", correct: true},
+			{ text: " élénk vörös színű vér csorog ", correct: false},
+			{ text: " Nem ismerhető fel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"337.               337. 100298 510 11 02 04 Nyílt sérülések, sebek",
+		question: "A visszeres vérzés ismérve:",
+		answers: [
+			{ text: " élénk vörös színű vér folyik", correct: false},
+			{ text: " vérszivárgás", correct: false},
+			{ text: " sötétvörös, patakszerűen folyó vér, mennyisége változó", correct: true},
+			{ text: " Nem ismerhető fel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"338.               338. 100299 510 11 02 04 Nyílt sérülések, sebek",
+		question: "A seb fertőtlenítéséhez",
+		answers: [
+			{ text: " a fertőtlenítő anyagot közvetlenül a sebbe juttatjuk", correct: false},
+			{ text: " a seb környékét kezeljük le a fertőtlenítő anyaggal", correct: true},
+			{ text: " a sebet bő vízzel kimossuk", correct: false},
+			{ text: " a sebbe fertőtlenítő anyaggal átitatott vattát nyomunk.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"339.               339. 100300 510 11 02 04 Nyílt sérülések, sebek",
+		question: "Visszeres vérzés ellátásához",
+		answers: [
+			{ text: " érleszorítást alkalmazunk.", correct: false},
+			{ text: " nyomókötést alkalmazunk.", correct: true},
+			{ text: " gézlappal fedő kötést alkalmazunk.", correct: false},
+			{ text: " tilos bármit tenni az orvos megérkezéséig.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"340.               340. 100301 510 11 02 04 Nyílt sérülések, sebek",
+		question: "A verőeres vérzés csillapításának első lépcsője:",
+		answers: [
+			{ text: " mindig érleszorítást alkalmazunk.", correct: true},
+			{ text: " nyomókötést alkalmazunk.", correct: false},
+			{ text: " sebvarrást alkalmazunk.", correct: false},
+			{ text: " Tilos bármit tenni az orvos megérkezéséig.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"341.               341. 100302 510 11 02 04 Nyílt sérülések, sebek",
+		question: "A szorítókötés használatának szabálya?",
+		answers: [
+			{ text: " A legmegfelelőbb a zsinór vagy drót használata.", correct: false},
+			{ text: " A kötést a lehető legszorosabbra kell húzni, és csak orvos lazíthatja fel.", correct: false},
+			{ text: " A kötést időnként néhány másodpercre fel kell engedni.", correct: true},
+			{ text: " Szorítókötést csak orvos tehet fel.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"342.               342. 100316 510 11 02 04 Nyílt sérülések, sebek",
+		question: "Ha idegentest van a sebben",
+		answers: [
+			{ text: " akkor megpróbáljuk kivenni, és ha könnyen mozdul, akkor eltávolítjuk.", correct: false},
+			{ text: " azt azonnal el kell távolítani, mert nagy a fertőzés veszély.", correct: false},
+			{ text: " akkor a sérülést úgy pólyázzuk és rögzítjük, hogy az idegentest ne mozdulhasson el.", correct: true},
+			{ text: " akkor mindenképpen jódot öntünk a sebbe, mivel így kisebb a fertőzésveszély.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"343.               343. 100309 510 11 02 05 A sebkötözés általános szabályai, kötszerek",
+		question: "Fedett törés:",
+		answers: [
+			{ text: " Ha a törés olyan helyen van, amit nem tudunk elsődlegesen ellátni.", correct: false},
+			{ text: " Csontok folytonosságának megszakadása, ahol a környező izmok és a bőr ép marad.", correct: true},
+			{ text: " Ruhával fedett területen történt.", correct: false},
+			{ text: " Nincsenek tünetei a törésnek.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"344.               344. 100312 510 11 02 06 Rándulások",
+		question: "Teendők ficam esetén:",
+		answers: [
+			{ text: " Hideg borogatást teszünk rá és orvoshoz visszük a sérültet.", correct: false},
+			{ text: " A kificamodott testrészt húzással helyretesszük majd rögzítjük.", correct: false},
+			{ text: " Szoros nyomókötést teszünk rá, így kevésbé duzzad be és a belső vérzés is kisebb.", correct: false},
+			{ text: " A talált helyzetben rögzíteni a sérült testrészt.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"345.               345. 100313 510 11 02 07 Napszúrás, hőguta ",
+		question: "Teendők napszúrás esetén:",
+		answers: [
+			{ text: " Lábát magasra emeljük, mert így jobb az agy vérkeringése.", correct: false},
+			{ text: " Árnyékos helyre visszük a beteget, itatni tilos az orvos megérkezéséig, mert nagy a hányás veszély.", correct: false},
+			{ text: " Fehér sapkát vetetünk fel vele, és a tünetek maguktól elmúlnak.", correct: false},
+			{ text: " Árnyékos helyre visszük a beteget, fejét magasra polcoljuk, homlokára hidegvizes borogatást teszünk és hideg italokat itatunk vele.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"346.               346. 100314 510 11 02 07 Napszúrás, hőguta",
+		question: "A hőguta létrejöhet:",
+		answers: [
+			{ text: " nagyon erős napsugárzás esetén.", correct: false},
+			{ text: " fülledt, párás időben.", correct: true},
+			{ text: " alkoholfogyasztás esetén.", correct: false},
+			{ text: " Ez csak akkor jöhet létre, ha nagy magasságban erős napsütésnek van a fej kitéve.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"347.               347. 100317 510 11 02 09 Égési sérülések",
+		question: "I. fokú égés esetén mi a teendő? ",
+		answers: [
+			{ text: " Csak orvos kezelheti, ezért a sérültet minél előbb orvoshoz kell vinni.", correct: false},
+			{ text: " Olajat vagy zsírt kenünk a felületre.", correct: false},
+			{ text: " Minél előbb sterilen lefedjük az égett területet, mert nagy a fertőzésveszély.", correct: false},
+			{ text: " Folyó hideg víz alá tesszük a sérült felületet.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"348.               348. 100340 510 12 01 02 Irányító szolgálatok és rövidítések",
+		question: "Kecskemét környékén repülve információt akar szerezni repülésével kapcsolatban.(pl. időjárás, repülőtér nyitvatartás). Van-e erre lehetősége?",
+		answers: [
+			{ text: " Igen, a 121.5 MHz-en a nemzetközi vészfrekvencián.", correct: false},
+			{ text: " Igen a 125.5 MHz-en a Nyugat Tájékoztató meghívásával.", correct: false},
+			{ text: " Igen a 133.3 MHz-en a Kelet Tájékoztató meghívásával.", correct: true},
+			{ text: " Nincs lehetősége, az információkat repülés előtt kell beszerezni.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"349.               349. 100341 510 12 01 02 Irányító szolgálatok és rövidítések",
+		question: "Dunaújváros környékén repülve információt akar szerezni repülésével kapcsolatban.(pl. időjárás, repülőtér nyitvatartás). Van-e erre lehetősége?",
+		answers: [
+			{ text: " Igen, a 133.0 MHz frekvencián a Nyugat Tájékoztatóval.", correct: false},
+			{ text: " Igen, a 125.50 MHz frekvencián a Nyugat Tájékoztatóval.", correct: true},
+			{ text: " Nincs ilyen lehetőség az ország nyugati részében.", correct: false},
+			{ text: " Igen, a 122.7 MHz-en a kijelölt csevegő frekvencián.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"350.               350. 100342 510 12 02 00 Általános eljárások",
+		question: "Milyen frekvencián beszélhet teljesen szabadon vitorlázórepülés közben Magyarország területe felett.",
+		answers: [
+			{ text: " Ilyen frekvencia nincs kijelölve Magyarországon.", correct: true},
+			{ text: " A 122.7 MHz vagy 123.4 MHz csevegő frekvenciákon.", correct: false},
+			{ text: " Indulás előtt kér egy frekvenciát az illetékes irányítói egységtől.", correct: false},
+			{ text: " Repülés közben kialakíthatók csoportok, akik tetszőlegesen választott azonos frekvenciát használnak.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"351.               351. 100330 510 12 02 01 Betűk adása",
+		question: "Adásában olyan szó szerepel, amelyet a címzett állomás nem ért. Mit tesz ekkor?",
+		answers: [
+			{ text: " A nem érthető kifejezést lebetűzi a magyar keresztneveket alkalmazó betűző ABC használatával.", correct: false},
+			{ text: " A nem érthető kifejezést lebetűzi a nemzetközi betűző ABC használatával.", correct: true},
+			{ text: " A közleményt közelebbről mondja bele a mikrofonba nagy hangerővel.", correct: false},
+			{ text: " Háromszori próbálkozás után megszünteti a kapcsolatot az illető állomással.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"352.               352. 100331 510 12 02 02 Számok adása",
+		question: "A számadatokban lévő tizedes pontot hogyan adja le rádión?",
+		answers: [
+			{ text: " Az egész rész leadása után használja a 'pont' kifejezést.", correct: false},
+			{ text: " Az egész rész leadása után használja az 'egész' kifejezést.", correct: true},
+			{ text: " Az egész rész leadása után használja a 'koma' kifejezést.", correct: false},
+			{ text: " Az egész és tizedes rész között 2 másodperc szünetet tart.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"353.               353. 100336 510 12 02 03 Időpontok adása",
+		question: "Megkérdezik az Ön számított érkezési idejét 11:30 -kor egy pontra (pl. számított hazaérkezés) számítva, és az ön számítása szerint ez 11:55-kor fog bekövetkezni. Mely számokat adja le a válaszban?",
+		answers: [
+			{ text: " Időpont megadásakor ebben az esetben csak a perceket kell megadni.", correct: true},
+			{ text: " Mindig az órát és a perceket is le kell adni.", correct: false},
+			{ text: " Az óra és perc számcsoportot a 'KETTŐSPONT' kifejezéssel kell elválasztani.", correct: false},
+			{ text: " A perceket átszámolja tized órára az adás előtt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"354.               354. 100337 510 12 02 03 Időpontok adása",
+		question: "Megkérdezik az Ön számított érkezési idejét 11:30-kor egy pontra (pl. számított hazaérkezés) számítva, és az ön számítása szerint ez 12:40-kor fog bekövetkezni. Mely számokat adja le a válaszban?",
+		answers: [
+			{ text: " A perceket át kell számolni tized órában az adás előtt.", correct: false},
+			{ text: " Csak a perceket kell leadni, mert valószínűtlen, hogy még ebben az órában hazaér.", correct: false},
+			{ text: " Az órákat és perceket is le kell adni a 'DECIMAL' szócskával elválasztva.", correct: false},
+			{ text: " Az órákat és a perceket is, mert csak a percek leadása félreértéshez vezethet.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"355.               355. 100332 510 12 02 05 Szabványos szavak és kifejezések",
+		question: "Mit jelent a 'NEGATÍV' szabványos kifejezés a rádiólevelezésben?",
+		answers: [
+			{ text: " Nem hajlandó kapcsolatot létesíteni a hívóval.", correct: false},
+			{ text: " Hideg van az adott repülési magasságon.", correct: false},
+			{ text: " Nem, vagy közleményemet helytelenül értelmezi.", correct: true},
+			{ text: " Nem érti az üzenetet.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"356.               356. 100333 510 12 02 05 Szabványos szavak és kifejezések",
+		question: "Mit jelent a 'VÁRJON' szabványos kifejezés a rádiólevelezésben?",
+		answers: [
+			{ text: " Várjon az indulással.", correct: false},
+			{ text: " Várakozzon azon a földrajzi helyen, ahol van.", correct: false},
+			{ text: " Más forgalommal vagyok elfoglalva, maradjon vételen.", correct: true},
+			{ text: " Nem létezik ilyen szabványos kifejezés.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"357.               357. 100334 510 12 02 05 Szabványos szavak és kifejezések",
+		question: "Mit jelent az 'ERŐSÍTSE MEG' szabványos kifejezés a rádiólevelezésben?",
+		answers: [
+			{ text: " Erősítse meg a fedélzeten lévő tárgyak rögzítését, mert turbulens zónába kerül rövid időn belül.", correct: false},
+			{ text: " Erősítse meg az adás erejét, mert gyengén hallom.", correct: false},
+			{ text: " Közleményének egy része számomra fontos adat, közölje újra.", correct: true},
+			{ text: " Mindent mondjon kétszer, mert adása érthetetlen.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"358.               358. 100335 510 12 02 05 Szabványos szavak és kifejezések",
+		question: "Mit jelent a 'HÍVÓ JEL' szabványos kifejezés a rádiólevelezésben?",
+		answers: [
+			{ text: " Jó termiket találtunk, a közeli gépek jöjjenek ide.", correct: false},
+			{ text: " Csak lajstromjel.", correct: false},
+			{ text: " A légijármű parancsnokának neve.", correct: false},
+			{ text: " Lajstrom, vagy egyéb megkülönböztetés szerint képzett azonosító jel.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"359.               359. 100323 510 12 02 09 Az összeköttetés ellenőrzési eljárásai",
+		question: "Zsúfolt légtérben (pl. vitorlázórepülő versenyen) feltűnik önnek, hogy egy ideje csend van a használatos frekvencián. Mit célszerű ellenőrizni?",
+		answers: [
+			{ text: " A közelben vannak-e még a vitorlázórepülőgépek.", correct: false},
+			{ text: " Az emelkedés miatt nem dugult-e be a füle.", correct: false},
+			{ text: " Nem ragadt-e be rádióberendezésének adógombja.", correct: true},
+			{ text: " Nem sodródott-e le nagyon az útvonalról.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"360.               360. 100324 510 12 02 09 Az összeköttetés ellenőrzési eljárásai",
+		question: "Mit tesz akkor, ha rádiója adógombja beszorult adásra kapcsolva és az adógomb nem a mikrofonon van?",
+		answers: [
+			{ text: " Nem kell semmit tenni, mert csak venni nem tud, de bármikor adhat, ha beleszól a mikrofonba.", correct: false},
+			{ text: " Ha nem tudja megszüntetni a hibát, akkor a rádiót kikapcsolja, mert a beragadt adógomb akadályozza a többi gép rádiólevelezését.", correct: true},
+			{ text: " Keres egy olyan frekvenciát, ahol egyszerre lehet adni és venni.", correct: false},
+			{ text: " Lehalkítja a rádiót, mert az adás így kisebb távolságra megy ki, és így nem zavarja a többi repülőgép forgalmazását.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"361.               361. 100327 510 12 02 11 Rádiófegyelem",
+		question: "Mielőtt adást kezdeményez a rádión mit kell leellenőriznie?",
+		answers: [
+			{ text: " A hangerő maximálisra legyen állítva, hogy az adás minél távolabb érthető legyen.", correct: false},
+			{ text: " A zajzár minden esetben adáskor legyen bekapcsolva.", correct: false},
+			{ text: " A megfelelő frekvencia legyen beállítva, hogy ne zavarja mások rádiólevelezését.", correct: true},
+			{ text: " Be van-e kapcsolva az összes elektromos berendezés a fedélzeten.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"362.               362. 100328 510 12 02 11 Rádiófegyelem",
+		question: "A rádiókapcsolat felvételekor a napszaknak megfelelő udvarias köszönést kell alkalmazni.",
+		answers: [
+			{ text: " Nem, mert a felesleges beszéd foglalja a frekvenciát, és mások nem tudnak kommunikálni.", correct: true},
+			{ text: " Igen, mert a hívott állomás kezelője esetleg megsértődik és nem válaszol.", correct: false},
+			{ text: " Csak akkor, ha ismeretlen irányítói szolgálatot hív meg.", correct: false},
+			{ text: " Csak akkor, ha nem helyi üzemben vesz részt.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"363.               363. 100329 510 12 02 11 Rádiófegyelem",
+		question: "Mekkora legyen a rádióadás sebessége?",
+		answers: [
+			{ text: " A mondandó tartalmától függően változtatni kell az adási sebességet.", correct: false},
+			{ text: " Minél gyorsabb annál jobb, mert így vihető át egységnyi idő alatt a legtöbb információ.", correct: false},
+			{ text: " Minél lassabb, hogy a fogadó állomás biztos megértse a közlendőnket.", correct: false},
+			{ text: " Kb. 100 szó/perc, egyenletes ütemben.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"364.               364. 100338 510 12 05 00 Vész és sürgősségi üzenetek ",
+		question: "Mi a nemzetközi vészfrekvencia?",
+		answers: [
+			{ text: " 125.5 MHz", correct: false},
+			{ text: " 133.0 Mhz", correct: false},
+			{ text: " 129.7 MHz", correct: false},
+			{ text: " 121.5 MHz", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"365.               365. 100339 510 12 05 01 Vészeseti üzenetek",
+		question: "Ha vészesetbe kerül, (pl géptörés után megsérül) és előtte senkivel nem állt rádiókapcsolatban milyen frekvencián kér segítséget?",
+		answers: [
+			{ text: " Az országban rendszeresített csevegő frekvenciák egyikén.", correct: false},
+			{ text: " Az induló repülőtér frekvenciáját használja, mert ott biztos hogy tudják az Ön tartózkodási helyét.", correct: false},
+			{ text: " Budapest Approach-ot hívja meg 129.z MH-en.", correct: false},
+			{ text: " A 121.5 MHz nemzetközi vészfrekvencián, mert ezt a frekvenciát kötelezően figyelik a szolgálatok és az átrepülő forgalmi gépek is, így biztos, hogy kapcsolatot tud létesíteni valakivel.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"366.               366. 100343 510 12 05 01 Vészeseti üzenetek",
+		question: "Súlyos vészesetbe került gépével. Milyen kifejezéssel kezdi a vészesetre vonatkozó rádiólevelezést?",
+		answers: [
+			{ text: " MAYDAY, MAYDAY, MAYDAY", correct: true},
+			{ text: " PAN, PAN, PAN", correct: false},
+			{ text: " FIGYELEM, FIGYELEM, FIGYELEM", correct: false},
+			{ text: " Csak a lajstromjel és a veszély természetének gyors bemondása háromszor.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"367.               367. 100320 510 12 06 02 Terjedési tulajdonságok",
+		question: "Mekkora sebességel terjednek a rádióhullámok?",
+		answers: [
+			{ text: " 300,000 km/sec", correct: true},
+			{ text: " 330 m/sec", correct: false},
+			{ text: " 2500 km/h", correct: false},
+			{ text: " 330 km/sec", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"368.               368. 100321 510 12 06 02 Terjedési tulajdonságok",
+		question: "Miért a VHF sávba eső frekvenciákat használják a rádióforgalmazásban?",
+		answers: [
+			{ text: " Az optikai rálátás körzetében terjednek és a légköri zavaroktól mentes, jó minőségű összekötetést lehet létesíteni velük.", correct: true},
+			{ text: " Nagyon nagy távolságra terjednek, így egész kontinenseken egy frekvenciát lehet használni.", correct: false},
+			{ text: " Ezek a legkevésbé érzékenyek bármiféle zavarásra, így mindig biztonságos kapcsolat létesíthető használatukkal.", correct: false},
+			{ text: " Ez osztható legkisebb tartományokra, így sok rádióadó üzemelhet egymás mellet közeli frekvenciákon.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"369.               369. 100318 510 12 06 03 Frekvencia elosztás",
+		question: "Melyik frekvencia sávban történik a rádiólevelezés?",
+		answers: [
+			{ text: " VHF", correct: true},
+			{ text: " UHF", correct: false},
+			{ text: " HF", correct: false},
+			{ text: " MF", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"370.               370. 100319 510 12 06 03 Frekvencia elosztás",
+		question: "Melyik frekvenciatartományt használják a légiforgami irányításban és egyéb szolgálatokban?",
+		answers: [
+			{ text: " Az adott légtér illetékes hatósága határozza meg.", correct: false},
+			{ text: " 130.0-155.6 MHz", correct: false},
+			{ text: " 121.5-142.5 MHZ", correct: false},
+			{ text: " 118.0-137.0 MHz", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"371.               371. 100322 510 12 06 04 Rádióberendezések",
+		question: "Mely részegység hiánya okozhatja adás közben a rádióberendezés meghibásodását a vitorlázógépekbe szerelt rádióberendezések esetén?",
+		answers: [
+			{ text: " Áramforrás.", correct: false},
+			{ text: " Mikrofon.", correct: false},
+			{ text: " Hangszóró.", correct: false},
+			{ text: " Antenna.", correct: true},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"372.               372. 100325 510 12 06 04 Rádióberendezések",
+		question: "Mire szolgál a zajzár (squelch) kapcsoló?",
+		answers: [
+			{ text: " Ellenőrzi a rádióberendezés áramköreit.", correct: false},
+			{ text: " Kikapcsolja az automatikus zajzár funkciót és a berendezés gyenge adást is tud venni.", correct: true},
+			{ text: " Megnöveli az adásteljesítményt.", correct: false},
+			{ text: " Növeli a vétel hangerejét, ha a hangerő gombbal ez már nem lehetséges.", correct: false},
+		]
+	},
+	{
+		subject: "EXCEL",
+		sub_subject:"373.               373. 100326 510 12 06 04 Rádióberendezések",
+		question: "Lehetséges-e a fedélzeti rádióberendezéssel egyidőben adni és venni?",
+		answers: [
+			{ text: " Nem.", correct: true},
+			{ text: " Igen.", correct: false},
+			{ text: " Csak az 1999. után gyártottakkal.", correct: false},
+			{ text: " Csak ha a két állomás egymáshoz közelebb van mint 50 km.", correct: false},
+		]
+	},			
 ];
 
 
