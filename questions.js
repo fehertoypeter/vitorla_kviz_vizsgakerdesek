@@ -3,7 +3,7 @@ const examTopics = [
   {
     examName: 'Légi Jog',
     questionCount: 24,
-    timeLimit: 4, // másodperc
+    timeLimit: 2400, // másodperc
     examTopics: 'LÉGIJOG , LÉGIKÖZLEKEDÉSI JOGI ALAPISMERETEK , REPÜLÉSI SZABÁLYOK , LÉGIALKALMASSÁG ÉS ÜZEMELTETÉS',  
   },
   {
@@ -31,33 +31,33 @@ const examTopics = [
     examTopics: 'LÉGKÖR , METEROLÓGIA , REPÜLÉSMETEOROLÓGIA',
   },
   {
-    examName: 'Navigáció.',
+    examName: 'Navigáciò',
     questionCount: 20,
     timeLimit: 2400, // másodperc
     examTopics: 'NAVIGÁCIÓ',
   },
   {
     examName: 'Üzemeltetési eljárások',
-    questionCount: 5, // MÓDOSÍTANI 20-ra 
+    questionCount: 20, // MÓDOSÍTANI 20-ra 
     timeLimit: 1200, // másodperc
-    examTopics: 'LÉGIÜZEMELTETÉS , ÜZEMELTETÉSI ISMERETEK',
+    examTopics: 'ÜZEMELTETÉSI ISMERETEK , LÉGIÜZEMELTETÉS , REPÜLÉSI ELJÁRÁSOK , REPÜLÉSI GYAKORLATOK ÉS ELJÁRÁSOK',
   },
   {
     examName: 'Repüléselmélet',
-    questionCount: 1,// MÓDOSÍTANI 20-ra
+    questionCount: 20,// MÓDOSÍTANI 20-ra
     timeLimit: 1200, // másodperc
-    examTopics: 'REPÜLÉSELMÉLET',
+    examTopics: 'REPÜLÉS ELMÉLET',
   },
   {
     examName: 'Kommunikáció',
-    questionCount: 1,// MÓDOSÍTANI 20-ra
+    questionCount: 20,// MÓDOSÍTANI 20-ra
     timeLimit: 1800, // másodperc
     examTopics: 'RÁDIÓKOMMUNIKÁCIÓ , RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK',
   },
   {
-    examName: 'Vitorla Specifikus kérdések (Excel)',
-    questionCount: 2400,
-    timeLimit: 40, // másodperc
+    examName: 'Vitorla Specifikus kérdések',
+    questionCount: 40,
+    timeLimit: 2400, // másodperc
     examTopics: 'EXCEL',  
   }
 ];
@@ -863,7 +863,7 @@ const questions = [
 		question: "Az alábbiak közül melyik nem ellenőrzött légtér?",
 		answers: [
 			{ text: "TMA.", correct: false},
-			{ text: "TIZ.", correct: false},
+			{ text: "TIZ.", correct: true},
 			{ text: "CTR.", correct: false},
 			{ text: "CTA.", correct: false},
 		]
@@ -1291,7 +1291,7 @@ const questions = [
 		answers: [
 			{ text: "Kövessen!", correct: false},
 			{ text: "Nyugtázást jelent.", correct: false},
-			{ text: "Tovább haladhat.", correct: false},
+			{ text: "Tovább haladhat.", correct: true},
 		]
 	},
 	{
@@ -2024,7 +2024,7 @@ const questions = [
 			{ text: "Soros elrendezés.", correct: false},
 			{ text: "Soros lógó elrendezés.", correct: false},
 			{ text: "Csillagmotor.", correct: false},
-			{ text: "Boxermotor.", correct: false},
+			{ text: "Boxermotor.", correct: true},
 		]
 	},
 	{
@@ -3187,7 +3187,7 @@ const questions = [
 		answers: [
 			{ text: "A tengelykiegyenlítésé.", correct: false},
 			{ text: "Az oldalkiegyenlítésé.", correct: false},
-			{ text: "Az Irwing-féle kiegyenlítésé.", correct: false},
+			{ text: "Az Irwing-féle kiegyenlítésé.", correct: true},
 			{ text: "Az áttételeztett kiegyenlítésé.", correct: false},
 		],
 		hint:"",
@@ -3280,7 +3280,7 @@ const questions = [
 		question: "… külső áramforrás nélkül is képes előállítani áramot. … külső gerjesztésű, működéséhez az akkumulátor feszültsége szükséges.",
 		answers: [
 			{ text: "Az alternátor – Az egyenáramú generátor", correct: false},
-			{ text: "Az egyenáramú generátor – Az alternátor", correct: false},
+			{ text: "Az egyenáramú generátor – Az alternátor", correct: true},
 		],
 		hint:"",
 	},
@@ -4612,7 +4612,7 @@ const questions = [
 			{ text: "kisebb – nagyobb – sűrűbb.", correct: false},
 			{ text: "nagyobb – nagyobb – hígabb.", correct: false},
 			{ text: "kiesebb – kisebb – sűrűbb.", correct: false},
-			{ text: "nagyobb – nagyobb – sűrűbb.", correct: false},
+			{ text: "nagyobb – nagyobb – sűrűbb.", correct: true},
 		],
 		hint:"",
 	},
@@ -10975,7 +10975,7 @@ const questions = [
         ],
         "hint": ""
     },
-/*Repüléselmélet.docx.*/
+/*REPÜLÉS ELMÉLET.docx.*/
     {
         "subject": "MECHANIKA",
         "question": "Melyik egyenlőség igaz?",
@@ -20553,111 +20553,3327 @@ const questions = [
 			{ text: "különbségükkel.", correct: false},
 		]
 	},
+// Műszertan PDF
 	{
-		subject: "MOTORTAN",
-		question: "bbb",
+		subject: "MŰSZERTAN",
+		question: "A sebességmérõ",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "olyan szelencés mûszer, mely zárt Aneroid szelence segítségével méri a repülõgép levegõhöz viszonyított sebességét", correct: false},
+			{ text: "olyan szelencés mûszer, mely nyitott Vidi szelence segítségével méri a repülõgép levegõhöz viszonyított sebességét", correct: true},
+			{ text: "olyan szelencés mûszer, melyrõl leolvasható a repülõgép föld feletti sebessége", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A sebességmérõ",
+		answers: [
+			{ text: "a repülõgép föld feletti sebességét mutatja", correct: false},
+			{ text: "a repülõgép emelkedési sebességét mutatja", correct: false},
+			{ text: "a repülõgép relatív sebességét mutatja", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A sebességmérõ",
+		answers: [
+			{ text: "nem mentes sem a mechanikai sem a beépítési hibától", correct: true},
+			{ text: "beépítési hibától mentes mérõmûszer", correct: false},
+			{ text: "mechanikai és beépítési hibáktól mentes mérõmûszer", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A sebességmérés elve",
+		answers: [
+			{ text: "az össz. nyomás és a statikus nyomás különbségének a mérésén alapszik (amit dinamikus nyomásnak nevezünk)", correct: true},
+			{ text: "a levegõ összenyomhatatlanságán alapszik", correct: false},
+			{ text: "a levegõ összenyomhatóságán alapszik", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Az egyszerû sebességmérés",
+		answers: [
+			{ text: "aneroid és vidi szelencével történik", correct: false},
+			{ text: "aneroid szelencével történik", correct: false},
+			{ text: "vidi szelencével történik", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Melyik helyes a következõ állítások közül?",
+		answers: [
+			{ text: "A tényleges repülési sebességet a hajtómû vonóereje, vagy tolóereje hozza létre és a gép hossztengelyével egyirányú", correct: true},
+			{ text: "Az önsebesség, vagy más néven utazó sebesség a repülõgép föld feletti sebessége egy ponthoz viszonyítva", correct: false},
+			{ text: "A szélsebesség a navigációs szélháromszög eredõ vektora, amely nincs befolyással a repülõgép sebességére", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Ezen a sebességen a legkisebb az 1 km-re esõ üzemanyag fogyasztás, így a legnagyobb távolság lerepülését biztosítja.",
+		answers: [
+			{ text: "A Gazdaságos utazósebesség", correct: false},
+			{ text: "Az Optimális utazósebesség, ami valamivel nagyobb, mint a Gazdaságos utazósebesség", correct: true},
+			{ text: "A Lebegési sebesség", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Melyik a Gazdaságos utazósebesség?",
+		answers: [
+			{ text: "Amellyel a repülõgép még vízszintesen repülni képes.", correct: false},
+			{ text: "A repülõgép legynagyobb vízszintes repülési sebessége, mellyel az adott távolságot a legrövidebb idõ alatt lehet lerepülni.", correct: false},
+			{ text: "A legkisebb hajtómûteljesítménnyel történõ vízszintes repülés, amikor az idõegységre esõ üzemanyag-fogyasztás a legkisebb. Ez a sebesség a leghosszabb repülési idõt biztosítja.", correct: true},
 			{ text: "bbb", correct: false},
 		]
 	},
 	{
 		subject: "MŰSZERTAN",
-		question: "bbb",
+		question: "Az egyszerû magasságmérés.....................szelencével történik.",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "aneroid", correct: true},
+			{ text: "vidi", correct: false},
+			{ text: "vidi és aneroid", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A barometrikus módszerrel történõ magassságmérés elvének alapja:",
+		answers: [
+			{ text: "a légsûrûség mérése", correct: false},
+			{ text: "a légnyomás mérése", correct: true},
+			{ text: "a magasság mérése", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A magasság növekedésével a légnyomás értéke",
+		answers: [
+			{ text: "nõ", correct: false},
+			{ text: "csökken", correct: true},
+			{ text: "állandó", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A repülõtér egy adott pontjának (vonatkozási pontjának) a tengerszintre átszámított légnyomásértéke a ..............",
+		answers: [
+			{ text: "QNH", correct: true},
+			{ text: "QFE", correct: false},
+			{ text: "QNE", correct: false},
+			{ text: "QDR", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Egy adott repülõtér meghatározott pontján mért légnyomás jelölésére a ............... szolgál.",
+		answers: [
+			{ text: "QFE", correct: true},
+			{ text: "QNH", correct: false},
+			{ text: "QTE", correct: false},
+			{ text: "QUJ", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Az 1013,25 mb (760 Hgmm, 29.92 Hginch) nyomásértékre beállított magasságmérõrõl leolvasott magasságot ............................. nevezzük.",
+		answers: [
+			{ text: "QFE magasságnak", correct: false},
+			{ text: "QNH magasságnak", correct: false},
+			{ text: "repülési szint szerinti magasságnak", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A variométer",
+		answers: [
+			{ text: "az emelkedés, ill. süllyedés mértékének a sebességét méri.", correct: true},
+			{ text: "a gyorsulás mértékét méri.", correct: false},
+			{ text: "a külsõ hõmérsékletet méri.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A variométer mûködési elve",
+		answers: [
+			{ text: "a statikus nyomáskiegyenlítõdés késleltetésének elvén alapszik.", correct: true},
+			{ text: "a dinamikus nyomás mérésén alapszik.", correct: false},
+			{ text: "a statikus nyomás mérésén alapszik.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A szelencés variométerben",
+		answers: [
+			{ text: "Bourdon-csõ található.", correct: false},
+			{ text: "aneroid szelence található.", correct: false},
+			{ text: "vidi szelence található.", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A variométerek",
+		answers: [
+			{ text: "csak szelencés mûszerek.", correct: false},
+			{ text: "a három közül bármelyik lehet.", correct: true},
+			{ text: "csak torlólemezes-lapátos mûszerek.", correct: false},
+			{ text: "elektromos mûszerek.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Az elfordulásjelzõ pörgettyûje hány szabadságfokú és milyen tengelyhelyzetû?",
+		answers: [
+			{ text: "kettõ szabadságfokú, függõleges tengelyhelyzetû", correct: false},
+			{ text: "három szabadságfokú, vízszintes tengelyhelyzetû", correct: false},
+			{ text: "kettõ szabadságfokú, vízszintes tengelyhelyzetû", correct: true},
+			{ text: "egy szabadságfokú, függõleges tengelyhelyzetû", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Az elfordulásjelzõ a repülõgép",
+		answers: [
+			{ text: "kereszttengely körüli elfordulás szögsebességét jelzi.", correct: false},
+			{ text: "függõleges tengely körüli elfordulás irányát és szögsebességét jelzi.", correct: true},
+			{ text: "hossztengely körüli elfordulás értékét jelzi.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A mûhorizont pörgettyûje hány szabadságfokú és milyen tengelyhelyzetû?",
+		answers: [
+			{ text: "három szabadságfokú, függõleges tengelyhelyzetû", correct: true},
+			{ text: "három szabadságfokú, vízszintes tengelyhelyzetû", correct: false},
+			{ text: "egy szabadságfokú, vízszintes tengelyhelyzetû", correct: false},
+			{ text: "egy szabadságfokú, függõleges tengelyhelyzetû", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A mûhorizont a repülõgép",
+		answers: [
+			{ text: "kommunikációs berendezése.", correct: false},
+			{ text: "nem valós horizontját mutatja.", correct: false},
+			{ text: "horizonthoz képesti helyzetét méri.", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A pörgettyûs iránytartó",
+		answers: [
+			{ text: "három szabadságfokú, vízszintes tengelyhelyzetû", correct: true},
+			{ text: "három szabadságfokú, függõleges tengelyhelyzetû", correct: false},
+			{ text: "két szabadságfokú, vízszintes tengelyhelyzetû", correct: false},
+			{ text: "négy szabadságfokú, függõleges tengelyhelyzetû", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A Föld mágneses pólusai",
+		answers: [
+			{ text: "egybeesnek a földrajzi pólusokkal.", correct: false},
+			{ text: "nem esnek egybe a földrajzi pólusokkal, a mágneses pólusok a földrajzi pólusok körül vándorolnak.", correct: true},
+			{ text: "nem esnek egybe a földrajzi pólusokkal, a földrajzi pólusok a mágneses pólusok körül vándorolnak.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A mágneses lehajlás (inklináció)",
+		answers: [
+			{ text: "a földrajzi és a mágneses észak iránya által bezárt szög.", correct: false},
+			{ text: "A Föld mágneses erõvonalának iránya és a vízszintes által bezárt szög.", correct: true},
+			{ text: "a repülõgép vas és elektromos alkatrészeinek hatására visszamaradt iránytû hiba.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A mágneses elhajlás (deklináció)",
+		answers: [
+			{ text: "a Föld mágneses erõvonalának iránya és a vízszintes által bezárt szög.", correct: false},
+			{ text: "a földrajzi és a mágneses észak iránya által bezárt szög.", correct: true},
+			{ text: "a repülõgép vas és elektromos alkatrészeinek hatására visszamaradt iránytû hiba.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A deviáció",
+		answers: [
+			{ text: "a repülõgép vas és elektromos alkatrészeinek hatására visszamaradt iránytû hiba.", correct: true},
+			{ text: "a földrajzi és a mágneses észak iránya által bezárt szög.", correct: false},
+			{ text: "a Föld mágneses erõvonalának iránya és a vízszintes által bezárt szög.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Az izogon vonalak",
+		answers: [
+			{ text: "a nulla mágneses elhajlású pontokat kötik össze.", correct: false},
+			{ text: "az azonos mágneses lehajlással rendelkezõ pontokat kötik össze.", correct: false},
+			{ text: "az azonos mágneses elhajlással rendelkezõ pontokat kötik össze.", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A mágneses iránytû melyik hibáját korrigálják a kompenzáló helyeken a kis mágnesvégû csavarok segítségével?",
+		answers: [
+			{ text: "A deviáció miatti hibáját.", correct: true},
+			{ text: "A súrlódási hibáját.", correct: false},
+			{ text: "A gyorsulási hibáját.", correct: false},
+			{ text: "A forduló hibát.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A repülõgép akkumulátora",
+		answers: [
+			{ text: "tartalék áramforrás, egyenfeszültségû.", correct: true},
+			{ text: "fõ áramforrás, egyenfeszültségû.", correct: false},
+			{ text: "vész áramforrás, váltakozó feszültségû.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A dõlés szög",
+		answers: [
+			{ text: "a repülõgép hossztengelye és a hossztengely horizontsíkon lévõ vetülete közötti szög.", correct: false},
+			{ text: "a repülõgép kereszttengelye és a kereszttengely horizontsíkon lévõ vetülete közötti szög.", correct: true},
+			{ text: "a repülõgép hossztengelye és a kereszttengely horizontsíkon lévõ vetülete közötti szög.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A bólintási szög",
+		answers: [
+			{ text: "a repülõgép hossztengelye és a hossztengely horizontsíkon lévõ vetülete közötti szög.", correct: true},
+			{ text: "a repülõgép kereszttengelye és a kereszttengely horizontsíkon lévõ vetülete közötti szög.", correct: false},
+			{ text: "a repülõgép hossztengelye és a kereszttengely horizontsíkon lévõ vetülete közötti szög.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Jobb 90 fokos bedöntésû fordulóban az elfordulásjelzõ középre áll.",
+		answers: [
+			{ text: "A pörgettyû megszorult, ezért automatikusan középre állt.", correct: false},
+			{ text: "Ez csak pillanatnyi helyzet, mert balra fog kitérni, hogy a kivételi irányt megmutassa.", correct: false},
+			{ text: "A mûszer jó, mivel a gép függõleges tengely körüli elfordulás szögsebességét méri, és ez ebben a helyzetben nulla.", correct: true},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A Pitot-csõ (Prandtl-csõ) áramlás irányába esõ nyílásában",
+		answers: [
+			{ text: "a levegõ össznyomása érzékelhetõ.", correct: true},
+			{ text: "a statikus nyomás érzékelhetõ.", correct: false},
+			{ text: "az össz- és dinamikus nyomás különbsége érzékelhetõ.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A mágneses iránytû deklinációjának oka az, hogy",
+		answers: [
+			{ text: "a mágnestû felfüggesztve nem vízszintesen áll.", correct: false},
+			{ text: "a földrajzi és mágneses észak nem esik egybe.", correct: true},
+			{ text: "a repülõgép gyorsuló mozgást végez.", correct: false},
+			{ text: "a repülõgépben fémalkatrészek vannak.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "Látással végrehajtott bal fordulóban az egyenfeszültségû elfordulásjelzõ jobbra tér ki. Mire következtet?",
+		answers: [
+			{ text: "A pörgettyû csapágy akad.", correct: false},
+			{ text: "A mûszer áramforrását fordított polaritással kötötték be.", correct: true},
+			{ text: "Kicsi az akkumulátor feszültsége.", correct: false},
+			{ text: "A mûszer jó, mert fordulóban azt mutatja, merre kell csûrni a forduló megszüntetéséhez.", correct: false},
+		]
+	},
+	{
+		subject: "MŰSZERTAN",
+		question: "A Pitot-csõ (Prandtl-csõ) áramlásra merõleges furatában",
+		answers: [
+			{ text: "vákuum van.", correct: false},
+			{ text: "az össznyomás érzékelhetõ.", correct: false},
+			{ text: "a dinamikus és statikus nyomás különbsége érzékelhetõ.", correct: false},
+			{ text: "a statikus nyomás érzékelhetõ.", correct: true},
 		]
 	},
 	{
 		subject: "NAVIGÁCIÓ",
-		question: "bbb",
+		question: "Egy repülõgép 380 kt -s sebességgel repül , A-ból B-be majd vissza A-ba. AB távolsága = 480 NM.A-ból B-be a szembeszél komponens = 60 kt. A szél nem változik. A repülés ideje :",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "2h 35min", correct: true},
+			{ text: "3h 00min", correct: false},
+			{ text: "2h 10min", correct: false},
+			{ text: "2h 32min", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Hány lábat ( ft ) kell emelkedni , hogy elérjük FL 75 -öt? Adott : FL 75; indulási repülõtér magassága 1500ft ; QNH = 1023 hPa ; hõmérséklet = ISA (standard) ; 1 hPa = 30 ft",
+		answers: [
+			{ text: "6000 ft.", correct: false},
+			{ text: "6300 ft.", correct: true},
+			{ text: "6600 ft.", correct: false},
+			{ text: "7800 ft.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Mennyi közelítõleg egy 90 km/ó-ás szél csomóban kifejezett értéke?",
+		answers: [
+			{ text: "50 kt", correct: true},
+			{ text: "55 kt", correct: false},
+			{ text: "60 kt", correct: false},
+			{ text: "70 kt", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Mennyi közelítõleg a 40 kt-s szélsebesség m/s-ban kifejezve?",
+		answers: [
+			{ text: "15 m/s", correct: false},
+			{ text: "20 m/s", correct: true},
+			{ text: "25 m/s", correct: false},
+			{ text: "30 m/s", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A Föld tengelye két pontban metszi a földgömb felületét.",
+		answers: [
+			{ text: "Ez a két pont a Föld Északi, illetve Déli sarka.", correct: true},
+			{ text: "Ez a két pont a Zenit, illetve Nadir pont, mely a szemlélõ helyzetétõl függ.", correct: false},
+			{ text: "Ezt a két pontot a szélességi körök kötik össze.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Az Északi-sark a Földnek azon pólusa,",
+		answers: [
+			{ text: "ahonnan nézve, a Föld forgása az óramutató járásával ellentétes irányú.", correct: true},
+			{ text: "ahonnan nézve, a Föld forgása az óramutató járásával megegyezõ irányú.", correct: false},
+			{ text: "ahol a hosszúsági körök ponttá zsugorodnak.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A Déli-sark a Földnek azon pólusa,",
+		answers: [
+			{ text: "ahonnan nézve, a Föld forgása az óramutató járásával ellentétes irányú.", correct: false},
+			{ text: "ahonnan nézve a Föld forgása az óramutató járásával megegyezõ irányú.", correct: true},
+			{ text: "ahol a hosszúsági körök ponttá zsugorodnak.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "500.000-es térképen két település egymástól 14.5 cm-re van. Mekkora köztük a távolság?",
+		answers: [
+			{ text: "7.25 km", correct: false},
+			{ text: "34.5 km", correct: false},
+			{ text: "72.5 km", correct: true},
+			{ text: "725 km", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A loxodroma",
+		answers: [
+			{ text: "az a görbe vonal, amely a Föld felületén haladva a szélességi köröket állandó szög alatt metszi.", correct: false},
+			{ text: "az a görbe vonal, amely a Föld felületén haladva a hosszúsági köröket állandó szög alatt metszi.", correct: true},
+			{ text: "az egyenlítõ latin neve.", correct: false},
+			{ text: "az Északi és Déli sarkot köti össze.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Az orthodroma",
+		answers: [
+			{ text: "a délköröket azonos szögben metszi.", correct: false},
+			{ text: "az Északi és Déli sarkot köti össze.", correct: false},
+			{ text: "a Föld felszínén két pontot összekötõ legrövidebb útvonal.", correct: true},
+			{ text: "az Egyenlítõ latin neve.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Az induló repülõtér magassága 250 m. Indulás elõtt a magasságmérõt 0 m-re állítja. Átrepül egy hegy felett, amelyet a térkép 600 m magasnak jelez. A magasságmérõ 1000 m-t mutat. Mennyi a tényleges magassága a hegy felett?",
+		answers: [
+			{ text: "650 m", correct: true},
+			{ text: "850 m", correct: false},
+			{ text: "1000 m", correct: false},
+			{ text: "1250 m", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Az induló repülõtér magassága 250 m. Indulás elõtt a magasságmérõt 0 m-re állítja. Indulás elõtt közlik Önnel, hogy 2000 m-es magassági korlátozás van a tengerszinthez képest. Milyen magasra emelkedhet a magasságmérõ szerint?",
+		answers: [
+			{ text: "1750 m", correct: true},
+			{ text: "2000 m", correct: false},
+			{ text: "2250 m", correct: false},
+			{ text: "2750 m", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A Heading (Gi):",
+		answers: [
+			{ text: "a repülõgép iránya, vagy géptengelyiránya (Gi), amely a repülõgép hossztengelyének valamely északi iránnyal bezárt szöge.", correct: true},
+			{ text: "a repülõgép térképirányszöge, amely a repülés megadott útvonalának valamely északi iránnyal bezárt szöge.", correct: false},
+			{ text: "a repülõgép útirányszöge, amely a repülés tényleges útvonalának valamely északi iránnyal bezárt szöge.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Szélcsend, illetve hát és szembeszél esetén melyik állítás igaz?",
+		answers: [
+			{ text: "Ui<Gi=Ti", correct: false},
+			{ text: "Ti>Ui=Gi", correct: false},
+			{ text: "Ti=Ui=Gi", correct: true},
+			{ text: "Ui=Gi+(+-SZe)", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A kis mágnesvégû csavarok segítségével a mágneses iránytû",
+		answers: [
+			{ text: "gyorsulási hibáját korrigálják.", correct: false},
+			{ text: "deviáció miatti hibáját korrigálják.", correct: true},
+			{ text: "forduló hibáját korrigálják.", correct: false},
+			{ text: "súrlódási hibáját korrigálják.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "Az 1:60-hoz szabály szerint, ha A és B pont között 240 km a távolság, az oldaleltérés A ponttól OE(A)=3 fok, akkor mennyi az útvonaltól való oldaleltérés km-ben?",
+		answers: [
+			{ text: "6 km", correct: false},
+			{ text: "9 km", correct: false},
+			{ text: "12 km", correct: true},
+			{ text: "24 km", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A mágneses lehajlás (inklináció)",
+		answers: [
+			{ text: "a Föld mágneses erõvonalának iránya és a vízszintes által bezárt szög.", correct: true},
+			{ text: "a repülõgép vas és elektromos alkatrészeinek hatására visszamaradt iránytû hiba.", correct: false},
+			{ text: "a földrajzi és a mágneses észak iránya által bezárt szög.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A Föld mágneses pólusai",
+		answers: [
+			{ text: "nem esnek egybe a földrajzi pólusokkal, a mágneses pólusok a földrajzi pólusok körül vándorolnak.", correct: true},
+			{ text: "nem esnek egybe a földrajzi pólusokkal, a földrajzi pólusok a mágneses pólusok körül vándorolnak.", correct: false},
+			{ text: "egybeesnek a földrajzi pólusokkal.", correct: false},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A mágneses elhajlás (deklináció)",
+		answers: [
+			{ text: "a Föld mágneses erõvonalának iránya és a vízszintes által bezát szög.", correct: false},
+			{ text: "a repülõgép vas és elektromos alkatrészeinek hatására visszamaradt iránytûhiba.", correct: false},
+			{ text: "a földrajzi és a mágneses észak iránya által bezárt szög, másnéven variáció (VAR).", correct: true},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A földrajzi szélesség",
+		answers: [
+			{ text: "a nulla szélességi kör és az adott pont hosszúsági köre által bezárt körív, ívmértékben kifejezve.", correct: false},
+			{ text: "a nulla hosszúsági kör és az adott pont szélességi köre által bezárt körív, ívmértékben kifejezve.", correct: false},
+			{ text: "az Egyenlítõ és az adott pont szélességi köre által bezárt körív, ívmértékben kifejezve.", correct: true},
+		]
+	},
+	{
+		subject: "NAVIGÁCIÓ",
+		question: "A földrajzi hosszúság",
+		answers: [
+			{ text: "az adott pont hosszúsági köre és a nulla hosszúsági kör által bezárt körív, ívmértékben kifejezve.", correct: true},
+			{ text: "a nulla hosszúsági kör és az adott pont szélességi köre által bezárt körív.", correct: false},
+			{ text: "a nulla szélességi kör és az adott pont hosszúsági köre által bezárt körív, ívmértékben kifejezve.", correct: false},
 		]
 	},
 	{
 		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
-		question: "bbb",
+		question: "A nap, mint idõ",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "a Hold keringése a Nap körül.", correct: false},
+			{ text: "a Föld tengely körüli forgása.", correct: true},
+			{ text: "a Föld keringése a Nap körül.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Mit jelent a 'vak adás' fogalma?",
+		answers: [
+			{ text: "Egy állomástól egy másikhoz küldött adás, ahol kétoldalú összeköttetés nem létesül, de feltételezhetõ, hogy a hívott állomás veszi az adást.", correct: true},
+			{ text: "Olyan, információt tartalmazó adás, melyet nem konkrét állomásnak vagy állomásoknak címeznek.", correct: false},
+			{ text: "Az útvonali idõjárásal kapcsolatos információt közlõ, repbiztonsági szempontból lényges adás, melyet nem konkrét állomásnak vagy állomásoknak címeznek.", correct: false},
+			{ text: "Olyan adás, melyet a hívott félnek nem kell nyugtázni.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Mi a HB-JYC korrekt betûzése rádióközleményben?",
+		answers: [
+			{ text: "Hotel Bravo Juliett India Kilo", correct: false},
+			{ text: "Hotel Bravo Juliett Yankee Charlie", correct: true},
+			{ text: "Hotel Bravo India Yankee Charlie", correct: false},
+			{ text: "Hotel Bravo India Victor Charlie", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Mikor használhatja a repülõgép saját rövidített hívójelét?",
+		answers: [
+			{ text: "Ha várhatóan nem okoz zavart.", correct: false},
+			{ text: "Ha kielégítõ közleményváltás jött létre.", correct: false},
+			{ text: "Ha a földi állomás már használta a rövidített hívojelet.", correct: true},
+			{ text: "Nagyforgalmú légtérben.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Mit jelent a 3-as az érthetõségi skálán?",
+		answers: [
+			{ text: "Nehezen érthetõ.", correct: true},
+			{ text: "Nehézség nélkül érthetõ.", correct: false},
+			{ text: "Hangos, tiszta.", correct: false},
+			{ text: "Érthetelen.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Az információk vagy utasítások közül melyikeket kell visszaolvasni?",
+		answers: [
+			{ text: "Használatos pálya, magasságmérõ-beállítás, SSR (transzponder) kód, magassággal, sebességgel, iránnyal kapcsolatos utasítások.", correct: true},
+			{ text: "Használatos pálya, magasságmérõ-beállítás, iránnyal kapcsolatos utasítások, látástávolság, talajszél.", correct: false},
+			{ text: "Használatos pálya, magasságmérõ-beállítás, sebességgel, iránnyal kapcsolatos utasítások, talajszél, látástávolság, felszíni hõmérséklet.", correct: false},
+			{ text: "Idõ, használatos pálya, magasságmérõ beállítás, magassággal kapcsolatos utasítások, SSR (transzponder) kód.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Hogyan kell a vak adást végrehajtani?",
+		answers: [
+			{ text: "Csak VFR szerinti repülés esetén kell végrehajtani.", correct: false},
+			{ text: "A kényszerhelyzeti frekvencián.", correct: false},
+			{ text: "Csak egyszer a kijelölt frekvencián.", correct: false},
+			{ text: "Kétszer a kijelölt frekvencián.", correct: true},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Melyik frekvenciatartomány tartalmazza a VHF légiforgalmi szolgálati frekvenciákat?",
+		answers: [
+			{ text: "1810 - 2850 KHz", correct: false},
+			{ text: "108.000 - 117.975 MHz", correct: false},
+			{ text: "118.000 - 136.975 MHZ", correct: true},
+			{ text: "11650 - 13200 KHz", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "A helyzetjelentéseknek az alábbi tájékoz- tatásokat kell tartalmazniuk a következõ sorrendben:",
+		answers: [
+			{ text: "Légijármû azonosító jele, helyzete, repülési szint vagy tengerszínt feletti magasság, idõpont, a következõ jelentõpont és a fölé érkezés számított idõpontja, az azt követõ jelentõpont.", correct: false},
+			{ text: "Légijármû azonosító jele, helyzete, idõpont, repülés szint vagy tengerszínt feletti magasság, a következõ jelentõpont és a fölé érkezés számított idõpontja, az azt követõ jelentõpont.", correct: true},
+			{ text: "Légijármû azonosító jele, helyzete, idõpont, valóságos önsebesség, repülési szint vagy tengerszínt feletti magasság, a következõ helyzetjelentés helye és a fölé érkezés számított idõpontja.", correct: false},
+			{ text: "Légijármû azonosító jele, helyzete, idõpont, repüési szint vagy tengerszínt feletti magasság, a következõ helyzetjelentés helye és a fölé érkezés számított idõpontja.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "A rádióforgalmazásban a légiforgalmi irányító egységek által használatos 'break break' kifejezés a következõt jelenti:",
+		answers: [
+			{ text: "Nagy rádióforgalom esetén , két különbözõ repülõgép számára küldott üzenet közötti elkülönítést.", correct: true},
+			{ text: "Egy sürgõsségi vagy vészhelyzeti adást követõen a rádiócsendre történõ fokozott felszólítás.", correct: false},
+			{ text: "Az elõtte elküldött üzenet téves mivoltára utal.", correct: false},
+			{ text: "A hívó repülõgépet szólítja fel , hogy várjon a visszahívásra.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Az üzenetem még hatásosabb és érthetõbb lesz, ha:",
+		answers: [
+			{ text: "A beszéd hangerejét egy állandó értéken tartom.", correct: true},
+			{ text: "Minden szót megismétlek.", correct: false},
+			{ text: "Hangsúlyozom az üzenet végét.", correct: false},
+			{ text: "Hangsúlyozom az üzenet elejét.", correct: false},
+		]
+	},
+	{
+		subject: "RÁDIÓTÁVBESZÉLŐ KEZELŐI ISMERETEK",
+		question: "Mit értünk jó mikrofontechnikán?",
+		answers: [
+			{ text: "Tartsa távol a mikrofont, mivel ez javítja az érthetõséget.", correct: false},
+			{ text: "Nagyon hangosan beszéljen a mikrofonba.", correct: false},
+			{ text: "Normál beszédhangot használjon, beszéljen tisztán és tagoltan.", correct: true},
+			{ text: "'Ö'-zzön gyakran.", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
-		question: "bbb",
+		question: "Repülés közben a szénmonoxid belégzése különösen veszélyes lehet. Az alábbi állítás(ok) közül mely(ek) helyes(ek)?",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "A szénmonoxid szagtalan és szaglással nem is észlelhetõ.", correct: true},
+			{ text: "A szénmonoxid növeli a vér oxigén telítettségét.", correct: false},
+			{ text: "A magasság növekedésével a szénmonoxid mérgezés negatív hatása kompenzálódik.", correct: false},
+			{ text: "A kismennyiségû szénmonoxid ártalmatlan.", correct: false},
 		]
 	},
 	{
-		subject: "REPÜLÉSELMÉLET",
-		question: "bbb",
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A következõ felsorolásban a hipoxia és a szénmonoxid mérgezés néhány tünete szerepel. Jelölje meg a szénmonoxid mérgezésnek megfelelõket:",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "Fokozott élénkség, hibák számának növekedése, pontatlanság.", correct: false},
+			{ text: "Fejfájás, fokozódó hányinger, szédülés.", correct: false},
+			{ text: "Eufória(indokolatlan jókedv), alkalmazkodási zavar, homályos látás.", correct: false},
+			{ text: "Izomgörcsök, tudatzavar, halláscsökkenés.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A vér mely alkotó eleme(i) vesz(nek) részt az oxigén szállításban?",
+		answers: [
+			{ text: "A vörövérsejt hemoglobinja.", correct: true},
+			{ text: "Fehérvérsejt.", correct: false},
+			{ text: "Vérsavó (plazma).", correct: false},
+			{ text: "Vérzsír.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A következõkbõl melyiknek lehet befolyása az egészségügyi alkalmatlanságra?",
+		answers: [
+			{ text: "Magasvérnyomásos problémák nem fordulhatnak elõ a hajózó személyzetnél, mivel õk mindig kezelhetõk repülés közben is szedhetõ gyógyszerekkel.", correct: false},
+			{ text: "Csak a magasvérnyomás.", correct: false},
+			{ text: "Magas és alacsony vérnyomás valamint a rossz keringési állapot.", correct: true},
+			{ text: "Csak az alacsony vérnyomás.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A következõ tünetek közül melyik jelezheti a hiperventiláció kezdetét?",
+		answers: [
+			{ text: "Szédülés érzése", correct: true},
+			{ text: "Lassuló szívmûködés", correct: false},
+			{ text: "Lassuló légzésszám", correct: false},
+			{ text: "Cianosis (kék ajkak és körmök)", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A hiperventiláció esetén lehetséges beavatkozások sorában a túllégzési tetánia (izomgörcsök) megszüntetésére a leghatásosabb:",
+		answers: [
+			{ text: "a légzés visszatartása", correct: false},
+			{ text: "mûanyag vagy papír zacskóba történõ légzés", correct: true},
+			{ text: "kerülni a fárasztó repülési manõvereket", correct: false},
+			{ text: "megnyugtatóan beszélve rábírni az egyént a légzés lassítására", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Jó módszer a hiperventiláció kezelésére:",
+		answers: [
+			{ text: "valsalva manõvert végezni", correct: false},
+			{ text: "oxigén maszkot felvenni", correct: false},
+			{ text: "önmagunkkal hangosan átbeszélni a megfelelõ eljárást, hogy emócionálisan lehiggadjunk és egyidejûleg csökkenteni a légzésszámot", correct: true},
+			{ text: "szemünket behúnyva relaxálni", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Tiszta oxigén túlnyomás nélküli légzése a következõ magasságig elegendõ:",
+		answers: [
+			{ text: "38000 FT", correct: true},
+			{ text: "45000 FT", correct: false},
+			{ text: "60000 FT", correct: false},
+			{ text: "80000 FT", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A gyomorban és bélben felgyülemlett gázok okozta barotrauma (magassági meteorizmus) tünete:",
+		answers: [
+			{ text: "feszítõ érzés a hasban és bélgázosság", correct: true},
+			{ text: "középfül barotraumája", correct: false},
+			{ text: "buborék betegség", correct: false},
+			{ text: "ormeléküreg barotraumája", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Hogyan elõzhetõ meg a középfül barotraumája (aerotitis)?",
+		answers: [
+			{ text: "Növeljük a süllyedés sebességét", correct: false},
+			{ text: "Megszakítjuk az emelkedést és süllyedni kezdünk", correct: false},
+			{ text: "Zárt száj és befogott orr mellett növeljük a garat légnyomását. Egyidejûleg megkíséreljük a nyelést illetve leszorítjuk az állkapcsot (Valsalva-manõver)", correct: true},
+			{ text: "A pilóta minden repülés elött alkalmazzon megfázás elleni szert a középfül barotrauma megelõzõsére", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyek a stressz könnyen felismerhetõ tünetei?",
+		answers: [
+			{ text: "Vérnyomás emelkedés, pupilla szûlület, szívkörüli szúrás érzése", correct: false},
+			{ text: "Gyorsabb, mélyebb belégzés, szívkörüli szúrás érzése", correct: false},
+			{ text: "A vérnyomás csökkenése", correct: false},
+			{ text: "Verejtékezés, kipirult bõr, tág pupillák, szapora légzés", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A hiperventiláció következménye",
+		answers: [
+			{ text: "nõ a vérben a széndioxid", correct: false},
+			{ text: "csökken a vérben a szénmonoxid", correct: true},
+			{ text: "a vér savassága fokozódik", correct: false},
+			{ text: "hipochondria (nem létezõ betegség képzete)", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A vörösvérsejtek fõ funkciója",
+		answers: [
+			{ text: "az oxigénszállítás", correct: true},
+			{ text: "részvétel a véralvadásban", correct: false},
+			{ text: "szervezet sejtes védelme", correct: false},
+			{ text: "közremûködik a szervezet immunválaszában", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A vérben a hemoglobinhoz kötött oxigént a következõ szállítja:",
+		answers: [
+			{ text: "vérlemezkék", correct: false},
+			{ text: "vörösvérsejtek", correct: true},
+			{ text: "vérplazma", correct: false},
+			{ text: "fehérvérsejtek", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "A szívizomzat ellátását biztosítja:",
+		answers: [
+			{ text: "tüdõvénák", correct: false},
+			{ text: "kamrák", correct: false},
+			{ text: "pitvarok", correct: false},
+			{ text: "koszorú erek", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Hipoxia esetén a sejtekben:",
+		answers: [
+			{ text: "oxigénhiány van", correct: true},
+			{ text: "telítõdnek nitrogénnel", correct: false},
+			{ text: "telítõdnek oxigénnel", correct: false},
+			{ text: "széndioxid hiány van", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Jelölje meg a magassági meteorizmus okát!",
+		answers: [
+			{ text: "a gázok térfogatváltozása", correct: true},
+			{ text: "relatív hypoxia", correct: false},
+			{ text: "a gázok oldékonyságának változása", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Az emberi testben hol nem alakulhat ki barotrauma?",
+		answers: [
+			{ text: "orrmelléküregek", correct: false},
+			{ text: "gyomor- bélrendszer", correct: true},
+			{ text: "középfül", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik nem tünete a hypoxiának?",
+		answers: [
+			{ text: "hasi puffadás", correct: true},
+			{ text: "álmosság, bágyadtság", correct: false},
+			{ text: "érzékszervi funkciók (pl. látás) romlása", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Az alábbiak közül melyik csökkenti a hypoxia tûrést?",
+		answers: [
+			{ text: "vérben oldott nitrogén", correct: false},
+			{ text: "dohányzás", correct: true},
+			{ text: "hyperventilláció", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mi okozza a magassági meteorizmust?",
+		answers: [
+			{ text: "gázok kitágulása a gyomorban és a belekben", correct: true},
+			{ text: "gázok feszítõhatása a középfülben", correct: false},
+			{ text: "oldott gázok felszabadulása az izületekben", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mi okozza a kéz és lábgörcsöket hyperventillációban?",
+		answers: [
+			{ text: "szénmonoxid felszaporodása", correct: false},
+			{ text: "oxigén többlet a vérben", correct: false},
+			{ text: "széndioxid vesztése", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Miért csökken a dohányzó (aktív és passzív is) ember hypoxia tûrõképessége?",
+		answers: [
+			{ text: "a keletkezett szén monoxid hemoglobin nem vesz részt a légcserében", correct: true},
+			{ text: "nikotin idegrendszeri hatása (fokozott ingerlékenység)", correct: false},
+			{ text: "érszûkület és vérnyomás-emelkedés", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik gáz felelõs a keszonbetegség kialakulásáért?",
+		answers: [
+			{ text: "oxigén", correct: false},
+			{ text: "széndioxid", correct: false},
+			{ text: "nitrogén", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik tilos az alábbiak közül a hyperventilláció megelõzésére?",
+		answers: [
+			{ text: "oxigén adása", correct: true},
+			{ text: "papírzacskóba lélegeztetni", correct: false},
+			{ text: "lassan, hangosan beszéltetni", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik érzékszerv túlérzékenysége felelõs a mozgásbetegség kialakulásáért?",
+		answers: [
+			{ text: "látószerv", correct: false},
+			{ text: "belsõfül ívjáratai", correct: true},
+			{ text: "középfül hallócsontjai", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "10 m-nél mélyebb búvármerülés után mennyi ideig nem tanácsos utasként sem repülni túlnyomásos kabinú repülõgépen?",
+		answers: [
+			{ text: "24 óra", correct: true},
+			{ text: "48 óra", correct: false},
+			{ text: "96 óra", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik vérzéstípusra jellemzõ: élénk piros, pulzál, nagymennyiségû?",
+		answers: [
+			{ text: "artériás", correct: true},
+			{ text: "vénás", correct: false},
+			{ text: "kapilláris", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mi határozza meg az égési sérülés túlélési esélyét?",
+		answers: [
+			{ text: "égett testfelszín %-os aránya", correct: false},
+			{ text: "életkor+égett testfelszín %-os aránya", correct: true},
+			{ text: "égési sérülés súlyossági foka", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Egy felkar felszíni égése a testfelszín hány százaléka?",
+		answers: [
+			{ text: "9%", correct: true},
+			{ text: "18%", correct: false},
+			{ text: "36%", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Miért kell szigorúan fektetni a gerincsérültet?",
+		answers: [
+			{ text: "hányás megelõzésére", correct: false},
+			{ text: "idegsérülés megelõzésére", correct: true},
+			{ text: "fejfájás megelõzésére", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mi ellen véd a túlnyomásos kabin?",
+		answers: [
+			{ text: "oxigén hiány", correct: true},
+			{ text: "légibetegség", correct: false},
+			{ text: "buborékbetegség", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mit tilos tenni napszúrás ellen?",
+		answers: [
+			{ text: "hûtõborogatás a fejre", correct: false},
+			{ text: "szeszesitalt adni a keringés serkentésére", correct: true},
+			{ text: "lázcsillapítás", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Két újraélesztõ esetén mi a befúvásos lélegeztetés/szívmasszázs aránya?",
+		answers: [
+			{ text: "1:4", correct: false},
+			{ text: "2:15", correct: true},
+			{ text: "2:8", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Hol vizsgálják a pulzust a szívmûködés megítélésére?",
+		answers: [
+			{ text: "szívcsúcslökést tapintva", correct: false},
+			{ text: "csukló artérián", correct: false},
+			{ text: "nyaki fõverõereken", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik az újraélsztés helyes sorrendje?",
+		answers: [
+			{ text: "átjárható légutak, lélegeztetés, vérkeringés biztosítása", correct: true},
+			{ text: "átjárható légutak, vérkeringés biztosítása, idegentest eltávolítása", correct: false},
+			{ text: "átjárható légutak, pulzus vizsgálata, szívmasszázs alkalmazása", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mi tilos agyrázkódás gyanúja esetén?",
+		answers: [
+			{ text: "nyugtató gyógyszert adni", correct: true},
+			{ text: "fektetni az orvos megérkezéséig", correct: false},
+			{ text: "stabil oldalfekvõ helyzetbe helyezni", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mikor gondol szívinfarktus lehetõségére?",
+		answers: [
+			{ text: "10 percnél továbbtartó szorító mellkasi fájdalom", correct: true},
+			{ text: "szegycsont mögötti fájdalom esetén", correct: false},
+			{ text: "minden mellkasi fájdalom gyanút ébreszthet", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik betegségre jellemzõ a 'roham utáni ködös, zavart állapot'?",
+		answers: [
+			{ text: "szívroham", correct: false},
+			{ text: "alkoholfüggõség", correct: false},
+			{ text: "epilepszia", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Napégés milyen súlyosságú égési sérülést okozhat?",
+		answers: [
+			{ text: "bármelyik típusú", correct: true},
+			{ text: "elsõ, illetve másodfokú", correct: false},
+			{ text: "másodfokú, hólyagos égés a jellemzõ", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik szervrendszer a legérzékenyebb az oxigénhiányra?",
+		answers: [
+			{ text: "agy- és perifériás idegek", correct: true},
+			{ text: "izmok és csontok", correct: false},
+			{ text: "szív- és érrendszer", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Miért érzékeny az agy az oxigénhiányra?",
+		answers: [
+			{ text: "nem tud oxigént tartalékolni", correct: false},
+			{ text: "nagy az oxigénigény", correct: false},
+			{ text: "nem tud oxigént tartalékolni és nagy az oxigén igény", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Miért tilos 8-24 órával a tervezett repülés elõtt nagyobb mennyiségû szeszesital fogyasztani?",
+		answers: [
+			{ text: "a túlzott alkoholfogyasztás kedvezõtlen hatása 48-72 óráig áll fenn", correct: true},
+			{ text: "jogszabály tiltja 24 órán belül a szeszfogyasztást", correct: false},
+			{ text: "nem tilos, ha a repülésig, a véralkohol szint a megengedhetõ érték alá csökken", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Miért fontos a gyors, hatékony fájdalomcsillapítás?",
+		answers: [
+			{ text: "a fájdalom súlyosbítja a beteg állapotát, sokkot is kiválthat", correct: true},
+			{ text: "fájdalommentes beteget könnyebb elsõsegélyben részesíteni", correct: false},
+			{ text: "csak akkor adhatunk fájdalomcsillapítót, ha nem érzékeny a beteg", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik rosszullét esetén tilos enni, inni vagy gyógyszert adni szájon át?",
+		answers: [
+			{ text: "súlyos anginás roham", correct: false},
+			{ text: "hypoxiás tünetcsoport", correct: false},
+			{ text: "agyvérzés, agyérelzáródás", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Mit tilos tenni vállficam esetén?",
+		answers: [
+			{ text: "fájdalomcsillapítást és rögzítõkötést alkalmazni", correct: false},
+			{ text: "megkísérelni helyretenni", correct: true},
+			{ text: "rögzíteni és nyugalmi helyzetet biztosítani", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Melyik érzékszerv a legérzékenyebb a hypoxiára?",
+		answers: [
+			{ text: "szem", correct: true},
+			{ text: "hallószerv", correct: false},
+			{ text: "egyensúlyszerv", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Miért veszélyes a dohányzás repülés közben?",
+		answers: [
+			{ text: "a széndioxid csökkenti a vér oxigéntelítettségét", correct: false},
+			{ text: "a nikotin fokozza a fáradtságérzést", correct: false},
+			{ text: "a szénmonoxid miatt romlik a magasságtûrõképesség", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSEGÉSZSÉGÜGYI ALAPISMERETEK",
+		question: "Hogyan befolyásolja az éjszakai repülés a hypoxiatûrést?",
+		answers: [
+			{ text: "fokozza", correct: false},
+			{ text: "csökkenti", correct: true},
+			{ text: "nem változik", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Melyik esetben a legmagasabb a repülõgép átesési sebessége?",
+		answers: [
+			{ text: "Alacsony tömeg, mellsõ súlyponthelyzet.", correct: false},
+			{ text: "Nagy tömeg , mellsõ súlyponthelyzet.", correct: true},
+			{ text: "Alacsony tömeg, hátsó súlyponthelyzet.", correct: false},
+			{ text: "Nagy tömeg, hátsó súlyponthelyzet.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Milyen következményel kell számolni, ha a helytelen rakodás következtében a súlypont a mellsõ határhelyzet elé kerül?",
+		answers: [
+			{ text: "Hatótávolságcsökkenés", correct: true},
+			{ text: "A leszállósebesség csökkenése", correct: false},
+			{ text: "Az átesési sebesség csökkenése", correct: false},
+			{ text: "Jobboldali legyezõmozgás felszállásnál", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Milyen hatással van a hátszél az adott magasságra való emelkedéshez szükséges idõre?",
+		answers: [
+			{ text: "Az emelkedési idõ csökken.", correct: false},
+			{ text: "Az emelkedési idõ növekszik.", correct: false},
+			{ text: "Az emelkedési idõ nem változik.", correct: true},
+			{ text: "Az emelkedési idõ változása a repülõgép tipustól függ.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Minden más tényezõ változatlanul maradása esetén , hogyan hat a növekvõ magasság a Vx és Vy -ra?",
+		answers: [
+			{ text: "Mindkettõ változatlan marad.", correct: false},
+			{ text: "Mindkettõ növekszik.", correct: true},
+			{ text: "Mindkettõ csökken.", correct: false},
+			{ text: "Vx csökken , Vy növekszik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Egyéb környezeti paramétereket nem változtatva a legnagyobb hatótávolsághoz és a legnagyobb repülési idõtartamhoz tartozó TAS:",
+		answers: [
+			{ text: "a magassággal emelkedik.", correct: true},
+			{ text: "a magasság növekedésével csökken.", correct: false},
+			{ text: "a magasságtól független, nem változik.", correct: false},
+			{ text: "A legnagyobb hatótávolsághoz tartozó TAS a magassággal együtt növekszik, a legnagyobb repülési idõtartamhoz tartozó TAS csökken.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "A repülõgép súlyponthelyzetét általános esetben mely tengely mentén számítjuk?",
+		answers: [
+			{ text: "vízszintes tengely", correct: false},
+			{ text: "hossztengely", correct: true},
+			{ text: "kereszttengely", correct: false},
+			{ text: "függõleges tengely", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Egy repülõgép egyenesvonalú vízszintes repülést hajt végre két különbözõ magasságon, azonos állásszöggel (minden más fontos jellemzõ értéke állandó, az egyezményes légkör körülményeit feltételezve, a levegõt összenyomhatatlan közegnek tekintve)",
+		answers: [
+			{ text: "A levegõhöz viszonyított valós sebesség (TAS) a nagyobb magasságon nagyobb.", correct: true},
+			{ text: "A levegõhöz viszonyított valós sebesség (TAS) mindkét magasságon azonos.", correct: false},
+			{ text: "A levegõhöz viszonyított valós sebesség (TAS) a nagyobb magasságon nem meghatározható.", correct: false},
+			{ text: "a levegõhöz viszonyított valós sebesség (TAS) a nagyobb magasságon kisebb.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "A fékszárnyak behúzása közben változatlan állásszög tartása mellett (ha minden más lényeges tényezõ állandó marad) a repülõgép elkezd",
+		answers: [
+			{ text: "bedõlni.", correct: false},
+			{ text: "hirtelen süllyedni.", correct: true},
+			{ text: "emelkedni.", correct: false},
+			{ text: "legyezõmozgást végezni.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "A fékszárnyak kiengedése közben változatlan állásszög tartása mellett (ha minden más lényeges tényezõ állandó marad) a repülõgép elkezd",
+		answers: [
+			{ text: "hirtelen süllyedni.", correct: false},
+			{ text: "bedõlni.", correct: false},
+			{ text: "emelkedni.", correct: true},
+			{ text: "legyezõmozgást végezni.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Egyenletes , állandó szögû süllyedésben a (süllyedés szöge : GAMMA ) repülõgépre ható erõk egyensúlyára a következõ állítás igaz , ha : (Fp =Vonóerõ, X =Ellenállás, G = Súly)",
+		answers: [
+			{ text: "Fp + G sin GAMMA = X", correct: true},
+			{ text: "Fp - G sin GAMMA = X", correct: false},
+			{ text: "Fp - X = G sin GAMMA", correct: false},
+			{ text: "Fp + X = - G sin GAMMA", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Melyik kijelentés igaz a hátszélnek a legtöbb levegõben tölhetõ idõre történõ hatásával kapcsolatban?",
+		answers: [
+			{ text: "Az IAS megnövekszik.", correct: false},
+			{ text: "A hátszél csak a várakozási sebességet befolyásolja.", correct: false},
+			{ text: "A szélnek nincs rá hatása.", correct: true},
+			{ text: "Az IAS csökken.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Hogyan változik a nem állítható légcsavar vonóereje felszállási nekifutás közben?",
+		answers: [
+			{ text: "Enyhén csökken a repülõgép sbességének növekedésével.", correct: true},
+			{ text: "Enyhén emelkedik a repülõgép sebességének növekedésével.", correct: false},
+			{ text: "Csak a tömeg változása esetén változik.", correct: false},
+			{ text: "Nem változik a felszállás és az emelkedés során.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Milyen hatással van a tömeg a maximális emelkedési képességhez (legnagyobb varióhoz) tartozó sebességre?",
+		answers: [
+			{ text: "Az emelkedõképesség és a hozzá tartozó sebesség nem változik a tömeggel.", correct: false},
+			{ text: "Az emelkedõképesség változik a tömeggel, de a hozzá tartozó sebesség nem.", correct: false},
+			{ text: "A tömeg növekedésével csökken ez a sebesség.", correct: false},
+			{ text: "A tömeg növekedésével növekszik ez a sebesség.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "A nem gyorsuló emelkedés közben :",
+		answers: [
+			{ text: "A felhajtóerõ nagyobb mint az összsúly.", correct: false},
+			{ text: "A tolóerõ/vonóerõ megegyezik az ellenállás + az összsúly repülési pálya irányában lefelé mutató komponensével.", correct: true},
+			{ text: "A felhajtóerõ megegyezik a súly + az ellenállás függõleges komponensének összegével.", correct: false},
+			{ text: "A tolóerõ/vonóerõ megegyezik az ellenállás + az össztömeg repülési pálya irányában felfelé mutató komponensével.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Magasabb külsõ hõmérséklet esetén",
+		answers: [
+			{ text: "az emelkedés szög növekszik és az emelkedés mértéke csökken.", correct: false},
+			{ text: "az emelkedési szög és az emelkedés mértéke csökken.", correct: true},
+			{ text: "nincs hatása ez emelkedõképességre.", correct: false},
+			{ text: "az emelkedési szög csökken és az emelkedés mértéke növekszik", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Az állandó szembeszél",
+		answers: [
+			{ text: "növeli a süllyedési pálya szögét.", correct: true},
+			{ text: "növeli a levegõhöz képest mért süllyedési pálya szögét", correct: false},
+			{ text: "növeli a süllyedés mértékét", correct: false},
+			{ text: "növeli a süllyedés alatt megtett távolságot.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Egy állandó szembeszél komponens:",
+		answers: [
+			{ text: "Növeli a levegõben tölthetõ idõ nagyságát.", correct: false},
+			{ text: "Csökkenti az emelkedési szöget.", correct: false},
+			{ text: "Növeli a legjobb emelkedés mértékét.", correct: false},
+			{ text: "Az emelkedés során növeli a repülési pálya szögét.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Ha a súlypont a mellsõ határhelyzetnél helyezkedik el, a repülõgép...",
+		answers: [
+			{ text: "rendkívül stabil és kis magassági kormánykitérítés szükséges vezetéséhez.", correct: false},
+			{ text: "rendkívül stabil és nagy magassági kormánykitérítés szükséges vezetéséhez.", correct: true},
+			{ text: "rendkívül instabil és nagy magassági kormánykitérítés szükséges vezetéséhez.", correct: false},
+			{ text: "rendkívül instabil és kis magassági kormánykitérítés szükséges vezetéséhez.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "Melyik állítás igaz a nagyobb tömeg repülõgépre gyakorolt hatását tekintve?",
+		answers: [
+			{ text: "Az átesési sebesség magasabb lesz.", correct: true},
+			{ text: "Az átesési sebesség alacsonyabb lesz.", correct: false},
+			{ text: "Az adott hajtómû teljesítménybeállításhoz tartozó emelkedési gradiens magasabb lesz.", correct: false},
+			{ text: "A maximális repülési idõ magasabb lesz.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "A repülõgép engedélyezett leszálló fékszárnyhelyzetei 25° és 35°. Ha a repülõgépvezetõ a 25°-os helyzetet választja, a 35°-os helyett...",
+		answers: [
+			{ text: "növekszik a leszállási távolság és romlik az átstartolási emelkedési képesség.", correct: false},
+			{ text: "csökken a leszállási távolság és javul az átstartolási emelkedési képesség.", correct: false},
+			{ text: "növekszik a leszállási távolság és javul az átstartolási emelkedési képesség.", correct: true},
+			{ text: "csökken a leszállási távolság és romlik az átstartolási emelkedési képesség.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉS ELMÉLET",
+		question: "A repülõgép engedélyezett leszálló fékszárnyhelyzetei 25° és 35°. Ha a repülõgépvezetõ a 35°-os helyzetet választja, a 25°-os helyett...",
+		answers: [
+			{ text: "növekszik a leszállási távolság és javul az átstartolási emelkedési képesség.", correct: false},
+			{ text: "növekszik a leszállási távolság és romlik az átstartolási emelkedési képesség.", correct: false},
+			{ text: "csökken a leszállási távolság és javul az átstartolási emelkedési képesség.", correct: false},
+			{ text: "csökken a leszállási távolság és romlik az átstartolási emelkedési képesség.", correct: true},
 		]
 	},
 	{
 		subject: "REPÜLÉSI ELJÁRÁSOK",
-		question: "bbb",
+		question: "Melyik rövidítést használjuk a 'torony' által ellenõrzött zónára?",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "CZ.", correct: false},
+			{ text: "CTR.", correct: true},
+			{ text: "CTZ.", correct: false},
+			{ text: "CTA.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Mit jelent az 'AFIS' rövidítés?",
+		answers: [
+			{ text: "Aeronautical flight information system./Repülés információs rendszer.", correct: false},
+			{ text: "Automatic flight information service./Automatikus repülés információs szolgálat.", correct: false},
+			{ text: "Aerodrome flight information service./Repülõtéri repülés információs szolgálat", correct: true},
+			{ text: "Aerodrome flashing identification signal./Repülõtéri villanó azonosító jelzés.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Mit jelent az 'FIR' rövidítés?",
+		answers: [
+			{ text: "Flight information region.", correct: true},
+			{ text: "Flight information required.", correct: false},
+			{ text: "Flow information received.", correct: false},
+			{ text: "Flight information radar.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Milyen rövidítést használnak az egyesített világidõre?",
+		answers: [
+			{ text: "COUT.", correct: false},
+			{ text: "GMT.", correct: false},
+			{ text: "CUT.", correct: false},
+			{ text: "UTC.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Amennyiben reptér feletti magasságot kell megadnia, melyik Q-kódot használja?",
+		answers: [
+			{ text: "QFE", correct: true},
+			{ text: "QNH", correct: false},
+			{ text: "QDM", correct: false},
+			{ text: "QBI", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Melyik 'Q'-kódot használjuk tengerszint feletti magasság jelentésére?",
+		answers: [
+			{ text: "QNH", correct: true},
+			{ text: "QFE", correct: false},
+			{ text: "QFF", correct: false},
+			{ text: "QNJ", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Idõ adat továbbításánál melyik rendszert használjuk?",
+		answers: [
+			{ text: "Helyi idõ (LT) A.M. és P.M.", correct: false},
+			{ text: "Helyi idõ (LT)", correct: false},
+			{ text: "UTC", correct: true},
+			{ text: "Nincs külön kijelölt rendszer , többnyire úgyis csak a perc értékeket használjuk.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Milyen módot és kódot kell beállítani a másod- lagos radar fedélzeti válaszjeladón rádióhiba esetén ?",
+		answers: [
+			{ text: "'A' mód 7500-as kód", correct: false},
+			{ text: "'A' mód 7600-as kód", correct: true},
+			{ text: "'B' mód 7600-as kód", correct: false},
+			{ text: "'A' mód 7700-as kód", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "A Repüléstájékoztató Körzet (FIR) egy olyan légtér, ahol a következõ szolgáltatásokat nyújtják:",
+		answers: [
+			{ text: "Repüléstájékoztató szolgálat és Riasztó szolgálat", correct: true},
+			{ text: "Repüléstájékoztató szolgálat, Riasztó szogálat és Tanácsadó szolgálat", correct: false},
+			{ text: "Csak Repüléstájékoztató szolgálat", correct: false},
+			{ text: "Repüléstájékoztató szolgálat és Tanácsadó szolgálat", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Az irányítói körzetet (CTA) a következõk szerint határozzák meg:",
+		answers: [
+			{ text: "A földfelszín feletti 1000 láb magasságtól felfelé terjedõ ellenõrzött légtér.", correct: false},
+			{ text: "A földfelszíntõl egy meghatározott felsõ határig terjedõ ellenõrzött légtér.", correct: false},
+			{ text: "A földfelszín feletti 900 láb magasságtól felfelé terjedõ ellenõrzött légtér.", correct: false},
+			{ text: "Az irányítói körzet a földfelszín feletti meghatározott határtól felfelé terjedõ ellenõrzött légtér.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Riasztó szolgálatot a következõ egység lát el:",
+		answers: [
+			{ text: "Az ebben az idõpontban a légijármûért felelõs ATS egység", correct: true},
+			{ text: "Az ebben az idõpontban a légijármûért felelõs ATC egység, ha rendelkezik 121,5 MHz frekvenciával", correct: false},
+			{ text: "Csak az ATC egységek", correct: false},
+			{ text: "A Körzeti Irányító Központok.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "A kényszerhelyzetben lévõ vagy feltételezhetõen kényszerhelyzetben lévõ légi- jármûvel kapcsolatban az alábbi állapotokat különböztetik meg:",
+		answers: [
+			{ text: "Bizonytalanság állapota, veszély állapota, sürgõsség állapota", correct: false},
+			{ text: "Bizonytalanság állapota, sürgõsség állapota, veszély állapota", correct: false},
+			{ text: "Bizonytalanság állapota, riasztás állapota, veszély állapota.", correct: true},
+			{ text: "Bizonytalanság állapota, risztás állapota, veszély állapota és sürgõsség állapota", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Annak a légijármûnek a pilótája, amelyik elvesztette a kétoldalú rádióösszeköttetést, másodlagos radar válaszjeladóját 'A' módban kell mûködtetnie, az alábbi kóddal:",
+		answers: [
+			{ text: "2000.", correct: false},
+			{ text: "7500.", correct: false},
+			{ text: "7600.", correct: true},
+			{ text: "7700.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI ELJÁRÁSOK",
+		question: "Amikor egy légijármû jogellenes beavatkozás alatt áll, a parancsnok pilótának a helyzet jelzésére másodlaogos radar válaszjeladóján az alábbi kódot kell beállítania:",
+		answers: [
+			{ text: "7000.", correct: false},
+			{ text: "7500.", correct: true},
+			{ text: "7600.", correct: false},
+			{ text: "7700.", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSI SZABÁLYOK",
-		question: "bbb",
+		question: "Egy repülõgép átrepülést hajt végre. Utazórepüléskor a CAS 150 csomó, a TAS 180 csomó, az átlagos GS 210 csomó. A repülési terv sebesség rovatába a következõt kell írni",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "N0180", correct: true},
+			{ text: "K0210", correct: false},
+			{ text: "K0180", correct: false},
+			{ text: "K0150", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Az alábbiak közül mely repülésekhez kötelezõ repülési tervet kitölteni: <br> 1 Bármely közforgalmú repülés<br>2 Bármely IFR repülés <br> 3 Bármely repülés olyan körzet felett, melyet abból a célból hoztak létre , hogy a riasztó <br> és kutató-mentõ szolgálatok munkáját megkönnyítsék <br> 4 Bármely államhatárt átlépõ repülés <br> 5 Bármely repülés mely víz felett halad",
+		answers: [
+			{ text: "1+5", correct: false},
+			{ text: "1+2+3", correct: false},
+			{ text: "3+4+5", correct: false},
+			{ text: "2+4", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Mi a rádióösszeköttetés megszakadása esetén használatos transzponder kód?",
+		answers: [
+			{ text: "7500", correct: false},
+			{ text: "7600", correct: true},
+			{ text: "7700", correct: false},
+			{ text: "6700", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Egy repülõgép 7600 -át állít be transzponderén. Ez a következõt jelenti:",
+		answers: [
+			{ text: "Képtelen a rádiókapcsolat felvételére a rádiókészülék meghibásodása miatt.", correct: true},
+			{ text: "A kitérõ repülõtérre módosítja a repülést.", correct: false},
+			{ text: "Azonnali repülési szint váltást kér.", correct: false},
+			{ text: "Kényszerített leszállást jelez.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Hogyan kell a vak adást végrehajtani?",
+		answers: [
+			{ text: "A kényszerhelyzeti frekvencián.", correct: false},
+			{ text: "Csak egyszer a kijelölt frekvencián.", correct: false},
+			{ text: "Kétszer a kijelölt frekvencián.", correct: true},
+			{ text: "Csak VFR szerinti repülés esetén kell végrehajtani.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "A következõk közül melyik esetben kell a 7600 transzponder kódot beállítani?",
+		answers: [
+			{ text: "Rossz idõjárási körülmények közötti repüléskor.", correct: false},
+			{ text: "Rádióhiba esetén.", correct: true},
+			{ text: "Tiltott légtér megközelítésekor.", correct: false},
+			{ text: "Sivatagos terület feletti repüléskor.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "A következõk közül melyik nemzetközi vészfrekvencia?",
+		answers: [
+			{ text: "6500 KHz", correct: false},
+			{ text: "122.500 MHz", correct: false},
+			{ text: "121.500 MHz", correct: true},
+			{ text: "121.050 MHz", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Milyen transzponder kódot kell a vészhelyzetben levõ légijármûvön beállítani?",
+		answers: [
+			{ text: "6700", correct: false},
+			{ text: "7500", correct: false},
+			{ text: "7600", correct: false},
+			{ text: "7700", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Milyen esetben kell a 7700-as transzponder kódot beállítani?",
+		answers: [
+			{ text: "Vészhelyzetben.", correct: true},
+			{ text: "SID repülése közben.", correct: false},
+			{ text: "Ellenõrzött légtérben repülve.", correct: false},
+			{ text: "Az átváltási szint keresztezésekor.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "A sürgõsséget a következõ képpen definiálhatjuk :",
+		answers: [
+			{ text: "Olyan állapot , amikor súlyos veszély fenyeget , vagy fenyegethet , és azonnali beavatkozásra van szükség.", correct: false},
+			{ text: "Azt az állapotot nevezzük így , amikor a repülõgép egy ILS megközelítés során az iránysávot elfogja.", correct: false},
+			{ text: "Olyan állapot , amikor a fedélzeten vagy látótávolságon belül található személy biztonsága veszélyben van és azonnali beavatkozásra van szükség.", correct: false},
+			{ text: "Olyan állapot , amikor a légijármû , vagy más jármûvek , vagy a fedélzeten tartózkodó személyek biztonsága veszélyben van , de nincs szükség azonnali beavatkozásra.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Sürgõsségi üzenetet mindíg meg kell elõznie a következõnek:",
+		answers: [
+			{ text: "MAYDAY , háromszor.", correct: false},
+			{ text: "URGENCY , háromszor.", correct: false},
+			{ text: "PAN PAN , háromszor.", correct: true},
+			{ text: "ALERFA , háromszor.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "A repülési tervben a sebesség rovatban meg kell jelölni az utazórepülés, vagy annak elsõ szakaszának utazósebességét. Melyik sebességfajtát kell feltüntetni?",
+		answers: [
+			{ text: "EAS", correct: false},
+			{ text: "TAS", correct: true},
+			{ text: "IAS", correct: false},
+			{ text: "becsült GS", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Párhuzamos futópályák esetén, a futópályát azonosító számokat az alábbiak szerint kell kiegészíteni:",
+		answers: [
+			{ text: "Egy betüvel - pl. 2 párhuzamos futópálya esetén 'L' és 'R', 3 futópálya esetén 'L', 'C' és 'R'.", correct: true},
+			{ text: "Egy számmal, mint pl. '0' és '01' két párhuzamos futópálya esetén.", correct: false},
+			{ text: "Egy betüvel 2 párhuzamos futópálya esetén.", correct: false},
+			{ text: "Egy betüvel - pl. 3 párhuzamos futópálya esetén a két szélsõ 'L' és 'R' és a középsõnél nincs betü.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Milyen körülmények szükségesek ahhoz, hogy egy repülõteret ellenõrzöttnek tekintsenek?",
+		answers: [
+			{ text: "A repülõtéren repülõtéri irányító toronynak kell mûködnie.", correct: true},
+			{ text: "A repülõtérnek repülõtéri irányító körzetben kell elhelyezkednie.", correct: false},
+			{ text: "A repülõtérnek egy ellenõrzött légtérben kell elhelyezkednie.", correct: false},
+			{ text: "A repülõtérnek egy repülõtéri irányító körzetben (CTR) kell lennie és repülõtéri irányító toronnyal felszerelve.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Melyik SSR kódot kell használni 'A' módban ahhoz, hogy egy légijármû kényszerhelyzete felismerhetõ legyen ?",
+		answers: [
+			{ text: "7500", correct: false},
+			{ text: "7600", correct: false},
+			{ text: "7700", correct: true},
+			{ text: "7000", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Melyik másodlagos radar kódot kell alkalmazni annak felismertetéséhez, hogy egy légijármû jogellenes beavatkozás alatt áll?",
+		answers: [
+			{ text: "Code 7700.", correct: false},
+			{ text: "Code 7500.", correct: true},
+			{ text: "Code 7600.", correct: false},
+			{ text: "Code 2000.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "VFR repülés nem hajtható végre városok lakott területe felett...",
+		answers: [
+			{ text: "alacsonyabban, mint a legmagasabb akadály.", correct: false},
+			{ text: "kevesebb, mint 500 láb magasságon a legmagasabb akadály felett", correct: false},
+			{ text: "kevesebb, mint 2000 láb magasságon a repülõgép 600 m-es körzetében található legmagasab akadályhoz képest.", correct: false},
+			{ text: "kevesebb, mint 1000 láb magasságon a repülõgép 600 m-es körzetében található legmagasabb akadályhoz képest.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "A TMA-t (Ferihegy közelkörzetét) VFR-repülés során keresztezhetjük-e?",
+		answers: [
+			{ text: "Csak külön engedély birtokában, illetve ferihegyi fel-, leszállás esetén.", correct: false},
+			{ text: "Igen, de csak érvényes repülési terv és irányítói engedély birtokában, melyet a belépés elõtt minimum 10 perccel meg kell kérni.", correct: true},
+			{ text: "Igen, de repülési terv leadása kötelezõ a repülés megkezdése elõtt minimum 3 órával.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "VFR repülés tervezhetõ-e a ferihegyi CTR-en keresztül?",
+		answers: [
+			{ text: "Csak külön engedély birtokában, illetve ferihegyi fel-, leszállás esetén.", correct: true},
+			{ text: "Csak 2000 feet fölött.", correct: false},
+			{ text: "Csak akkor, ha van transzponderünk.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Mikor állítjuk be a magasságmérõt QNH nyomás szerint?",
+		answers: [
+			{ text: "Ha az átváltási magasságon, vagy alatta fogunk repülni.", correct: true},
+			{ text: "Mindig ezt használjuk.", correct: false},
+			{ text: "Ellenõrzött légtéren kívül.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Mikor állítjuk be a magasságmérõt standard nyomás szerint? (QNE=1013 hPa)",
+		answers: [
+			{ text: "Ellenõrzött légtérben.", correct: false},
+			{ text: "Nemzetközi repülések során.", correct: false},
+			{ text: "Az átváltási szinten és fölötte repülve.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Magyarországon a következõ légterek vannak:",
+		answers: [
+			{ text: "A,B,C,D,F,G", correct: false},
+			{ text: "A,C,F,G", correct: false},
+			{ text: "A,C,D,F,G", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "Magyarországon az ICAO ajánlásának megfelelõen a VFR repülésekre vonatkozó minimális látástávolság átlagos sebességû repülõgépeknél:",
+		answers: [
+			{ text: "'C' és 'D' légtérben FL100 fölött 8 km, alatta 5 km, 'F' és 'G' légtérben 5 km.", correct: true},
+			{ text: "5 km és 10 km között.", correct: false},
+			{ text: "FL 100 felett 10 km, alatta 3 km.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSI SZABÁLYOK",
+		question: "A felhõktõl való minimális távolság VFR repülés esetén:",
+		answers: [
+			{ text: "Minden légtérben kötelezõ az 1500 m vízszintes és a 300 m függõleges távolságot megtartani.", correct: false},
+			{ text: "'C','D' és 'F' légtérben 1500 m vízszintes, 300 m függõleges, 'G' légtérben a felhõkön kívûl kell tartózkodni, folyamatos talajlátás szükséges.", correct: true},
+			{ text: "A felhõktõl való kötelezõ távolság a zivatarfelhõkre vonatkozik, mivel azok a repülésre veszélyesek lehetnek.", correct: false},
 		]
 	},
 	{
 		subject: "REPÜLÉSMETEOROLÓGIA",
-		question: "bbb",
+		question: "A légköri nyomás",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "a magassággal emelkedik", correct: false},
+			{ text: "alacsonyabb magasságban meredekebben csökken egységnyi magasságváltozásra, mint nagy magasságban", correct: true},
+			{ text: "a magassággal egyenes arányban csökken", correct: false},
+			{ text: "Alacsonyabb magasságban lassabban csökken egységnyi magasságváltozásra, mint nagy magasságban", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Bármely magasságon biztosított az életbenmaradás, ha",
+		answers: [
+			{ text: "elegendõ az oxigén,a nyomás és a hõmérséklet", correct: true},
+			{ text: "legalább 21% áll rendelkezésre a belélegzett levegõben", correct: false},
+			{ text: "biztosított a túlnyomásos lélegeztetés az adott magasságban", correct: false},
+			{ text: "a kabinhõmérséklet nem süllyed 10°C alá", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A kimerültség és az állandó koncentráció",
+		answers: [
+			{ text: "15.000 ft alatt repülve növeli a hipoxiás tûrõképességet", correct: false},
+			{ text: "egyáltalán nem hat a hipoxiára", correct: false},
+			{ text: "növeli a hipoxiás tûrõképességet", correct: false},
+			{ text: "csökkenti a hipoxiás tûrõképességet", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az atmoszféra a következõ összetevõket tartalmazza",
+		answers: [
+			{ text: "78% nitrogén, 21% oxigén, <0,03% szén-dioxid, egyéb gázok", correct: true},
+			{ text: "78% nitrogén, 21% oxigén, <1% szén-monoxid, egyéb gázok", correct: false},
+			{ text: "78% hélium, 21% oxigén, <1% szén-monoxid, egyéb gázok", correct: false},
+			{ text: "78% hélium, 21% oxygen, <0,03% szén-dioxi, egyéb gázok", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A föld légkörét az egyes gázok különbözõ koncentrációja alkotja. Párosítsd a<br>következõket:<br>1 nitrogén A 0,03%<br>2 oxigén B 0,92%<br>3 széndioxid C 20,95%<br>4 nemes gázok D 78,10%",
+		answers: [
+			{ text: "1C, 2B, 3A, 4D", correct: false},
+			{ text: "1B, 2A, 3D, 4C", correct: false},
+			{ text: "1D, 2C, 3A, 4B", correct: true},
+			{ text: "1D, 2C, 3B, 4A", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az oxigén térfogat-százaléka a légkörben 21%, mely:",
+		answers: [
+			{ text: "csökken a magasság növekedésével", correct: false},
+			{ text: "a hagyományos repülõgépek számára elérhetõ magasságban állandó", correct: true},
+			{ text: "növekszik a magasság növekedésével", correct: false},
+			{ text: "az aktuális légnyomás függvénye", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mely rétegbe koncentrálódik a légköri nedvességtartalom (vízgõztartalom) legnagyobb része?",
+		answers: [
+			{ text: "Troposzféra.", correct: true},
+			{ text: "Tropopauza.", correct: false},
+			{ text: "Sztratoszféra.", correct: false},
+			{ text: "Sztratopauza.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül mit kell még tudni ahhoz, hogy a QNH-ból kiszámítsuk a QFE-t?",
+		answers: [
+			{ text: "A repülõtér tengerszint feletti magasságát (elevation-jét) és a léghõmérsékletet a közepes tengerszinten (MSL-en).", correct: false},
+			{ text: "A repülõtér tengerszint feletti magasságát (elevation-jét).", correct: true},
+			{ text: "A léghõmérsékletet a repülõtéren.", correct: false},
+			{ text: "A repülõtér tengerszint feletti magasságát (elevation-jét) és a léghõmérsékletet a repülõtéren.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A 'scattered' szó a rendszeres METAR jelentésekben milyen felhõfedettséget jelent?",
+		answers: [
+			{ text: "Nincs felhõ a talajtól 5000 láb magasságig.", correct: false},
+			{ text: "Az ég teljesen borult. (8 okta).", correct: false},
+			{ text: "több , mint fél de kevesebb, mint a 'borult' (5-7 okta).", correct: false},
+			{ text: "fél vagy annál kevesebb (3-4 okta).", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Hogyan jelölik a látástávolságot a rendszeres METAR táviratokban?",
+		answers: [
+			{ text: "1500 m-ig méterben, felette km-ben.", correct: false},
+			{ text: "5000 m-ig méterben, felette km-ben.", correct: true},
+			{ text: "lábban és tengeri mérföldben.", correct: false},
+			{ text: "csak tengeri mérföldben.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Hogyan nevezzük a troposzféra és a sztratoszféra közötti határoló felületet?",
+		answers: [
+			{ text: "Tropopauza.", correct: true},
+			{ text: "Ionoszféra.", correct: false},
+			{ text: "Sztratopauza.", correct: false},
+			{ text: "Atmoszféra.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Minden esetben képzõdik felhõ, köd vagy harmat, ha:",
+		answers: [
+			{ text: "vízgõz van jelen.", correct: false},
+			{ text: "a vízgõz kicsapódik.", correct: true},
+			{ text: "a relatív nedvesség eléri a 98%-ot.", correct: false},
+			{ text: "a hõmérséklet és a harmatpont értéke közel azonos.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül mely folyamat vezethet egy légrétegben CU és CB felhõk kifejlõdéséhez?",
+		answers: [
+			{ text: "Konvekció.", correct: true},
+			{ text: "Radiáció (kisugárzás).", correct: false},
+			{ text: "Leszüremkedés (zsugorodás).", correct: false},
+			{ text: "Frontális emelés stabil légrétegben.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi felhõfajták közül melyek utalnak instabil légköri viszonyokra?",
+		answers: [
+			{ text: "CU, CB.", correct: true},
+			{ text: "ST, CS.", correct: false},
+			{ text: "SC, NS.", correct: false},
+			{ text: "CI, SC.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A mérsékelt szélességeken az alábbi felhõk közül melyekre mondjuk, hogy középmagas szintû felhõk?",
+		answers: [
+			{ text: "CS, ST.", correct: false},
+			{ text: "CI, CC.", correct: false},
+			{ text: "SC, NS.", correct: false},
+			{ text: "AS, AC.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi(k) a fõ alkotóeleme(i) a magasszintû felhõknek?",
+		answers: [
+			{ text: "Jégkristályok.", correct: true},
+			{ text: "Túlhûlt vízcseppek.", correct: false},
+			{ text: "Vízcseppek.", correct: false},
+			{ text: "Vízgõz.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül melyik felhõ terjed ki több szintre (értsd ezalatt: a troposzféra alsó-, középsõ-, felsõ régióját)?",
+		answers: [
+			{ text: "Stratus.", correct: false},
+			{ text: "Nimbostratus.", correct: true},
+			{ text: "Altocumulus.", correct: false},
+			{ text: "Cirrus.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül melyik felhõfajta az, amelyik nagy valószínûséggel ad intenzív csapadékot?",
+		answers: [
+			{ text: "NS.", correct: true},
+			{ text: "CS.", correct: false},
+			{ text: "SC.", correct: false},
+			{ text: "ST.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mik lesznek a jellemzõi a talajszélnek egy olyan területen, ahol az izobárok az idõjárási térképen nagyon közel vannak egymáshoz?",
+		answers: [
+			{ text: "Erõs lesz, és az izobárokkal párhuzamosan fog fújni.", correct: false},
+			{ text: "Nagyon gyenge, de lökéses lesz, és átfúj az izobárokon.", correct: false},
+			{ text: "Erõs lesz, és átfúj az izobárokon.", correct: true},
+			{ text: "Mérsékelt lesz, és párhuzamosan fog fújni az izobárokkal.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mely erõk egyensúlya valósul meg a geosztrofikus szélben?",
+		answers: [
+			{ text: "Nyomásgradiens erõ, Coriolis erõ.", correct: true},
+			{ text: "Súrlódási erõ, nyomásgradiens erõ, Coriolis erõ.", correct: false},
+			{ text: "Nyomásgradiens erõ, Coriolis erõ, centrifugális erõ.", correct: false},
+			{ text: "Nyomásgradiens erõ, centrifugális erõ, súrlódási erõ.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A levegõ és a talaj közötti súrlódás az északi féltekén a következõket eredményezi:",
+		answers: [
+			{ text: "közeledve a talajfelszínhez a szél jobbra fordul, és sebessége csökken.", correct: false},
+			{ text: "közeledve a talajfelszínhez a szél balra fordul, és sebessége nõ.", correct: false},
+			{ text: "közeledve a talajfelszínhez a szél balra fordul, és sebessége csökken.", correct: true},
+			{ text: "közeledve a talajfelszínhez a szél jobbra fordul, és sebessége nõ.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A napnak, vagy éjnek mely idõszakában fordul elõ legvalószínûbben kisugárzási (radiációs) köd?",
+		answers: [
+			{ text: "Röviddel napfelkelte után.", correct: true},
+			{ text: "Napnyugtakor.", correct: false},
+			{ text: "Késõ este.", correct: false},
+			{ text: "Röviddel éjfél után.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Milyen szélviszonyok kedvezõek a köd keletkezéséhez, közvetlenül hajnal elõtt, egy repülõtéren, ahol a hõmérséklet 15 °C, és a harmatpont 14 °C?",
+		answers: [
+			{ text: "Szélcsend.", correct: true},
+			{ text: "Északi, 10 kt.", correct: false},
+			{ text: "Nyugati, 10 kt.", correct: false},
+			{ text: "Keleti, 10 kt.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi idõjárási feltételek közül melyik kedvez a kisugárzási (radiációs) köd kialakulásának?",
+		answers: [
+			{ text: "Gyenge szél, kevés felhõ, vagy felhõtlen ég, nedves levegõ.", correct: true},
+			{ text: "Gyenge szél, kiterjedt felhõzet, száraz levegõ.", correct: false},
+			{ text: "Gyenge szél, kiterjedt felhõzet, nedves levegõ.", correct: false},
+			{ text: "Erõs szél, kevés felhõ, vagy felhõtlen ég, nedves levegõ.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A következõ feltételek közül melyikkel találkozik legvalószínûbben, amikor egy aktív melegfrontot megközelít közepes, illetve alacsony repülési magasságon?",
+		answers: [
+			{ text: "Heves zivatarok alacsony magasságon.", correct: false},
+			{ text: "Alacsony felhõalap és rossz látás.", correct: true},
+			{ text: "Extrém erõs turbulencia és gyakori lecsapó villámok (cloud-to-ground villámok).", correct: false},
+			{ text: "Magas felhõalap, jó talaj-látás és izolált zivatarok.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Milyen felhõfajta jellemzi leginkább azt a térséget, ahol meleg légtömeg felsiklik hideg légtömegen.",
+		answers: [
+			{ text: "Cumulus.", correct: false},
+			{ text: "Nimbostratus.", correct: true},
+			{ text: "Altostratus.", correct: false},
+			{ text: "Cumulonimbus.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Hol találjuk a leghidegebb levegõt egy hideg okklúziós front térségében?",
+		answers: [
+			{ text: "A front mögött.", correct: true},
+			{ text: "A front elõtt.", correct: false},
+			{ text: "A talajon a frontvonalnál.", correct: false},
+			{ text: "Az okklúziós pontban.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Általában melyik front-típus mozgása a leggyorsabb?",
+		answers: [
+			{ text: "Hidegfront.", correct: true},
+			{ text: "Melegfront.", correct: false},
+			{ text: "Hideg okklúziós front.", correct: false},
+			{ text: "Meleg okklúziós front.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Közép-Európában mikor van a legnagyobb valószínûsége a meleg levegõ feláramlása következtében kialakuló zivataroknak (hõzivataroknak)?",
+		answers: [
+			{ text: "Korán reggel.", correct: false},
+			{ text: "Éjfél körül.", correct: false},
+			{ text: "A délután középsõ idõszakában.", correct: true},
+			{ text: "Délelõtt.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Szárazföld felett, az alsóbb légrétegekben mi a meteorológiai elõfeltétele annak, hogy zivatarfelhõk keletkezzenek feláramlás folytán?",
+		answers: [
+			{ text: "Magas léghõmérséklet, magas légnedvesség.", correct: true},
+			{ text: "Magas légnyomás (> 1013 hPa), magas léghõmérséklet.", correct: false},
+			{ text: "Alacsony léghõmérséklet, alacsony légnedvesség.", correct: false},
+			{ text: "Zsugorodás (leszüremkedés), inverzió.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi a jelentése a 'BKN' rövidítésnek?",
+		answers: [
+			{ text: "5 - 7 okta.", correct: true},
+			{ text: "3 - 4 okta.", correct: false},
+			{ text: "6 - 8 okta.", correct: false},
+			{ text: "8 okta.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "(Ehhez a kérdéshez használja az 050-2055A mellékletet!) A hidegfrontot az alábbi szám jelöli:",
+		answers: [
+			{ text: "1", correct: false},
+			{ text: "2", correct: true},
+			{ text: "3", correct: false},
+			{ text: "4", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül melyik felhõfajta nyúlhat bele a sztratoszférába?Az alábbiak közül melyik felhõfajta nyúlhat bele a sztratoszférába?",
+		answers: [
+			{ text: "Cumulonimbus.", correct: true},
+			{ text: "Cirrostratus.", correct: false},
+			{ text: "Altocumulus.", correct: false},
+			{ text: "Altostratus.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül melyik állítás igaz a tropopauzára?",
+		answers: [
+			{ text: "Erõs függõleges hõmérsékleti gradienst jelez.", correct: false},
+			{ text: "Definició szerint egy izoterm réteg.", correct: false},
+			{ text: "Elválasztja a troposzférát a sztratoszférától.", correct: true},
+			{ text: "Definició szerint egy inverziós réteg.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mely pontokat kötik össze az izobárok az idõjárási talajtérképen?",
+		answers: [
+			{ text: "Azokat a pontokat, amelyekben egy adott szintre (a közepes tengerszintre) vonatkozó légnyomás-értékek azonosak.", correct: true},
+			{ text: "Azokat a pontokat, amelyekben egy adott szintre vonatkozó léghõmérséklet-értékek azonosak.", correct: false},
+			{ text: "Azokat a pontokat, amelyekben egy adott szintre vonatkozó szélsebesség-értékek azonosak.", correct: false},
+			{ text: "Az azonos relatív nyomásmagasságok pontjait.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Szabvány szerint két FL között a szükséges elkülönítés: 1000 ft függõleges térköz. Hideg advekció esetén (ISA -15°C) milyen a valódi függõleges térköz?",
+		answers: [
+			{ text: "1000 ft marad.", correct: false},
+			{ text: "Kevesebb, mint 1000 ft.", correct: true},
+			{ text: "Több, mint 1000 ft.", correct: false},
+			{ text: "A QNH ismerete nélkül nem lehet meghatározni.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi körülmények közül legvalószínûbben melyik vezet a radiációs (kisugárzási) köd feloszlásához?",
+		answers: [
+			{ text: "A szélsebesség markáns növekedése a talajközelben.", correct: true},
+			{ text: "A szélsebesség markáns csökkenése közel a talajhoz.", correct: false},
+			{ text: "A talaj lehûlése az éjszakai kisugárzás miatt.", correct: false},
+			{ text: "Egy magasnyomású terület felépülése, mely süllyedõ légtömeget és ezzel kapcsolódó adiabatikus melegedést eredményez.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi folyamatok közül legvalószínûbben melyik vezet advektív köd képzõdéshez?",
+		answers: [
+			{ text: "Száraz, meleg levegõ mozog hideg talajfelszín felett.", correct: false},
+			{ text: "Száraz, hideg levegõ mozog meleg talajfelszín felett.", correct: false},
+			{ text: "Nedves, hideg levegõ mozog meleg talajfelszín felett.", correct: false},
+			{ text: "Nedves, meleg levegõ mozog hideg talajfelszín felett.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Hogyan alakul ki az ónosesõ?",
+		answers: [
+			{ text: "Esõ hullik hideg talajra, és azután megfagy.", correct: false},
+			{ text: "Esõ hullik át olyan talajmenti levegõrétegen, melyben a hõmérséklet 0°C alatt van.", correct: true},
+			{ text: "A talajmenti levegõrétegen áthulló dara-szemcsék megolvadnak.", correct: false},
+			{ text: "A talajmenti levegõrétegen áthulló jégkristályok megolvadnak.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Melyik felhõfajta produkál jégesõt?",
+		answers: [
+			{ text: "CB", correct: true},
+			{ text: "NS", correct: false},
+			{ text: "CS", correct: false},
+			{ text: "AC", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül melyik idõjárási helyzetben találkozhat ónos esõvel?",
+		answers: [
+			{ text: "Hidegfront elõtt télen.", correct: false},
+			{ text: "Melegfront elõtt télen.", correct: true},
+			{ text: "Melegfront mögött nyáron.", correct: false},
+			{ text: "Hidegfront elõtt nyáron.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Hogyan mozognak a légtömegek egy melegfrontban?",
+		answers: [
+			{ text: "A meleg légtömeg felsiklik a hideg légtömegre.", correct: true},
+			{ text: "A hideg légtömeg felsiklik a meleg légtömegen.", correct: false},
+			{ text: "A hideg légtömeg a meleg légtömeg alá csúszik", correct: false},
+			{ text: "A meleg légtömeg a hideg légtömeg alá csúszik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Milyen típusú csapadékot vár egy aktív, instabil hidegfronton?",
+		answers: [
+			{ text: "Záporokat, melyek zivatarokhoz kapcsolódnak.", correct: true},
+			{ text: "Ónos esõt.", correct: false},
+			{ text: "Gyengétõl a közepesig intenzítású folytonos esõt.", correct: false},
+			{ text: "Szitálást.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Hogyan mozognak a légtömegek egy hidegfrontban?",
+		answers: [
+			{ text: "A hideg légtömeg a meleg légtömeg fölé siklik.", correct: false},
+			{ text: "A meleg légtömeg felsiklik a hideg légtömegen.", correct: false},
+			{ text: "A hideg légtömeg a meleg légtömeg alá hatol.", correct: true},
+			{ text: "A meleg légtömeg a hideg légtömeg alá hatol.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A polárfronti ciklon melyik fõ irányba mozog?",
+		answers: [
+			{ text: "A polárfront mentén kelet felé.", correct: true},
+			{ text: "A polárfront mentén nyugat felé.", correct: false},
+			{ text: "A polárfronton keresztül észak felé.", correct: false},
+			{ text: "A polárfronton keresztül dél felé.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Milyen idõjárási körülményeket várna egy instabilitási vonalon (squall line-on)?",
+		answers: [
+			{ text: "Zivatarokat.", correct: true},
+			{ text: "Intenzív, folyamatos esõt.", correct: false},
+			{ text: "Ködöt.", correct: false},
+			{ text: "Erõs forgószeleket, melyek felnyúlnak a magasabb szintekig.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mennyi közelítõleg egy microburst maximális átmérõje?",
+		answers: [
+			{ text: "4 km", correct: true},
+			{ text: "400 m", correct: false},
+			{ text: "20 km", correct: false},
+			{ text: "50 km", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi a trend forecast?",
+		answers: [
+			{ text: "Repülõtéri elõrejelzés, érvényessége 9 óra.", correct: false},
+			{ text: "Leszállási elõrejelzés, melyet a METAR illetve SPECI távirathoz csatolnak; érvényessége 2 óra.", correct: true},
+			{ text: "Útvonal elõrejelzés, érvényessége 24 óra.", correct: false},
+			{ text: "Egy rendszeres jelentés.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mit jelent a 'broken (BKN)'' kifejezés?",
+		answers: [
+			{ text: "Az égnek 5-7 nyolcada felhõvel fedett.", correct: true},
+			{ text: "Az égnek 3-4 nyolcada felhõvel fedett.", correct: false},
+			{ text: "Az égnek 3-5 nyolcada felhõvel fedett.", correct: false},
+			{ text: "Nincs jelentõs felhõfedettség.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi a microburst?",
+		answers: [
+			{ text: "Egy koncentrált nagy sebességû leáramlás, melyben a hõmérséklet alacsonyabb, mint a környezõ levegõben.", correct: true},
+			{ text: "Egy koncentrált nagy sebességû leáramlás, melyben a hõmérséklet magasabb, mint a környezõ levegõben.", correct: false},
+			{ text: "Egy extrém erõs széllökés a trópusi forgóviharban.", correct: false},
+			{ text: "Egy kicsiny alacsony nyomású rendszer, ahol a szél nagyon nagy sebességgel cirkulál.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A troposzféra vastagsága változik a",
+		answers: [
+			{ text: "a szél függvényében.", correct: false},
+			{ text: "a Föld forgása miatt.", correct: false},
+			{ text: "földrajzi hosszúsággal.", correct: false},
+			{ text: "földrajzi szélességgel.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi a légtömegek elrendezõdése a hideg okklúziós frontban?",
+		answers: [
+			{ text: "A leghidegebb légtömeg a frontvonal mögött van, a kevésbé hideg elõtte. A meleg légtömeg a magasban van (nem érinti a talajt).", correct: true},
+			{ text: "A leghidegebb légtömeg a frontvonal elõtt van, a kevésbé hideg mögötte. A meleg légtömeg a magasban van (nem érinti a talajt).", correct: false},
+			{ text: "A leghidegebb légtömeg a frontvonal elõtt van, a meleg légtömeg mögötte. A kevésbé hideg a magasban van (nem érinti a talajt).", correct: false},
+			{ text: "A leghidegebb légtömeg a frontvonal mögött van, a meleg légtömeg elõtte. A kevésbé hideg a magasban van (nem érinti a talajt).", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A legvalószínübb oka a kisugárzási (radiációs) köd feloszlásának, vagy alacsony stratus felhõbe történõ átalakulásának:",
+		answers: [
+			{ text: "a fokozatosan stabillá váló légkör.", correct: false},
+			{ text: "a talajszél megerõsödése.", correct: true},
+			{ text: "a talajfelszín hûlése.", correct: false},
+			{ text: "egy alacsony szintû hõmérsékleti inverzió kialakulása.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi a különbség a radiációs, és az advekciós köd között?",
+		answers: [
+			{ text: "A radiációs köd az éjszakai lehûlés folytán, az advektív köd pedig a nappali lehûlés folytán jön létre.", correct: false},
+			{ text: "Radiációs köd csak talajon, advektív köd pedig csak tengeren képzõdik.", correct: false},
+			{ text: "A radiációs köd a talajfelszín lehûlése miatt keletkezik, éjszaka, gyenge szélben, vagy szélcsendben. Az advekciós köd akkor jön létre, ha meleg, nedves levegõ áramlik hideg felszín fölött.", correct: true},
+			{ text: "A radiációs köd a talajfelszín lehûlése miatt keletkezik, szélcsendben. Az advektív köd párolgás következtében keletkezik a tenger fölött.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Melyik nyomást deffiniáljuk QFE-ként?",
+		answers: [
+			{ text: "A repülõtér szintjén (a repülõtéri elevation- értéken) uralkodó légnyomást.", correct: true},
+			{ text: "A magasságmérõn beállított légnyomást.", correct: false},
+			{ text: "Az aktuális léghõmérséklet segítségével tengrszintre átszámított légnyomást.", correct: false},
+			{ text: "A Nemzetközi Egyezményes Légkör (ISA) hõmérsékletadata segítségével tengrszintre átszámított légnyomást.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Növekvõ magassággal hogyan változik a hõmérséklet a Nemzetközi Egyezményes Légkörben (ISA-ban) a tropopauza alatt?",
+		answers: [
+			{ text: "Nõ.", correct: false},
+			{ text: "Csökken.", correct: true},
+			{ text: "Kezdetben nõ, és a magasabb rétegekben csökken.", correct: false},
+			{ text: "Állandó marad.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mennyi a függõleges hõmérsékleti gradiens 11 km-ig a Nemzetközi Egyezményes Légkörben (ISA-ban)?",
+		answers: [
+			{ text: "6,5°C per 1000 m", correct: true},
+			{ text: "4,5°C per 1000 m", correct: false},
+			{ text: "3°C per 1000 m", correct: false},
+			{ text: "2°C per 1000 m", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Egy emelési folyamaton (triggeren) kívül milyen két másik feltételre van szükség a zivatar kialakulásához?",
+		answers: [
+			{ text: "Instabil légállapot és alacsony nedvességtartalom.", correct: false},
+			{ text: "Stabil légállapot és alacsony nedvességtartalom.", correct: false},
+			{ text: "Stabil légállapot és magas nedvességtartalom.", correct: false},
+			{ text: "Instabil légállapot és magas nedvességtartalom.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Milyen típusú köd jön létre legvalószínûbben sík vidék fölött, derült éjszakán, szélcsendben, vagy gyenge szelek esetén?",
+		answers: [
+			{ text: "Advekciós.", correct: false},
+			{ text: "Kisugárzási (radiációs).", correct: true},
+			{ text: "Párolgási.", correct: false},
+			{ text: "Orografikus.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Legvalószínübben melyik környezetben a legnagyobb a repülõgép-sárkányra lerakódó jég növekedési rátája?",
+		answers: [
+			{ text: "Stratus felhõkben.", correct: false},
+			{ text: "Cirrus felhõkben.", correct: false},
+			{ text: "Ónos esõben.", correct: true},
+			{ text: "Havazásban.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Kizárólag folyamatos feláramlás van a zivatarfelhõben",
+		answers: [
+			{ text: "a cumulus életszakaszban.", correct: true},
+			{ text: "a kifejlett életszakaszban.", correct: false},
+			{ text: "a feloszló életszakaszban.", correct: false},
+			{ text: "azon idõszakokban, amikor csapadék hullik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A zivatarok a legnagyobb intenzítást",
+		answers: [
+			{ text: "azon idõszakban érik el, amikor nem hullik csapadék.", correct: false},
+			{ text: "a feloszló életszakaszban érik el.", correct: false},
+			{ text: "a cumulus életszakaszban érik el.", correct: false},
+			{ text: "a kifejlett életszakaszban érik el.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "500 m-el a tengerszint felett +15 °C-ot mérnek. Ha a függõleges hõmérsékleti gradiens a standard atmoszféra szerinti, mennyi lesz a hõmérséklet egy hegy csúcsán, melynek tengerszint feletti magassága 2500 m?",
+		answers: [
+			{ text: "-2°C", correct: false},
+			{ text: "0°C", correct: false},
+			{ text: "+2°C", correct: true},
+			{ text: "+4°C", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Milyen szakkifejezést használunk, amikor a magasság növekedésével nõ a hõmérséklet?",
+		answers: [
+			{ text: "Inverzió.", correct: true},
+			{ text: "Zsugorodás (leszüremkedés).", correct: false},
+			{ text: "Adiabatikus állapot.", correct: false},
+			{ text: "Advekció.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mennyi közelítõleg egy 25 csomós szél km/ó-ban kifejezett értéke?",
+		answers: [
+			{ text: "35 km/h", correct: false},
+			{ text: "45 km/h", correct: true},
+			{ text: "55 km/h", correct: false},
+			{ text: "60 km/h", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Egy légtömeg harmatpontjára vonatkozó alábbi állítások közül melyik igaz?",
+		answers: [
+			{ text: "Az vagy egyenlõ a légtömeg hõmérsékletével, vagy annál alacsonyabb érték.", correct: true},
+			{ text: "Az lehet magasabb érték, mint a légtömeg hõmérséklete.", correct: false},
+			{ text: "A légtömeg harmatpontja - a légnyomás adattal együtt - lehetõvé teszi a légtömeg relatív nedvességének kiszámítását.", correct: false},
+			{ text: "A légtömeg harmatpontja akkor is elegendõ adat a légtömeg relatív nedvességének kiszámításához, ha a hõmérséklet ismeretlen.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi felhõfajták közül melyik a magasszintû?",
+		answers: [
+			{ text: "SC", correct: false},
+			{ text: "CI", correct: true},
+			{ text: "AS", correct: false},
+			{ text: "CU", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi felhõfajták közül melyik a középmagas szintû?",
+		answers: [
+			{ text: "AS", correct: true},
+			{ text: "CS", correct: false},
+			{ text: "ST", correct: false},
+			{ text: "SC", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbi feltételek közül melyiknél várható legvalószínûbben kisugárzási (radiációs) köd keletkezése?",
+		answers: [
+			{ text: "Nagyon száraz a levegõ.", correct: false},
+			{ text: "A talajszél erõs.", correct: false},
+			{ text: "Kevés a felhõ, vagy nincs.", correct: true},
+			{ text: "Nagyon alacsony a hõmérséklet.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Mi az 'SCT' rövidítés jelentése?",
+		answers: [
+			{ text: "1 - 2 okta.", correct: false},
+			{ text: "3 - 4 okta.", correct: true},
+			{ text: "5 - 7 okta.", correct: false},
+			{ text: "1 - 4 okta.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A troposzféra",
+		answers: [
+			{ text: "az atmoszférának a tropopauza alatti része.", correct: true},
+			{ text: "az atmoszférának a sztratoszféra feletti része.", correct: false},
+			{ text: "határréteg a mezoszféra és a termoszféra között.", correct: false},
+			{ text: "határréteg a sztratoszféra és a mezoszféra között.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A Nemzetközi Egyezményes Légkörben (ISA-ban) a 100 méter magasságnövekedéshez tartozó hõmérsékletcsökkenés 11000 m alatt:",
+		answers: [
+			{ text: "változó", correct: false},
+			{ text: "0,5°C", correct: false},
+			{ text: "0,65°C", correct: true},
+			{ text: "1°C", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az inverzió olyan légréteg, melyben a hõmérséklet",
+		answers: [
+			{ text: "nõ a magassággal.", correct: true},
+			{ text: "állandó marad a magasság változásakor.", correct: false},
+			{ text: "1°C/100m-nél nagyobb mértékben nõ a magassággal.", correct: false},
+			{ text: "1°C/100m-nél nagyobb mértékben csökken a magassággal.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az izotermia olyan légréteg, melyben a hõmérséklet",
+		answers: [
+			{ text: "állandó marad a magasság változásakor.", correct: true},
+			{ text: "nõ a magassággal.", correct: false},
+			{ text: "csökken a magassággal, állandó arány szerint.", correct: false},
+			{ text: "nõ a magassággal, állandó arány szerint.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Egy légtömeget stabilnak neveznek, ha",
+		answers: [
+			{ text: "benne a (környezeti) függõleges hõmérsékleti gradiens magas érték, és a légáramlásoknak kicsi a függõleges elmozdulása.", correct: false},
+			{ text: "a nyomás az adott területen állandó.", correct: false},
+			{ text: "a hõmérséklet az adott légtömegben gyorsan csökken a magasság növekedésével.", correct: false},
+			{ text: "benne az emelkedõ levegõ függõleges mozgása egyre gyengül, és végül megszûnik.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A Nemzetközi Egyezményes Légkörben (ISA-ban) a hõmérséklet csökkenése a magassággal 11 km alatt",
+		answers: [
+			{ text: "0,5°C per 100m", correct: false},
+			{ text: "0,6°C per 100m", correct: false},
+			{ text: "0,65°C per 100m", correct: true},
+			{ text: "1°C per 100m", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A Nemzetközi Egyezményes Légkörre (ISA-ra) vonatkozólag, melyik állítás korrekt?",
+		answers: [
+			{ text: "Az MSL-en (közepes tengerszinten) 15°C a hõmérséklet, és 1013,25 hPa a nyomás.", correct: true},
+			{ text: "Az MSL-en (közepes tengerszinten) 15°C a hõmérséklet, és a hõmérséklet-csökkenés a magassággal 1°C per 100m.", correct: false},
+			{ text: "Az MSL-en (közepes tengerszinten) 10°C a hõmérséklet, és a hõmérséklet-csökkenés a magassággal 1°C per 100m.", correct: false},
+			{ text: "Az MSL-en (közepes tengerszinten) a nyomás 1013,25 hPa, és a hõmérséklet-csökkenés a magassággal 1°C per 100m.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légnyomásra vonatkozó alábbi állítások közül melyik igaz?",
+		answers: [
+			{ text: "A légnyomás csökken a magassággal.", correct: true},
+			{ text: "A légnyomás magasabb télen, mint nyáron.", correct: false},
+			{ text: "A légnyomás magasabb éjszaka, mint nappal.", correct: false},
+			{ text: "A légnyomás mindig 1 hPa/ 8 m aránnyt tartva csökken a magassággal.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül melyik állítás igaz?",
+		answers: [
+			{ text: "A QNH mindig nagyobb a QFE-nél.", correct: false},
+			{ text: "A QNH mindig kisebb a QFE-nél.", correct: false},
+			{ text: "A QNH lehet egyenlõ a QFE-vel.", correct: true},
+			{ text: "A QNH mindig egyenlõ a QFE-vel.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Melyik állítás igaz?",
+		answers: [
+			{ text: "A QNH lehet alacsonyabb, és lehet magasabb érték is, mint 1013,25 hPa.", correct: true},
+			{ text: "A QNH nem lehet 1013,25 hPa.", correct: false},
+			{ text: "A QNH bármely idõpontban kevesebb, mint 1013,25 hPa.", correct: false},
+			{ text: "A QNH csak az MSL-en (közepes tengerszinten) fekvõ repülõtéren veheti fel az 1013,25 hPa értéket.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Amikor a barometrikus magasságmérõ nyomásskáláján egy repülõtér QNH-ja van beállítva, a barometrikus magasságmérõ",
+		answers: [
+			{ text: "a leszállás pillanatában a repülõtér közepes tengerszint feletti magasságát (elevation-jét) mutatja.", correct: true},
+			{ text: "által mutatott adat a leszállás pillanatában zéró.", correct: false},
+			{ text: "a leszállás pillanatában a repülõtér közepes tengerszint feletti magasságát (elevation-jét) mutatja, de csakk akkor, ha az aktuális légkör adatai megegyeznek a Nemzetközi Egyezményes Légkör (ISA) adataival.", correct: false},
+			{ text: "által mutatott adat a leszállás pillanatában zéró, de csakk akkor, ha az aktuális légkör adatai megegyeznek a Nemzetközi Egyezményes Légkör (ISA) adataival.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az advekció",
+		answers: [
+			{ text: "a levegõ horizontális mozgása.", correct: true},
+			{ text: "a levegõ vertikális mozgása.", correct: false},
+			{ text: "nem más, mint zsugorodás (leszüremkedés).", correct: false},
+			{ text: "azonos a konvekcióval.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az emelkedõ levegõ hûl, mivel",
+		answers: [
+			{ text: "összehúzódik.", correct: false},
+			{ text: "nedvesebbé válik.", correct: false},
+			{ text: "a környezõ levegõ hidegebb a magasabb szinteken.", correct: false},
+			{ text: "terjeszkedik.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A különbség a hõmérséklet és a harmatpont között nagyobb",
+		answers: [
+			{ text: "száraz levegõben.", correct: true},
+			{ text: "nedves levegõben.", correct: false},
+			{ text: "magas hõmérsékletû levegõben.", correct: false},
+			{ text: "alacsony hõmérsékletû levegõben.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A harmatpont",
+		answers: [
+			{ text: "mindig alacsonyabb, mint a levegõ hõmérséklete.", correct: false},
+			{ text: "megegyezhet a levegõ hõmérsékletével.", correct: true},
+			{ text: "mindig magasabb, mint a levegõ hõmérséklete.", correct: false},
+			{ text: "nem lehet egyenlõ a levegõ hõmérsékletével.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A túlhûlt vízcsepp",
+		answers: [
+			{ text: "a fagypont alatti hõmérséklet ellenére folyékony halmazállapotú.", correct: true},
+			{ text: "olyan vízcsepp, amelynek túlnyomórésze fagyott.", correct: false},
+			{ text: "apró vízrészecske, melynek hõmérséklete -50°C alatt van.", correct: false},
+			{ text: "egy olyan vízcsepp, amely esése során megfagyott.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A süllyedõ (leáramló) levegõ általában felhõmentes, mivel a lefelé áramló levegõ",
+		answers: [
+			{ text: "vízgõzt veszít.", correct: false},
+			{ text: "a kitágulás (expanzió) miatt melegszik.", correct: false},
+			{ text: "melegebb rétegekbe ér.", correct: false},
+			{ text: "az összenyomódás (kompresszió) miatt melegszik.", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alábbiak közül mellyek középmagas szintû felhõ(k)?",
+		answers: [
+			{ text: "Altostratus és altocumulus.", correct: true},
+			{ text: "Cirrocumulus és cirrostratus.", correct: false},
+			{ text: "Cumulonimbus.", correct: false},
+			{ text: "Az összes konvektív felhõ.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A Cumulus felhõk jelzik",
+		answers: [
+			{ text: "a fel- és leáramlásokat.", correct: true},
+			{ text: "a stabilitást.", correct: false},
+			{ text: "a hidegfront közeledtét.", correct: false},
+			{ text: "a melegfront közeledtét.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Minnél nagyobb a nyomásgradiens",
+		answers: [
+			{ text: "az izobárok annál közelebb vannak egymáshoz, és annál erõsebb a szél.", correct: true},
+			{ text: "az izobárok annál távolabb vannak egymástól, és a szél annál gyengébb.", correct: false},
+			{ text: "az izobárok annál közelebb vannak egymáshoz, és annál alacsonyabb a hõmérséklet.", correct: false},
+			{ text: "az izobárok annál távolabb vannak egymástól, és annál nagyobb a hõmérséklet.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha az izobárok az idõjárási térképen, a közepes szélességek területén közel vannak egymáshoz, a szél minden valószínûség szerint",
+		answers: [
+			{ text: "erõs.", correct: true},
+			{ text: "merõlegesen fúj az izobárokra.", correct: false},
+			{ text: "gyorsan változtatja irányát.", correct: false},
+			{ text: "gyenge.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A szél az északi féltekén, a talajon,",
+		answers: [
+			{ text: "az alacsony nyomású területrõl a magas nyomású terület felé fúj.", correct: false},
+			{ text: "az alacsony nyomású területen, az óramutató járásával ellentétesen, és a középpont felé irányulóan fúj.", correct: true},
+			{ text: "az alacsony nyomású területen, az óramutató járásával megegyezõen, és a középponttól kifelé irányulóan fúj.", correct: false},
+			{ text: "a magas nyomású területen, az óramutató járásával ellentétesen, és a középponttól kifelé irányulóan fúj.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A szelet elõidézi:",
+		answers: [
+			{ text: "a vízszintesben jelentkezõ nyomáskülönbség.", correct: true},
+			{ text: "a Föld forgása.", correct: false},
+			{ text: "a talaj és a levegõ közti súrlódás.", correct: false},
+			{ text: "a frontok mozgása.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A fõn egy",
+		answers: [
+			{ text: "meleg, lefelé áramló szél.", correct: true},
+			{ text: "hideg, lefelé áramló szél.", correct: false},
+			{ text: "meleg, felfelé áramló szél.", correct: false},
+			{ text: "hideg, felfelé áramló szél.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A földi atmoszféra kémiai összetétele (ICAO standart atmoszféra)",
+		answers: [
+			{ text: "71 % nitrogén, 28 % oxigén, 0,9 % argon, 0,03 % széndioxid", correct: false},
+			{ text: "78 % nitrogén, 28 % oxigén, 0,9 % széndioxid, 0,03 % argon", correct: false},
+			{ text: "78 % nitrogén, 21 % oxigén, 0,9 % széndioxid, 0,03 % argon", correct: false},
+			{ text: "78 % nitrogén, 21 % oxigén, 0,9 % argon, 0,03 % széndioxid", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légkör alapgázainak nevezzük azokat a gázokat, melyeknek",
+		answers: [
+			{ text: "nyomása állandó a légkör alsó 100 km-es magasságában.", correct: false},
+			{ text: "egymáshoz viszonyított arányuk állandó a légkör alsó 100 km-es magasságában.", correct: true},
+			{ text: "súlya állandó a légkör alsó 100 km-es magasságában.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az alább felsoroltak közül nem tekintjük alapgáznak",
+		answers: [
+			{ text: "a vízgõzt.", correct: true},
+			{ text: "a Nitrogént.", correct: false},
+			{ text: "az Oxigént.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A levegõben kb. mennyi Nitrogén található?",
+		answers: [
+			{ text: "21 térfogatszázalék.", correct: false},
+			{ text: "78 térfogatszázalék.", correct: true},
+			{ text: "1 térfogatszázalék.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A levegõben kb. mennyi Oxigén található?",
+		answers: [
+			{ text: "1 térfogatszázalék.", correct: false},
+			{ text: "21 térfogatszázalék.", correct: true},
+			{ text: "78 térfogatszázalék.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Valamilyen gáznemû közeg és a benne lévõ szilárd és cseppfolyós részecskék rendszerét ................ nevezzük.",
+		answers: [
+			{ text: "aeroszolnak", correct: true},
+			{ text: "homoszférának", correct: false},
+			{ text: "légkörnek", correct: false},
+			{ text: "Ózonnak", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légkör alsó 90-100 km-es rétegét, ahol a levegõ átlagos molekulatömege állandó ............... nevezzük.",
+		answers: [
+			{ text: "homoszférának", correct: true},
+			{ text: "sztratoszférának", correct: false},
+			{ text: "heteroszférának", correct: false},
+			{ text: "exoszférának", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A troposzférát és a sztratoszférát elválasztó réteget ...................... nevezzük.",
+		answers: [
+			{ text: "inverziónak", correct: false},
+			{ text: "mezoszférának", correct: false},
+			{ text: "izotermiának", correct: false},
+			{ text: "tropopauzának", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az izotermia a légkörnek olyan rétege, melyben felfelé haladva a hõmérséklet",
+		answers: [
+			{ text: "nem változik.", correct: true},
+			{ text: "csökken.", correct: false},
+			{ text: "növekszik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az inverzió a légkörnek olyan rétege, melyben felfelé haladva a hõmérséklet",
+		answers: [
+			{ text: "növekszik.", correct: true},
+			{ text: "csökken.", correct: false},
+			{ text: "nem változik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Egy adott felületen (pl. nyomás felületen) lévõ azonos hõmérsékletû pontokat összekötõ görbét nevezzük",
+		answers: [
+			{ text: "inverziónak.", correct: false},
+			{ text: "izotermának.", correct: true},
+			{ text: "hõmérsékleti gradiensnek.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légkör a Napból származó rövidhullámú sugárzást jelentõs mértékben elnyeli.",
+		answers: [
+			{ text: "Hamis.", correct: true},
+			{ text: "Igaz.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A besugárzás folyamán a Napból származó rövidhullámú sugárzást",
+		answers: [
+			{ text: "a légkör jelentõs mértékben elnyeli.", correct: false},
+			{ text: "a talaj jelentõs mértékben elnyeli.", correct: true},
+			{ text: "a felhõk jelentõs mértékben elnyelik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A földfelszín energiavisszaverõ képességét nevezzük",
+		answers: [
+			{ text: "albedónak.", correct: true},
+			{ text: "gradiensnek.", correct: false},
+			{ text: "adiabatának.", correct: false},
+			{ text: "advekciónak.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légnyomást a légkör egy bizonyos helyén az adott hely fölött elhelyezkedõ levegõoszlop ................... okozza.",
+		answers: [
+			{ text: "súlya", correct: true},
+			{ text: "vastagsága", correct: false},
+			{ text: "sûrûsége", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légnyomás a légkörben felfelé haladva",
+		answers: [
+			{ text: "nem változik.", correct: false},
+			{ text: "csökken.", correct: true},
+			{ text: "növekszik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A levegõ sûrûsége a légkörben felfelé haladva",
+		answers: [
+			{ text: "csökken.", correct: true},
+			{ text: "nem változik.", correct: false},
+			{ text: "növekszik.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha a barometrikus magasságmérõ nyomásskáláján a .................. szerinti nyomásértéket állítjuk be, akkor a földet érõ repülõgép barometrikus magasságmérõje az adott repülõtér tengerszint feletti magasságát mutatja.",
+		answers: [
+			{ text: "Standard.", correct: false},
+			{ text: "QFE", correct: false},
+			{ text: "QNH", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az azonos légnyomású pontokat összekötõ görbéket egy adott vízszintes felületen .................... nevezzük.",
+		answers: [
+			{ text: "izobároknak", correct: true},
+			{ text: "izotermáknak", correct: false},
+			{ text: "izochoroknak", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha az adiabatikus gradiens nagyobb, mint a függõleges hõmérsékleti gradiens, akkor a légoszlop",
+		answers: [
+			{ text: "stabil.", correct: true},
+			{ text: "indifferens.", correct: false},
+			{ text: "instabil.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha az adiabatikus gradiens egyenlõ a függõleges hõmérsékleti gradienssel, akkor a légoszlop",
+		answers: [
+			{ text: "stabil.", correct: false},
+			{ text: "indifferens.", correct: true},
+			{ text: "instabil.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha az adiabatikus gradiens kisebb, mint a függõleges hõmérsékleti gradiens, akkor a légoszlop",
+		answers: [
+			{ text: "instabil.", correct: true},
+			{ text: "stabil.", correct: false},
+			{ text: "indifferens.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Száraz levegõrészecskére nézve az adiabatikus gradiens értéke kb. .................. 100 méterenként.",
+		answers: [
+			{ text: "0.6 C fok", correct: false},
+			{ text: "0.65 C fok", correct: false},
+			{ text: "1 C fok", correct: true},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A nedves adiabatikus gradiens értéke a száraz adiabatikus gradienshez viszonyítva",
+		answers: [
+			{ text: "kisebb.", correct: true},
+			{ text: "egyenlõ.", correct: false},
+			{ text: "nagyobb.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "............................. számértékileg megadja az 1 kg nedves levegõben lévõ vízgõz grammokban mért tömegét.",
+		answers: [
+			{ text: "Az abszolút nedvesség", correct: false},
+			{ text: "A fajlagos nedvesség", correct: true},
+			{ text: "A relatív nedvesség", correct: false},
+			{ text: "A harmatpont", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "............................. számértékileg megadja az 1 m3 nedves levegõben lévõ vízgõz grammokban mért tömegét.",
+		answers: [
+			{ text: "Az abszolút nedvesség", correct: true},
+			{ text: "A fajlagos nedvesség", correct: false},
+			{ text: "A relatív nedvesség", correct: false},
+			{ text: "A harmatpont", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A tényleges vízgõznyomás és a telítési vízgõznyomás hányadosa százalékosan megadva",
+		answers: [
+			{ text: "a relatív nedvesség.", correct: true},
+			{ text: "a fajlagos nedvesség.", correct: false},
+			{ text: "az abszolút nedvesség.", correct: false},
+			{ text: "a harmatpont.", correct: false},
+		]
+	},
+	{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "............................. az a hõmérsékletérték, amelyre egy adott nedvességtartalmú levegõt le kell hûteni ahhoz, hogy telítetté váljon.",
+		answers: [
+			{ text: "A kondenzációs szint", correct: false},
+			{ text: "A párolgási pont", correct: false},
+			{ text: "Az abszolút nedvesség", correct: false},
+			{ text: "A harmatpont", correct: true},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha a levegõ nedvességtartalma nõ, akkor a sûrûsége ...............",
+		answers: [
+			{ text: "csökken.", correct: true},
+			{ text: "nõ.", correct: false},
+			{ text: "nem változik.", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Azt a folyamatot, melynek során a vízgõzbõl folyékony halmazállapotú víz keletkezik ........................ nevezzük.",
+		answers: [
+			{ text: "kondenzációnak", correct: true},
+			{ text: "olvadásnak", correct: false},
+			{ text: "szublimációnak", correct: false},
+			{ text: "párolgásnak", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Nyáron a porlasztó jegesedése semmilyen körülmények között sem következhet be.",
+		answers: [
+			{ text: "Hamis", correct: true},
+			{ text: "Igaz", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Pozitív hõmérsékletértékek esetén nem kell tartani a porlasztó jegesedésétõl.",
+		answers: [
+			{ text: "Hamis", correct: true},
+			{ text: "Igaz", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A légkörben lévõ kondenzációs magvak ................ a felhõképzõdést.",
+		answers: [
+			{ text: "gátolják", correct: false},
+			{ text: "segítik", correct: true},
+			{ text: "nem befolyásolják", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A Cirrus, Cirrocumulus, Cirrostratus ..............",
+		answers: [
+			{ text: "magasszintû felhõk.", correct: true},
+			{ text: "alacsonyszintû felhõk.", correct: false},
+			{ text: "középmagasszintû felhõk.", correct: false},
+			{ text: "függõleges kiterjedésû felhõk.", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Az Altocumulus és Altostratus ....................",
+		answers: [
+			{ text: "magasszintû felhõk.", correct: false},
+			{ text: "alacsonyszintû felhõk.", correct: false},
+			{ text: "középmagasszintû felhõk.", correct: true},
+			{ text: "függõleges kiterjedésû felhõk.", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "A Cumulus és a Cumulonimbus ..................",
+		answers: [
+			{ text: "függõleges kiterjedésû felhõk.", correct: true},
+			{ text: "középmagasszintû felhõk.", correct: false},
+			{ text: "magasszintû felhõk.", correct: false},
+		]
+	},
+		{
+		subject: "REPÜLÉSMETEOROLÓGIA",
+		question: "Ha a látástávolság ................ között van, akkor párásságról, ha ................. alatt van, akkor ködrõl beszélünk.",
+		answers: [
+			{ text: "1 km-5 km, 1km", correct: false},
+			{ text: "1 km- 10 km, 1 km", correct: true},
+			{ text: "500 m - 5km, 500 m", correct: false},
 		]
 	},
 	{
 		subject: "SZERKEZETTAN",
-		question: "bbb",
+		question: "A faanyagokat környezeti hatások nem károsítják, nem igényelnek kezelést.",
 		answers: [
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
-			{ text: "bbb", correct: false},
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A szálerõsítésû mûanyagok nagy szilárdságú szálakból (üveg, szén ...) és kötõanyagból állnak.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A tiszta alumínium kis szilárdságú, de magnézium és réz ötvözõkkel nagy szilárdságú durál készíthetõ belõle.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Az ötvözött acélok jól hegeszthetõk, jól forgácsolhatók. Készítenek speciális ötvözeteket, pl. hõálló és korrózióálló acélokat.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A titán ötvözetek szilárdsági jellemzõi a hõmérséklet növekedésekor erõsen romlanak.",
+		answers: [
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A futómûvek feladata a fel- és leszállás, valamint a földön történõ manõverezés biztosítása.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A futómûvek elhelyezésük alapján lehetnek: farok, orr, vagy tandem elrendezésûek.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A futómûvek teherviselõ rendszerük alapján lehetnek: héj, félhéj, vagy rácsos szerkezetûek.",
+		answers: [
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Hidropneumatikus rugóstagoknál a csillapítást olaj végzi, a rugózó elem többnyire nitrogén gáz.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Eredet alapján a terhelések lehetnek: légerõtõl származó, talajtól származó, túlnyomásos törzs okozta terhelés, hajtómû okozta terhelés, illetve zaj okozta terhelés.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Terhelési többes alatt a felületi erõk eredõjének és a repülõgép súlyerejének viszonyszámát értjük.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A tömegerõk közé nem tartozik a súlyerõ és a tehetetlenségi erõ.",
+		answers: [
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Egyszerû igénybevételek a következõk: húzás, nyomás, hajlítás, nyírás, csavarás, és a ................",
+		answers: [
+			{ text: "fáradás.", correct: false},
+			{ text: "kihajlás.", correct: true},
+			{ text: "rezgés.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Rácsszerkezetnél a koncentrált erõk ....................",
+		answers: [
+			{ text: "csak a csomópontokon vezethetõk be.", correct: true},
+			{ text: "csak a csomópontokon kívûl vezethetõk be.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A rácsszerkezet rácsrúdjaiban ..............",
+		answers: [
+			{ text: "hajlító igénybevétel ébred.", correct: false},
+			{ text: "csavaró igénybevétel ébred.", correct: false},
+			{ text: "húzó-nyomó igénybevétel ébred.", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A dúcolt szárny tõrészének igénybevételei ..............",
+		answers: [
+			{ text: "kisebbek, ezért szerkezetük könnyebbre adódik.", correct: true},
+			{ text: "nagyobbak, ezért szerkezetük nehezebbre adódik.", correct: false},
+			{ text: "elhanyagolhatóak, ezért nincsenek figyelembe véve a tervezéskor.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A borítás a következõ szerkezeteknél vesz részt a teherviselésben:",
+		answers: [
+			{ text: "rácsszerkezet és félhéj szerkezet.", correct: false},
+			{ text: "rácsszerkezet, szárnyszerkezet.", correct: false},
+			{ text: "félhéj és héjszerkezetek.", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Milyen igénybevételek felvételében vesz részt a borítás a félhéjszerkezeteknél?",
+		answers: [
+			{ text: "csak csavaró igénybevétel.", correct: true},
+			{ text: "csak hajlító igénybevétel.", correct: false},
+			{ text: "nyíró és hajlító igénybevételek.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Milyen igénybevételek felvételében vesz részt a borítás a héjszerkezeteknél?",
+		answers: [
+			{ text: "Valamennyi igénybevétel.", correct: true},
+			{ text: "Csak a csavaró igénybevétel.", correct: false},
+			{ text: "Nyíró és csavaró igénybevétel.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A következõket nevezzük oldható kötéseknek:",
+		answers: [
+			{ text: "nyírt csapok, csavarkötés, feszítõzár.", correct: true},
+			{ text: "nyírt csapok, csavarkötés, szegecselés.", correct: false},
+			{ text: "feszítõzár, szegecselés, ragasztás.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Oldhatatlan kötéseknek nevezzük a következõket:",
+		answers: [
+			{ text: "szegecselés, hegesztés, feszítõzár.", correct: false},
+			{ text: "hegesztés, ragasztás, csavarkötés.", correct: false},
+			{ text: "szegecselés, hegesztés, ragasztás.", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A dobfék mûködésének lényege, hogy ............",
+		answers: [
+			{ text: "a fékpofákat hidraulikus úton a fékpofák között forgó tárcsákhoz szorítjuk, így hozzuk létre a szükséges fékezõ erõt.", correct: false},
+			{ text: "a fékpofákat mechanikus, hidraulikus vagy pneumatikus úton a forgó fékdobhoz szorítjuk, és ezzel a mozgási energiát hõenergiává változtatjuk.", correct: true},
+			{ text: "a forgó fékpofákat mechanikus, vagy hidraulikus úton szorítjuk az álló fékdobhoz, és így emésztjük fel a repülõgép mozgási energiáját.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A kormányerõ, mint kormányozhatósági jellemzõ esetében a 4:2:1- szabály azt jelenti, hogy .................",
+		answers: [
+			{ text: "a kormányerõk kb. ilyen arányban vannak egymáshoz. Ha pl. az oldalkormányon 400 N, a magassági kormányon 200 N, a csûrõn 100 N erõt kell kifejteni teljes kitéréskor.", correct: true},
+			{ text: "a csûrõkormány 4- szer, a magssági kormány kétszer annyit tér ki, mint az oldalkormány.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Mely kormányok, mely tengelyek körül fejtenek ki nyomatékot?",
+		answers: [
+			{ text: "A kereszttengely körül a magassági kormány, a hossztengely körül az oldalkormány, a függõleges tengely körül a csûrõ.", correct: false},
+			{ text: "A függõleges tengely körül a magassági kormány, a kereszttengely körül a csûrõ kormány, a hossztengely körül az oldalkormány.", correct: false},
+			{ text: "A függõleges tengely körül az oldalkormány, a kereszttengely körül a magassági kormány, a hossztengely körül a csûrõ.", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Vízszintes fordulóban kisebb túterhelés lép fel, mint egyenesvonalú siklásban.",
+		answers: [
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Függõleges széllökés nem hozhat létre negatív túlterhelést a repülõgépen.",
+		answers: [
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A súlyerõ: G=m*g, ahol 'g' a nehézségi gyorsulás, 'm' pedig a test tömege.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A motorágyakat úgy alakítják ki, hogy ...............",
+		answers: [
+			{ text: "a motor rezgéseit csillapítsa, ennek érdekében rezgéscsillapító betéteket építenek a motorágyba.", correct: true},
+			{ text: "mereven kötik a repülõgép sárkányához.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A motorágyak terhelése a hajtómû tömegerejébõl, a vonóerõbõl, a légcsavar reakciónyomatékából és a görbevonalú mozgásnál létrejövõ precessziós nyomatékból áll.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A motorágyak teherviselõ rendszere lehet rácsos, gerendatartós, vagy vegyesépítésû.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Rezgõmozgásnál amplitúdó alatt ..........",
+		answers: [
+			{ text: "a legnagyobb kitérést értjük.", correct: true},
+			{ text: "az egy teljes lengés alatt eltelt idõt értjük.", correct: false},
+			{ text: "az idõegység alatti rezgések számát értjük.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A rezonanciának nincs káros hatása a repülõgépre.",
+		answers: [
+			{ text: "Igaz", correct: false},
+			{ text: "Hamis", correct: true},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Az orrfutómû SIMMI-jelensége ..........",
+		answers: [
+			{ text: "öngerjesztett lengési forma.", correct: true},
+			{ text: "rezonancia jelenség.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A dúc járulékos ellenállást jelent külsõ merevítésû szárnyaknál.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A dúcolt szárnyak igénybevételei a szabadonhordóhoz képest:",
+		answers: [
+			{ text: "nagyobbak.", correct: false},
+			{ text: "kisebbek.", correct: true},
+			{ text: "ugyanakkorák.", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Orrsegédszárny alkalmazásával a repülõgép kisebb sebességgel, nagyobb állásszöggel képes repülni.",
+		answers: [
+			{ text: "Igaz", correct: true},
+			{ text: "Hamis", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A csûrõ mely tengely körüli kormányzásra hivatott?",
+		answers: [
+			{ text: "hossztengely", correct: true},
+			{ text: "kereszttengely", correct: false},
+			{ text: "függõleges tengely", correct: false},
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "Mik a jellemzõi a szabadonhordó szárnynak?",
+		answers: [
+			{ text: "Kisebb a szárny tõrészének igénybevétele, ezért nem törik le olyan könnyen a szárny.", correct: false},
+			{ text: "Kisebb az ellenállása, nagyobb a tömege.", correct: true},
+			{ text: "A dúc a ki- és beszállást nem akadályozza.", correct: false},
+
+		]
+	},
+	{
+		subject: "SZERKEZETTAN",
+		question: "A többhengeres motor lökettérfogatának kiszámítására szolgáló helyes képlet:",
+		answers: [
+			{ text: "a henger hossza * henger átmérõ", correct: false},
+			{ text: "a henger térfogata * hengerek száma", correct: false},
+			{ text: "a dugattyú területe * dugattyú lökethossz", correct: false},
+			{ text: "a dugattyú területe * dugattyú lökethossz * hengerek száma", correct: true},
 		]
 	},
 	{
 		subject: "ÜZEMELTETÉSI ISMERETEK",
 		question: "A dugattyús motorok esetén a keverék arány ...",
 		answers: [
-			{ text: "a hengerbe belépõ tüzelõanyag és levegõ térfogata közötti arány.", correct: true},
+			{ text: "a hengerbe belépõ tüzelõanyag és levegõ térfogata közötti arány.", correct: false},
 			{ text: "a hengerbe belépõ tüzelõanyag és levegõ tömege közötti arány.", correct: true},
 			{ text: "a porlasztóba belépõ tüzelõanyag és levegõ térfogata közötti arány.", correct: false},
 			{ text: "a porlasztóba belépõ tüzelõanyag tömege és a levegõ térfogata közötti arány.", correct: false},
@@ -23040,7 +26256,7 @@ const questions = [
 		answers: [
 			{ text: " -200 m-t mutat.", correct: false},
 			{ text: " 0 m-t mutat.", correct: false},
-			{ text: " 200 m-t mutat.", correct: false},
+			{ text: " 200 m-t mutat.", correct: true},
 			{ text: " nem meghatározható értéket mutat.", correct: false},
 		]
 	},
@@ -23585,17 +26801,6 @@ const questions = [
 	},
 	{
 		subject: "EXCEL",
-		sub_subject:"mmm",
-		question: "mmm",
-		answers: [
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-			{ text: "mmm", correct: false},
-		]
-	},
-	{
-		subject: "EXCEL",
 		sub_subject:"263.               263. 100233 510 10 01 05 Általános szabályok",
 		question: "Bármely átképzési feladatnál a napi felszállásszám: ",
 		answers: [
@@ -24108,7 +27313,7 @@ const questions = [
 			{ text: " A felhőalapon várakozó gép pilótája.", correct: false},
 			{ text: " Az oktató.", correct: false},
 			{ text: " Az alacsonyabban tartózkodó gép pilótája.", correct: false},
-			{ text: " A gyorsabban emelkedő gép pilótája.", correct: false},
+			{ text: " A gyorsabban emelkedő gép pilótája.", correct: true},
 		]
 	},
 	{
@@ -24163,7 +27368,7 @@ const questions = [
 			{ text: " Túl nagy pozitív terhelés.", correct: false},
 			{ text: " A belélegzett levegőben túl sok az oxigén.", correct: false},
 			{ text: " Túl nagy negatív terhelés.", correct: false},
-			{ text: " A belélegzett levegőben nem elegendő az oxigén mennyisége.", correct: false},
+			{ text: " A belélegzett levegőben nem elegendő az oxigén mennyisége.", correct: true},
 		]
 	},
 	{
@@ -24240,7 +27445,7 @@ const questions = [
 			{ text: " Stabil oldalfekvés.", correct: false},
 			{ text: " Befúvásos lélegeztetés.", correct: false},
 			{ text: " Szívmasszázs.", correct: false},
-			{ text: " A sérült légutainak szabaddátétele és szabadon tartása.", correct: false},
+			{ text: " A sérült légutainak szabaddátétele és szabadon tartása.", correct: true},
 		]
 	},
 	{

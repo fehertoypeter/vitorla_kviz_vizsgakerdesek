@@ -21,6 +21,8 @@
         <span class="slider round"></span>
       </label>
     </div>
+
+
    
     
     <div id="restart-icon">Kvíz befejezése &#x2716;</div>
@@ -43,15 +45,64 @@
       </div>
     </div>
 
+
+
+
+    <div id="tanulas">
+      <p id="tanuloTemakor"></p>
+      <div id="tanulasKerdesek">
+        <h2 id="tanulasQuestion"></h2>
+        <p id="tanulasAnswers"></p>
+      </div>
+    </div>
+
+
+
+
     <div class="topics">
       <p id="topics"></p>  
     </div>
+ 
     <div class="examTopics">
       <p id="examTopics"></p>  
     </div>
       
     <div class="quiz">
-      <div id="quiz-status"></div> 
+    <div>
+      <div id="quiz-status">
+        
+
+      </div> 
+      <div  id="sugo">
+          <svg width="30px" height="30px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <clipPath id="clip-pointer2">
+                <rect width="32" height="32"/>
+              </clipPath>
+            </defs>
+            <g id="pointer2" clip-path="url(#clip-pointer2)">
+              <g id="Group_2338" data-name="Group 2338" transform="translate(-468 -260)">
+                <g id="Group_2334" data-name="Group 2334">
+                  <g id="Group_2333" data-name="Group 2333">
+                    <g id="Group_2332" data-name="Group 2332">
+                      <path id="Path_3837" data-name="Path 3837" d="M491.8,265.339a5.753,5.753,0,0,0-8.126,0,.5.5,0,0,0,.707.707,4.746,4.746,0,1,1,6.712,6.712.5.5,0,0,0,.707.707A5.753,5.753,0,0,0,491.8,265.339Z" fill="#344952"/>
+                    </g>
+                  </g>
+                </g>
+                <g id="Group_2337" data-name="Group 2337">
+                  <g id="Group_2336" data-name="Group 2336">
+                    <g id="Group_2335" data-name="Group 2335">
+                      <path id="Path_3838" data-name="Path 3838" d="M494.347,262.8a9.342,9.342,0,0,0-14.968,10.771l-.6.6a4.462,4.462,0,0,0-2.6.125,8.876,8.876,0,0,0-4.753,5.031,9.766,9.766,0,0,0,.6,7.577,8.609,8.609,0,0,0,5.285,4.77,7.112,7.112,0,0,0,1.938.268,7.2,7.2,0,0,0,3.89-1.142,41.143,41.143,0,0,0,6.372-5.485,2.664,2.664,0,0,0,.778-2.01,2.349,2.349,0,0,0-.85-1.723l-.068-.053a2.592,2.592,0,0,0-.363-2.881,9.327,9.327,0,0,0,5.334-15.848Zm-6.266,21.123a40.074,40.074,0,0,1-6.017,5.194,5.181,5.181,0,0,1-4.206.632,6.47,6.47,0,0,1-4.026-3.716,7.788,7.788,0,0,1-.523-6.029,6.812,6.812,0,0,1,3.345-3.708l-1.161,1.161a1,1,0,1,0,1.414,1.414l2.882-2.881v0l7.3-7.3a.993.993,0,0,1,1.369,0,.968.968,0,0,1,0,1.368l-6.228,6.229a1,1,0,1,0,1.414,1.414l.95-.95a.945.945,0,0,0,.132-.088.831.831,0,0,1,1.148,0,.809.809,0,0,1,.238.574.843.843,0,0,1-.271.607l-.684.751a1,1,0,0,0,1.478,1.347l.009-.009.005,0a.593.593,0,0,1,.866.809l-.939.76a2.9,2.9,0,0,0-.56.466,1,1,0,0,0,1.363,1.456l.376-.3a.366.366,0,0,1,.42.011.355.355,0,0,1,.122.274A.7.7,0,0,1,488.081,283.92Zm-.019-7.19a2.789,2.789,0,0,0-.775-1.484,2.645,2.645,0,0,0-.7-.488l3.288-3.288a2.968,2.968,0,0,0,0-4.2,3.039,3.039,0,0,0-4.2,0l-4.779,4.779a7.35,7.35,0,1,1,7.167,4.678Z" fill="#344952"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        <p>Kattints és nézd vissza a válaszaidat.</p> 
+        </div>
+      <div class="quiz-overlay"></div>
+    </div>
       <h2 id="question"><i id="hinticon" class="fas fa-question-circle fa-2x" onclick="showHint()"></i></h2> 
       <h1 id="finalScore"></h1>
 
@@ -75,8 +126,7 @@
   <br><br> 
   A program tartalma: <br> 
   - Gyakorló mód, ahol témakörönként nézhetitek végig a kérdéseket és válaszokat. <br> 
-  - Részletes magyarázatok a feladatokhoz (FEJLESZTÉS ALATT)<br> 
-  - Vizsga mód ahol a Repülési teljesítmény és tervezés, Emberi teljesítőképesség, Meteorológia, Navigáció, Üzemeltetési eljárások, Repüléselmélet és Kommunikáció átfogó témaköröket tesztelhetitek időlimittel és véletlenszerüen válogatott kérdésekkel. <br> <br> 
+  - Vizsga mód ahol a Repülési teljesítmény és tervezés, Emberi teljesítőképesség, Meteorológia, Navigáció, Üzemeltetési eljárások, Repüléselmélet és Kommunikáció gyűjtő témaköröket tesztelhetitek időlimittel és véletlenszerüen válogatott kérdésekkel. <br> <br> 
 
  
     
@@ -84,7 +134,8 @@
   <div id="mode-selection">
 
   
-<button id="study-mode-btn">
+
+<button id="tanulas-mode-btn">
   <div class="button-content">
     <svg width="30px" height="30px" viewBox="0 -8.14 62.451 62.451" xmlns="http://www.w3.org/2000/svg">
   <g id="Group_35" data-name="Group 35" transform="translate(-782.964 -1356.609)">
@@ -93,6 +144,14 @@
     <line id="Line_40" data-name="Line 40" y1="19.235" transform="translate(784.964 1374.361)" fill="#ffffff" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
   </g>
 </svg>
+    <span class="button-text">Tanulásmód</span>
+  </div>
+</button>
+
+
+<button id="study-mode-btn">
+  <div class="button-content">
+    <svg fill="white" width="30px" height="30px" viewBox="-2 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg"><path d="M5.9 4.544 2.534 7.912 1.225 6.604a1.111 1.111 0 0 1 0-1.567l1.8-1.8a1.112 1.112 0 0 1 1.568 0zm7.926 11.565a.456.456 0 0 1-.099-.011l-3.419-.77a1.96 1.96 0 0 1-.77-.412v.001l-3.709-3.71-2.512-2.511 1.71-1.71 6.22 6.221-1.181 1.182a1.294 1.294 0 0 0 .406.213l1.508.339.95-.95-.34-1.508a1.278 1.278 0 0 0-.213-.405l-.345.345-6.222-6.22.874-.875L9.197 7.84l1.751 1.752 1.957 1.958a1.962 1.962 0 0 1 .412.77l.77 3.419c.05.22-.065.37-.26.37z"/></svg>
     <span class="button-text">Gyakorlómód</span>
   </div>
 </button>
@@ -131,7 +190,9 @@
 </div>
 
 
-
+<a href="#" id="back-to-top" title="Vissza a tetejére">
+  <i class="fas fa-chevron-up"></i>
+</a>
 
 <div id="overlay"></div>
 <script src="questions.js"></script>
