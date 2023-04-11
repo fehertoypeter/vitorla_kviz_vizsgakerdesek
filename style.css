@@ -548,6 +548,10 @@ p#hint {
 }
 
 @media (max-width:768px) {
+
+  #mode-selection button {
+    margin-right: 0;
+  }
     .cover {
         background-color: 7a;
         width: 100%;
