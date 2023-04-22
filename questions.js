@@ -28008,7 +28008,106 @@ const questions = [
 			{ text: " Csak az 1999. után gyártottakkal.", correct: false},
 			{ text: " Csak ha a két állomás egymáshoz közelebb van mint 50 km.", correct: false},
 		]
-	},			
+	},	
+	{
+		subject: "GÓBÉ",
+		sub_subject:"249.               249. 100219 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Minimális merülési sebesség :",
+		answers: [
+			{ text: " Is 28 B2  0.80 m/s Góbé     0.88 m/s", correct: false},
+			{ text: " Is 28 B2  1.68 m/s Góbé     1.95 m/s", correct: false},
+			{ text: " Is 28 B2  0.58 m/s Góbé     0.85 m/s", correct: false},
+			{ text: " Is 28 B2  0.68 m/s Góbé     0.95 m/s", correct: true},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"250.               250. 100220 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Terhelés többes 2 személlyel :",
+		answers: [
+			{ text: " Is 28 B2 +6.3 -3.65 Góbé    +4.6 -3.5", correct: false},
+			{ text: " Is 28 B2 +5.3 -2.65 Góbé    +3.6 -2.50", correct: true},
+			{ text: " Is 28 B2 +5.3 -0 Góbé    +3.6 -0", correct: false},
+			{ text: " Is 28 B2 +3.3 -2.65 Góbé    +4.6 -2.5", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"251.               251. 100221 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Maximális megengedett sebesség nyugodt időben :",
+		answers: [
+			{ text: " Is 28 B2 250 km/h Góbé     185 km/h", correct: false},
+			{ text: " Is 28 B2  190km/h Góbé     147 km/h", correct: false},
+			{ text: " Is 28 B2 230 km/h Góbé    165 km/h vagy 190 km/h variánstól függő.", correct: true},
+			{ text: " Is 28 B2 260 km/h Góbé     195 km/h", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"252.               252. 100222 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Maximális megengedett sebesség lökéses időben:",
+		answers: [
+			{ text: " Is 28 B2  110 km/h  Góbé  80 km/h.", correct: false},
+			{ text: " Is 28 B2  175 km/h  Góbé  157 km/h.", correct: false},
+			{ text: " Is 28 B2  165 km/h  Góbé  140 km/h.", correct: true},
+			{ text: " Is 28 B2  140 km/h  Góbé  100 km/h.", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"253.               253. 100223 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Felrántási sebesség :",
+		answers: [
+			{ text: " Is 28 B2 200 km/h Góbé    100 km/h", correct: false},
+			{ text: " Is 28 B2 165 km/h Góbé    140 km/h vagy 147 km/h variánstól függő", correct: true},
+			{ text: " Is 28 B2 190 km/h Góbé     140 km/h", correct: false},
+			{ text: " Is 28 B2 130 km/h Góbé    130 km/h", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"254.               254. 100224 510 09 01 00 GÓBÉ / IS28B2 adatok ",
+		question: "Maximális súlypontcsörlési sebesség :",
+		answers: [
+			{ text: " Is 28 B2  125 km/h Góbé       95 km/h", correct: true},
+			{ text: " Is 28 B2  170 km/h Góbé       95 km/h", correct: false},
+			{ text: " Is 28 B2  155 km/h Góbé     105 km/h", correct: false},
+			{ text: " Is 28 B2  165 km/h Góbé     110 km/h", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"255.               255. 100225 510 09 01 00 GÓBÉ / IS28B2 adatok ",
+		question: "Maximális vontatási sebesség :",
+		answers: [
+			{ text: " Is 28 B2  150 km/h Góbé     140 km/h", correct: false},
+			{ text: " Is 28 B2  140 km/h Góbé     130 km/h", correct: true},
+			{ text: " Is 28 B2  160 km/h Góbé     160 km/h", correct: false},
+			{ text: " Is 28 B2  120 km/h Góbé     100 km/h", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"256.               256. 100226 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Maximális siklószám és optimális sebesség 2 személlyel :",
+		answers: [
+			{ text: " Is 28 B2  34 / 100 km/h  Góbé  23.7/81 km/h", correct: true},
+			{ text: " Is 28 B2  30 / 120 km/h  Góbé  20 / 100 km/h", correct: false},
+			{ text: " Is 28 B2  42 / 120 km/h  Góbé  26 / 81 km/h", correct: false},
+			{ text: " Is 28 B2  34 / 120 km/h  Góbé  23.7 / 91 km/h", correct: false},
+		]
+	},
+	{
+		subject: "GÓBÉ",
+		sub_subject:"257.               257. 100227 510 09 01 00 GÓBÉ / IS28B2 adatok",
+		question: "Minimális első ülés terhelés ballaszt nélkül egy személlyel :",
+		answers: [
+			{ text: " Is 28 B2 50 kg  Góbé 60 kg", correct: false},
+			{ text: " Is 28 B2 70 kg  Góbé 70 kg", correct: true},
+			{ text: " Is 28 B2 100 kg  Góbé 80 kg", correct: false},
+			{ text: " Is 28 B2 75 kg  Góbé 75 kg", correct: false},
+		]
+	},		
 ];
 
 
