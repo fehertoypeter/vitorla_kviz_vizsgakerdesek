@@ -596,6 +596,15 @@ input:focus {
 #all-div{
   display:none;
 }
+#search-mode-btn{
+  position: relative !important;
+}
+#beta{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
 @media (max-width:768px) {
 #main-page h2 {
 
