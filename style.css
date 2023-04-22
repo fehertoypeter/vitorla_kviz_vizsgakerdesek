@@ -134,9 +134,30 @@ body {
 }
 
 h2#question {
-    margin-bottom: 12px
+    font-size: 1rem;
+    color: #212121;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    margin-top: 60px;
 }
-
+p#question{
+      background: #fff;
+    color: #212121;
+    font-weight: 500;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    margin: 10px 0;
+    text-align: left;
+    transition: all .3s;
+    pointer-events: none;
+}
+#resultContainer button{
+  margin:5px 0!important;
+}
 .finish-quiz-container {
     position: relative;
     margin: 20px;
@@ -484,7 +505,7 @@ p#hint {
     border: 500px
 }
 
-#exam-mode-btn,#study-mode-btn {
+#exam-mode-btn,#study-mode-btn, #search-mode-btn{
     padding: 10px 20px;
     background-color: #009688;
     color: #fff;
@@ -494,11 +515,11 @@ p#hint {
     font-size: 16px
 }
 
-#exam-mode-btn:hover,#study-mode-btn:hover,button#tanulas-mode-btn:hover {
+#exam-mode-btn:hover,#study-mode-btn:hover,button#tanulas-mode-btn:hover, #search-mode-btn:hover {
     background-color: #e9e9e93b
 }
 
-#exam-mode-btn,#study-mode-btn,button#tanulas-mode-btn {
+#exam-mode-btn,#study-mode-btn,button#tanulas-mode-btn,#search-mode-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -547,8 +568,39 @@ p#hint {
     opacity: 1
 }
 
-@media (max-width:768px) {
 
+#kereso{
+  display:none;
+  width:80%;
+  margin-left:10%;
+}
+
+#kereso input{
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Átlátszó hátteret ad */
+  border: none; /* Keret eltávolítása */
+  border-bottom: 1px solid black; /* Alsó vonal hozzáadása */
+  padding-left: 30px; /* Kereső ikon helyzete */
+  box-sizing: border-box; /* A border-t beleszámolja az input méretébe */
+  font-size: 1rem;
+  font-weight: 500;
+}
+input::placeholder {
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+#all-div{
+  display:none;
+}
+@media (max-width:768px) {
+#main-page h2 {
+
+    margin-top: 50px;
+}
   #mode-selection button {
     margin-right: 0;
   }
@@ -621,7 +673,9 @@ p#hint {
 #tanulas {
     margin-top: 25px
 }
-
+#resultContainer {
+    margin-top: 25px
+}
 #tanulasAnswers h2 {
     font-size: 1rem;
     color: #212121;

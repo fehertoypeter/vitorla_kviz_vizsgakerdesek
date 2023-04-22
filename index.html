@@ -21,6 +21,9 @@
         </div>
         <div id="header-main">
           <div id="div2">
+          <div id="kereso">
+            <input type="text" id="searchField" placeholder="Keresett szó után szóköz szükséges..."> 
+          </div>               
             <div id="div3"></div>
           </div>
           <div id="outercornerbox">
@@ -34,6 +37,7 @@
             </div>
           </div>
         </div>
+        <div id="all-div">
         <div id="tanulas">
           <p id="tanuloTemakor"></p>
           <div id="tanulasKerdesek">
@@ -41,6 +45,7 @@
             <p id="tanulasAnswers"></p>
           </div>
         </div>
+        <div id="resultContainer"></div>
         <div class="topics">
           <p id="topics"></p>
         </div>
@@ -88,6 +93,7 @@
           <button id="next-btn">Tovább</button>
           <button id="restart-btn">Vissza a Kezdőoldalra</button>
         </div>
+        </div>
         <div id=main-page>
           <h2> SPL szakszolgálati vizsga, gyakorló program. <br>
             <br>
@@ -128,6 +134,17 @@
                 <span class="button-text">Vizsgamód</span>
               </div>
             </button>
+            <button id="search-mode-btn">
+              <div class="button-content">
+                <svg width="25px" height="25px" viewBox="-0.12 0 54.077 54.077" xmlns="http://www.w3.org/2000/svg">
+                  <g id="Group_20" data-name="Group 20" transform="translate(-150.301 -928.804)">
+                    <path id="Path_52" data-name="Path 52" d="M201.581,973.006l-8.064-8.065a22.31,22.31,0,1,0-7.079,7.078l8.064,8.065a1.913,1.913,0,0,0,2.7,0l4.375-4.374A1.911,1.911,0,0,0,201.581,973.006Z" fill="#ffffff" stroke="#0000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+                    <path id="Path_53" data-name="Path 53" d="M182.945,961.448a12.171,12.171,0,1,1,0-17.213A12.172,12.172,0,0,1,182.945,961.448Z" fill="#d1d3d4" stroke="#231f20" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+                  </g>
+              </svg>
+                <span class="button-text">Kereső (BETA)</span>
+              </div>
+            </button>
           </div>
         </div>
       </div>
@@ -146,6 +163,7 @@
     <div id="overlay"></div>
     <script src="questions.js"></script>
     <script src="script.js"></script>
+
   </body>
 </html>
 

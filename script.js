@@ -1,5 +1,6 @@
 const selectedAnswers = []; 
 const questionElement = document.getElementById("question");
+const allDiv = document.getElementById("all-div");
 const finalScoreElement = document.getElementById("finalScore");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -504,8 +505,10 @@ function closeHint() {
 const tanulasModeBtn = document.getElementById("tanulas-mode-btn");
 const studyModeBtn = document.getElementById("study-mode-btn");
 const examModeBtn = document.getElementById("exam-mode-btn");
+const searchModeBtn = document.getElementById("search-mode-btn");
 
 tanulasModeBtn.addEventListener("click", function() {
+	allDiv.style.display = "block";
   	document.getElementById("main-page").style.display = "none";
   	document.querySelector('.cover').style.backgroundColor = 'rgb(241 241 241 / 95%)';
 /*	document.querySelector(".app").style.backgroundImage = "none";*/
@@ -517,6 +520,7 @@ tanulasModeBtn.addEventListener("click", function() {
 
 studyModeBtn.addEventListener("click", function() {
   	document.getElementById("main-page").style.display = "none";
+  	allDiv.style.display = "block";
   	document.querySelector('.cover').style.backgroundColor = 'rgb(241 241 241 / 95%)';
 /*	document.querySelector(".app").style.backgroundImage = "none";*/
 document.body.scrollTop = 0; // For Safari
@@ -526,11 +530,23 @@ document.body.scrollTop = 0; // For Safari
 });
 examModeBtn.addEventListener("click", function() {
   	document.getElementById("main-page").style.display = "none";
+  	allDiv.style.display = "block";
   	document.querySelector('.cover').style.backgroundColor = 'rgb(241 241 241 / 95%)';
 /*	document.querySelector(".app").style.backgroundImage = "none";*/
 document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   	listExamTopics();
+
+});
+searchModeBtn.addEventListener("click", function() {
+  	document.getElementById("main-page").style.display = "none";
+  	allDiv.style.display = "block";
+  	document.getElementById("kereso").style.display = "block";
+  	document.querySelector('.cover').style.backgroundColor = 'rgb(241 241 241 / 95%)';
+/*	document.querySelector(".app").style.backgroundImage = "none";*/
+document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  	kereso();
 
 });
 
@@ -560,7 +576,84 @@ countdownBox.style.display = "block";
 };
 
 
+function kereso(){
 
+const searchField = document.getElementById("searchField");
+const resultContainer = document.getElementById("resultContainer");
+
+restartIcon.innerText = "Keresőmód befejezése \u2716";
+restartIcon.style.display = "block";
+
+searchField.addEventListener("input", () => {
+  const searchTerm = searchField.value.toLowerCase();
+  const searchTermLength = searchTerm.length;
+
+  if (searchTermLength > 0 && searchTerm.includes(" ")) {
+    const word = searchTerm.split(" ")[0];
+    const matchingWordQuestions = questions.filter(question =>
+      question.question.toLowerCase().split(" ").includes(word)
+    );
+    if (matchingWordQuestions.length > 0) {
+      resultContainer.innerHTML = "";
+      matchingWordQuestions.forEach(question => {
+        const questionDiv = document.createElement("div");
+        questionDiv.classList.add("search-result-div");
+        questionDiv.innerHTML = `
+          <h2 id="question">${question.question}</h2>
+          <div id="answer-buttons">
+            ${question.answers.map(answer => `
+              <button class="btn${answer.correct ? ' correct' : ''}">${answer.text}</button>
+            `).join('')}
+          </div>
+        `;
+        resultContainer.appendChild(questionDiv);
+      });
+    } else {
+      resultContainer.innerHTML = "Nincs találat";
+    }
+  } else {
+    let matchingQuestions = questions.filter(question =>
+      question.question.charAt(0).toLowerCase() === searchTerm.charAt(0)
+    );
+
+    if (searchTerm.charAt(1)) {
+      matchingQuestions = matchingQuestions.filter(question =>
+        question.question.split(" ")[1].charAt(0).toLowerCase() === searchTerm.charAt(1)
+      );
+    }
+
+    if (searchTerm.charAt(2)) {
+      matchingQuestions = matchingQuestions.filter(question =>
+        question.question.split(" ")[2].charAt(0).toLowerCase() === searchTerm.charAt(2)
+      );
+    }
+
+    if (searchTerm.charAt(3)) {
+      matchingQuestions = matchingQuestions.filter(question =>
+        question.question.split(" ")[3].charAt(0).toLowerCase() === searchTerm.charAt(3)
+      );
+    }
+
+    resultContainer.innerHTML = "";
+    matchingQuestions.forEach(question => {
+      const questionDiv = document.createElement("div");
+      questionDiv.classList.add("search-result-div");
+      questionDiv.innerHTML = `
+        <h2 id="question">${question.question}</h2>
+        <h3>${question.subject}</h3>
+        <div id="answer-buttons">
+          ${question.answers.map(answer => `
+            <button class="btn${answer.correct ? ' correct' : ''}">${answer.text}</button>
+          `).join('')}
+        </div>
+      `;
+      resultContainer.appendChild(questionDiv);
+    });
+  }
+});
+
+
+}
 
 function listTanulsTopics() {
   document.getElementById("div3").textContent = "Válassz a lenti témakörökből";
