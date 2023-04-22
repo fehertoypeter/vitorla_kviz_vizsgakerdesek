@@ -61,15 +61,42 @@ function listTopics() {
   topics.forEach((t) => {
     const pEl = document.createElement("p"); // Létrehozunk egy új <p> elemet
     pEl.textContent = t; // Beállítjuk a szöveget
+
     pEl.addEventListener("click", function(event) {
       const clickedTopic = event.target.textContent;
       document.getElementById("div3").textContent = clickedTopic;
+
     });
+
     topicEl.appendChild(pEl); // Hozzáadjuk az elemet a "topics" id-jú elemhez
+
   });
+  countQuestionsByTopic();
+
   
 }
 
+function countQuestionsByTopic() {
+  const questionsByTopic = {};
+  questions.forEach(q => {
+    if (!questionsByTopic[q.subject]) {
+      questionsByTopic[q.subject] = 1;
+    } else {
+      questionsByTopic[q.subject]++;
+    }
+  });
+
+  const topicEl = document.getElementById("topics");
+  const topicLinks = topicEl.querySelectorAll("p");
+  topicLinks.forEach(link => {
+    const topicName = link.textContent;
+    const questionCount = questionsByTopic[topicName] || 0;
+    const countEl = document.createElement("div");
+    countEl.classList.add("question-count-circle");
+    countEl.textContent = questionCount;
+    link.parentNode.insertBefore(countEl, link);
+  });
+}
 
 
 function listExamTopics() {
