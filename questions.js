@@ -27101,8 +27101,8 @@ const questions = [
 		sub_subject:"290.               290. 100260 510 10 01 08 Vontatásos repülésekre vonatkozó szabályok",
 		question: "Vitorlázógép leold a vontatógéről. Mi a vitorlázórepülőgép pilótájának a teendője ?",
 		answers: [
-			{ text: " Húzott fordulóval jobbra kifordulni.", correct: true},
-			{ text: " Jobbra kifordulni.", correct: false},
+			{ text: " Húzott fordulóval jobbra kifordulni.", correct: false},
+			{ text: " Jobbra kifordulni.", correct: true},
 			{ text: " Balra kifordulni.", correct: false},
 			{ text: " Balra nyomott fordulóval kifordulni.", correct: false},
 		]
